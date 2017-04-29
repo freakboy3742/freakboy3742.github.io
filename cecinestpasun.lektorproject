@@ -1,9 +1,12 @@
 [project]
 name = cecinestpasun
+url = https://cecinestpasun.com/
+url_style = absolute
 
 [packages]
 lektor-rst = 0.1
 lektor-github-repos = 0.1.1
+lektor-atom = 0.2
 
 [servers.ghpages]
 target = ghpages://freakboy3742/freakboy3742.github.io?cname=cecinestpasun.com
