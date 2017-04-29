@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Ceci n'est pas un blog</title>
+  <id>urn:uuid:0a5263ca-4dee-3806-9b57-29cacde1b775</id>
+  <updated>2017-04-29T16:00:00Z</updated>
+  <link href="https://cecinestpasun.com/entries/" />
+  <link href="https://cecinestpasun.com/rss/all/" rel="self" />
+  <author>
+    <name></name>
+  </author>
+  <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+  <entry xml:base="https://cecinestpasun.com/entries/moving-to-lektor/">
+    <title type="text">Moving to Lektor</title>
+    <id>urn:uuid:5351fd9c-2324-3a63-a830-1f337079bd98</id>
+    <updated>2017-04-29T16:00:00Z</updated>
+    <link href="https://cecinestpasun.com/entries/moving-to-lektor/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;Almost nine years ago, I launched cecinestpasun.com as my personal blog. At the time it was a Django 1.0 site. I've used it intermittently, but never really paid any attention to it.&lt;/p&gt;
+&lt;p&gt;So, instead of persisting in the upkeep of a blog (and blog software) that is massive overkill for my small amount of publishing, I've moved the content over to &lt;a class=&quot;reference external&quot; href=&quot;https://getlektor.org&quot;&gt;Lektor&lt;/a&gt;, published as static content on &lt;a class=&quot;reference external&quot; href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;. I've used Lektor for the &lt;a class=&quot;reference external&quot; href=&quot;https://pybee.org&quot;&gt;BeeWare&lt;/a&gt; homepage, and it's proven very enjoyable to work with, and it allowed me to port over my old Django content in a morning.&lt;/p&gt;
+&lt;p&gt;I'm hoping to to a visual refresh in the near future; but in the meantime, I can at least save some money on hosting.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/opposing-preference-deals-right/">
+    <title type="text">Opposing preference deals with the right</title>
+    <id>urn:uuid:8b755954-e425-3060-bfb5-3c1981806275</id>
+    <updated>2017-02-13T07:47:54Z</updated>
+    <link href="https://cecinestpasun.com/entries/opposing-preference-deals-right/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;The WA Liberal party recently announced a preference deal with the right-wing One Nation party in the upcoming state election. I wrote this letter to my local member, Mr Peter Abetz.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Dear Mr Abetz,&lt;/p&gt;
+&lt;p&gt;I write to you as my local member during this election season to express my extreme displeasure at the fact that the WA Liberal Party has announced plans to preference One Nation over the Nationals on their Legislative Council ticket in this upcoming election.&lt;/p&gt;
+&lt;p&gt;One Nation is a blight on the Australian political landscape. Their brand of extreme right wing nationalism has no place in a civilised society. Internationally, the rise of the far right into positions of power is a trend that disturbs me greatly.&lt;/p&gt;
+&lt;p&gt;It offends me deeply that the Liberal party is willing to pander to a group like One Nation in the hope of securing preferences. It demonstrates a disturbing lack of awareness of the history of such manoeuvres. The number of right wing and extremist candidates that have been inadvertently elected to positions of power by such deals is significant.&lt;/p&gt;
+&lt;p&gt;More importantly, it shows a complete lack of moral leadership. To make a deal with the far right in an attempt to deny the Nationals - a one time coalition partner - power, strikes me as the perfect example of cutting off one's nose to spite one's face.&lt;/p&gt;
+&lt;p&gt;I consider myself a centrist swing voter. I know that I (and every other citizen) is free to cast my vote below the line in defiance of any official preference deal. However, this single decision on behalf of the Liberal party has ensured that I will cast no vote favouring the Liberal party in this upcoming State election. If you and the Liberal party cannot find the moral fortitude to oppose nationalism, then I hold very little hope that they will &amp;quot;Put people first&amp;quot;, or represent any of the &amp;quot;family values&amp;quot; that I hold dear.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/quo-vadimus/">
+    <title type="text">Quo Vadimus</title>
+    <id>urn:uuid:9e4dfacf-cf66-3ae1-b359-456a8fa4df0d</id>
+    <updated>2017-01-01T12:52:28Z</updated>
+    <link href="https://cecinestpasun.com/entries/quo-vadimus/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;It’s been 6 years, almost to the day, since I started work on my startup, TradesCloud. And it’s been a rollercoaster ride.&lt;/p&gt;
+&lt;p&gt;TradesCloud was mostly self-funded. We did take a small tranche of investment from a friend, as well as some matching funds from an Australian Government program, but we were never able to attract VC interest to provide a large injection of funds.&lt;/p&gt;
+&lt;p&gt;Initially, that didn't matter. We started with a bang. Our first customer was incredibly lucrative, and required surprisingly little technical work. The next couple of customers we similarly lucrative, and really easy sales to close. We were proud to be self funded, kicking against the prevailing wisdom of the Valley that said you needed million dollar valuations to succeed.&lt;/p&gt;
+&lt;p&gt;Unfortunately, that initial success was misleading. We never managed to grow, and although we slowly picked up customers, we never reached a point where we were cash flow positive.&lt;/p&gt;
+&lt;p&gt;We tried - and failed - to sell to small companies; but we never found an effective sales channel. Small companies in the home services market (plumbers, electricians, and so on), don't like computers or computer software. The only thing they like less than computers and computer software are the people who sell them computers and computer software. They've been burned many times before by sales people who have told them about the miracles computers can do for them. So when someone turns up on their doorstep and proclaims that they have the answer to all their problems, it doesn't even matter if it's true - you don't get past the front desk.&lt;/p&gt;
+&lt;p&gt;We tried - and failed - to sell to large multinational companies too. The story here was different, but repeated with every potential customer we found. Initially, they denied there was a problem. Then they accepted there was problem, but denied they needed to fix it. Then you got a break - you found someone who had just moved into a management position at the company, and was looking to make quick win by adopting something high profile. Mobile enabled cloud solutions fit that bill nicely. They'd ask for a few meetings, then because they need to cover their asses, they'd start a multi-month RFC bidding process... and then pick some other company's solution. After the fact, we were consistently told that we had the superior technical product, but that we were too big of a strategic risk because we were a 2 person company. Never mind that as soon as we made one of these deals, we wouldn't be a 2 person company any more. Nobody ever got fired for buying IBM, so they would go with the bigger, less capable, but less &amp;quot;risky&amp;quot; option.&lt;/p&gt;
+&lt;p&gt;We had a small amount of success with medium sized companies. However, the companies that could see the strategic advantage usually only saw the benefit because they were groaning under the weight of their internal administrative processes, which were mature enough to identify that a problem existed, but not mature enough to efficiently affect a company-wide change to a new process. They were also usually reaching out to us because their accounting department had established that they were on a trajectory toward bankruptcy if they didn't fix things. As a result, several of our medium-sized customers went bankrupt or closed their doors within months of adopting TradesCloud - not because of TradesCloud itself, but because their businesses weren't healthy to begin with, and they weren't able to realise the benefits of a streamlined process in time.&lt;/p&gt;
+&lt;p&gt;As a result, for the entirely life of TradesCloud we suffered a simple cash flow problem. We didn't have enough customers, generating enough revenue, to pay our own salaries and the server resources needed. There have been many months where my business partner and I haven't drawn a salary, or have only drawn partial salaries; and while you can do that for a while if there is promise of a brighter tomorrow, every bank balance has it's limit.&lt;/p&gt;
+&lt;p&gt;We contemplated keeping the product alive in a &amp;quot;limpalong&amp;quot; mode. We do have &lt;em&gt;some&lt;/em&gt; customers, and those customers are incredibly loyal, and have told use they don't want to see TradesCloud go. However, it isn't quite that easy. TradesCloud isn't set-and-forget business. It requires ongoing maintenance, and it generates support queries. Those support queries aren't easy to offload - many of them require critical thinking skills and knowledge of the TradesCloud codebase. But they're not enough to consume 1 FTE. Essentially, we'd need to find someone who would be willing to operate on a contract where they would only get a couple of hours work a week, but at completely unpredictable times - and they would have to drop everything when the phone rang. That's not an easy employee to find - or if you can find them, they're not cheap.&lt;/p&gt;
+&lt;p&gt;And this isn't a task that I'm willing or able to continue long term, either. As I've &lt;a class=&quot;reference external&quot; href=&quot;https://www.youtube.com/watch?v=OC3v5uXR9Qc&quot;&gt;made quite public&lt;/a&gt;, I had a major depressive episode last year - due, in no small part, to the fact that I had been carrying the pager for TradesCloud 24x7 for 4 and a half years. I've had symptoms that come close to PTSD when my SMS tone rings. For 6 years, I have been scheduling conference travel over weekends and redoes to make sure I'm in the air during business hours. I have stood on the balcony of hotels in the south of France at 3 in the morning answering support calls from customers who have just started their day in Australia. And during my episode, and in the 18 months since, I've &lt;em&gt;still&lt;/em&gt; been carrying the pager. That isn't good for my mental health.&lt;/p&gt;
+&lt;p&gt;And so, we reach the end of our six year journey. At close of business on January 31, TradesCloud will be shut down.&lt;/p&gt;
+&lt;p&gt;We're still exploring a couple of fire-sale options. There is enough interest in the capabilities of TradesCloud that we might be able to sell the codebase for someone else to operate. It would be nice to get &lt;em&gt;some&lt;/em&gt; payoff from 6 years of effort, but it certainly won't be time to order the gold-plated Lamborghini.&lt;/p&gt;
+&lt;p&gt;It's a bittersweet moment. On the one hand, I'm sorry to see 6 years of effort fail. But I'm also ready to move on. In truth, I've been ready to move on for quite some time. And now I actually can.&lt;/p&gt;
+&lt;p&gt;One of my favourite TV writers is Aaron Sorkin. Sorkin's first TV show was called &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Sports_Night&quot;&gt;Sports Night&lt;/a&gt; - a &amp;quot;behind the scenes&amp;quot; look at a late night cable sports news show. It was an odd piece - it was originally sold as a sitcom (canned laughter track and all). While it was incredibly funny, it wasn't &lt;em&gt;that&lt;/em&gt; kind of funny. It was very deep and intelligent humor. It also had moments of profound insight and wisdom. It was notionally about sport, but it was very rarely &lt;em&gt;just&lt;/em&gt; about sport - and when it was, it was about the grandest intentions of sport, not the vain personality show and advertising opportunity that most modern sports have become. The show shares a lot of similarities (and more than a couple of plot lines) with Sorkin's most famous piece, The West Wing.&lt;/p&gt;
+&lt;p&gt;When Sports Night was cancelled, they were able to run the show out with a storyline about the parent company selling it's cable station because it wasn't profitable. The entire team behind the Sports Night show (the fake on air one) were worried that they were going to lose their jobs. Dana, the show's producer, meets a man in a bar during her lunchbreak who offers some advice:&lt;/p&gt;
+&lt;p&gt;&amp;gt; &amp;quot;I'm what the world considers a phenomenally successful man. And I've failed much more than I've succeeded. And each time I fail, I get my people together, and I ask them - Where are we going? And it starts to get better.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Dana is not entirely satisfied with this advice. But unbeknownst to Dana, the man was the owner of a media company who, shortly thereafter, puts in a bid for the cable company, and then declares his intention to preserve the cable channel. The name of the company is Quo Vadimus - Latin for &amp;quot;Where are we going?&amp;quot;.&lt;/p&gt;
+&lt;p&gt;The time has come for me to ask myself: Quo vadimus?&lt;/p&gt;
+&lt;p&gt;I'm not desperate for work. After a conversation at DjangoCon US in Philadelphia last year, Andrew Pinkham and the fine folk at &lt;a class=&quot;reference external&quot; href=&quot;https://jambonsw.com&quot;&gt;Jambon Software&lt;/a&gt;  offered me a contract. It's been extremely liberating to be able to sink my teeth into a new set of technical challenges in new domains.&lt;/p&gt;
+&lt;p&gt;Jambon have also given me some liberty to work on &lt;a class=&quot;reference external&quot; href=&quot;http://pybee.org&quot;&gt;BeeWare&lt;/a&gt; on company time. BeeWare has been a big part of my open source contribution over the last couple of years, and I'm just starting to get to the point where that work is paying off. I'm hoping that over the next six months, BeeWare will start showing some highly visible results. In my ideal world, I'd like to be working on BeeWare full time, with a team of people - but I need to work out how to pay for that.&lt;/p&gt;
+&lt;p&gt;I don't know exactly what the future holds, but I have hope - and that's more than I've been able to say for a while.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/replacement-twitter/">
+    <title type="text">On a replacement for Twitter</title>
+    <id>urn:uuid:902670d9-3c9d-33b9-b682-0caa3f2d6514</id>
+    <updated>2016-02-06T11:04:47Z</updated>
+    <link href="https://cecinestpasun.com/entries/replacement-twitter/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;I've been a user of Twitter for almost 8 years. Over that time, I've gone from a skeptic, to a regular user, to someone for whom Twitter is an indispensible tool for keeping in touch with the outside world. The tipping point for me was when I left my 9-5 office job and started working from home. All of a sudden, I lost the &amp;quot;water cooler&amp;quot; conversations that an office allows. Twitter provided that outlet.&lt;/p&gt;
+&lt;p&gt;However, over the last few years, I've become acutely disappointed in Twitter as a product, and Twitter the company behind it. And I'm not alone; a number of my friends - the people who I'm on Twitter to keep in touch with - have abandoned the platform altogether.&lt;/p&gt;
+&lt;p&gt;There are a litany of well established problems with Twitter as a platform. Twitter has consumed an ungodly amount of VC money, and has at their disposal an small army of engineers. Yet these not-insignificant resources are routinely being spent on features that nobody wants or needs.&lt;/p&gt;
+&lt;p&gt;Some of these decisions are understandable. As part of becoming a financially viable company, Twitter needs to find an economic model that will validate their multi-billion dollar market cap. Since they've chosen an advertising driven revenue model, it's inevitable that a good chunk of their resources will be spent enhancing the advertisment delivery process. To that end, features like promoted tweets are inevitable, and while I don't like ads in my tweet stream, I can see why, given Twitter's business model, they are necessary.&lt;/p&gt;
+&lt;p&gt;However, other engineering priorities are completely nonsensical. There are many aspects of Twitter's engineering priorities that could be criticized, but the most significant is their approach to handling (or &lt;em&gt;not&lt;/em&gt; handling) spam and harassment. Twitter has made repeated statements that they will focus on harrassment on their platform. Every time this happens, well recognized experts in the field suggest things that could be done, many of which are quite simple. And Twitter takes that input, and directs their engineering team to change &amp;quot;Favourites&amp;quot; to &amp;quot;Likes&amp;quot;, or implement &amp;quot;Polls&amp;quot; And then 18 months later, another &amp;quot;we take harassment seriously&amp;quot; press release is published, and the cycle repeats.&lt;/p&gt;
+&lt;p&gt;Over the last year or so, I've become increasingly of the opinion that Twitter's time has now passed. They've had plenty of opportunity to correct the problems with their platform. And instead of fixing the problems, they appear to be dedicated to making their platform worse. At this point, I'm looking for a replacement.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;building-a-new-platform&quot;&gt;
+&lt;h2&gt;Building a new platform&lt;/h2&gt;
+&lt;p&gt;So - what would a replacement for Twitter look like?&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;native&quot;&gt;
+&lt;h3&gt;Native&lt;/h3&gt;
+&lt;p&gt;There's nothing wrong with having a website - it's a natural thing for a web service to have - but for a tool like a microblogging platform, it's essential that there is a native, well integrated app experience on both desktop and mobile platforms from Day One.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;decentralized&quot;&gt;
+&lt;h3&gt;Decentralized&lt;/h3&gt;
+&lt;p&gt;Microblogging platforms are the first communications protocols that are based on  monolithic central stores. All the protocols that have been of historical importance - email, Usenet, RSS - were all decentralized from the outset.&lt;/p&gt;
+&lt;p&gt;The idea that all the world's communication is stored in a single company's database - be it Twitter, Google, or Facebook - scares me no end. It means if the company folds, an entire generation of content could be lost. It also makes an easy target for any government that wants to curtail or control speech.&lt;/p&gt;
+&lt;p&gt;Decentralization has the added benefit that it is a better engineering solution. It's been a while since the Fail Whale was a regular occurrence, but a decentralized network would be much less prone to whole-network outages, and a harder target for malicious parties to attack.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;trust&quot;&gt;
+&lt;h3&gt;Trust&lt;/h3&gt;
+&lt;p&gt;As a monolithic silo, Twitter holds the keys to who is considered &amp;quot;trusted&amp;quot; on their platform. You can get the blue checkmark as a verified account, which enables (&lt;em&gt;ahem&lt;/em&gt;) Brands to establish themselves as official mouthpieces - but beyond that, this verification process isn't very enlightening.&lt;/p&gt;
+&lt;p&gt;Being decentralized introduces the opportunity for different measures of trust to be used. Imagine a decentralized network with a wide range of nodes providing authentication. One node might require members to provide proof of identity. Another might require all members to sign (and adhere to) a code of conduct. Yet another might allow entry by invitation only. This process of distribututed trust is then a source of data that can be used to acheive other goals.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;safety&quot;&gt;
+&lt;h3&gt;Safety&lt;/h3&gt;
+&lt;p&gt;If a platform has the a solid concept of trust networks at it's core, that means it's also in a much better position to deal with issues of harassment. For example, I could mark my account to refuse contact, or refuse to distribute my content that can't prove they've signed a CoC.&lt;/p&gt;
+&lt;p&gt;The safety of people who are going to use the network needs to be the prime consideration, not an afterthought.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-protocol-not-a-platform&quot;&gt;
+&lt;h3&gt;A Protocol, not a Platform&lt;/h3&gt;
+&lt;p&gt;All of these points point to the important factor being the protocol, not the platform. While a solid reference implementation definitely needs to exist, it's also essential that others can develop their own protocol-compliant implementations, improving the reference implementation, and expanding upon it.&lt;/p&gt;
+&lt;p&gt;It's also essential that the protocol itself have a mechanism for expansion. If I want to add a new type of content, I should be able to do so. It's then up to the writers of clients to determine if they need to support various protocol extensions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;financially-viable&quot;&gt;
+&lt;h3&gt;Financially viable&lt;/h3&gt;
+&lt;p&gt;I'm not interested in adopting a new communications platform unless the future of that platform is secure. A lot of the poor decisions being made by Twitter are being made for financial, rather than enigneering or social reasons. This means that any new social network needs to have an answer for how they're going to be financially viable.&lt;/p&gt;
+&lt;p&gt;This is something that &lt;em&gt;might&lt;/em&gt; be achievable with VC money, but I think it's much more likely that the answer to this problem will be just as distributed as the network itself. VC's have tried to bootstrap several social networks with a huge piles of promotional cash - Path, Ello, Peach, and others - and each of these attempts has failed spectacularly.&lt;/p&gt;
+&lt;p&gt;Nobody is going to leave Twitter in favour of an identical clone of Twitter. There needs to be a &lt;em&gt;reason&lt;/em&gt; to adopt a new network, and money can't make people care. The features that &lt;em&gt;will&lt;/em&gt; make people care - things like removing advertising or centralized control of the network - often reduce the value of the platform as a whole (or, at least, the value to investors, who want a return on their investment).&lt;/p&gt;
+&lt;p&gt;App.net came close to achieving financial viability in 2012 - they sold subscriptions, and for a year or so, were financially viable. However, they weren't able to maintain subscriptions. This is largely because they didn't have an answer for...&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-critical-mass-problem&quot;&gt;
+&lt;h3&gt;The Critical Mass Problem&lt;/h3&gt;
+&lt;p&gt;... how to deal with the cricital mass problem. For the moment, at least, almost everyone I know is on Twitter. Until a critical mass of my friends are on a new platform, I don't particularly want to run Yet Another Social Network Program on my computer and phone. When App.net started, I signed up... and then didn't use my account after a month, beacuse everyone I knew was still on Twitter.&lt;/p&gt;
+&lt;p&gt;A new social network needs to have a good reason for people to commit to using it. This might happen because Twitter does something so monumentally stupid that everyone leaves at once, but there would need to be something waiting in the wings to take over.&lt;/p&gt;
+&lt;p&gt;Alternatively, there needs to be a bridge between existing networks and new ones.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;ease-of-use&quot;&gt;
+&lt;h3&gt;Ease of use&lt;/h3&gt;
+&lt;p&gt;Above all, it should be no harder to get started with this new platform than it is to get started with Twitter. If your installation instructions start with &amp;quot;First, generate a 4096-bit RSA public key&amp;quot;, you've just failed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;satisfying-the-wish-list&quot;&gt;
+&lt;h2&gt;Satisfying the wish list&lt;/h2&gt;
+&lt;p&gt;The good news is that there are several decentralized microblogging platforms out there. The bad news is that unfortunately, they appear to be largely developed by people who are more interested in the technology than the platform. Advertising your network as being &amp;quot;based on Bitcoin and Bittorrent&amp;quot; doesn't tell me why I should use your platform - it tells me what technology you're using. Frankly, I don't care if my social network is implemented with carrier pigeons - as long as it lets me get the job done.&lt;/p&gt;
+&lt;p&gt;A decentralized microblogging platform probably will use Distributed Hash Trees or blockchain technology - but that can't be the focus of development or the primary marketing message.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;my-dream-platform&quot;&gt;
+&lt;h2&gt;My dream platform&lt;/h2&gt;
+&lt;p&gt;So - how &lt;em&gt;do&lt;/em&gt; we get a replacement for Twitter?&lt;/p&gt;
+&lt;p&gt;Well, my dream platform would be a lot more than just a Twitter replacement - it would be a platform for building rich communication interfaces, with microblogging being just one important channel. Consider all the various ways that we communicate with each other at the moment:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Microblogging platforms like Twitter and Facebook&lt;/li&gt;
+&lt;li&gt;Sharing platforms like Flickr, Instagram, and Vine&lt;/li&gt;
+&lt;li&gt;Long-form blogging platforms like WordPress and Medium&lt;/li&gt;
+&lt;li&gt;Chat tools like IRC, ICQ, Hipchat and Slack&lt;/li&gt;
+&lt;li&gt;Broadcast platforms like Twitch and Periscope&lt;/li&gt;
+&lt;li&gt;Commenting platforms like Disqus&lt;/li&gt;
+&lt;li&gt;Forum platforms like Discourse&lt;/li&gt;
+&lt;li&gt;Formal communications over email&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these types of media requires a different mode of interaction with the content they distribute - but they're fundamentally about getting a chunk of content - be it a 140 character tweet, a photo, or a streaming URL - from one user to one-or-many other users in a timely fashion, and soliciting responses in different forms.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;making-it-real&quot;&gt;
+&lt;h3&gt;Making it real&lt;/h3&gt;
+&lt;p&gt;Of course, this sort of abstraction is, more often than not, a complete distraction to actually making a product real. However, in this case, I think it provides a path to potential financial stability, and a way to overcome the critical mass problem.&lt;/p&gt;
+&lt;p&gt;The key point to remember is that all the content is linked and distributed using the same protocol. A long-form blog can be shared in the same way as a microblog message or a photo. A message can reply to a photo, or a photo reply to a blog post.&lt;/p&gt;
+&lt;p&gt;This means you can pick on one of the services as a starting point, and as long as the protocol has room for expansion, other services can come later - and other parties can contribute applications that use the protocol.&lt;/p&gt;
+&lt;p&gt;Financial viability comes in providing the &amp;quot;first seed&amp;quot;. A distributed protocol will require some nodes to be permanently available for discovery purposes. This is especially important in the early days, when there might not be enough participants in the network to ensure that content is shared efficiently. Providing this &amp;quot;first seed&amp;quot; service could be offered as a paid service.&lt;/p&gt;
+&lt;p&gt;Why would people pay for this service? Well, this first seed could also provide the bridging services - gathering content from, and rebroadcasting content onto, existing social networks. For example, any short message or photo posted on the network could be reposted to Twitter; one of the roles of the paid service would be to provide a publicly visible web presence for any content shared.&lt;/p&gt;
+&lt;p&gt;In these early days, the paid offering would look very similar to a hosted blogging or photo sharing platform. However, embedded in that blogging platform is the incentive for others to engage deeper with the platform - by creating an account on the network, you can interact with this hosted content in a richer way, and post your own content.&lt;/p&gt;
+&lt;p&gt;Once the network is established, the bridging and seeding services will become less important, but other services - such as the trust and authentication network - will become more important.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;conclusion&quot;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Of course, the devil is absolutely in the detail. The core protocol design needs to be robust, the core marketing message of the initial product offering needs to be clear and polished so that it doesn't get written off as &amp;quot;Yet Another X Clone&amp;quot;, and the product itself actually has to be compelling.&lt;/p&gt;
+&lt;p&gt;However, I really do think that the time is ripe for a new service to take the stage and change the web for the better. Twitter has made making too many mis-steps of late and hasn't shown any serious signs that they're interested in correcting them. Facebook doesn't present a fundamentally better vision of the future.&lt;/p&gt;
+&lt;p&gt;But after 25 years of use, abuse, and refinement, some common patterns are starting to emerge in the way we communicate, and I think there's an opportunity to re-think the whole thing from the ground up, and build a decentralized platform for communication that incorporates concepts of authentication and trust at the core.&lt;/p&gt;
+&lt;p&gt;I only wish I had enough time to look into this more seriously. As it stands, I already have far too many side projects - and a project like this could easily become all consuming.&lt;/p&gt;
+&lt;p&gt;In the meantime, if you want to share your thoughts about this, I'm &lt;a class=&quot;reference external&quot; href=&quot;https://twitter.com/freakboy3742&quot;&gt;&amp;#64;freakboy3742 on Twitter&lt;/a&gt;. If I ever end up on another platform, I imagine I'll be &lt;tt class=&quot;docutils literal&quot;&gt;&amp;#64;freakboy3742&lt;/tt&gt; there, too.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/expressing-disappointment-my-government/">
+    <title type="text">Expressing disappointment in my government</title>
+    <id>urn:uuid:51eae0e5-17fe-348a-bb64-0927e765a875</id>
+    <updated>2015-08-28T14:43:09Z</updated>
+    <link href="https://cecinestpasun.com/entries/expressing-disappointment-my-government/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;Today, I wrote a letter to my Member of Parliament, Ken Wyatt, Member for Hasluck. Mr Wyatt is a member of Liberal Party, which forms the dominant part of the Coalition that currently forms government in Australia, under the leadership of Prime Minister Tony Abbott.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Dear Mr Wyatt,&lt;/p&gt;
+&lt;p&gt;I am a resident in your electorate. I write to express my extreme disappointment in the actions of the government you are a part of.&lt;/p&gt;
+&lt;p&gt;Three issues in particular have moved me to express my frustration to you.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;marriage-equality&quot;&gt;
+&lt;h2&gt;Marriage Equality&lt;/h2&gt;
+&lt;p&gt;Firstly, I wish to express my dismay at the complete lack of leadership that the government is showing on the question of marriage equality.&lt;/p&gt;
+&lt;p&gt;I am a married, heterosexual man. I have many LGBTQI friends. I am utterly appalled at the notion that members of my government believe that the loving relationships they have with their partners are somehow &amp;quot;less&amp;quot; than the relationship I have with my wife.&lt;/p&gt;
+&lt;p&gt;Every reputable poll taken on the issue confirms that I am in the overwhelming majority of Australians in holding this position. New Zealand, the USA, United Kingdom, Ireland, South Africa and Canada - countries that have been close partners of Australia - have all agreed on this issue.&lt;/p&gt;
+&lt;p&gt;Yet, it took the Liberal/National party room 6 hours to decide that it was too hard to decide that event a &lt;em&gt;conscience vote&lt;/em&gt; was called for.&lt;/p&gt;
+&lt;p&gt;Every complaint or objection I have ever heard against gay marriage is utterly laughable - especially from a government that professes to stand for individual liberty. Your own party founder, Robert Menzies put it best:&lt;/p&gt;
+&lt;p&gt;&amp;quot;As the etymology of our name 'Liberal' indicates, we have stood for freedom. We have realised that men and women are not just ciphers in a calculation, but are individual human beings whose individual welfare and development must be the main concern of government ... We have learned that the right answer is to set the individual free, to aim at equality of opportunity, to protect the individual against oppression, to create a society in which rights and duties are recognised and made effective.&amp;quot;&lt;/p&gt;
+&lt;p&gt;How any member of the Liberal party can reconcile that statement of principles with an opposition to even &lt;em&gt;voting&lt;/em&gt; on gay marriage in the parliament genuinely astounds me.&lt;/p&gt;
+&lt;p&gt;I am especially concerned at the prospect that Liberal Party policy now appears to be leaning towards a referendum or plebiscite on this issue. This is a cop-out response - and a response demonstrating a stunning absence of leadership from a government, especially one that professes to be one of &amp;quot;strong leadership&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Completely aside from the massive waste of taxpayer funds that would be necessary to execute a popular vote, I have genuine concerns about the effect that the public debate would have on those who are affected by this issue. It would &lt;em&gt;require&lt;/em&gt; hate-filled organisations such as the Australian Marriage Forum to be provided taxpayer funds to spray hateful statements over public airwaves, in the interests of a &amp;quot;full and frank debate&amp;quot;. LGBTQI people are already the subject of discrimination and abuse on a daily basis. They don't require the government to be actively funding their abuse.&lt;/p&gt;
+&lt;p&gt;You don't even need to look far to see what the timbre of the debate will be - &amp;quot;Won't someone think of the children&amp;quot; - as if child molestation was the sole domain of gay individuals. Protests about children having the &amp;quot;right&amp;quot; to 2 parents of different sex - and ignoring the fact single parent families are entirely legal, and that multiple studies have demonstrated that the important thing is having 2 &lt;em&gt;loving&lt;/em&gt; parents, not 2 mixed-sex parents. This debate will do almost nothing to further the state of debate. If the government took the time to actually communicate with LGBTQI people, you'd find that this is a regularly expressed concern.&lt;/p&gt;
+&lt;p&gt;It may also be enlightening to read up about the biology of the marriage debate. &lt;a class=&quot;reference external&quot; href=&quot;http://linuxmafia.com/faq/Essays/marriage.html&quot;&gt;This essay&lt;/a&gt; was written by someone in the shadow of the &amp;quot;Proposition 8&amp;quot; debate in California; however, it deals entirely with the biological issues of &amp;quot;gay&amp;quot; marriage.&lt;/p&gt;
+&lt;p&gt;The short version - legislating marriage as being &amp;quot;between a man and a woman&amp;quot; is actually a biologically impossibility, and could effectively &lt;em&gt;require&lt;/em&gt; relationships that most people would consider as &amp;quot;gay&amp;quot; marriage.&lt;/p&gt;
+&lt;p&gt;I certainly hope the Liberal party will revisit this issue in the near future, and demonstrate some of the leadership that it purports to have.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;refugees&quot;&gt;
+&lt;h2&gt;Refugees&lt;/h2&gt;
+&lt;p&gt;The second issue I wish to raise with you is your government's appalling policies on refugees and migrants. I am sick to the back teeth with the posturing of both the Government &lt;em&gt;and&lt;/em&gt; the Opposition, as the two parties struggle to see who can be a bigger bastard to people who are simply doing what comes naturally to every one of us - doing everything in their power to ensure the safety of their families.&lt;/p&gt;
+&lt;p&gt;I am ashamed that Australia has detention camps such as the one on Manus Island. I am especially ashamed of a government that staffs these facilities with private contractors, and then does everything in its power to deny basic freedoms to those held there. And, to make matters worse, the government then change the laws to actively assist those private contractors to perpetrate abuse and prevent oversight, barring access to journalists.&lt;/p&gt;
+&lt;p&gt;Let me be clear: I am not impressed by the machismo and posturing shown by &lt;em&gt;either&lt;/em&gt; party on this issue. The ratcheting of attacks on migrants, refugees and asylum seekers has been the undertone of multiple elections, and I am completely sick of it.&lt;/p&gt;
+&lt;p&gt;I would like our government to show &lt;em&gt;any&lt;/em&gt; signs of compassion for fellow human beings who are suffering from extraordinary circumstances - many of which are of Australia's own making, as a result of our involvement in foreign theatres.&lt;/p&gt;
+&lt;p&gt;However, this morning, news leaked of a truly astounding development - that the recently formed &amp;quot;Border Force&amp;quot; was going to run &amp;quot;Operation Fortitude&amp;quot; this weekend - in which, the police and Border Force agents would apparently be stopping people in Flinders Street Station in Melbourne to &lt;em&gt;check their papers&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;As I write this email, &lt;a class=&quot;reference external&quot; href=&quot;http://www.abc.net.au/news/2015-08-28/operation-fortitude-cancelled/6733008&quot;&gt;it appears that &amp;quot;Operation Fortitude&amp;quot; has been cancelled&lt;/a&gt;. To which I say: good riddance. I am ashamed that anyone in this government ever thought this was a good idea. The idea that weekly &amp;quot;national security announceables&amp;quot; will somehow convince the electorate that the government is possessed of strong leadership is, frankly, insulting.&lt;/p&gt;
+&lt;p&gt;The posturing of this government in an attempt to be &amp;quot;Strong on national security&amp;quot; does not impress me. I wasn't impressed by the grandstanding machismo of bullies in high school. I'm even less impressed when that grandstanding is being carried out by my political leaders - people who I would hope my children would look up to and admire.&lt;/p&gt;
+&lt;p&gt;Given that both parties have taken these &amp;quot;Strong on national security&amp;quot; policies to several elections, with the only differentiator being how they planned to be cruel, I don't hold much hope that these policies will change any time soon.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;climate-change&quot;&gt;
+&lt;h2&gt;Climate change&lt;/h2&gt;
+&lt;p&gt;Lastly, I would like to take your government to task over it's handling of clean energy and climate change. Mr Abbott's thinly veiled contempt for the issue of climate change is deeply concerning.&lt;/p&gt;
+&lt;p&gt;I can accept that some moderation is required when tackling climate change; we can't completely shut down the economy over this issue.&lt;/p&gt;
+&lt;p&gt;However, when a supposedly free-market loving government dismantles a marketplace scheme for carbon pricing, and then &lt;a class=&quot;reference external&quot; href=&quot;http://www.abc.net.au/news/2015-07-13/pm-defends-decision-to-axe-wind-solar-from-cefc-spending/6615372&quot;&gt;actively undermines the investment market in clean technologies&lt;/a&gt;, claiming that &lt;a class=&quot;reference external&quot; href=&quot;http://www.abc.net.au/news/2015-06-11/abbott-wants-to-reduce-wind-farms-wishes-ret-never-implemented/6539164&quot;&gt;wind turbines are &amp;quot;visually awful&amp;quot;&lt;/a&gt; (compared, I assume, to the visual splendour of an open pit coal mine and power station smoke stack), the position of the government is embarrassing.&lt;/p&gt;
+&lt;p&gt;Again, I would like to see some genuine leadership from the government on this issue.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;conclusion&quot;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Before you write off my complaints as &amp;quot;left wing propaganda&amp;quot;. I consider myself a centrist.&lt;/p&gt;
+&lt;p&gt;Consider this the cries of someone from the Menzies &amp;quot;forgotten people&amp;quot;. I don't expect that Liberal party policy will change overnight; but I hope that if enough people like myself express their concerns to you, we might see the ship we're on turn towards a more promising shore.&lt;/p&gt;
+&lt;p&gt;However, I hope that if enough people express similar sentiments to you, you might be able to take those opinions to the party room and affect change from within.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/personal-funding-and-culture-open-source/">
+    <title type="text">Personal funding, and the culture of open source</title>
+    <id>urn:uuid:054677ad-1eca-33e2-b5dc-8ecbfd622542</id>
+    <updated>2012-07-05T15:10:00Z</updated>
+    <link href="https://cecinestpasun.com/entries/personal-funding-and-culture-open-source/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Update 1 Jan 2015&lt;/strong&gt; Following the decision by the Gittip (now Gratipay) community to &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/gratipay/inside.gratipay.com/issues/118&quot;&gt;continue to support Neonazis and serial abusers&lt;/a&gt;, I am no longer subscribed to or recommend the use of the Gittip platform.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Yesterday, Alex Gaynor posted a blog entry expressing his &lt;a class=&quot;reference external&quot; href=&quot;http://alexgaynor.net/2012/jul/04/why-personal-funding/&quot;&gt;views on personal funding&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'm in complete agreement with Alex's premise (with the same this-is-potentially-self-serving caveat). The Open Source community has generated some of the best software in the world, and done so with a fraction of the financial resources of comparable proprietary and commercial efforts. There are many projects that would benefit from having full-time attention rather than the spare time that currently keeps them alive.&lt;/p&gt;
+&lt;p&gt;However, the problem I see is that in order for something like &lt;a class=&quot;reference external&quot; href=&quot;http://gittip.com&quot;&gt;Gittip&lt;/a&gt; to really work, there needs to be a fairly significant cultural shift in our community - not just amongst those that write the code, but amongst those who consume it.&lt;/p&gt;
+&lt;p&gt;Alex said that he didn't think anyone has a moral obligation to give back, but I disagree. If someone uses code I wrote and open sourced, they don't have a moral obligation to give back &lt;em&gt;to me&lt;/em&gt;, but in my opinion, they &lt;em&gt;do&lt;/em&gt; have a moral obligation to give back &lt;em&gt;to the community&lt;/em&gt; - to pay it forward, if you will. I don't care if they release their own code, answer questions on a mailing list, or triage bugs; I don't care if they're contributing to my project, or to someone else's entirely. With some notable exceptions (&lt;em&gt;cough*Alex*cough&lt;/em&gt;), a freshly minted graduate probably won't be able to make contributions that are as significant as an experienced veteran of the industry. And some people won't be as talented and productive as others. But, on aggregate, over a lifetime working in the industry, everyone should aspire to make contributions to the community that are equal in value to what they have taken from the community - and if they aren't able to give back in kind, giving back financially is one way to square the ledger.&lt;/p&gt;
+&lt;p&gt;Unfortunately, my experience has been that most people gloss over the philosophical arguments in favour of open source, and focus instead on the price, viewing open source as a cheap way to fill a software stack. As a result, they don't see an open source community that has given to them and to which they should also contribute. My experience has been that if you don't &lt;em&gt;have&lt;/em&gt; to pay, the vast majority &lt;em&gt;won't&lt;/em&gt; pay. I've been lucky to work at &lt;a class=&quot;reference external&quot; href=&quot;http://huntedmedia.com&quot;&gt;one company&lt;/a&gt; that went to great lengths to give back to Open Source. However, I've also worked at a company, and spoken to representatives of others, that, when asked to donate to an Open Source project that they have used to generate hundreds of thousands of dollars in revenue, asked - with a straight face - &amp;quot;What's in it for us?&amp;quot;&lt;/p&gt;
+&lt;p&gt;If you need any more proof of this, look at the experience of charity organisations. Unless you're dealing with a &amp;quot;cool&amp;quot; cause, or you come up with a good gimmick, generating donations on any sort of useful scale is hard graft. It's very easy to say Github has 1.7 million users, and if every one of them donated just $1 a week, we'd have $1.7 million to direct at open source development every week. However, it's another thing entirely to get 1.7 million people to &lt;em&gt;actually&lt;/em&gt; commit to that expense.&lt;/p&gt;
+&lt;p&gt;But the whole personal funding approach won't work unless you can get a non-trivial proportion of those 1.7 million Github users to contribute financially. So for me, the real question is how to affect the social change that makes donation like this the rule, not the exception. Unless there's a plan for how to get to there from here, my concern is that &lt;a class=&quot;reference external&quot; href=&quot;http://gittip.com&quot;&gt;Gittip&lt;/a&gt; won't move beyond a well-intentioned, but small-scale experiment.&lt;/p&gt;
+&lt;p&gt;Unfortunately, the only options I can think of involve changing the very dynamics that have made open source successful in the first place. Any attempt to punish people who aren't donors will only serve to drive them away from considering open source as an option in the first place. Given that we're starting from a position where money is the scarce resource, we don't really have any rewards that can be offered, other than the warm sensation of knowing that you've contributed. On top of that, anything with a financial component will be disproportionally onerous to students, or anyone in a developing economy.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://gittip.com&quot;&gt;Gittip&lt;/a&gt; has certainly got a discussion going. I'm very happy that the discussion is happening, and I'm eager to see where it leads. However, I'd like to think that we can do better than just hoping and praying that this week's &amp;quot;beer money&amp;quot;-level donations grow organically until they're &amp;quot;rent money&amp;quot;. If personal funding really is the way to drive the development of open source work - and I certainly hope it is - we're going to need a better plan than that.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/i-can-haz-a-question-or-five/">
+    <title type="text">I can haz a question (or five)?</title>
+    <id>urn:uuid:bbc0a43c-4707-3323-9b2c-adc46cc597a8</id>
+    <updated>2010-06-27T12:58:44Z</updated>
+    <link href="https://cecinestpasun.com/entries/i-can-haz-a-question-or-five/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;So... people have noticed that I have this habit at conferences.&lt;/p&gt;
+&lt;p&gt;It's been &lt;a class=&quot;reference external&quot; href=&quot;http://djangocaptions.com/post/647587573&quot;&gt;lampooned&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://twitter.com/mpesce/status/17074185084&quot;&gt;questioned online&lt;/a&gt;; I've also been asked about it in person.&lt;/p&gt;
+&lt;p&gt;I ask questions. A lot of questions. More often than not, I ask the first question at every talk I attend.&lt;/p&gt;
+&lt;p&gt;And people think it's weird.&lt;/p&gt;
+&lt;p&gt;However, there is method in my madness.&lt;/p&gt;
+&lt;p&gt;Back in the day, I was a Physics undergrad student who migrated to the Computer Science department to do my Honours degree. To make some use of my undergrad qualifications, my Honours thesis was revolved around a computational physics problem. Although my thesis topic was strictly computer science, it wasn't one of the research foci of the department.&lt;/p&gt;
+&lt;p&gt;Half way through the year, Honours students were required to give a presentation to the faculty describing their work and their progress. The presentation was assessed, and formed a major part of the mid-term mark for the course. A component of the mark for that assessment (I think it was 10%) was allocated to how well the student answered questions.&lt;/p&gt;
+&lt;p&gt;So, I diligently gave my presentation, describing the problem I was addressing, and how I was going to address it. My slides all worked, and I hit my time allocation. Everything went reasonably well -- or at least I thought so.&lt;/p&gt;
+&lt;p&gt;Time for questions ... and the sound of crickets. Nobody asked anything.&lt;/p&gt;
+&lt;p&gt;I didn't know what to make of that. Was my presentation so awesome that nobody could think of anything to ask? Was it so bad that nobody understood it? Did I pitch it at completely the wrong level?&lt;/p&gt;
+&lt;p&gt;To make matters worse -- because I didn't answer any questions, I received no marks for that component of the assessment. After all, I didn't answer a question, so they couldn't assess how well I handled questions.&lt;/p&gt;
+&lt;p&gt;After that day, I made a resolution. Unless there's a pressing reason like a schedule overrun, nobody gets out of a room that I am in without getting at least one topical question.&lt;/p&gt;
+&lt;p&gt;It takes a lot of work to write a presentation, and a lot of practice and confidence to do them well. There may not be school marks on the line at professional conferences, but it's no less demoralising to realise that your hours of effort spent crafting your presentation haven't been able to stimulate any interest in an audience. The only worse feeling is to be presenting to a empty room.&lt;/p&gt;
+&lt;p&gt;During most talks, that means I'm actively sitting there trying to work out what question I'm going to ask. When the floor opens for questions, I will take a look around to see if anybody is making a move for the microphone. If it looks like nobody is going to ask a question, I get up and ask my prepared question. If someone actually does run to the microphone, I won't try and beat them (unless I have a question that I &lt;em&gt;really&lt;/em&gt; want to ask). It's not that &lt;em&gt;I&lt;/em&gt; need to ask a question -- I'm happy as long as &lt;em&gt;someone&lt;/em&gt; asks a question.&lt;/p&gt;
+&lt;p&gt;The interesting side effect is that once I have asked my question and the speaker has responded, there is often a line behind me. The time it takes for people to digest a talk and compose an interesting question is often longer than the time a session chair is willing to wait for that question to emerge.&lt;/p&gt;
+&lt;p&gt;So -- that's why I'm such a regular fixture at conference microphones. Personally, I think this is a job that should be considered part of the role of an good session chair; if a room doesn't provide an initial question, don't just shut down the floor. Provide the breathing space that allows the room can consider what it is they want to know.&lt;/p&gt;
+&lt;p&gt;However, until such time as session chairs start doing this regularly, you can expect to see me at the microphone, being &amp;quot;that guy&amp;quot;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/end-my-evolution/">
+    <title type="text">An end to my Evolution</title>
+    <id>urn:uuid:404432e9-d042-3fb2-9856-3b66c2420338</id>
+    <updated>2010-04-12T14:46:24Z</updated>
+    <link href="https://cecinestpasun.com/entries/end-my-evolution/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;I am stepping down as a maintainer of one of my open source projects - &lt;a class=&quot;reference external&quot; href=&quot;http://code.google.com/p/django-evolution&quot;&gt;Django Evolution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This shouldn't come as a surprise to anyone - there hasn't been any significant development work done on Evolution in over a year. My personal commitments and my work on &lt;a class=&quot;reference external&quot; href=&quot;http://djangoproject.com/&quot;&gt;Django core&lt;/a&gt; are absorbing all my free time at present. As a result, I can't give Evolution the attention it needs or deserves, especially given the changes that will be required to update Evolution to work with Django 1.2.&lt;/p&gt;
+&lt;p&gt;For me, Evolution was always a bit of an experiment. The documentation has always warned that Evolution was not production ready, and the bug tracker would back up that assessment. My aim with Evolution was to demonstrate that a semi-automated migration framework was possible, and to hopefully kickstart a development effort that would ultimately lead to a merge into Django's trunk.&lt;/p&gt;
+&lt;p&gt;In a way, this &lt;em&gt;has&lt;/em&gt; happened, just not in the way I intended. Following the release of Evolution, other schema migration projects have been announced -- most notably, &lt;a class=&quot;reference external&quot; href=&quot;http://south.aeracode.org/&quot;&gt;South&lt;/a&gt; -- and these project provide alternate approaches to the schema migration problem. Some of these projects have been successful, some have not; some have adapted ideas similar to those used by Evolution, some have taken alternative approaches.&lt;/p&gt;
+&lt;p&gt;I'm disappointed that Evolution didn't meet all of my original goals, but I'm happy that the community has developed a bunch of solutions to the schema migration problem. A big thank you to everyone that helped out along the way -- especially Ben Khoo, who started the project with me; Christian Hammond, who joined as a co-developer later in the project; and anyone that took the time to report a bug, write up a patch, or contribute on the mailing list.&lt;/p&gt;
+&lt;p&gt;Looking forward, I'm sure that the core Django project will look at this problem at some point in the future. I don't know what that will look like (although I have some ideas), but I'm looking forward to working with the community to provide a great framework that integrates the best that the community has to offer.&lt;/p&gt;
+&lt;p&gt;In the meantime, Christian Hammond will be maintaining Django Evolution. Christian has a vested interest in Evolution surviving -- he uses it in &lt;a class=&quot;reference external&quot; href=&quot;http://www.reviewboard.org/&quot;&gt;Review Board&lt;/a&gt;. I wish him all the best.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/getting-hgsubversion-work-under-osx/">
+    <title type="text">Getting hgsubversion to work under OSX</title>
+    <id>urn:uuid:43cb5aa0-3f88-3cec-a95d-f537c07b7528</id>
+    <updated>2009-08-15T16:33:26Z</updated>
+    <link href="https://cecinestpasun.com/entries/getting-hgsubversion-work-under-osx/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;I've been using git as a DVCS for about a year. One of the big selling points for git has been git-svn - a compatibility layer between Subversion repositories and the git client. This means you can continue to use your old SVN repository to store your code, but interact with it using a modern DVCS tool that allows for local (and offline) commits, local branches, etc.&lt;/p&gt;
+&lt;p&gt;This has been an absolute godsend for my work with Django. Local commits, local branches, and git-stash have all become an indispensable part of my daily routine.&lt;/p&gt;
+&lt;p&gt;However, git isn't the only DVCS. Of late, I've been experimenting with Mercurial. Mercurial doesn't ship with a direct equivalent of git-svn, but it does have a very robust plugin framework. One of the plugins that is available is &lt;a class=&quot;reference external&quot; href=&quot;http://www.bitbucket.org/durin42/hgsubversion/wiki/Home&quot;&gt;hgsubversion&lt;/a&gt; - a plugin that lets you treat a Subversion repository as if it were a public Mercurial repository.&lt;/p&gt;
+&lt;p&gt;Almost a year ago, Ben Collins-Sussman &lt;a class=&quot;reference external&quot; href=&quot;http://blog.red-bean.com/sussman/?p=116&quot;&gt;wrote a document&lt;/a&gt; describing how to get hgsubversion working. However, that document appears to refer to an older version of hgsubversion, as some of the commands no longer appear relevant. It's also a more generic Unix tutorial, so it tends towards &amp;quot;compile the sources&amp;quot; as a solution for dependencies. When you have a stable binary platform like OSX, there is usually an easier way.&lt;/p&gt;
+&lt;p&gt;For the benefit of my own memory later on, and for the benefit of anyone else in the same boat, here's an updated set of instructions, slightly tuned for OSX. The basic procedure should work for any other operating system, but you'll need to work out how to adapt the instructions for your local conditions.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;install-mercurial&quot;&gt;
+&lt;h2&gt;Install Mercurial&lt;/h2&gt;
+&lt;p&gt;First, Install Mercurial. You need to have version 1.3 or greater. The default OSX installer works fine.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;install-subversion&quot;&gt;
+&lt;h2&gt;Install Subversion&lt;/h2&gt;
+&lt;p&gt;hgsubversion requires the binding API from Subversion 1.5 or greater. CollabNet &lt;a class=&quot;reference external&quot; href=&quot;http://www.open.collab.net/downloads/community/&quot;&gt;publishes an OSX installer for Subversion&lt;/a&gt; that won't collide with the system version. Download and install this package. It will install Subversion 1.5 into &lt;cite&gt;/opt/subversion&lt;/cite&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;configure-the-shell-environment&quot;&gt;
+&lt;h2&gt;Configure the shell environment&lt;/h2&gt;
+&lt;p&gt;In order for hgsubversion to know about the non-standard Subversion install, you need to configure the shell environment to point at the new version. Set the following environment variables so that hgsubversion can find the Subversion 1.5 bindings:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ export DYLD_LIBRARY_PATH=/opt/subversion/lib:$DYLD_LIBRARY_PATH
+$ export PYTHONPATH=/opt/subversion/lib/svn-python:$PYTHONPATH
+&lt;/pre&gt;
+&lt;p&gt;You can set these in a normal shell session, or, if you intend to make this a permanent arrangement, you can add these lines to &lt;cite&gt;~/.bash_profile&lt;/cite&gt;. If you take the &lt;cite&gt;.bash_profile&lt;/cite&gt; option, you would also be well advised to set the &lt;cite&gt;PATH&lt;/cite&gt; so that the right subversion binary is available:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ export PATH=/opt/subversion/bin:$PATH
+&lt;/pre&gt;
+&lt;p&gt;To check that this has worked, run the following at a shell prompt:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ python -c &amp;quot;import svn.core; print svn.core.SVN_VER_MINOR&amp;quot;
+&lt;/pre&gt;
+&lt;p&gt;You should get a response of &lt;cite&gt;5&lt;/cite&gt; or &lt;cite&gt;6&lt;/cite&gt;. If you get &lt;cite&gt;4&lt;/cite&gt;, you're still using the default 1.4 install of Subversion.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;install-hgsubversion&quot;&gt;
+&lt;h2&gt;Install hgsubversion&lt;/h2&gt;
+&lt;p&gt;hgsubversion is available as a Mercurial checkout. I put my tool checkouts into &lt;tt class=&quot;docutils literal&quot;&gt;~/tools&lt;/tt&gt;; any other location will do (provided you adapt the later instructions):&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ cd tools
+$ hg clone http://bitbucket.org/durin42/hgsubversion
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;configure-hgsubversion&quot;&gt;
+&lt;h2&gt;Configure hgsubversion&lt;/h2&gt;
+&lt;p&gt;To enable the hgsubversion plugin, edit your &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;~/.hgrc&lt;/span&gt;&lt;/tt&gt; file and add the following lines to the &lt;tt class=&quot;docutils literal&quot;&gt;[extensions]&lt;/tt&gt; section:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+rebase=
+svn=/Users/rkm/tools/hgsubversion/hgsubversion
+&lt;/pre&gt;
+&lt;p&gt;Substitute your own home directory for &lt;tt class=&quot;docutils literal&quot;&gt;/Users/rkm&lt;/tt&gt;; if you used a directory other that &lt;tt class=&quot;docutils literal&quot;&gt;~/tools&lt;/tt&gt;, modify as appropriate. The important thing to note is that you're not referencing the hgsubversion directory that you cloned - you're referencing the hgsubversion directory &lt;em&gt;inside&lt;/em&gt; the directory that you cloned.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;clone-your-svn-repository&quot;&gt;
+&lt;h2&gt;Clone your SVN repository&lt;/h2&gt;
+&lt;p&gt;Now you can clone your repository. For example, a public HTTP repository for a Google Code project could be cloned using:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ hg clone svn+http://&amp;lt;project-name&amp;gt;.googlecode.com/svn project
+&lt;/pre&gt;
+&lt;p&gt;This will make a clone of the repository into a directory named &lt;tt class=&quot;docutils literal&quot;&gt;project&lt;/tt&gt;. Note that the checkout &lt;em&gt;doesn't&lt;/em&gt; contain the &lt;tt class=&quot;docutils literal&quot;&gt;trunk&lt;/tt&gt; part of the repository URL.&lt;/p&gt;
+&lt;p&gt;You can also clone a password-protected repository. Again, using Google Code as an example:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ hg clone svn+https://&amp;lt;project-name&amp;gt;.googlecode.com/svn project
+&lt;/pre&gt;
+&lt;p&gt;It's important to note the use of &lt;tt class=&quot;docutils literal&quot;&gt;svn+https&lt;/tt&gt;. If you leave off the &lt;tt class=&quot;docutils literal&quot;&gt;svn+&lt;/tt&gt;:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ hg clone https://&amp;lt;project-name&amp;gt;.googlecode.com/svn project
+&lt;/pre&gt;
+&lt;p&gt;This will still work - however,  hgsubversion won't retain your HTTP credentials, so you'll need to re-enter them multiple times every time you pull or push updates.&lt;/p&gt;
+&lt;p&gt;The cloning process will create a complete clone of every commit, every branch, and every tag, so this can take a while. If the clone is interrupted at any point (say, due to a network outage), you can resume the update with a simple &lt;tt class=&quot;docutils literal&quot;&gt;hg pull&lt;/tt&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;use-your-repository&quot;&gt;
+&lt;h2&gt;Use your repository&lt;/h2&gt;
+&lt;p&gt;Now you can use your repository. After editing some source files, you can commit, then push your changes:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ hg commit
+$ hg push
+&lt;/pre&gt;
+&lt;p&gt;This push will turn into a full subversion commit with the same commit message you gave to Mercurial. To retrieve repository updates:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ hg pull
+$ hg update
+&lt;/pre&gt;
+&lt;p&gt;or, if you have the fetch extension installed:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ hg fetch
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;caveats&quot;&gt;
+&lt;h2&gt;Caveats&lt;/h2&gt;
+&lt;p&gt;The one notable limitation of hgsubversion is that requires that your subversion repository follow the basic convention of having the root directories &lt;tt class=&quot;docutils literal&quot;&gt;/trunk&lt;/tt&gt;, &lt;tt class=&quot;docutils literal&quot;&gt;/branches&lt;/tt&gt; and &lt;tt class=&quot;docutils literal&quot;&gt;/tags&lt;/tt&gt;. However, structure inside those directories doesn't appear to matter (at least, a lot less than it matters with git-svn).&lt;/p&gt;
+&lt;p&gt;For example, I was able to clone the complete Django repository. The repository contains represents SVN trunk as the &lt;tt class=&quot;docutils literal&quot;&gt;default&lt;/tt&gt; branch, and creates internal branches for each of the branches for each, and ended up with a repository where &lt;tt class=&quot;docutils literal&quot;&gt;trunk&lt;/tt&gt; is the &lt;tt class=&quot;docutils literal&quot;&gt;default&lt;/tt&gt; branch, and each of the SVN branches are represented in the clone:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+kronkite:django rkm$ hg branches
+0.96-bugfixes              11237:04a273c619a1
+soc2009/model-validation   11236:da7d967cd1d3
+soc2009/i18n-improvements  11231:12da37d23998
+soc2009/admin-ui           11230:72ecf612cdcb
+soc2009/multidb            11228:b6a31d61ba90
+default                    11225:a8c596f1915f
+soc2009/test-improvements  11187:d8486ecb2e9f
+releases/1.0.X             11184:f4d145484767
+...
+&lt;/pre&gt;
+&lt;p&gt;SVN Tags are also imported:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+kronkite:django rkm$ hg tags
+tip                            11237:04a273c619a1
+releases/1.1                   11168:019f09dd0f74
+releases/1.0.3                 11163:d24312cdc2ad
+releases/0.96.4                11159:0d3dd0109d2c
+releases/1.0.2                  9313:11a6391f263e
+...
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;conclusion&quot;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So there you have it. I used git for the life of the v1.1 branch of Django. Now that I have a viable SVN clone in Mercurial, I'm aiming to use Mercurial for my work on the v1.2 branch. We'll have to wait and see which one wins out for v1.3.&lt;/p&gt;
+&lt;p&gt;If you have any comments or corrections to these notes, let me know &lt;a class=&quot;reference external&quot; href=&quot;mailto:russell&amp;#64;keith-magee.com&quot;&gt;via email&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Updated 10:25PM 15 August 2009: corrected the clone examples and explanation of ``svn+``&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/even-better-i-thought/">
+    <title type="text">Even better than I thought</title>
+    <id>urn:uuid:4daacf7d-d5a5-33f0-a566-2038a1791a74</id>
+    <updated>2009-07-08T13:35:06Z</updated>
+    <link href="https://cecinestpasun.com/entries/even-better-i-thought/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;Yesterday, I blogged about &lt;a class=&quot;reference external&quot; href=&quot;http://cecinestpasun.com/entries/doing-right-thing/&quot;&gt;a positive experience I had with Packt Publishing's relationship with Open Source projects&lt;/a&gt;. In that blog entry, I called on companies, including Packt, to give more back to the communities that produce Open Source, including financial contribution where possible.&lt;/p&gt;
+&lt;p&gt;It has since been drawn to my attention that Packt already contributes financially to the Django Foundation, as well as other Open Source projects. &lt;a class=&quot;reference external&quot; href=&quot;http://authors.packtpub.com/content/open-source-royalties&quot;&gt;Packt pays a royalty back to projects when they sell books on an Open Source topic&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Packt - I salute you again for this excellent policy, and I apologize for the error on my part.&lt;/p&gt;
+&lt;p&gt;My broader comment still stands: there are many companies that derive profit from open source, but give little if anything back to the projects from which they derive that profit. To those companies - I strongly encourage you to follow the example of Packt.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/oh-yeah-i-should-probably-mention/">
+    <title type="text">Oh yeah... I should probably mention...</title>
+    <id>urn:uuid:6b21f79c-52dc-3681-92d8-6fd54f60eb7e</id>
+    <updated>2009-07-07T12:08:55Z</updated>
+    <link href="https://cecinestpasun.com/entries/oh-yeah-i-should-probably-mention/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;In publishing my most recent blog entry, it occurred to me that I never actually got around to blogging about the fact that on June 19, my wife gave birth to a beautiful baby girl. I twittered, emailed, photographed, and phoned in just about every way possible... but forgot to blog about it.&lt;/p&gt;
+&lt;p&gt;So - At 11:23AM on June 19, Beatrix Ruth Lorraine Keith-Magee was brought into the world by caesarian section. She was a happy and healthy 3.2kg, and scored 9 on her Apgar test.&lt;/p&gt;
+&lt;p&gt;After some initial feeding problems, she has settled in nicely to a rhythm. Her brother Tobias is enraptured, as is her mother and father.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/doing-right-thing/">
+    <title type="text">Doing the right thing</title>
+    <id>urn:uuid:0e16caf9-07e3-3768-98b0-f360bde40fe4</id>
+    <updated>2009-07-07T12:06:12Z</updated>
+    <link href="https://cecinestpasun.com/entries/doing-right-thing/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;My life has been fairly busy of late. My daughter was born on June 19; Django v1.1 is almost out the door; and we have lots of &lt;a class=&quot;reference external&quot; href=&quot;http://wotnews.com.au&quot;&gt;interesting&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://wotnews.com&quot;&gt;stuff&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://wotnews.co.uk&quot;&gt;underway&lt;/a&gt; at &lt;a class=&quot;reference external&quot; href=&quot;http://wearehunted.com&quot;&gt;work&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So, when &lt;a class=&quot;reference external&quot; href=&quot;http://www.packtpub.com/&quot;&gt;Packt Publishing&lt;/a&gt; contacted me asking if I would like to review their recently released book, I declined. I barely have enough time to read books at the moment, let alone review them.&lt;/p&gt;
+&lt;p&gt;However, I asked if I could have a complimentary copy anyway. After all - I am a Django core developer, and if I (and many other people) hadn't volunteered my time to develop Django, Packt wouldn't have a topic to publish a book about.&lt;/p&gt;
+&lt;p&gt;To my surprise, they agreed. Sitting on my hard disk is a freshly downloaded copy of &lt;a class=&quot;reference external&quot; href=&quot;http://www.packtpub.com/django-1.0-template-design-practical-guide/book&quot;&gt;&amp;quot;Django 1.0 Template Development&amp;quot;, by Scott Newman&lt;/a&gt;. If Django template development sounds like something you might be interested in knowing more about, and you want to know more about this book, a &lt;a class=&quot;reference external&quot; href=&quot;http://www.packtpub.com/files/django-1-0-template-development-sample-chapter-6-serving-multiple-template&quot;&gt;sample chapter is available&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I find this kind of attitude encouraging. It would have been very easy to dismiss my request, but Packt took the opportunity to give a little something back to the community that enables them to derive financial benefit. In this case, it quite literally costs them nothing: it's an e-book, so there's no physical costs; I'm hardly the target audience, so this doesn't represent a lost sale opportunity. However, the gesture does gain Packt a lot of goodwill in my eyes.&lt;/p&gt;
+&lt;p&gt;Personally, I would like this sort of thing to become commonplace, rather than the exception. Donating five or ten books out of a print run to the core developers that maintain a project would hardly be a big expense for a major publisher, but it would mean a lot to the people (such as myself) that volunteer countless hours of their own time to manage and maintain open source projects.&lt;/p&gt;
+&lt;p&gt;Packt Publishing - I salute you. However, I also encourage you to make this a broader policy, not just a once-off offer to someone who took a chance by asking when approached. I call on other publishers to follow the example of Packt in this instance.&lt;/p&gt;
+&lt;p&gt;Of course, it need not stop at donated books, either. Financial or other contributions to fundraising foundations (such as the &lt;a class=&quot;reference external&quot; href=&quot;http://djangoproject.com/foundation&quot;&gt;Django Foundation&lt;/a&gt; would also be most welcome. I appreciate that this is a much harder sell, as it involves talking about real money. However, the issue runs deeper than an accounting line item.&lt;/p&gt;
+&lt;p&gt;As with many discussions about rights (be they human rights or intellectual property rights), the parallel issue of responsibilities is often overlooked. Yes, every human has certain inalienable rights - but those rights come with the responsibility of participating and contributing to their culture as a whole. This principle of responsibility was sufficiently important that it was enshrined as &lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights&quot;&gt;Section 29.1 of the Universal Declaration on Human Rights&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Similarly, while Open Source software comes with the right of free (as in beer and as in speech) use and redistribution, there is a responsibility to give back. For the individual, this can mean contributing help on a mailing list or IRC channel, or contributing patches. For corporations, this can be as simple as allowing employees to use company time to contribute to projects. Financial and in-kind contributions are another option. When the business model of a company is entirely based on leveraging open source products - such as publishing companies with an Open Source focus, or service companies that use Open Source exclusively - I believe there is a strong moral imperative to contribute in a meaningful and substantive way back to the communities that make their companies possible.&lt;/p&gt;
+&lt;p&gt;Packt has made one small step down this road. I'm proud to say that &lt;a class=&quot;reference external&quot; href=&quot;http://wotnews.com.au&quot;&gt;Wotnews&lt;/a&gt;, the company where I hang my shingle, is a company that has not only started down the road, but is now getting Frequent Flyer points for their travels. Right now, I'm in the process of organizing travel to &lt;a class=&quot;reference external&quot; href=&quot;http://djangocon.org&quot;&gt;DjangoCon09&lt;/a&gt;, and Wotnews has offered - for the second year in a row - to pick up the tab for my flight and conference expenses. Given that I'm based in Perth, and the conference is in Portland, this is a substantial contribution.&lt;/p&gt;
+&lt;p&gt;Stephen Phillips and Richard Slatter (Founder and General Manager, respectively, of Wotnews) were under no obligation to contribute in this way - or in any other way, for that matter - but they have taken the opportunity to give something back to the community that has provided the foundation for their own company. As a result, DjangoCon09 will benefit from having a core developer in attendance that wouldn't otherwise be able to make it.&lt;/p&gt;
+&lt;p&gt;The gesture is also deeply appreciated on a personal level. It's difficult to measure the depths of my gratitude to Stephen and Richard for running a company they way they do. Not only have they built a great team and work environment, but they fully acknowledge their responsibility to give back to the open source projects like Django that contribute to the success of Wotnews. I can only hope that if I am ever in a comparable position, I live up to the example that they have established in Wotnews.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/week-django/">
+    <title type="text">This Week in Django</title>
+    <id>urn:uuid:575a1490-633a-366d-a15e-901409d0b555</id>
+    <updated>2008-11-14T11:35:04Z</updated>
+    <link href="https://cecinestpasun.com/entries/week-django/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;This week, I was a guest on &lt;a class=&quot;reference external&quot; href=&quot;http://thisweekindjango.com/twid/episode/44/this-week-in-django-44/&quot;&gt;This Week in Django&lt;/a&gt;, a great podcast that tracks the weekly activities of the Django community. The audio has just been posted and made available through iTunes.&lt;/p&gt;
+&lt;p&gt;I had a great time doing the show, shooting the breeze about my history and contributions to Django, my plans for the future. It ran fairly long - 2 hours in the recording, 1:40 after editing - but I'm happy with the result. We covered a lot of ground, and after listening to the recording I'm not completely embarrassed by anything I said (although I really do need to get a better microphone and a less noisy chair).&lt;/p&gt;
+&lt;p&gt;As an added bonus, Michael spliced in a piece of post-interview discussion where I give a pretty good clue as to the origin of the numbers in my handle. In related news, I now have the honor of being the first guest on the show to give TWiD an explicit tag.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/what-no-comments/">
+    <title type="text">What! No comments?</title>
+    <id>urn:uuid:717bbe8a-30ca-32b3-bbfc-aa6ba79f646c</id>
+    <updated>2008-11-05T13:12:33Z</updated>
+    <link href="https://cecinestpasun.com/entries/what-no-comments/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;One interesting (and potentially controversial) feature of this blog is that there is no comment interface. What, you say! No comments! Sacrilege! Doesn't Russell understand the wisdom of the crowd? Is he so pig headed that he thinks he is always right and can't stomach dissent? Is he censoring debate?  What is he afraid of?&lt;/p&gt;
+&lt;p&gt;The real reason is this: when it comes to blog comments, I'm of the same mind as &lt;a class=&quot;reference external&quot; href=&quot;http://www.scripting.com/2007/01/01.html#theUneditedVoiceOfAPerson&quot;&gt;Dave Winer&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://www.joelonsoftware.com/items/2007/07/20.html&quot;&gt;Joel Spolsky&lt;/a&gt;: I don't believe blog comments enhance the process of online discussion. Messrs Winer and Spolsky raise valid points in their respective discussions, but I have some additional reasons for disliking comments.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;rhetoric-and-dialectic&quot;&gt;
+&lt;h2&gt;Rhetoric and Dialectic&lt;/h2&gt;
+&lt;p&gt;While an individual blog is an excellent forum for &lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Rhetoric&quot;&gt;rhetoric&lt;/a&gt;, it is not a good way to develop a &lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Dialectic&quot;&gt;dialectic&lt;/a&gt;. In the classical sense, Rhetoric is the art of persuasion by a single speaker. Dialectic, on the other hand, is the process of exchanging arguments and counterarguments, the outcome of which is a refutation of one of the points of view, or the synthesis of a new point of view representing the best parts of the two arguments.&lt;/p&gt;
+&lt;p&gt;Blogs are clearly an effective forum for rhetoric. Using a blog, a blogger can take as much time as necessary to  compose a compelling argument; anyone is free to read any blog they choose, and particularly compelling blog entries will soon find themselves linked to by others. If a blogger says something interesting or compelling in a blog entry, others will link to that entry, and many people will read the argument.&lt;/p&gt;
+&lt;p&gt;However, in order to have an effective dialectic, both speakers need parity in their speaking platform. On a blog with comments, the blogger and the commenter do not have this parity. Although you could theoretically write a multi-page blog comment, in practice, this isn't what happens. The format of blog comments encourages (and almost requires) short form responses, rapidly delivered. Those that take their time to compose a suitable comment response will find themselves a long way down a list of shorter responses, and if you take too long to compose a response, you may find that comments on the blog have been closed by the blog owner.&lt;/p&gt;
+&lt;p&gt;So how do you give both speakers parity? You give them both the same tools. Rather than trying to force one half of an argument into a comment box, you provide a way for both speakers to take the time to consider their responses. The dialectic evolves over time, in successive blog posts on different blogs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;community-fragmentation&quot;&gt;
+&lt;h2&gt;Community fragmentation&lt;/h2&gt;
+&lt;p&gt;A dialectic doesn't have to be confined to blogs - any forum where speakers have parity of position can yield a dialectic. For example, every non-trivial open source project will have some sort of forum for discussing the development of the project itself. In the Django community, this is the &lt;a class=&quot;reference external&quot; href=&quot;http://groups.google.com/group/django-developers&quot;&gt;django-developers&lt;/a&gt; mailing list.&lt;/p&gt;
+&lt;p&gt;A community around a project will usually contain a large number of bloggers. This community of blogs can provide an invaluable resource for individuals to explore ideas, discuss issues of relevance, and exchange helpful tips. However, each blog will only attract a subset of the entire community. There is only one point in the community that it is reasonable to assume that every community member will read - the central community forum.&lt;/p&gt;
+&lt;p&gt;When a blog carries comments, discussions will inevitably evolve around the subset of the community of that blog. Unfortunately, this can give the illusion that a vibrant and representative discussion is taking place, when in reality, only a small subset of the entire community is even aware that the discussion is taking place. Slowly, the community fragments into groups, none of whom are necessarily even aware that others exist. This fragmentation can be extremely destructive for a community.&lt;/p&gt;
+&lt;p&gt;If you remove blog comments from the equation, this problem becomes significantly reduced. In the absence of comments, it is a lot harder for a community subset to develop. The central point of discussion for the community remains where it should be - in the central community forum.&lt;/p&gt;
+&lt;p&gt;It takes a lot of effort to build a community, and to build a discussion resource with the critical mass necessary to make it self-sustaining. I don't have the time or inclination to build a community around this blog - especially when I have already spent so much time helping to develop a community around Django. I'm happy to post my opinions and tips on my blog, but I will continue to have Django design discussions in the appropriate forum - the django-developers mailing list.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;sturgeon-s-law&quot;&gt;
+&lt;h2&gt;Sturgeon's Law&lt;/h2&gt;
+&lt;p&gt;I'm a firm believer in &lt;em&gt;Sturgeon's Law&lt;/em&gt; - 99% of everything is crap. Blog comments are certainly no exception. Things are made worse by the fact in that the world of blog comments, Sturgeon's Law has a very important corollary: &lt;a class=&quot;reference external&quot; href=&quot;http://www.penny-arcade.com/comic/2004/03/19/&quot;&gt;John Gabriel's Internet F*ckwad theory&lt;/a&gt;. Frankly, I don't have enough time in my day as it is without having to spend it deleting spam, and wading through &amp;quot;Django iz teh suxx0r&amp;quot; comments to find a nugget of wisdom.&lt;/p&gt;
+&lt;p&gt;Forcing people to post responses in their own blogs has three effects:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;It raises the bar to entry by just a little bit. Any old moron can poke a comment in a comment box (and if the general level of internet discourse is any indication, morons do this with alarming regularity). By forcing comments into blogs, it means you have to be have to be smart enough to work out how to get a blog from any one of the dozen free blog hosting services on the internet. This isn't a huge barrier, but it's enough to stave off one particular class of ignorant obnoxious trolls.&lt;/li&gt;
+&lt;li&gt;It serves as a mild encouragement to say something interesting. If you're just commenting on a blog, it's easy to get away with &amp;quot;Me Too!!!111!!!!&amp;quot; as a comment, but if you have to go to the trouble of writing a publishing a blog entry on your own blog, you are more likely to go to the trouble of add a comment - even if only a brief one. I'm not interested in listening to an echo chamber - I want to hear real discussion and real debate.&lt;/li&gt;
+&lt;li&gt;I'm a big believer in personal attribution. If you have something to say, you should be able to say it - but you should also be responsible for what you have said. Anonymity can be important - if you're whistleblowing on government corruption, for example - but in general internet discourse it simply isn't required. People say all sorts of things on the internet that they wouldn't say in person under the guise of an anonymous login. On the other hand, people are generally proud of their blogs and homepages. By forcing people to closely associate their identity with their words, I believe it is possible to force people to think twice before posting something flagrantly inflammatory.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;summary&quot;&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I've been a citizen of the web for almost 15 years now. My position on blog comments is not theoretical or abstract - it's based on what have seen and absorbed over the years, and the places where I have found the most value. If you disagree, I ask that you ask yourself this one question: If every blog comment that has ever been written were to disappear tomorrow, would the world lose an important intellectual resource? I, for one, don't think they would be particularly missed.&lt;/p&gt;
+&lt;p&gt;Do you disagree with me? Then blog about it! I look forward to the dialectic.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/ezydvd-store-passwords-clear/">
+    <title type="text">EzyDVD store passwords in the clear</title>
+    <id>urn:uuid:bb2ba0e3-28ab-3bc0-9e46-1c147fd1ce02</id>
+    <updated>2008-10-24T10:06:01Z</updated>
+    <link href="https://cecinestpasun.com/entries/ezydvd-store-passwords-clear/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;I've been a customer of &lt;a class=&quot;reference external&quot; href=&quot;http://ezydvd.com.au&quot;&gt;EzyDVD&lt;/a&gt; for some time. They were one of the first players in Australia to take e-commerce seriously; I like their no-fuss website, and their customer service has always been very good.&lt;/p&gt;
+&lt;p&gt;However, I had a somewhat alarming experience recently. I had a problem with an order that I placed, so I emailed their customer service line. I didn't hear back from them, so I called their customer service line. The helpful lass on the other end of the phone solved my problem quickly.... but in the process was able to tell me my account password.&lt;/p&gt;
+&lt;p&gt;You don't have to be in this industry for long to know that &lt;a class=&quot;reference external&quot; href=&quot;http://blog.moertel.com/articles/2006/12/15/never-store-passwords-in-a-database&quot;&gt;storing passwords in clear-text is a bad idea&lt;/a&gt;. I've taken this up with their webmaster, but I haven't heard back yet. In the meantime - any readers that use EzyDVD - be warned.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/freakboy3742/">
+    <title type="text">freakboy3742</title>
+    <id>urn:uuid:2558ef75-0f3c-37f8-8b3b-a217719e280d</id>
+    <updated>2008-10-21T10:59:00Z</updated>
+    <link href="https://cecinestpasun.com/entries/freakboy3742/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;Once upon a time, I was an undergraduate at Curtin University of Technology. As a way of earning some extra cash, I worked as a tutor for the School of Computing. One of the subjects I taught was was &amp;quot;Information Technology 111&amp;quot; (otherwise known as IT111), an introductory &amp;quot;how to find the On switch&amp;quot; course.&lt;/p&gt;
+&lt;p&gt;IT111 was a compulsory course for Chemistry students, and for some reason, I ended up with a tutorial class that had a disproportionate number of female students... many of whom were quite familiar with the 'giggle and bat eyelids' school of eliciting help from male tutors.&lt;/p&gt;
+&lt;p&gt;One afternoon, I was teaching in one lab, while some of my eyelid-prone female students were working on an assignment in a different lab. They were quietly discussing a problem they were having, when one of them
+said quite loudly &amp;quot;Oh, I don't know - why don't you go ask Freakboy?&amp;quot;. Then two of them stood up, walked down the corridor, and into my lab.&lt;/p&gt;
+&lt;p&gt;How do I know this? One of my friends was sitting in the lab with them, and saw them walk down the corridor and into the lab where I was teaching. The name stuck, and the rest is history.&lt;/p&gt;
+&lt;p&gt;As for the 3742 - &lt;em&gt;freakboy&lt;/em&gt; is a surprisingly common handle, so the &lt;em&gt;3742&lt;/em&gt; is a way to make freakboy unique. The numbers themselves are drawn from one piece of geek culture, and one piece of cult film. I'll leave it as an exercise to the reader to work out the references.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="https://cecinestpasun.com/entries/yet-another-blog-engine/">
+    <title type="text">Yet Another Blog Engine</title>
+    <id>urn:uuid:71bb4be5-0cfc-397d-8ba4-018bd447d847</id>
+    <updated>2008-10-13T13:19:28Z</updated>
+    <link href="https://cecinestpasun.com/entries/yet-another-blog-engine/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;At &lt;a class=&quot;reference external&quot; href=&quot;http://djangocon.org&quot;&gt;DjangoCon 2008&lt;/a&gt;, Cal Henderson made a joke that everyone in the Django community has built, is building, or intends to build a blogging engine. He asked the audience to put up their hands if they were building a blogging engine. I put up my hand. Although I probably could have claimed blog-writer status through my work proofreading &lt;a class=&quot;reference external&quot; href=&quot;http://code.google.com/p/coltrane-blog&quot;&gt;coltrane&lt;/a&gt; for &lt;a class=&quot;reference external&quot; href=&quot;http://b-list.org/&quot;&gt;James Bennett's&lt;/a&gt; book &lt;a class=&quot;reference external&quot; href=&quot;http://www.apress.com/book/view/1590599969&quot;&gt;Practical Django Projects&lt;/a&gt;, this site is the real reason.&lt;/p&gt;
+&lt;p&gt;I've been meaning to set up a blog for a while. My old home page (finding it is left as an exercise to the reader) dates from my days in university, which means it is has been over a decade since it was written (by hand, with no dynamic content at all), and almost 5 years since I made any serious updates. Given that I volunteer a lot of my time working for a prominent web framework, this rates as a pretty bad case of the cobblers children having no shoes.&lt;/p&gt;
+&lt;p&gt;That said, I'm honestly not expecting to blog that much. I find writing to be an agonizing process. I am acutely aware of the power that words have, and I am also aware of the fact that I am by no means an expert wordsmith. However, from time to time there are things that I need to get off my chest, and from time to time I'm in a position to provide a useful tutorial, so its useful to have a podium from which to bludgeon some words into submission. I'm also hoping that by giving me a forum in which to exercise my writing muscles, this blog might make the act of writing a little less painful.&lt;/p&gt;
+&lt;p&gt;One point of interest regarding this blog: you may notice that there is no comment interface. This is deliberate. In the near future, I intend to blog to explain my reasons for this. In the meantime, if you feel the need to respond, write an entry in your own blog. If you don't have a blog, there are many &lt;a class=&quot;reference external&quot; href=&quot;http://blogger.com/&quot;&gt;freely&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://wordpress.com/&quot;&gt;available&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://livejournal.com/&quot;&gt;options&lt;/a&gt; - or you can do the Django thing and build your own.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
