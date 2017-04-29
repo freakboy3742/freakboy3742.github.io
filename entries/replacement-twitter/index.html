@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Ceci n'est pas un inspiration</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="Russell Keith-Magee" />
+        <!--link rel="shortcut icon" href="/media/img/favicon.png" /-->
+        <link rel="stylesheet" href="/static/css/cecinestpasun.css" media="screen" type="text/css"/>
+        
+        
+    </head>
+<body>
+    <div id='header'>
+        <div class='wrap'>
+            <p class="title">Ceci n'est pas un inspiration</p>
+            <p>The personal blog of Russell Keith-Magee</p>
+        </div>
+    </div>
+    <div class='wrap'>
+        <div id='main'>
+
+<div id="index">
+
+<p class="archive">Previous entry:<br/>
+    <a href="../../entries/expressing-disappointment-my-government/">Expressing disappointment in my government</a>
+</p>
+
+
+
+<p class="archive">Next entry:<br/>
+    <a href="../../entries/quo-vadimus/">Quo Vadimus</a>
+<p>
+
+</div>
+<div id="content">
+<p class="date">11:04 AM, 6 February 2016 </p>
+<h1>On a replacement for Twitter</h1>
+<p>I've been a user of Twitter for almost 8 years. Over that time, I've gone from a skeptic, to a regular user, to someone for whom Twitter is an indispensible tool for keeping in touch with the outside world. The tipping point for me was when I left my 9-5 office job and started working from home. All of a sudden, I lost the &quot;water cooler&quot; conversations that an office allows. Twitter provided that outlet.</p>
+<p>However, over the last few years, I've become acutely disappointed in Twitter as a product, and Twitter the company behind it. And I'm not alone; a number of my friends - the people who I'm on Twitter to keep in touch with - have abandoned the platform altogether.</p>
+<p>There are a litany of well established problems with Twitter as a platform. Twitter has consumed an ungodly amount of VC money, and has at their disposal an small army of engineers. Yet these not-insignificant resources are routinely being spent on features that nobody wants or needs.</p>
+<p>Some of these decisions are understandable. As part of becoming a financially viable company, Twitter needs to find an economic model that will validate their multi-billion dollar market cap. Since they've chosen an advertising driven revenue model, it's inevitable that a good chunk of their resources will be spent enhancing the advertisment delivery process. To that end, features like promoted tweets are inevitable, and while I don't like ads in my tweet stream, I can see why, given Twitter's business model, they are necessary.</p>
+<p>However, other engineering priorities are completely nonsensical. There are many aspects of Twitter's engineering priorities that could be criticized, but the most significant is their approach to handling (or <em>not</em> handling) spam and harassment. Twitter has made repeated statements that they will focus on harrassment on their platform. Every time this happens, well recognized experts in the field suggest things that could be done, many of which are quite simple. And Twitter takes that input, and directs their engineering team to change &quot;Favourites&quot; to &quot;Likes&quot;, or implement &quot;Polls&quot; And then 18 months later, another &quot;we take harassment seriously&quot; press release is published, and the cycle repeats.</p>
+<p>Over the last year or so, I've become increasingly of the opinion that Twitter's time has now passed. They've had plenty of opportunity to correct the problems with their platform. And instead of fixing the problems, they appear to be dedicated to making their platform worse. At this point, I'm looking for a replacement.</p>
+<div class="section" id="building-a-new-platform">
+<h2>Building a new platform</h2>
+<p>So - what would a replacement for Twitter look like?</p>
+<div class="section" id="native">
+<h3>Native</h3>
+<p>There's nothing wrong with having a website - it's a natural thing for a web service to have - but for a tool like a microblogging platform, it's essential that there is a native, well integrated app experience on both desktop and mobile platforms from Day One.</p>
+</div>
+<div class="section" id="decentralized">
+<h3>Decentralized</h3>
+<p>Microblogging platforms are the first communications protocols that are based on  monolithic central stores. All the protocols that have been of historical importance - email, Usenet, RSS - were all decentralized from the outset.</p>
+<p>The idea that all the world's communication is stored in a single company's database - be it Twitter, Google, or Facebook - scares me no end. It means if the company folds, an entire generation of content could be lost. It also makes an easy target for any government that wants to curtail or control speech.</p>
+<p>Decentralization has the added benefit that it is a better engineering solution. It's been a while since the Fail Whale was a regular occurrence, but a decentralized network would be much less prone to whole-network outages, and a harder target for malicious parties to attack.</p>
+</div>
+<div class="section" id="trust">
+<h3>Trust</h3>
+<p>As a monolithic silo, Twitter holds the keys to who is considered &quot;trusted&quot; on their platform. You can get the blue checkmark as a verified account, which enables (<em>ahem</em>) Brands to establish themselves as official mouthpieces - but beyond that, this verification process isn't very enlightening.</p>
+<p>Being decentralized introduces the opportunity for different measures of trust to be used. Imagine a decentralized network with a wide range of nodes providing authentication. One node might require members to provide proof of identity. Another might require all members to sign (and adhere to) a code of conduct. Yet another might allow entry by invitation only. This process of distribututed trust is then a source of data that can be used to acheive other goals.</p>
+</div>
+<div class="section" id="safety">
+<h3>Safety</h3>
+<p>If a platform has the a solid concept of trust networks at it's core, that means it's also in a much better position to deal with issues of harassment. For example, I could mark my account to refuse contact, or refuse to distribute my content that can't prove they've signed a CoC.</p>
+<p>The safety of people who are going to use the network needs to be the prime consideration, not an afterthought.</p>
+</div>
+<div class="section" id="a-protocol-not-a-platform">
+<h3>A Protocol, not a Platform</h3>
+<p>All of these points point to the important factor being the protocol, not the platform. While a solid reference implementation definitely needs to exist, it's also essential that others can develop their own protocol-compliant implementations, improving the reference implementation, and expanding upon it.</p>
+<p>It's also essential that the protocol itself have a mechanism for expansion. If I want to add a new type of content, I should be able to do so. It's then up to the writers of clients to determine if they need to support various protocol extensions.</p>
+</div>
+<div class="section" id="financially-viable">
+<h3>Financially viable</h3>
+<p>I'm not interested in adopting a new communications platform unless the future of that platform is secure. A lot of the poor decisions being made by Twitter are being made for financial, rather than enigneering or social reasons. This means that any new social network needs to have an answer for how they're going to be financially viable.</p>
+<p>This is something that <em>might</em> be achievable with VC money, but I think it's much more likely that the answer to this problem will be just as distributed as the network itself. VC's have tried to bootstrap several social networks with a huge piles of promotional cash - Path, Ello, Peach, and others - and each of these attempts has failed spectacularly.</p>
+<p>Nobody is going to leave Twitter in favour of an identical clone of Twitter. There needs to be a <em>reason</em> to adopt a new network, and money can't make people care. The features that <em>will</em> make people care - things like removing advertising or centralized control of the network - often reduce the value of the platform as a whole (or, at least, the value to investors, who want a return on their investment).</p>
+<p>App.net came close to achieving financial viability in 2012 - they sold subscriptions, and for a year or so, were financially viable. However, they weren't able to maintain subscriptions. This is largely because they didn't have an answer for...</p>
+</div>
+<div class="section" id="the-critical-mass-problem">
+<h3>The Critical Mass Problem</h3>
+<p>... how to deal with the cricital mass problem. For the moment, at least, almost everyone I know is on Twitter. Until a critical mass of my friends are on a new platform, I don't particularly want to run Yet Another Social Network Program on my computer and phone. When App.net started, I signed up... and then didn't use my account after a month, beacuse everyone I knew was still on Twitter.</p>
+<p>A new social network needs to have a good reason for people to commit to using it. This might happen because Twitter does something so monumentally stupid that everyone leaves at once, but there would need to be something waiting in the wings to take over.</p>
+<p>Alternatively, there needs to be a bridge between existing networks and new ones.</p>
+</div>
+<div class="section" id="ease-of-use">
+<h3>Ease of use</h3>
+<p>Above all, it should be no harder to get started with this new platform than it is to get started with Twitter. If your installation instructions start with &quot;First, generate a 4096-bit RSA public key&quot;, you've just failed.</p>
+</div>
+</div>
+<div class="section" id="satisfying-the-wish-list">
+<h2>Satisfying the wish list</h2>
+<p>The good news is that there are several decentralized microblogging platforms out there. The bad news is that unfortunately, they appear to be largely developed by people who are more interested in the technology than the platform. Advertising your network as being &quot;based on Bitcoin and Bittorrent&quot; doesn't tell me why I should use your platform - it tells me what technology you're using. Frankly, I don't care if my social network is implemented with carrier pigeons - as long as it lets me get the job done.</p>
+<p>A decentralized microblogging platform probably will use Distributed Hash Trees or blockchain technology - but that can't be the focus of development or the primary marketing message.</p>
+</div>
+<div class="section" id="my-dream-platform">
+<h2>My dream platform</h2>
+<p>So - how <em>do</em> we get a replacement for Twitter?</p>
+<p>Well, my dream platform would be a lot more than just a Twitter replacement - it would be a platform for building rich communication interfaces, with microblogging being just one important channel. Consider all the various ways that we communicate with each other at the moment:</p>
+<ul class="simple">
+<li>Microblogging platforms like Twitter and Facebook</li>
+<li>Sharing platforms like Flickr, Instagram, and Vine</li>
+<li>Long-form blogging platforms like WordPress and Medium</li>
+<li>Chat tools like IRC, ICQ, Hipchat and Slack</li>
+<li>Broadcast platforms like Twitch and Periscope</li>
+<li>Commenting platforms like Disqus</li>
+<li>Forum platforms like Discourse</li>
+<li>Formal communications over email</li>
+</ul>
+<p>Each of these types of media requires a different mode of interaction with the content they distribute - but they're fundamentally about getting a chunk of content - be it a 140 character tweet, a photo, or a streaming URL - from one user to one-or-many other users in a timely fashion, and soliciting responses in different forms.</p>
+<div class="section" id="making-it-real">
+<h3>Making it real</h3>
+<p>Of course, this sort of abstraction is, more often than not, a complete distraction to actually making a product real. However, in this case, I think it provides a path to potential financial stability, and a way to overcome the critical mass problem.</p>
+<p>The key point to remember is that all the content is linked and distributed using the same protocol. A long-form blog can be shared in the same way as a microblog message or a photo. A message can reply to a photo, or a photo reply to a blog post.</p>
+<p>This means you can pick on one of the services as a starting point, and as long as the protocol has room for expansion, other services can come later - and other parties can contribute applications that use the protocol.</p>
+<p>Financial viability comes in providing the &quot;first seed&quot;. A distributed protocol will require some nodes to be permanently available for discovery purposes. This is especially important in the early days, when there might not be enough participants in the network to ensure that content is shared efficiently. Providing this &quot;first seed&quot; service could be offered as a paid service.</p>
+<p>Why would people pay for this service? Well, this first seed could also provide the bridging services - gathering content from, and rebroadcasting content onto, existing social networks. For example, any short message or photo posted on the network could be reposted to Twitter; one of the roles of the paid service would be to provide a publicly visible web presence for any content shared.</p>
+<p>In these early days, the paid offering would look very similar to a hosted blogging or photo sharing platform. However, embedded in that blogging platform is the incentive for others to engage deeper with the platform - by creating an account on the network, you can interact with this hosted content in a richer way, and post your own content.</p>
+<p>Once the network is established, the bridging and seeding services will become less important, but other services - such as the trust and authentication network - will become more important.</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>Of course, the devil is absolutely in the detail. The core protocol design needs to be robust, the core marketing message of the initial product offering needs to be clear and polished so that it doesn't get written off as &quot;Yet Another X Clone&quot;, and the product itself actually has to be compelling.</p>
+<p>However, I really do think that the time is ripe for a new service to take the stage and change the web for the better. Twitter has made making too many mis-steps of late and hasn't shown any serious signs that they're interested in correcting them. Facebook doesn't present a fundamentally better vision of the future.</p>
+<p>But after 25 years of use, abuse, and refinement, some common patterns are starting to emerge in the way we communicate, and I think there's an opportunity to re-think the whole thing from the ground up, and build a decentralized platform for communication that incorporates concepts of authentication and trust at the core.</p>
+<p>I only wish I had enough time to look into this more seriously. As it stands, I already have far too many side projects - and a project like this could easily become all consuming.</p>
+<p>In the meantime, if you want to share your thoughts about this, I'm <a class="reference external" href="https://twitter.com/freakboy3742">&#64;freakboy3742 on Twitter</a>. If I ever end up on another platform, I imagine I'll be <tt class="docutils literal">&#64;freakboy3742</tt> there, too.</p>
+</div>
+
+<hr/>
+</div>
+</div>
+        <div id='nav'>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/entries/">Blog</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/inspiration/">Inspiration</a></li>
+                <li><a href="/about/">About Me</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/colophon/">Colophon</a></li>
+            </ul>
+        </div>
+        <div id='footer'>
+            <p>Copyright &copy; 2017 Russell Keith-Magee</p>
+        </div>
+    </div>
+
+    <!-- Google Analytics tracking -->
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-2943925-2");
+    pageTracker._trackPageview();
+    </script>
+</body>
+</html>
