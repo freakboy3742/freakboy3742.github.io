@@ -6,8 +6,8 @@ lektor-rst = 0.1
 lektor-github-repos = 0.1.1
 
 [servers.ghpages]
-target = ghpages://freakboy3742/cecinespasun.com?cname=cecinespasun.com
+target = ghpages://freakboy3742/cecinestpasun.com?cname=cecinestpasun.com
 default = yes
 
 [servers.ghpages-https]
-target = ghpages+https://freakboy3742/cecinespasun.com?cname=cecinespasun.com
+target = ghpages+https://freakboy3742/cecinestpasun.com?cname=cecinestpasun.com
