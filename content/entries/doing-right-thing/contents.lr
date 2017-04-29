@@ -1,0 +1,33 @@
+title: Doing the right thing
+---
+pub_date: 2009-07-07 12:06:12
+---
+excerpt: It's nice when people that make money off open source projects give back something to the projects from which they benefit. Packt Publishing just made my list of companies that know how to do the right thing. Wotnews is another.
+---
+body:
+
+My life has been fairly busy of late. My daughter was born on June 19; Django v1.1 is almost out the door; and we have lots of `interesting <http://wotnews.com.au>`_ `stuff <http://wotnews.com>`_ `underway <http://wotnews.co.uk>`_ at `work <http://wearehunted.com>`_.
+
+So, when `Packt Publishing <http://www.packtpub.com/>`_ contacted me asking if I would like to review their recently released book, I declined. I barely have enough time to read books at the moment, let alone review them.
+
+However, I asked if I could have a complimentary copy anyway. After all - I am a Django core developer, and if I (and many other people) hadn't volunteered my time to develop Django, Packt wouldn't have a topic to publish a book about.
+
+To my surprise, they agreed. Sitting on my hard disk is a freshly downloaded copy of `"Django 1.0 Template Development", by Scott Newman <http://www.packtpub.com/django-1.0-template-design-practical-guide/book>`_. If Django template development sounds like something you might be interested in knowing more about, and you want to know more about this book, a `sample chapter is available <http://www.packtpub.com/files/django-1-0-template-development-sample-chapter-6-serving-multiple-template>`_.
+
+I find this kind of attitude encouraging. It would have been very easy to dismiss my request, but Packt took the opportunity to give a little something back to the community that enables them to derive financial benefit. In this case, it quite literally costs them nothing: it's an e-book, so there's no physical costs; I'm hardly the target audience, so this doesn't represent a lost sale opportunity. However, the gesture does gain Packt a lot of goodwill in my eyes.
+
+Personally, I would like this sort of thing to become commonplace, rather than the exception. Donating five or ten books out of a print run to the core developers that maintain a project would hardly be a big expense for a major publisher, but it would mean a lot to the people (such as myself) that volunteer countless hours of their own time to manage and maintain open source projects.
+
+Packt Publishing - I salute you. However, I also encourage you to make this a broader policy, not just a once-off offer to someone who took a chance by asking when approached. I call on other publishers to follow the example of Packt in this instance.
+
+Of course, it need not stop at donated books, either. Financial or other contributions to fundraising foundations (such as the `Django Foundation <http://djangoproject.com/foundation>`_ would also be most welcome. I appreciate that this is a much harder sell, as it involves talking about real money. However, the issue runs deeper than an accounting line item.
+
+As with many discussions about rights (be they human rights or intellectual property rights), the parallel issue of responsibilities is often overlooked. Yes, every human has certain inalienable rights - but those rights come with the responsibility of participating and contributing to their culture as a whole. This principle of responsibility was sufficiently important that it was enshrined as `Section 29.1 of the Universal Declaration on Human Rights <http://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights>`_.
+
+Similarly, while Open Source software comes with the right of free (as in beer and as in speech) use and redistribution, there is a responsibility to give back. For the individual, this can mean contributing help on a mailing list or IRC channel, or contributing patches. For corporations, this can be as simple as allowing employees to use company time to contribute to projects. Financial and in-kind contributions are another option. When the business model of a company is entirely based on leveraging open source products - such as publishing companies with an Open Source focus, or service companies that use Open Source exclusively - I believe there is a strong moral imperative to contribute in a meaningful and substantive way back to the communities that make their companies possible.
+
+Packt has made one small step down this road. I'm proud to say that `Wotnews <http://wotnews.com.au>`_, the company where I hang my shingle, is a company that has not only started down the road, but is now getting Frequent Flyer points for their travels. Right now, I'm in the process of organizing travel to `DjangoCon09 <http://djangocon.org>`_, and Wotnews has offered - for the second year in a row - to pick up the tab for my flight and conference expenses. Given that I'm based in Perth, and the conference is in Portland, this is a substantial contribution.
+
+Stephen Phillips and Richard Slatter (Founder and General Manager, respectively, of Wotnews) were under no obligation to contribute in this way - or in any other way, for that matter - but they have taken the opportunity to give something back to the community that has provided the foundation for their own company. As a result, DjangoCon09 will benefit from having a core developer in attendance that wouldn't otherwise be able to make it.
+
+The gesture is also deeply appreciated on a personal level. It's difficult to measure the depths of my gratitude to Stephen and Richard for running a company they way they do. Not only have they built a great team and work environment, but they fully acknowledge their responsibility to give back to the open source projects like Django that contribute to the success of Wotnews. I can only hope that if I am ever in a comparable position, I live up to the example that they have established in Wotnews.

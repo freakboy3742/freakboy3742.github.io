@@ -1,0 +1,14 @@
+title: EzyDVD store passwords in the clear
+---
+pub_date: 2008-10-24 10:06:01
+---
+excerpt: A public service announcement - if you use EzyDVD, be aware that they store their passwords in the clear.
+---
+body:
+
+I've been a customer of `EzyDVD <http://ezydvd.com.au>`_ for some time. They were one of the first players in Australia to take e-commerce seriously; I like their no-fuss website, and their customer service has always been very good.
+
+However, I had a somewhat alarming experience recently. I had a problem with an order that I placed, so I emailed their customer service line. I didn't hear back from them, so I called their customer service line. The helpful lass on the other end of the phone solved my problem quickly.... but in the process was able to tell me my account password.
+
+You don't have to be in this industry for long to know that `storing passwords in clear-text is a bad idea <http://blog.moertel.com/articles/2006/12/15/never-store-passwords-in-a-database>`_. I've taken this up with their webmaster, but I haven't heard back yet. In the meantime - any readers that use EzyDVD - be warned.
+

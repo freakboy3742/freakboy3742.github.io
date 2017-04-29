@@ -1,0 +1,202 @@
+li.current {
+    background: #FFD06B;
+}
+
+body,
+html {
+    margin:0;
+    padding:0;
+    background:#ffffea;
+    color:#330e00;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+    color: #B85D00;
+}
+
+#content p.link {
+    text-align: right;
+}
+
+body {
+    min-width:50em;
+}
+
+.wrap {
+    margin:0 auto;
+    width: 50em;
+}
+
+#header {
+    background:#FFD06B;
+}
+
+#header .wrap {
+    width: 40em;
+}
+
+#header p {
+    margin-top: 0.4em;
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: left;
+    padding-bottom: 2em;
+}
+
+#header p.title {
+    margin:0;
+    padding-bottom: 0em;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 250%;
+    padding-top: 1em;
+}
+
+#main hr {
+    margin: 0 9em;
+    border: 1px solid #330e00;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.0em;
+    margin-top: 0;
+}
+
+#nav ul, #index ul {
+    padding-left: 0;
+    list-style:none;
+}
+
+#nav {
+    float:left;
+    width:8em;
+    line-height: 1.5em;
+}
+
+#nav ul li {
+    text-align:right;
+}
+
+#nav h3, #nav p {
+    padding:0 10px 0 0;
+}
+
+#main {
+    float:right;
+    width:45em;
+    line-height: 1.6em;
+    font-size: 90%;
+    padding-top: 1.4em;
+}
+
+#content {
+    width: 35em;
+}
+
+#content h1 {
+    padding:0 1em;
+}
+
+#content h2 {
+    padding:0 1em;
+}
+
+#content h3 {
+    padding:0 1em;
+}
+
+#content img.align-left {
+    float: left;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#content p {
+    padding:0 2em;
+}
+
+#content pre {
+    padding:0 2.2em;
+    margin: 0.2em;
+    background: white;
+    text-color: black;
+    border: 1px solid #330e00;
+}
+
+#content p.date, #content span.pingback {
+    font-variant: small-caps;
+    font-size: .8em;
+    padding-top: 0;
+    line-height: 1em;
+    padding: 0 1.6em;
+    margin: 2em 0 0.5em 0;
+}
+
+#content p.date:first-child, #content h1+p.date {
+    margin-top: 0;
+}
+
+#content blockquote {
+    margin: 0;
+    margin-bottom:1.2em;
+}
+
+#content blockquote p.location,#content blockquote p.context,#content blockquote p.author {
+    line-height: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: left;
+    font-size: 80%;
+    padding-left: 5em;
+}
+
+#content blockquote p.location {
+    font-style: italic;
+}
+
+#index {
+    float: right;
+    padding: 1em;
+    line-height: 1.5em;
+    max-width: 9em;
+}
+
+#index p {
+    padding: 0;
+}
+
+#index li {
+    padding: 0 0.5em;
+}
+
+#footer {
+    clear:both;
+    font-size: 80%;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#footer p {
+    padding:5px;
+    margin:auto;
+}
+
+a.anchor {
+    float:left;
+    margin-left:1.5em;
+    font-size: 150%;
+    text-decoration: none;
+}

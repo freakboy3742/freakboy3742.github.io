@@ -1,0 +1,11 @@
+{% macro render_blog_entry(entry) %}
+<p class="date">{{ entry.pub_date.strftime('%-I:%M %p, %-d %B %Y ') }}</p>
+<h1><a href="{{ entry|url }}">{{ entry.title }}</a></h1>
+{% if entry.excerpt %}{{ entry.excerpt }}{% endif %}
+<p class="link">
+    <a href="{{ entry|url }}">Read the full entry...</a>
+</p>
+<hr/>
+{% endmacro %}
+
+

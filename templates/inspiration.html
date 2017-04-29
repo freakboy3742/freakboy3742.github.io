@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% from "macros/quotation.html" import render_quotation %}
+{% block title %}inspiration{% endblock %}
+{% block header %}inspiration{% endblock %}
+{% block content %}
+<div id="content">
+<h1>Words</h1>
+<p>A word is a powerful instrument. When well chosen and well used, words can move us, inspire us, and force us into action. The following are a few well crafted passages that have captured my attention over the years.</p>
+{% for quote in this.children %}
+<hr />
+{{ render_quotation(quote, from_list=True) }}
+{% endfor %}
+</div>
+{% endblock %}

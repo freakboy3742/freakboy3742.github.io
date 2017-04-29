@@ -1,0 +1,13 @@
+[project]
+name = cecinestpasun
+
+[packages]
+lektor-rst = 0.1
+lektor-github-repos = 0.1.1
+
+[servers.ghpages]
+target = ghpages://freakboy3742/freakboy3742.github.io?cname=cecinespasun.com
+default = yes
+
+[servers.ghpages-https]
+target = ghpages+https://freakboy3742/freakboy3742.github.io?cname=cecinespasun.com

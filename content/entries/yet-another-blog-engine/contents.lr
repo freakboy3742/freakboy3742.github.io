@@ -1,0 +1,15 @@
+title: Yet Another Blog Engine
+---
+pub_date: 2008-10-13 13:19:28
+---
+excerpt: In which I announce my arrival in the land of the blogger.
+---
+body:
+
+At `DjangoCon 2008 <http://djangocon.org>`_, Cal Henderson made a joke that everyone in the Django community has built, is building, or intends to build a blogging engine. He asked the audience to put up their hands if they were building a blogging engine. I put up my hand. Although I probably could have claimed blog-writer status through my work proofreading `coltrane <http://code.google.com/p/coltrane-blog>`_ for `James Bennett's <http://b-list.org/>`_ book `Practical Django Projects <http://www.apress.com/book/view/1590599969>`_, this site is the real reason.
+
+I've been meaning to set up a blog for a while. My old home page (finding it is left as an exercise to the reader) dates from my days in university, which means it is has been over a decade since it was written (by hand, with no dynamic content at all), and almost 5 years since I made any serious updates. Given that I volunteer a lot of my time working for a prominent web framework, this rates as a pretty bad case of the cobblers children having no shoes.
+
+That said, I'm honestly not expecting to blog that much. I find writing to be an agonizing process. I am acutely aware of the power that words have, and I am also aware of the fact that I am by no means an expert wordsmith. However, from time to time there are things that I need to get off my chest, and from time to time I'm in a position to provide a useful tutorial, so its useful to have a podium from which to bludgeon some words into submission. I'm also hoping that by giving me a forum in which to exercise my writing muscles, this blog might make the act of writing a little less painful.
+
+One point of interest regarding this blog: you may notice that there is no comment interface. This is deliberate. In the near future, I intend to blog to explain my reasons for this. In the meantime, if you feel the need to respond, write an entry in your own blog. If you don't have a blog, there are many `freely <http://blogger.com/>`_ `available <http://wordpress.com/>`_ `options <http://livejournal.com/>`_ - or you can do the Django thing and build your own.

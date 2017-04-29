@@ -1,0 +1,140 @@
+title: On a replacement for Twitter
+---
+pub_date: 2016-02-06 11:04:47
+---
+excerpt: I've been a user of Twitter for almost 8 years. But I think the time is ripe for Twitter to be replaced - with a tool that has a much broader scope than just "microblogging".
+---
+body:
+
+I've been a user of Twitter for almost 8 years. Over that time, I've gone from a skeptic, to a regular user, to someone for whom Twitter is an indispensible tool for keeping in touch with the outside world. The tipping point for me was when I left my 9-5 office job and started working from home. All of a sudden, I lost the "water cooler" conversations that an office allows. Twitter provided that outlet.
+
+However, over the last few years, I've become acutely disappointed in Twitter as a product, and Twitter the company behind it. And I'm not alone; a number of my friends - the people who I'm on Twitter to keep in touch with - have abandoned the platform altogether.
+
+There are a litany of well established problems with Twitter as a platform. Twitter has consumed an ungodly amount of VC money, and has at their disposal an small army of engineers. Yet these not-insignificant resources are routinely being spent on features that nobody wants or needs.
+
+Some of these decisions are understandable. As part of becoming a financially viable company, Twitter needs to find an economic model that will validate their multi-billion dollar market cap. Since they've chosen an advertising driven revenue model, it's inevitable that a good chunk of their resources will be spent enhancing the advertisment delivery process. To that end, features like promoted tweets are inevitable, and while I don't like ads in my tweet stream, I can see why, given Twitter's business model, they are necessary.
+
+However, other engineering priorities are completely nonsensical. There are many aspects of Twitter's engineering priorities that could be criticized, but the most significant is their approach to handling (or *not* handling) spam and harassment. Twitter has made repeated statements that they will focus on harrassment on their platform. Every time this happens, well recognized experts in the field suggest things that could be done, many of which are quite simple. And Twitter takes that input, and directs their engineering team to change "Favourites" to "Likes", or implement "Polls" And then 18 months later, another "we take harassment seriously" press release is published, and the cycle repeats.
+
+Over the last year or so, I've become increasingly of the opinion that Twitter's time has now passed. They've had plenty of opportunity to correct the problems with their platform. And instead of fixing the problems, they appear to be dedicated to making their platform worse. At this point, I'm looking for a replacement.
+
+Building a new platform
+~~~~~~~~~~~~~~~~~~~~~~~
+
+So - what would a replacement for Twitter look like?
+
+Native
+-------
+
+There's nothing wrong with having a website - it's a natural thing for a web service to have - but for a tool like a microblogging platform, it's essential that there is a native, well integrated app experience on both desktop and mobile platforms from Day One.
+
+Decentralized
+--------------
+
+Microblogging platforms are the first communications protocols that are based on  monolithic central stores. All the protocols that have been of historical importance - email, Usenet, RSS - were all decentralized from the outset.
+
+The idea that all the world's communication is stored in a single company's database - be it Twitter, Google, or Facebook - scares me no end. It means if the company folds, an entire generation of content could be lost. It also makes an easy target for any government that wants to curtail or control speech.
+
+Decentralization has the added benefit that it is a better engineering solution. It's been a while since the Fail Whale was a regular occurrence, but a decentralized network would be much less prone to whole-network outages, and a harder target for malicious parties to attack.
+
+Trust
+------
+
+As a monolithic silo, Twitter holds the keys to who is considered "trusted" on their platform. You can get the blue checkmark as a verified account, which enables (*ahem*) Brands to establish themselves as official mouthpieces - but beyond that, this verification process isn't very enlightening.
+
+Being decentralized introduces the opportunity for different measures of trust to be used. Imagine a decentralized network with a wide range of nodes providing authentication. One node might require members to provide proof of identity. Another might require all members to sign (and adhere to) a code of conduct. Yet another might allow entry by invitation only. This process of distribututed trust is then a source of data that can be used to acheive other goals.
+
+Safety
+-------
+
+If a platform has the a solid concept of trust networks at it's core, that means it's also in a much better position to deal with issues of harassment. For example, I could mark my account to refuse contact, or refuse to distribute my content that can't prove they've signed a CoC.
+
+The safety of people who are going to use the network needs to be the prime consideration, not an afterthought.
+
+A Protocol, not a Platform
+---------------------------
+
+All of these points point to the important factor being the protocol, not the platform. While a solid reference implementation definitely needs to exist, it's also essential that others can develop their own protocol-compliant implementations, improving the reference implementation, and expanding upon it.
+
+It's also essential that the protocol itself have a mechanism for expansion. If I want to add a new type of content, I should be able to do so. It's then up to the writers of clients to determine if they need to support various protocol extensions.
+
+Financially viable
+-------------------
+
+I'm not interested in adopting a new communications platform unless the future of that platform is secure. A lot of the poor decisions being made by Twitter are being made for financial, rather than enigneering or social reasons. This means that any new social network needs to have an answer for how they're going to be financially viable.
+
+This is something that *might* be achievable with VC money, but I think it's much more likely that the answer to this problem will be just as distributed as the network itself. VC's have tried to bootstrap several social networks with a huge piles of promotional cash - Path, Ello, Peach, and others - and each of these attempts has failed spectacularly.
+
+Nobody is going to leave Twitter in favour of an identical clone of Twitter. There needs to be a *reason* to adopt a new network, and money can't make people care. The features that *will* make people care - things like removing advertising or centralized control of the network - often reduce the value of the platform as a whole (or, at least, the value to investors, who want a return on their investment).
+
+App.net came close to achieving financial viability in 2012 - they sold subscriptions, and for a year or so, were financially viable. However, they weren't able to maintain subscriptions. This is largely because they didn't have an answer for...
+
+The Critical Mass Problem
+--------------------------
+
+... how to deal with the cricital mass problem. For the moment, at least, almost everyone I know is on Twitter. Until a critical mass of my friends are on a new platform, I don't particularly want to run Yet Another Social Network Program on my computer and phone. When App.net started, I signed up... and then didn't use my account after a month, beacuse everyone I knew was still on Twitter.
+
+A new social network needs to have a good reason for people to commit to using it. This might happen because Twitter does something so monumentally stupid that everyone leaves at once, but there would need to be something waiting in the wings to take over.
+
+Alternatively, there needs to be a bridge between existing networks and new ones.
+
+Ease of use
+------------
+
+Above all, it should be no harder to get started with this new platform than it is to get started with Twitter. If your installation instructions start with "First, generate a 4096-bit RSA public key", you've just failed.
+
+Satisfying the wish list
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+The good news is that there are several decentralized microblogging platforms out there. The bad news is that unfortunately, they appear to be largely developed by people who are more interested in the technology than the platform. Advertising your network as being "based on Bitcoin and Bittorrent" doesn't tell me why I should use your platform - it tells me what technology you're using. Frankly, I don't care if my social network is implemented with carrier pigeons - as long as it lets me get the job done.
+
+A decentralized microblogging platform probably will use Distributed Hash Trees or blockchain technology - but that can't be the focus of development or the primary marketing message.
+
+My dream platform
+~~~~~~~~~~~~~~~~~
+
+So - how *do* we get a replacement for Twitter?
+
+Well, my dream platform would be a lot more than just a Twitter replacement - it would be a platform for building rich communication interfaces, with microblogging being just one important channel. Consider all the various ways that we communicate with each other at the moment:
+
+* Microblogging platforms like Twitter and Facebook
+* Sharing platforms like Flickr, Instagram, and Vine
+* Long-form blogging platforms like WordPress and Medium
+* Chat tools like IRC, ICQ, Hipchat and Slack
+* Broadcast platforms like Twitch and Periscope
+* Commenting platforms like Disqus
+* Forum platforms like Discourse
+* Formal communications over email
+
+Each of these types of media requires a different mode of interaction with the content they distribute - but they're fundamentally about getting a chunk of content - be it a 140 character tweet, a photo, or a streaming URL - from one user to one-or-many other users in a timely fashion, and soliciting responses in different forms.
+
+Making it real
+---------------
+
+Of course, this sort of abstraction is, more often than not, a complete distraction to actually making a product real. However, in this case, I think it provides a path to potential financial stability, and a way to overcome the critical mass problem.
+
+The key point to remember is that all the content is linked and distributed using the same protocol. A long-form blog can be shared in the same way as a microblog message or a photo. A message can reply to a photo, or a photo reply to a blog post.
+
+This means you can pick on one of the services as a starting point, and as long as the protocol has room for expansion, other services can come later - and other parties can contribute applications that use the protocol.
+
+Financial viability comes in providing the "first seed". A distributed protocol will require some nodes to be permanently available for discovery purposes. This is especially important in the early days, when there might not be enough participants in the network to ensure that content is shared efficiently. Providing this "first seed" service could be offered as a paid service.
+
+Why would people pay for this service? Well, this first seed could also provide the bridging services - gathering content from, and rebroadcasting content onto, existing social networks. For example, any short message or photo posted on the network could be reposted to Twitter; one of the roles of the paid service would be to provide a publicly visible web presence for any content shared.
+
+In these early days, the paid offering would look very similar to a hosted blogging or photo sharing platform. However, embedded in that blogging platform is the incentive for others to engage deeper with the platform - by creating an account on the network, you can interact with this hosted content in a richer way, and post your own content.
+
+Once the network is established, the bridging and seeding services will become less important, but other services - such as the trust and authentication network - will become more important.
+
+Conclusion
+~~~~~~~~~~~
+
+Of course, the devil is absolutely in the detail. The core protocol design needs to be robust, the core marketing message of the initial product offering needs to be clear and polished so that it doesn't get written off as "Yet Another X Clone", and the product itself actually has to be compelling.
+
+However, I really do think that the time is ripe for a new service to take the stage and change the web for the better. Twitter has made making too many mis-steps of late and hasn't shown any serious signs that they're interested in correcting them. Facebook doesn't present a fundamentally better vision of the future.
+
+But after 25 years of use, abuse, and refinement, some common patterns are starting to emerge in the way we communicate, and I think there's an opportunity to re-think the whole thing from the ground up, and build a decentralized platform for communication that incorporates concepts of authentication and trust at the core.
+
+I only wish I had enough time to look into this more seriously. As it stands, I already have far too many side projects - and a project like this could easily become all consuming.
+
+In the meantime, if you want to share your thoughts about this, I'm `@freakboy3742 on Twitter <https://twitter.com/freakboy3742>`_. If I ever end up on another platform, I imagine I'll be ``@freakboy3742`` there, too.
+

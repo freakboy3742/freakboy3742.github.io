@@ -1,0 +1,29 @@
+title: Personal funding, and the culture of open source
+---
+pub_date: 2012-07-05 15:10:00
+---
+excerpt: Can personal funding really work? Or does it require a cultural shift that our community isn't able to make?
+---
+body:
+
+**Update 1 Jan 2015** Following the decision by the Gittip (now Gratipay) community to `continue to support Neonazis and serial abusers <https://github.com/gratipay/inside.gratipay.com/issues/118>`_, I am no longer subscribed to or recommend the use of the Gittip platform.
+
+------
+
+Yesterday, Alex Gaynor posted a blog entry expressing his `views on personal funding <http://alexgaynor.net/2012/jul/04/why-personal-funding/>`_.
+
+I'm in complete agreement with Alex's premise (with the same this-is-potentially-self-serving caveat). The Open Source community has generated some of the best software in the world, and done so with a fraction of the financial resources of comparable proprietary and commercial efforts. There are many projects that would benefit from having full-time attention rather than the spare time that currently keeps them alive.
+
+However, the problem I see is that in order for something like `Gittip <http://gittip.com>`_ to really work, there needs to be a fairly significant cultural shift in our community - not just amongst those that write the code, but amongst those who consume it.
+
+Alex said that he didn't think anyone has a moral obligation to give back, but I disagree. If someone uses code I wrote and open sourced, they don't have a moral obligation to give back *to me*, but in my opinion, they *do* have a moral obligation to give back *to the community* - to pay it forward, if you will. I don't care if they release their own code, answer questions on a mailing list, or triage bugs; I don't care if they're contributing to my project, or to someone else's entirely. With some notable exceptions (*cough*Alex*cough*), a freshly minted graduate probably won't be able to make contributions that are as significant as an experienced veteran of the industry. And some people won't be as talented and productive as others. But, on aggregate, over a lifetime working in the industry, everyone should aspire to make contributions to the community that are equal in value to what they have taken from the community - and if they aren't able to give back in kind, giving back financially is one way to square the ledger.
+
+Unfortunately, my experience has been that most people gloss over the philosophical arguments in favour of open source, and focus instead on the price, viewing open source as a cheap way to fill a software stack. As a result, they don't see an open source community that has given to them and to which they should also contribute. My experience has been that if you don't *have* to pay, the vast majority *won't* pay. I've been lucky to work at `one company <http://huntedmedia.com>`_ that went to great lengths to give back to Open Source. However, I've also worked at a company, and spoken to representatives of others, that, when asked to donate to an Open Source project that they have used to generate hundreds of thousands of dollars in revenue, asked - with a straight face - "What's in it for us?"
+
+If you need any more proof of this, look at the experience of charity organisations. Unless you're dealing with a "cool" cause, or you come up with a good gimmick, generating donations on any sort of useful scale is hard graft. It's very easy to say Github has 1.7 million users, and if every one of them donated just $1 a week, we'd have $1.7 million to direct at open source development every week. However, it's another thing entirely to get 1.7 million people to *actually* commit to that expense.
+
+But the whole personal funding approach won't work unless you can get a non-trivial proportion of those 1.7 million Github users to contribute financially. So for me, the real question is how to affect the social change that makes donation like this the rule, not the exception. Unless there's a plan for how to get to there from here, my concern is that `Gittip <http://gittip.com>`_ won't move beyond a well-intentioned, but small-scale experiment.
+
+Unfortunately, the only options I can think of involve changing the very dynamics that have made open source successful in the first place. Any attempt to punish people who aren't donors will only serve to drive them away from considering open source as an option in the first place. Given that we're starting from a position where money is the scarce resource, we don't really have any rewards that can be offered, other than the warm sensation of knowing that you've contributed. On top of that, anything with a financial component will be disproportionally onerous to students, or anyone in a developing economy.
+
+`Gittip <http://gittip.com>`_ has certainly got a discussion going. I'm very happy that the discussion is happening, and I'm eager to see where it leads. However, I'd like to think that we can do better than just hoping and praying that this week's "beer money"-level donations grow organically until they're "rent money". If personal funding really is the way to drive the development of open source work - and I certainly hope it is - we're going to need a better plan than that.

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}inspiration{% endblock %}
+{% block header %}inspiration{% endblock %}
+{% block content %}
+
+<div id="index">
+{% if this.has_next() %}
+<p class="archive">Previous entry:<br/>
+    <a href="{{ this.get_siblings().next_page|url }}">{{ this.get_siblings().next_page.title }}</a>
+</p>
+{% endif %}
+
+{% if this.has_prev() %}
+<p class="archive">Next entry:<br/>
+    <a href="{{ this.get_siblings().prev_page|url }}">{{ this.get_siblings().prev_page.title }}</a>
+<p>
+{% endif %}
+</div>
+<div id="content">
+<p class="date">{{ this.pub_date.strftime('%-I:%M %p, %-d %B %Y ') }}</p>
+<h1>{{ this.title }}</h1>
+{{ this.body }}
+<hr/>
+</div>
+{% endblock %}

@@ -1,0 +1,54 @@
+title: What! No comments?
+---
+pub_date: 2008-11-05 13:12:33
+---
+excerpt: Wherein I explain why I haven't enabled comments on my blog.
+---
+body:
+
+One interesting (and potentially controversial) feature of this blog is that there is no comment interface. What, you say! No comments! Sacrilege! Doesn't Russell understand the wisdom of the crowd? Is he so pig headed that he thinks he is always right and can't stomach dissent? Is he censoring debate?  What is he afraid of?
+
+The real reason is this: when it comes to blog comments, I'm of the same mind as `Dave Winer <http://www.scripting.com/2007/01/01.html#theUneditedVoiceOfAPerson>`_ and `Joel Spolsky <http://www.joelonsoftware.com/items/2007/07/20.html>`_: I don't believe blog comments enhance the process of online discussion. Messrs Winer and Spolsky raise valid points in their respective discussions, but I have some additional reasons for disliking comments.
+
+Rhetoric and Dialectic
+------------------------
+
+While an individual blog is an excellent forum for `rhetoric <http://en.wikipedia.org/wiki/Rhetoric>`_, it is not a good way to develop a `dialectic <http://en.wikipedia.org/wiki/Dialectic>`_. In the classical sense, Rhetoric is the art of persuasion by a single speaker. Dialectic, on the other hand, is the process of exchanging arguments and counterarguments, the outcome of which is a refutation of one of the points of view, or the synthesis of a new point of view representing the best parts of the two arguments.
+
+Blogs are clearly an effective forum for rhetoric. Using a blog, a blogger can take as much time as necessary to  compose a compelling argument; anyone is free to read any blog they choose, and particularly compelling blog entries will soon find themselves linked to by others. If a blogger says something interesting or compelling in a blog entry, others will link to that entry, and many people will read the argument.
+
+However, in order to have an effective dialectic, both speakers need parity in their speaking platform. On a blog with comments, the blogger and the commenter do not have this parity. Although you could theoretically write a multi-page blog comment, in practice, this isn't what happens. The format of blog comments encourages (and almost requires) short form responses, rapidly delivered. Those that take their time to compose a suitable comment response will find themselves a long way down a list of shorter responses, and if you take too long to compose a response, you may find that comments on the blog have been closed by the blog owner.
+
+So how do you give both speakers parity? You give them both the same tools. Rather than trying to force one half of an argument into a comment box, you provide a way for both speakers to take the time to consider their responses. The dialectic evolves over time, in successive blog posts on different blogs.
+
+Community fragmentation
+-------------------------
+
+A dialectic doesn't have to be confined to blogs - any forum where speakers have parity of position can yield a dialectic. For example, every non-trivial open source project will have some sort of forum for discussing the development of the project itself. In the Django community, this is the `django-developers <http://groups.google.com/group/django-developers>`_ mailing list.
+
+A community around a project will usually contain a large number of bloggers. This community of blogs can provide an invaluable resource for individuals to explore ideas, discuss issues of relevance, and exchange helpful tips. However, each blog will only attract a subset of the entire community. There is only one point in the community that it is reasonable to assume that every community member will read - the central community forum.
+
+When a blog carries comments, discussions will inevitably evolve around the subset of the community of that blog. Unfortunately, this can give the illusion that a vibrant and representative discussion is taking place, when in reality, only a small subset of the entire community is even aware that the discussion is taking place. Slowly, the community fragments into groups, none of whom are necessarily even aware that others exist. This fragmentation can be extremely destructive for a community.
+
+If you remove blog comments from the equation, this problem becomes significantly reduced. In the absence of comments, it is a lot harder for a community subset to develop. The central point of discussion for the community remains where it should be - in the central community forum.
+
+It takes a lot of effort to build a community, and to build a discussion resource with the critical mass necessary to make it self-sustaining. I don't have the time or inclination to build a community around this blog - especially when I have already spent so much time helping to develop a community around Django. I'm happy to post my opinions and tips on my blog, but I will continue to have Django design discussions in the appropriate forum - the django-developers mailing list.
+
+Sturgeon's Law
+----------------
+
+I'm a firm believer in *Sturgeon's Law* - 99% of everything is crap. Blog comments are certainly no exception. Things are made worse by the fact in that the world of blog comments, Sturgeon's Law has a very important corollary: `John Gabriel's Internet F*ckwad theory <http://www.penny-arcade.com/comic/2004/03/19/>`_. Frankly, I don't have enough time in my day as it is without having to spend it deleting spam, and wading through "Django iz teh suxx0r" comments to find a nugget of wisdom.
+
+Forcing people to post responses in their own blogs has three effects:
+
+ 1. It raises the bar to entry by just a little bit. Any old moron can poke a comment in a comment box (and if the general level of internet discourse is any indication, morons do this with alarming regularity). By forcing comments into blogs, it means you have to be have to be smart enough to work out how to get a blog from any one of the dozen free blog hosting services on the internet. This isn't a huge barrier, but it's enough to stave off one particular class of ignorant obnoxious trolls.
+ 2. It serves as a mild encouragement to say something interesting. If you're just commenting on a blog, it's easy to get away with "Me Too!!!111!!!!" as a comment, but if you have to go to the trouble of writing a publishing a blog entry on your own blog, you are more likely to go to the trouble of add a comment - even if only a brief one. I'm not interested in listening to an echo chamber - I want to hear real discussion and real debate.
+ 3. I'm a big believer in personal attribution. If you have something to say, you should be able to say it - but you should also be responsible for what you have said. Anonymity can be important - if you're whistleblowing on government corruption, for example - but in general internet discourse it simply isn't required. People say all sorts of things on the internet that they wouldn't say in person under the guise of an anonymous login. On the other hand, people are generally proud of their blogs and homepages. By forcing people to closely associate their identity with their words, I believe it is possible to force people to think twice before posting something flagrantly inflammatory.
+
+Summary
+---------
+
+I've been a citizen of the web for almost 15 years now. My position on blog comments is not theoretical or abstract - it's based on what have seen and absorbed over the years, and the places where I have found the most value. If you disagree, I ask that you ask yourself this one question: If every blog comment that has ever been written were to disappear tomorrow, would the world lose an important intellectual resource? I, for one, don't think they would be particularly missed.
+
+Do you disagree with me? Then blog about it! I look forward to the dialectic.
+

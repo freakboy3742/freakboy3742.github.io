@@ -1,0 +1,21 @@
+title: An end to my Evolution
+---
+pub_date: 2010-04-12 14:46:24
+---
+excerpt: Time to step down from one of my projects: Django Evolution.
+---
+body:
+
+I am stepping down as a maintainer of one of my open source projects - `Django Evolution <http://code.google.com/p/django-evolution>`_.
+
+This shouldn't come as a surprise to anyone - there hasn't been any significant development work done on Evolution in over a year. My personal commitments and my work on `Django core <http://djangoproject.com/>`_ are absorbing all my free time at present. As a result, I can't give Evolution the attention it needs or deserves, especially given the changes that will be required to update Evolution to work with Django 1.2.
+
+For me, Evolution was always a bit of an experiment. The documentation has always warned that Evolution was not production ready, and the bug tracker would back up that assessment. My aim with Evolution was to demonstrate that a semi-automated migration framework was possible, and to hopefully kickstart a development effort that would ultimately lead to a merge into Django's trunk.
+
+In a way, this *has* happened, just not in the way I intended. Following the release of Evolution, other schema migration projects have been announced -- most notably, `South <http://south.aeracode.org/>`_ -- and these project provide alternate approaches to the schema migration problem. Some of these projects have been successful, some have not; some have adapted ideas similar to those used by Evolution, some have taken alternative approaches.
+
+I'm disappointed that Evolution didn't meet all of my original goals, but I'm happy that the community has developed a bunch of solutions to the schema migration problem. A big thank you to everyone that helped out along the way -- especially Ben Khoo, who started the project with me; Christian Hammond, who joined as a co-developer later in the project; and anyone that took the time to report a bug, write up a patch, or contribute on the mailing list.
+
+Looking forward, I'm sure that the core Django project will look at this problem at some point in the future. I don't know what that will look like (although I have some ideas), but I'm looking forward to working with the community to provide a great framework that integrates the best that the community has to offer.
+
+In the meantime, Christian Hammond will be maintaining Django Evolution. Christian has a vested interest in Evolution surviving -- he uses it in `Review Board <http://www.reviewboard.org/>`_. I wish him all the best.

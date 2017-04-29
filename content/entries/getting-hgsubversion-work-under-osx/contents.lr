@@ -1,0 +1,141 @@
+title: Getting hgsubversion to work under OSX
+---
+pub_date: 2009-08-15 16:33:26
+---
+excerpt:
+
+How to get hgsubversion working on an OSX box.
+---
+body:
+
+I've been using git as a DVCS for about a year. One of the big selling points for git has been git-svn - a compatibility layer between Subversion repositories and the git client. This means you can continue to use your old SVN repository to store your code, but interact with it using a modern DVCS tool that allows for local (and offline) commits, local branches, etc.
+
+This has been an absolute godsend for my work with Django. Local commits, local branches, and git-stash have all become an indispensable part of my daily routine.
+
+However, git isn't the only DVCS. Of late, I've been experimenting with Mercurial. Mercurial doesn't ship with a direct equivalent of git-svn, but it does have a very robust plugin framework. One of the plugins that is available is `hgsubversion <http://www.bitbucket.org/durin42/hgsubversion/wiki/Home>`_ - a plugin that lets you treat a Subversion repository as if it were a public Mercurial repository.
+
+Almost a year ago, Ben Collins-Sussman `wrote a document <http://blog.red-bean.com/sussman/?p=116>`_ describing how to get hgsubversion working. However, that document appears to refer to an older version of hgsubversion, as some of the commands no longer appear relevant. It's also a more generic Unix tutorial, so it tends towards "compile the sources" as a solution for dependencies. When you have a stable binary platform like OSX, there is usually an easier way.
+
+For the benefit of my own memory later on, and for the benefit of anyone else in the same boat, here's an updated set of instructions, slightly tuned for OSX. The basic procedure should work for any other operating system, but you'll need to work out how to adapt the instructions for your local conditions.
+
+Install Mercurial
+~~~~~~~~~~~~~~~~~
+
+First, Install Mercurial. You need to have version 1.3 or greater. The default OSX installer works fine.
+
+Install Subversion
+~~~~~~~~~~~~~~~~~~
+
+hgsubversion requires the binding API from Subversion 1.5 or greater. CollabNet `publishes an OSX installer for Subversion <http://www.open.collab.net/downloads/community/>`_ that won't collide with the system version. Download and install this package. It will install Subversion 1.5 into `/opt/subversion`.
+
+Configure the shell environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In order for hgsubversion to know about the non-standard Subversion install, you need to configure the shell environment to point at the new version. Set the following environment variables so that hgsubversion can find the Subversion 1.5 bindings::
+
+    $ export DYLD_LIBRARY_PATH=/opt/subversion/lib:$DYLD_LIBRARY_PATH
+    $ export PYTHONPATH=/opt/subversion/lib/svn-python:$PYTHONPATH
+
+You can set these in a normal shell session, or, if you intend to make this a permanent arrangement, you can add these lines to `~/.bash_profile`. If you take the `.bash_profile` option, you would also be well advised to set the `PATH` so that the right subversion binary is available::
+
+    $ export PATH=/opt/subversion/bin:$PATH
+
+To check that this has worked, run the following at a shell prompt::
+
+    $ python -c "import svn.core; print svn.core.SVN_VER_MINOR"
+
+You should get a response of `5` or `6`. If you get `4`, you're still using the default 1.4 install of Subversion.
+
+Install hgsubversion
+~~~~~~~~~~~~~~~~~~~~
+
+hgsubversion is available as a Mercurial checkout. I put my tool checkouts into ``~/tools``; any other location will do (provided you adapt the later instructions)::
+
+    $ cd tools
+    $ hg clone http://bitbucket.org/durin42/hgsubversion
+
+Configure hgsubversion
+~~~~~~~~~~~~~~~~~~~~~~
+
+To enable the hgsubversion plugin, edit your ``~/.hgrc`` file and add the following lines to the ``[extensions]`` section::
+
+    rebase=
+    svn=/Users/rkm/tools/hgsubversion/hgsubversion
+
+Substitute your own home directory for ``/Users/rkm``; if you used a directory other that ``~/tools``, modify as appropriate. The important thing to note is that you're not referencing the hgsubversion directory that you cloned - you're referencing the hgsubversion directory *inside* the directory that you cloned.
+
+Clone your SVN repository
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Now you can clone your repository. For example, a public HTTP repository for a Google Code project could be cloned using::
+
+    $ hg clone svn+http://<project-name>.googlecode.com/svn project
+
+This will make a clone of the repository into a directory named ``project``. Note that the checkout *doesn't* contain the ``trunk`` part of the repository URL.
+
+You can also clone a password-protected repository. Again, using Google Code as an example::
+
+    $ hg clone svn+https://<project-name>.googlecode.com/svn project
+
+It's important to note the use of ``svn+https``. If you leave off the ``svn+``::
+
+    $ hg clone https://<project-name>.googlecode.com/svn project
+
+This will still work - however,  hgsubversion won't retain your HTTP credentials, so you'll need to re-enter them multiple times every time you pull or push updates.
+
+The cloning process will create a complete clone of every commit, every branch, and every tag, so this can take a while. If the clone is interrupted at any point (say, due to a network outage), you can resume the update with a simple ``hg pull``.
+
+Use your repository
+~~~~~~~~~~~~~~~~~~~
+
+Now you can use your repository. After editing some source files, you can commit, then push your changes::
+
+    $ hg commit
+    $ hg push
+
+This push will turn into a full subversion commit with the same commit message you gave to Mercurial. To retrieve repository updates::
+
+    $ hg pull
+    $ hg update
+
+or, if you have the fetch extension installed::
+
+    $ hg fetch
+
+Caveats
+~~~~~~~
+
+The one notable limitation of hgsubversion is that requires that your subversion repository follow the basic convention of having the root directories ``/trunk``, ``/branches`` and ``/tags``. However, structure inside those directories doesn't appear to matter (at least, a lot less than it matters with git-svn).
+
+For example, I was able to clone the complete Django repository. The repository contains represents SVN trunk as the ``default`` branch, and creates internal branches for each of the branches for each, and ended up with a repository where ``trunk`` is the ``default`` branch, and each of the SVN branches are represented in the clone::
+
+    kronkite:django rkm$ hg branches
+    0.96-bugfixes              11237:04a273c619a1
+    soc2009/model-validation   11236:da7d967cd1d3
+    soc2009/i18n-improvements  11231:12da37d23998
+    soc2009/admin-ui           11230:72ecf612cdcb
+    soc2009/multidb            11228:b6a31d61ba90
+    default                    11225:a8c596f1915f
+    soc2009/test-improvements  11187:d8486ecb2e9f
+    releases/1.0.X             11184:f4d145484767
+    ...
+
+SVN Tags are also imported::
+
+    kronkite:django rkm$ hg tags
+    tip                            11237:04a273c619a1
+    releases/1.1                   11168:019f09dd0f74
+    releases/1.0.3                 11163:d24312cdc2ad
+    releases/0.96.4                11159:0d3dd0109d2c
+    releases/1.0.2                  9313:11a6391f263e
+    ...
+
+Conclusion
+~~~~~~~~~~
+
+So there you have it. I used git for the life of the v1.1 branch of Django. Now that I have a viable SVN clone in Mercurial, I'm aiming to use Mercurial for my work on the v1.2 branch. We'll have to wait and see which one wins out for v1.3.
+
+If you have any comments or corrections to these notes, let me know `via email <mailto:russell@keith-magee.com>`_.
+
+**Updated 10:25PM 15 August 2009: corrected the clone examples and explanation of ``svn+``**
+

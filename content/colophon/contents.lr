@@ -1,0 +1,9 @@
+title: colophon
+---
+modify_title: yes
+---
+body:
+
+This blog is built using `Lektor <https://getlektor.com>`_. The source for the entire website is available on `GitHub <https://github.com/freakboy3742/cecinestpasun.com>`_.
+
+It is hosted using `Github Pages <https://pages.github.com>`_, using `Cloudflare <https://cloudflare.com>`_ to provide HTTPS.

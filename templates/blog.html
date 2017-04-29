@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% from "macros/entry.html" import render_blog_entry %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}inspiration{% endblock %}
+{% block header %}inspiration{% endblock %}
+{% block content %}
+<div id="content">
+{% for entry in this.pagination.items %}
+{{ render_blog_entry(entry) }}
+{% endfor %}
+{{ render_pagination(this.pagination) }}
+</div>
+{% endblock %}
