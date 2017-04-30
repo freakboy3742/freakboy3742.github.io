@@ -18,7 +18,7 @@
       <name></name>
     </author>
     <content type="html">&lt;p&gt;Almost nine years ago, I launched cecinestpasun.com as my personal blog. At the time it was a Django 1.0 site. I've used it intermittently, but never really paid any attention to it.&lt;/p&gt;
-&lt;p&gt;So, instead of persisting in the upkeep of a blog (and blog software) that is massive overkill for my small amount of publishing, I've moved the content over to &lt;a class=&quot;reference external&quot; href=&quot;https://getlektor.org&quot;&gt;Lektor&lt;/a&gt;, published as static content on &lt;a class=&quot;reference external&quot; href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;. I've used Lektor for the &lt;a class=&quot;reference external&quot; href=&quot;https://pybee.org&quot;&gt;BeeWare&lt;/a&gt; homepage, and it's proven very enjoyable to work with, and it allowed me to port over my old Django content in a morning.&lt;/p&gt;
+&lt;p&gt;So, instead of persisting in the upkeep of a blog (and blog software) that is massive overkill for my small amount of publishing, I've moved the content over to &lt;a class=&quot;reference external&quot; href=&quot;https://getlektor.com&quot;&gt;Lektor&lt;/a&gt;, published as static content on &lt;a class=&quot;reference external&quot; href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;. I've used Lektor for the &lt;a class=&quot;reference external&quot; href=&quot;https://pybee.org&quot;&gt;BeeWare&lt;/a&gt; homepage, and it's proven very enjoyable to work with, and it allowed me to port over my old Django content in a morning.&lt;/p&gt;
 &lt;p&gt;I'm hoping to to a visual refresh in the near future; but in the meantime, I can at least save some money on hosting.&lt;/p&gt;
 </content>
   </entry>
