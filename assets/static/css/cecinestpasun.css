@@ -166,6 +166,10 @@ h3 {
     font-style: italic;
 }
 
+#content ul p {
+    padding:0 0.5em;
+}
+
 #index {
     float: right;
     padding: 1em;
