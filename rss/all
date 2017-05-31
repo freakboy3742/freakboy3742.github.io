@@ -2,13 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Ceci n'est pas un blog</title>
   <id>urn:uuid:0a5263ca-4dee-3806-9b57-29cacde1b775</id>
-  <updated>2017-04-29T16:00:00Z</updated>
+  <updated>2017-05-31T08:00:00Z</updated>
   <link href="https://cecinestpasun.com/entries/" />
   <link href="https://cecinestpasun.com/rss/all/" rel="self" />
   <author>
     <name></name>
   </author>
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+  <entry xml:base="https://cecinestpasun.com/entries/searching-for-a-new-place-to-hang-my-hat/">
+    <title type="text">Searching for a new place to hang my hat</title>
+    <id>urn:uuid:f69d94c9-4733-3389-b749-d6dd6325aaeb</id>
+    <updated>2017-05-31T08:00:00Z</updated>
+    <link href="https://cecinestpasun.com/entries/searching-for-a-new-place-to-hang-my-hat/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;/entries/quo-vadimus/&quot;&gt;Back in January&lt;/a&gt;, I announced that I was shutting down TradesCloud, my 6-year old startup. I was very fortunate to be given a very soft landing with some good friends at &lt;a class=&quot;reference external&quot; href=&quot;https://jambonsw.com&quot;&gt;JamBon Software&lt;/a&gt;. However, that was a contract tied to a specific project; that project has now come to a close, and while I thoroughly enjoyed working with Andrew and the team at JamBon, the upcoming projects they have in their pipeline either don't match my skills, or would require me to be on-site.&lt;/p&gt;
+&lt;p&gt;This means I am, for the first time since completing my PhD 16 years ago, jobless.&lt;/p&gt;
+&lt;p&gt;I recently &lt;a class=&quot;reference external&quot; href=&quot;https://pybee.org/news/buzz/a-request-for-your-help/&quot;&gt;started fund raising&lt;/a&gt; with the aim of allowing me to work on BeeWare full time. I've had some fantastic support from the community, but I'm still a long way off being able to justify making BeeWare my full-time job.&lt;/p&gt;
+&lt;p&gt;I still want to try and make funded open source development work; but in the meantime, I need a job. So, this is a reverse job advertisment. I'm available for hire. Here's what I'm looking for.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;I'm based in Perth, Western Australia, and I'm not looking to relocate. I have  strong family ties in Perth, and some other personal reasons for not wanting to move - so unless an offer is &lt;em&gt;extraordinarily&lt;/em&gt; lucrative, I'm not looking to move.&lt;/p&gt;
+&lt;p&gt;I'd like to think that I've proven I can make telecommuting work. I've been telecommuting for almost 10 years now, spanning up to 12 time zones. Some of that telecommuting has been very public - after all, what is an open source project like Django but a huge telecommuting community.&lt;/p&gt;
+&lt;p&gt;And as my conference travel schedule will attest, I'm not opposed to travel - either for regular meetups with a dev team, or to be face-to-face with a customer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;I've developed a lot of reputation in the Python community with Django and BeeWare, so I'd like to stay in those communities and leverage that experience as much as possible. There's always room for other languages in any technology stack, but if my life doesn't contain a healthy dose of Python, I'm not going to be happy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;I don't have any particular domain of interest. I have a background in Physics and Artificial Intelligence, but I can get excited about surprisingly mundane problems - as my 5 year dalliance with plumbers and electricians will attest. As long as there's a technical challenge lurking, I can find interest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;I'm happiest as a developer when:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;I've got a problem to solve that has a clear success criteria. Implement protocol X. Make Y 20% faster. Build an interface between A and B. It's done when it works - no subjectivity or opinion about it.&lt;/li&gt;
+&lt;li&gt;I get to see the look in someone's eyes when you're teaching them, the penny drops, and they see some tangible result of their learning efforts.&lt;/li&gt;
+&lt;li&gt;I get to see someone in the wild actually use something I've developed to solve a real world problem.&lt;/li&gt;
+&lt;li&gt;I have long term engagement in a problem. I'm sure I could make a lucrative career in short-term consulting; but I need to feel invested in what I'm doing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;I enjoy working with diverse teams, and I expect employers to back that up, not just give lip service to the idea.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;I'm passionate about Open Source. I'm not a complete zealot - I appreciate that there is a place for commerical and proprietary software - but where possible, I like to collaborate and give back to the community as a whole. That means contributing to existing open source projects (like BeeWare and Django), or open sourcing internal tools that others may find useful. If a role at your company gave me the opportunity to work on BeeWare tools, that would be &lt;em&gt;amazing&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;While I've historically been in senior engineering and CTO roles, I'm interested in stretching into developer relations. I enjoy public speaking and delivering training. If there's a way for an employer to make use of the fact that I enjoy a stage, then I'm happy to oblige.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do I sound like someone who would be a good match for your team? If you think you've got a position that might be a good match, &lt;a class=&quot;reference external&quot; href=&quot;mailto:russell&amp;#64;keith-magee.com&quot;&gt;get in touch&lt;/a&gt;. I've also got a &lt;a class=&quot;reference external&quot; href=&quot;/about/CurriculumVitae-RussellKeith-Magee.pdf&quot;&gt;more traditional Curriculum Vitae&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry xml:base="https://cecinestpasun.com/entries/moving-to-lektor/">
     <title type="text">Moving to Lektor</title>
     <id>urn:uuid:5351fd9c-2324-3a63-a830-1f337079bd98</id>
