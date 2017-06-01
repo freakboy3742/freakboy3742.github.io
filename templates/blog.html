@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 {% from "macros/entry.html" import render_blog_entry %}
 {% from "macros/pagination.html" import render_pagination %}
-{% block title %}inspiration{% endblock %}
+{% block title %}un blog{% endblock %}
 {% block head%}
 <link href="/rss/all/" type="application/atom+xml" rel="alternate" title="Ceci n'est pas un blog" />
 {% endblock %}
-{% block header %}inspiration{% endblock %}
+{% block header %}un blog{% endblock %}
 {% block content %}
 <div id="content">
 {% for entry in this.pagination.items %}
