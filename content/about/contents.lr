@@ -27,7 +27,9 @@ Dr Russell Keith-Magee has been interested in computers since his parents bought
 
 Russell has been a core developer on the Django project since January 2006. He is a co-founder of Django Evolution, a schema evolution framework for Django. He is an active participant on the Django Users and Django Developers mailing lists, and has been a mentor in the Google Summer of Code every year since 2008.
 
-In addition to his work with Django, Russell has worked at a series of startup companies. His current employer is Wotnews, an online service that monitors news from thousands of sources across Australia including the major news networks, blogs, corporate newsletters, government and industry news publications. Wotnews sells enterprise level news aggregation and search services to major Australian companies.
+He is also the founder of the `BeeWare Project <https://pybee.org>`_ - a project developing tools and libraries for cross-platform native user interfaces in Python. One of the key contributions of this work is expanding the availability of Python onto mobile and browserplatforms.
+
+In addition to his work in the Python community, Russell has worked at a series of startup companies, including Wotnews, an online news monitoring service; Hunted Media, a website tracking emerging music artists and providing music recommendations; TradesCloud, providing back-office and mobile software for mid-size plumbers and electricians; and CertCycle, a service providing automated SSL certificate generation and installation.
 
 Russell lives with his wife, son, daughter, and two cats in Perth, Western Australia.
 
