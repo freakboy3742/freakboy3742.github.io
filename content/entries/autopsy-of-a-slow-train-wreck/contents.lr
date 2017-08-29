@@ -1,0 +1,243 @@
+title: Autopsy of a slow train wreck
+---
+excerpt: Everyone knows the story: armed with nothing more than a laptop and a dream, a couple of plucky geeks decide to take on the world: disrupting, innovating, and subverting their way to success.
+
+But it isn't always like that. In fact, it *usually* isn't. This is a case study of one such a failure - TradesCloud. What went right? What went wrong? And what you can learn from TradesCloud's mistakes if you're contemplating starting a business of your own?
+---
+pub_date: 2017-08-27 12:06:12
+---
+body:
+
+At `DjangoCon Europe 2017 <https://2017.djangocon.eu>`__, and again at `DjangoCon US 2017 <https://2017.djangocon.us>`__, I gave a talk entitled "Autopsy of a slow train wreck: The life and death of a Django startup". After I gave those presentations, a number of people requested that I publish the content in blog form so they could share it with colleagues.
+
+.. raw:: html
+
+    <iframe width="500" height="281" src="https://www.youtube.com/embed/DnR9PZS5WGE" frameborder="0" allowfullscreen=""></iframe>
+
+Transcript
+~~~~~~~~~~
+
+I've been a frequent (almost constant) fixture at DjangoCon events over the last 10 years. And if you met me at one of those DjangoCons in the last 6 years, or seen me speak, I may have introduced myself as the CTO and co-founder of TradesCloud. TradesCloud was a software as a service company for tradespeople - plumbers, electricians, carpenters and the like.
+
+TradesCloud was my startup. I say "was"... beacuse in January of this year, my business partner and I closed the doors on TradesCloud, and shut down the service.
+
+Gold-plated Lamborghinis
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+As an industry, we're fond of promoting the glossy side of startups. That a plucky bunch of engineers can take an idea and a personal credit card, build a business empire, and drive off into the sunset in a gold-plated Lamborghini.
+
+And yes - those unicorns - and gold plated lamborghinis - do exist. There are even a couple of them in the Django community (the unicorns, not the lamborghinis).
+
+But it's important to remember that those stories *are* unicorns. They're not the normal startup experience for most people.
+
+The reality...
+~~~~~~~~~~~~~~
+
+In the VC-backed startup world, the general expctation is that if a VC firm invests in 20 companies, only 1 of them will actually succeed spectacularly. 4 will have some sort of exit that at least results in a breakeven financially; but 15 will fail outright, with a significant or complete financial loss.
+
+Interestingly, this isn't something unique to tech. Tech does it at a much grander scale, especially when VCs are involved - but open any small business advice book - the sort that is targetted at the plumbers and electricians of the world - and they'll warn you that 50% of businesses fail in their first year.
+
+And yet, despite the fact that failure happens *all the time*, we don't talk about it. We don't talk about *why* things fail. And as a result, many of the same lessons have to be learned over and over again. Those that experience failure often feel like they're doing it alone, because of the significant social stigma associated with failure.
+
+So - this is my small attempt to restore the balance. In this talk, I'm going to talk about TradesCloud - *my* failed business. TradesCloud was a slow train wreck - we survived for 6 years, almost to the day. And we had plenty of optimism that success was just around the corner... but that never quite happened.
+
+What was Tradescloud?
+~~~~~~~~~~~~~~~~~~~~~
+
+But what was TradesCloud? What prompted me to dedicate 6 years of my life to it?
+
+Well, it started as a problem that thought I could solve. If you find yourself needing a plumber, how do you pick one? Well, 15 years ago, when I first had the idea for what became TradesCloud, the best option was opening the phone book and looking for the brightest, shiniest ad, maybe arranging a bunch of quotes, and pick one basically at random. If you were really lucky, you might be able to use Google - but that's still looking for the shiniest ad. If they turned out to be good... well we won't need a plumber for a while, so that knowledge is useless. And if they turn out to be awful... we can't warn anyone off, either.
+
+"There has to be a better way". And, of course, I did nothing about it. I say nothing - I did start tinkering around with a web framework... you may have heard of it... Django. I originally got involved in Django because I wanted to add aggregation functions to the ORM so I could compute average ratings. And in 2008, I mentored a student - Nicholas Lara - to add aggregation as a Summer of Code project. So... success?
+
+An idea is born...
+~~~~~~~~~~~~~~~~~~
+
+In late 2010, I met up with a former boss for a drink, and he tells me about his brother. His brother owns a pest control company, he has the same problem - but from a different angle - I'm looking for tradespeople in my area that can be reccomended - he is smaller company that wants to compete with the big players with the shinier ads based on quality of service.
+
+And so, TradesCloud was born. We had an idea. At the time, it wasn't called TradesCloud - it was called CleverPages - because it was going to be a clever Yellow Pages. In my spare time, I started hacking together a proof of concept.
+
+Mistake 1: Validate, *then* build
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+That was our first mistake, and the first mistake *most* tech-oriented people make. As much as Django sells itself as a rapid development framework, any non-trivial project still takes time and effort. And I spent a couple of months of spare time hacking together a proof of concept.
+
+German military strategist Helmuth von Moltke once noted "No battle plan survives contact with the enemy". Or, in non-military terms, Scottish poet Robert Burns said "The best-laid schemes o’ mice an’ men gang aft a-gley". And so it is with business ideas. All the time I spent working on that prototype could have been eliminated if I'd actually spoken to a plumber first.
+
+Just because we had an idea, and I could implement the idea in software, that didn't mean we had a good *business* idea. It meant we had a good idea for a hobby project. And the difference is critical. A business is an idea that generates revenue. A hobby project may be fun to work on. It may even be useful for other people. But if you can't sell something, if you can't pay the bills with it - it isn't a business. And conflating the two ideas is a major problem.
+
+What we *should* have done is validate the idea first, and *then* build it.
+
+But, we didn't do that - and when I finally had something to show off, my business partner opened the local newspaper, picked a bunch of local plumbers, and called them in an attempt to sell the idea.
+
+He called 10 plumbers. 5 of them suggested he place the idea in an anatomically implausible location. 4 of them had their secretary provide the same advice. One plumber did sound interested, and said he wanted to have a chat.
+
+Mistake 2: If you can't sell it, it's not a business
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This was mistake number 2. Or, at the very least, it should have been a warning flag.
+
+At the end of the day, business is about selling something. Selling a physical product. A subscription. Selling services. But whatever you're doing, you're selling *something*. And in order to sell something, you have to have customers. If all your prospective customers hang up when you call... you have a problem. You don't have a sales channel. It doesn't matter if you've got a machine that turns lead into gold - if you can't get that idea in front of the people who are going to *buy* your product, you might as well shut up shop right now. The fact that it was very difficult to get plumbers to answer the phone should have been a warning sign that our prospective audience wasn't going to be easy to crack.
+
+But, we persisted, and had a chat with the one plumber who would talk to us. We did our pitch, and he said "Nope.
+Not interested. But if you can make that pile of paper disappear, I'll give you as much money as you want."
+
+This was a conversation that set the direction of our company for years to come. Was this a mistake or a success? Well, that's a little hard to judge. There's an extent to which we changed direction because it was the only direction that seemed open to us - which was a bad move. But it *was* a very lucrative direction, so... maybe it's a wash.
+
+What we identified in that conversation was a significant business problem - a business process that was being performed manually, and took *three hours a day*, and identified a simple and reliable way that it could be automated. We identified a couple of other processes we could automate, and ways to report on some key performance indicators. We identified a path forward that could use mobile tech to improve communication and process management. By the time we were done, we'd worked out how to immediately free up a full time employee, with potential for more. So as long as we charged *less* than the cost of that employee - about $50k a year - the business owner would be ahead.
+
+Our costs were next to nothing. Our newfound customer told us that these business processes were due to one specific contract that they had - and there were many others on the same contract. So - should have been easy to sell the same software to everyone else on the contract, and... profit! Right? So - lets keep it simple, offer them a 50% saving - and after doing some fancy footwork to reverse engineer a good explanation for why that was what we were charging, and just start making $25k a year per customer, right?
+
+Mistake 3: Humans gonna human
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Well, no. That was mistake number 3.
+
+Mistake 3 is that we *didn't* take into account is the human factor. In theory, charging anything *less* than $50k per year - rationally - should have been a no-brainer, easy sale. But we were selling to humans. And humans don't *ever* behave rationally. There's an almost bottomless body of research about how bad humans are at evaluating economic decisions and consequences.
+
+And so, when we walked in the door of a prospective customer, we did our pitch, they were almost universally blown away. And then we told them the price, and they starting describing anatomically implausible locations again. Why?
+
+Humans aren't rational
+-----------------------
+
+Firstly, a sale of that size isn't easy. Asking a plumber to spend $100 a month - they know they can afford that. It's probably less than what they spend on coffee in a month. But asking them to spend $2000 a month? That's a lot harder for them to justify. That actually starts to make a dent in their bottom line. So they're going to take some convincing. They're going to want proof that it actually works, that it's actually going to deliver the benefit you promise.
+
+Software is hard to sell to humans
+-----------------------------------
+
+Secondly - we were selling software. While *we* were completely honorable, and completely truthful, and we were able to deliver everything we promised, and our software made makes birds suddenly appear every time we were near - we weren't the first IT salesperson they've had to deal with. And we - we collectively - are part of an industry that has, for 40 years, systematically over promised and under delivered what software can do for a business. So that is something that needs to be overcome.
+
+No really - Software is hard to sell to humans
+-----------------------------------------------
+
+Thirdly - we were selling software. Who here is currently holding a phone worth a couple of hundred, maybe even a thousand dollars? Now, how many of give more consideration to whether you should buy a 99c app from the app store than you do the decision to buy the thousand dollar phone?
+
+That's the problem selling software. And multiply it a thousand times when you start dealing with non-tech audiences. We've been conditioned to expect that physical, tangible things are expensive - but software? That should be cheap, or better still free.
+
+As a side note - this is one of the major problems we face with funding open source projects as well - but that's a subject for a different rant, and a rant that I've had before.
+
+Humans are people
+------------------
+
+Lastly - we were dealing with personal relationships. If we walked into a small plumbing business to speak with the manager, there was an odds-on chance that the bookkeeper, or another significant employee in the business, was the wife of the manager. And you start talking about being able to cut an employee... well, you can guess how well *that* conversation goes. And even if it wasn't a family member, people don't generally *want* to fire people.
+
+Mistake 4: Beware favourable patterns
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Mistake number 4 happened as the result of an unfortunate coincidence. After closing our first sale, we got that customer to give us an introduction to some other possible customers. And he gave us the best possibilities first. So our first two sales were both $2k a month. Our third was a smaller business - only $500 a month - but that gave us the confidence that we had something that we could sell to medium *and* small businesses.
+
+We'd closed three sales in rapid succession. We had $4500 a month in revenue, and the sales were really easy to close. We thought we had found a money printing machine.
+
+And then we hit a wall. The next few sales calls we made just went nowhere. Never a hard no... but lots of ums and ahs about price, and "we'll have to think about it"'s...
+
+We confused initial success with a pattern that was going to continue. After three sales in a month, we essentially didn't close a sale for another 8 months. And that's not a good sign.
+
+Arguably, we got bitten by circumstances there - when you have lots of early success, it's easy to think that success will be ongoing. This is a time where you need to be objective. If you can't consistently close sales, if you can't reliably predict your close rate - you have a problem.
+
+Mistake 5: Do the math
+~~~~~~~~~~~~~~~~~~~~~~
+
+Mistake number 5, though, *was* completely our fault. We completely failed to do basic math.
+
+Our value proposition - the business process that we had optimized - existed because of the processes required by one particular contract. Our pricing scheme was simple - we charged $1 per job completed. Our initial customer - they did about 2000 jobs a month, so we charged them $2000 a month. Which is great, because it also happened to hit our 50% savings target that we originally identified.
+
+What we *didn't* do was add up how many jobs there actually were in the system. It turns out that if we managed to close *every* company on that contract, we would have only generated $12k a month in revenue. Which sounds like a lot, especially when your costs are so low... but our costs weren't low. We also had two founders who were full time, and needed to be paid. Our burn rate was closer to $22k per month.
+
+Mistake 6: Pricing is what the customer will pay, not your burn rate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+And this led to mistake number 6: We didn't have a serious pricing discussion until it was *way* too late. Mislead by our initial success, our pricing was really determined by taking our burn rate, and working backwards - not forwards from what the market would bear. My co-founder and I would have regular discussions about pricing - but all of those discussions happened against a background of "how are we going to make payroll this month". Which is the wrong time to be having that discussion - because two important options: drastically reduce the price, and shut down the company - are effectively off the table.
+
+So, we had a product that was too expensive to sell, and a market that wasn't big enough. Now the good news is that the paperwork reduction niche we'd found wasn't unique to that one contract - There were many other *simliar* contracts with similar paperwork requriements. But we'd found the thousand pound gorilla in the market. Other contracts were smaller, and the paperwork and process requirements were subtlely different.
+
+Mistake 7: Establish your sales channel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+And that wouldn't have been a problem - if we hadn't made mistake number 7 - we never established our sales channel.
+
+We got our first sale almost by accident. We bumped into a customer who gave us an opportunity. Subsequent sales came by word of mouth. Word of mouth is an incredible sales channel if you can get it. But as a result, we never cracked the most important problem - how do we sell to someone who hasn't heard of us? How do we get in the door? How do we establish trust? And as a result, our sales were essentially constrained by the personal networks of our existing customers. Perth is a small, geographically isolated city. When we'd exhausted personal networks... we hadn't learned the most important thing - how to sell our product to someone who didn't have a personal introduction.
+
+Joel Spolsky once noted that there's no software product priced between $1000 and $100000. This is because a product that costs less than $1000 can be bought on a credit card. But if software costs more than can be hidden on an expense statement, you need to have salespeople, and that means you have to pay them, and their commissions, and pay for the steak dinners and drinks used to closed the sale. We had a product that was squarely in this dead zone. Too expensive to be a casual purchase, but not expensive enough to support the sales process it needed.
+
+TradesCloud had a serious problem. Once we closed a sale, we had almost zero churn rate. The only customers we ever lost were because they closed down, or they dropped the contract where we offered an advantage.
+
+What we didn't have - and what we never really established - was a good way to *prove* to new customers that we were, indeed, that good. There wasn't a good way to "trial" TradesCloud. We were managing processes that were at the core of a trades business. Those processes *have* to work. And they can't be duplicated or doubled up. So - there was no way to "stick your toe in the water" - you had to jump in, or stay out. And since we had a huge price tag, most people were conservative, and said no. If they got a recommendation from someone they knew, it was a little easier - but if that didn't exist, we had a problem.
+
+In order to close a sale, people have to believe - really believe - what you're telling them. It has to be obvious, and undeniable that you will give them benefit - or the cost of trying has to be *vastly* less than the cost of the software itself. In our case, even if we dropped our price to zero, we didn't have a zero cost, because the cost of institutional process change involved in adopting a new piece of software at the core of business operations is *huge*.
+
+Our best sales person was completely accidental. He wasn't *our* employee - he was an employee who changed employers every 6 months. He was in upper management, had a reputation for getting things done and turning companies around, so he kept getting poached. And he'd seen the benefits of TradesCloud with one contract, and so it was easy to get in the door every where else he went. And because he was known around the industry, his word was extremely valuable. When he said "This is good", people believed him. His word was trusted.
+
+Mistake 8: Sales don't stop when you sell
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+But even when we *did* make a sale, the mistakes didn't stop. Mistake number 8 - we didn't pay enough attention to onboarding new customers. A sale for a product isn't closed when a contract is signed. It's closed when the person who uses the software has accepted it into their daily lives, because that is what prevents churn. If you've selling a small personal tool, the person who buys and the person who uses is probably the same - but in our case, the purchase decision was rarely made by the person who actually had to *use* the software. And you *have* to get those people on board. If anything, they're *more* important, because they're the ones who are going to make the bosses life hell if the software they buy isn't doing the job - or worse - is doing the job too well.
+
+Over and over again, we saw internal sabotage. People would simply *refuse* to change processes, and would find *any* excuse. "Oh, the software didn't work, so I had to go back to doing it manually". And after a month or two, the boss would call us and say "what happened to all the benefits you promised?", and we'd say "well, you only get the benefits if you actually *use* the software".
+
+What we learned - the hard way - is that you sell to the business owner - but you also have to sell to the users. If you're dealing with software that is part of a key business process, change management is *key*. You have to show them how your tool does what they currently do by hand. And you have to show them that their jobs aren't at risk. That first employee whose 3 hour/day task was replaced? She wasn't fired - she redeployed inside the business. She went from doing a mindless office task for most of the day, and could start expanding into other parts of the business. About 2 years after we first deployed TradesCloud, she was running accounts and payroll.
+
+But, despite all these mistakes, we were able to stumble along, and were complete self funded for almost 2 years. Now, that meant burning a lot of personal funds, and my co-founder doing a bunch of consulting on the side. But that's just part of the startup experience, right?
+
+Mistake 9: Establish failure criteria
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Well, maybe it is. But in retrospect, mistake number 9 was an entirely personal one - I shouldn't have lost as much money on the experience as I did. I knew what I considered success criteria, but I never considered what my failure criteria would be.
+
+After 2 years, I had reached a point where my personal financial runway was running out. TradesCloud either needed to start paying a full wage, or I wasn't going to be able to continue. And this pivoted the business. Fundraising is a full time job. Everything else goes on hold - sales, support, development - everything. We tried to get VC investment, but the VC scene in Australia is pretty bad, and even worse in Perth. Eventually, we managed to secure a $250k cash investment from a colleague of my business partner; and we got some matching funding through an Australian government program. And that gave us another 2 years of runway.
+
+The way we were able to secure that runway was by changing our tactics. Instead of going after individual plumbers, we started going after the head contractors - the multimillion dollar facilities management companies. And we were able to sell them a really great story. These companies are all competitive, and they're looking for any advantage they can get. But they're also technologically laggards, because they're big established companies. They have inertia when it comes to adopting new technology. So we were able to walk in, and promise a mobile-enabled workforce, real-time tracking, enforced health and safety practices - all sorts of things that made them really excited, because they could use those features as differentiators against their competition.
+
+Mistake 10: You are who you are - Don't deny it
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+But - and here's mistake number 10 - we forgot who *we* were, and who we were selling to. We were selling to multimillion dollar companies. The reason these companies are technologically laggards? They're conservative. They don't take risks. There's no incentive for individual employees to take risks. And so, they make safe decisions.
+
+And when they adopt new technology, they don't just pick something - they put it out to tender, and get multiple bids, and then they invite bidders into the head office to interrogate them, and eventually, after 6 months, they pick someone - the *safe* option. We got into a tendering process with almost every major facilities managmeent company in Australia. The tendering process almost always started because we pitched them the idea of providing TradesCloud to all their subcontractors - but what they heard was "provide software to all their subcontractors". And so, at the end of the tendering process, we were told, every time - we prefer your technological solution... but we're going with your competitor, because you're too risky. A 2 person company was too much of a risk for a multimillion dollar company to trust.
+
+So after 2 years of trying this tactic, and being turned down by every facility management company in Australia, the money was running out again, but i'd built up a bit of cash buffer again. But in between failing to sell to multinational companies, we'd found a bit of success selling to smaller facility management companies and large constructions companies. And the good news was that these companies were big enough that when they bought software, they wanted it customized - so as well as the $2k/month, they would pay $40k up front so that everything matches their requirements.
+
+On the back of that change, were got a loan from our investor. Between making more personal sacrifices, and that cash injection, we were able to stumble along for another 18 months.
+
+Mistake 11: Take the hint
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This was mistake number 11. We didn't take the hint. Each of those points where we took investment was, potentially, a point that would have been a natural point to shut down the business. And, in retrospect, we should have. The writing *was* on the wall. The simple truth is if you can't close sales, you don't have a business. And yes - you can stumble along hoping that you're going to find the missing sales ingredient - but that takes resources. It takes money, and it takes emotional capital as well.
+
+One of the reasons the failure of TradesCloud was so personally galling, is that it didn't fail for any reason that I would consider "my fault". From a purely technical perspective, we were significantly more reliable than the multi-national companies we were integrating with. We delivered new features in timeframes that our customers considered inconceivable. When I went in an did demonstrations to the multimillion dollar head contractors, they expressed doubt that we could actually do what we said we were doing... right up until I showed them the code doing it, live.
+
+But none of that mattered. TradesCloud failed, ultimately, because we couldn't sell what we had - or, at least, we couldn't sell it in quantities that allowed us to cover costs. And when you're there giving your all, doing things that are being called magic by prospective customers... and you're still failing... that's hard to internalize. And when you layer on top of that the fact that I'm a husband and a father, and the sole income for the family - that introduces all sorts of guilt and fear into the mix. And then you take all that stress, and add in the long hours and weekend work in the desperate hope that *this* will be the thing that saves the company...
+
+.. raw:: html
+
+    <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">And when work is all that defines you, you will feel like you&#39;re dying when it starts to disappoint.</p>&mdash; Alice Goldfuss (@alicegoldfuss) <a href="https://twitter.com/alicegoldfuss/status/827280884998893569">February 2, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+... and you start to understand why, 2 years ago, I had a major depressive episode.
+
+Mistake 12: Quitting is *always* an option
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Mistake number 12 - I lost sight of the fact that *quitting* was always an option - and that quitting didn't mean failure. If, after 2 years, I had taken an honest audit and said "you know what - this isn't working. I'm out". I would have had 4 years of my life back. That's four years I could have sunk into a different project. But I didn't pay attention to any of *my* signs. I conflated success of the company with my own personal success. I lost sight of the fact that this was a job. And it was meant to provide some income and some intellectual engagement. And if it wasn't doing that - walking away was *always* an option. But I didn't ever really consider it seriously.
+
+Mistake 13: Partnerships require actual partners
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Why not? Well that was mistake number 13, and it was another personal failure - I didn't stand up to my co-founder as much as I should have. And as a result, we wasted a lot of time, and effort, and in some cases, money. Now - I have to be clear - if only because there's a chance he might see this video - i'm not blaming Mark here. Mark is a great guy, and he's extremely talented, and he's got absolutely no shame at fronting up to companies thousands of times bigger than his, and telling them how they should be doing things. He opened a lot of doors that I know I wouldn't have ever even considered knocking on, let alone opening. He was a real asset to the business. The failure was a personal one, and it was mine.
+
+We didn't go into TradesCloud as complete equals. Sure - we were 50/50 partners on paper - but when I met Mark, he was my first boss out of university. I worked for him for 4 years as a very junior subordinate. And a lot of that power dynamic remained. I let him do a lot of things because "well, he must know what he's doing". I caved on decisions because I could see his side, and he was more experienced. And, Mark is a great sales guy. He can make you believe in things. And he made me believe in TradesCloud - but that's a double edged sword. It got me through all sorts of lows - but it also meant I believed even when I probably shouldn't have. I should have putting my foot down and said "no more" a lot more often than I did - both for the benefit of the business, and for my own mental health.
+
+The end
+~~~~~~~
+
+And so, when the money ran out for the third time, neither Mark nor myself had the energy to continue. We had a couple of last minute hail-Mary options that we thought might have saved us... but one by one, they all fell through. In the end, we were able to pay back the loan to our investor; but his equity investment was essentially lost. And in January, we closed the doors for the last time.
+
+And that's the TradesCloud story. I will warn you, though, that the plural of anecdote is not data. This is my story. Many stories are like it, but this one is mine. I don't profess to having any particular business insight - I just know that TradesCloud didn't work. And these are the 13 reasons I can identify why.
+
+In the aftermath, I've had a lot of people - many of them in this room - reach out and give me a virtual hug, or a spoon. And many asked me if I was sad to see TradesCloud go. But frankly, the emotion I had was relief. On January 31 2017, I slept like I hadn't slept for 6 years - because I *knew* I wasn't going to be woken up by a server alarm. And I knew I could sleep in, because I wasn't going to get a support call at 6AM.
+
+The fact that I wasn't even slightly disappointed by the loss of TradesCloud from my life - that's the biggest sign for me that I waited *far* too long to step away.
+
+The good news, though, it that the process of running TradesCloud hasn't burned me completely. It was an amazing learning experience. And I landed on my feet - At DjangoCon US last year, I put my name up on the jobs board saying I was looking, and it hadn't been there half a day before my good friend Andrew Pinkham approached me and said.. Uh... are you *that* Russell Keith-Magee looking for work?
+
+The other silver lining is that the TradesCloud experience drew my attention to problems in the world of mobile development, which has influenced the path that my new toy, `BeeWare <https://pybee.org>`__, has taken. And I've been busy trying to work out how to turn BeeWare into something.
+
+But this time, I'm a little older. A little grayer. Hopefully a little wiser. And I should have a better idea what to look out for. If you want to talk about *that*... well... `get in touch <mailto:russell@keith-magee.com>`__.
