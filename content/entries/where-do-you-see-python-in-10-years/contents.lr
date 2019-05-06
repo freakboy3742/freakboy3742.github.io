@@ -1,0 +1,545 @@
+title: Where do you see Python in 10 years?
+---
+excerpt:
+
+At `PyCon US 2019 <https://us.pycon.org/2019>`__, I was extremely honored to give the opening keynote. While Next Day Video worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.
+---
+body:
+
+At `PyCon US 2019 <https://us.pycon.org/2019>`__,  I was extremely honored to give the opening keynote. While the PyCon Video team worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.
+
+.. raw:: html
+
+    <iframe width="500" height="281" src="https://www.youtube.com/embed/ftP5BQh1-YM?t=1250" frameborder="0" allowfullscreen=""></iframe>
+
+I've been an active and visible participant in the Python community for over 13 years now. And as a result, I've spoken at a lot of PyCons and DjangoCons. But for those who haven't met me before: Hi, you may have noticed I'm not a local.
+
+I was born, and I live to this day, on little dot down the bottom of the map: `Perth, Western Australia <https://en.wikipedia.org/wiki/Perth>`__. Perth is not usually one of the cities people think of when they think of Australia. Its kinda like Cleveland - a fine city, but not usually the first one that jumps to mind when you think of the US.
+
+Perth has a fascinating history, and has had a bigger impact on the world than many realize - and some of those stories are convenient metaphors - so today I would like teach you all about Perth, and maybe we can learn some valuable lessons about life along the way.
+
+First off - some terminology. We are in Ohio. Someone from Ohio is called a Buckeye. Someone from Western Australia - is called - and I swear I'm not making this up...
+
+...a sandgroper.
+
+We're so named after `this delightful fellow <https://en.wikipedia.org/wiki/Sandgroper_(insect)>`__ - Cylindraustralia kochii. It's a pygmy mole cricket. About 2 inches long, lives in the sand dunes at the beach.
+
+And they're not venomous!
+
+Acknowledgement of Country
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sandgropers - the people, not the insects - have a tradition about how you start big public events like a PyCon. Australia, like the US, Canada, and many other colonized countries, has a messy history with their indigeneous peoples. In recognition of that fact, starting in Perth in the 1970s, Australian public gatherings have, increasingly, started with a recognition that the land where the gathering is happening wasn't always white man's land.
+
+It's called `Acknowledgement of Country <https://en.wikipedia.org/wiki/Welcome_to_Country>`__ - and in that spirit, I'd like to acknowledge that I come from `Whadjuk Noongar Boodja <https://www.noongarculture.org.au/whadjuk/>`__; and I'd like to recognize the Eriehonan and Haudenosaunee peoples, the traditional owners of the land where we meet today, to recognize their continuing connection to their land, waters and culture, and to pay my respects to their Elders past, present and emerging.
+
+Content Warning
+~~~~~~~~~~~~~~~
+
+Also - as a content warning, later in this talk, I will be discussing issues of depression and self harm. If that's something that will impact you, please do whatever you need for self care. I'll give another warning before we get to that part of the talk.
+
+So - to the subject at hand. We've established that, yes, I do come from a land down under... but who am I?
+
+Who am I?
+~~~~~~~~~
+
+Well, in my day job, I do data engineering for `Survata <https://survata.com>`__. Survata is a market research company. They use Python and data science to help brands to understand their customers.
+
+Survata gives me the flexibility to flit around the planet to meet all you wonderful people - but as lovely as it is to have the support of a wonderful company like Survata, that's not really why I'm here today.
+
+I became involved in and I'm known to the Python community through my work on Django. I joined the Django core team way back in 2006. Because I lived in Perth, I didn't meet another member of the Django core team until 2008.
+
+Django is a big part of the broader Python ecosystem; but it's not the only part. Django isn't the only Python web framework; and web programming isn't the only thing people do with Python.
+
+In my current day job at Survata, I don't use Django at all. But I do make extensive use of NumPy, Jupyter, Pandas, and the ecosystem of tools around those libraries.
+
+And there many other uses of Python. You can use Python on embedded devices. There are libraries for performing astronomical calculations, biotech and gene sequencing. It's used as a scripting language for operating system automation, as a control language for devops, and as a teaching language.
+
+None of this has happened overnight. Python as a language is 28 years old. It took maybe 10 years for Python to gain significant traction in our industry, and another 10 before it gained really widespread support.
+
+And, as a result, we get.... this. A gathering of three and half thousand people who have organized to travel from all over the planet - even Perth - to converge in, of all places, Cleveland, to talk about a programming language for a couple of days.
+
+It's worth stopping for a moment to reflect on the magnitude of what Guido set in motion 28 years ago, and what we, collectively, have done since. It should be celebrated, because it's no small feat.
+
+And because this is the big tent of the Python community, we have a real opportunity to look to the future as well. This weekend, and into the sprints next week, we have the opportunity to dream big ideas, work out what problems we need to solve, and where we're going to collectively focus our efforts over the coming weeks, months and years.
+
+So, to kickstart that conversation, I'd like to pose a question to everyone in this room.
+
+A question
+~~~~~~~~~~
+
+Where do you see Python in 10 years?
+
+The one thing I'm certain of is that everyone in this room will have a different answer to this question - that's inevitable when a language is used by so many people for so many different things. But if you're here in this room today, I think it's probably fair to assume that you like Python to some degree. And in 10 years, you'd like Python to be at least as vibrant a community as it is today.
+
+I'm sure nobody wants to have to rewrite all of the libraries on PyPI, or rebuild all the communities and user groups in the Python ecosystem, or re-establish all our ecosystem norms in a new community, just because Python is no longer a viable language for new projects.
+
+So - this question - Where do you see Python in 10 years - is really about asking what we need to do today to ensure that Python *remains* a relevant, vibrant, and healthy community.
+
+Time for some more sandgroper facts.
+
+Black Swans
+~~~~~~~~~~~
+
+The state bird of Western Australia is the `Black Swan <https://en.wikipedia.org/wiki/Black_swan>`__. It appears on the Western Australian Flag, and on the crest of the City of Perth. The river running through the middle of Perth is the Swan river.
+
+But a black swan is also a metaphor.
+
+Prior to the 1600s, it was well known that all swans are white. Swans of other colors were known to not exist. And then in 1697, Dutch explorer Willem de Vlamingh visited Western Australia - and discovered that swans could also be black. This radically changed the worlds idea of what a swan was.
+
+In 2001, essayist and statstician `Nassim Nicholas Taleb <https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb>`__ used this as a broader metaphor.
+
+Taleb defined a Black Swan event as an event that is a surprise to the observer, that has a major effect on the world, but in hindsight, can be easily explained. In hindsight, it was obvious that swans could be be black. But until someone visited Western Australia, it never occurred to anyone to challenge that assumptions.
+
+Black swan events don't have to be immediate, either - the impact can be felt over time. The rise of the personal computer was a black swan event. In 1947, CEO of IBM Thomas Watson famously said there was a world market for maybe five computers. Today, almost everyone in this room is carrying five computers. In retrospect, Watson's comments are just quaintly naive. But at the time, they weren't controversial - they were the common understanding of the world. And the change wasn't immediate, but in retrosoect, it was inevitable.
+
+Python's Black Swan
+~~~~~~~~~~~~~~~~~~~
+
+In my opinion, when we're thinking about what the future holds for Python, we need to be thinking about Python’s black swans.
+
+Python is a popular language right now. We'd like it to stay popular. What could happen to affect that popularity?
+What change could happen in the industry, in hardware, or in the community, that could alter the popularity of Python? That would cause Python to become that annoying legacy language that we have to know, but would rather replace at the earliest opportunity?
+
+Black swan events are only truly obvious in hindsight - but the best way to avoid them is to actively challenge your assumptions. And question what would happen if those assumptions turned out to be incorrect.
+
+And I think there's a couple we have cause to be concerned about.
+
+Black Swan 1: Everyone uses a laptop
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+First - where do you run Python?
+
+For pretty much the entire existence of Python, a "computer" was a large box that sat on your desk, or maybe in a rack in a server room. Over time, the box got smaller, and you started carrying it around in your backpack, but you used the same operating system - Windows, or a Unix derivative.
+
+Over the last 10 years, we've seen the emergence of a new class of computing devices - much smaller, and usually portable. Phones, tablets, watches, and set top boxes.
+
+These devices are becoming ubiquitous - and they're replacing laptops as primary computing devices. My son started high school last year. He doesn't have a laptop for school. His entire educational experience is delivered through a tablet device.
+
+If you go to python.org, tablets, phones and set top boxes don't even rate a mention. To me, that seems like a pretty big oversight of the way the everyday experience of computing has changed over the last 10 years. Phones and tablets are acheiving market penetration that desktop and laptops have *never* seen. And yet, as a community, we don't have a story for how you can use Python on these devices.
+
+So what happens to Python when laptops don't exist, or become niche devices? If I'm a novice programmer, and there's no installer for Python *on* my tablet, and I can't use Python to write an app for my tablet... why am I going to learn Python?
+
+Black Swan 2: Python can stay on the server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Not all Python runs on laptops, though - some of it runs on the server. And you can use Python to write a web application.
+
+10 years ago, when Django was the cool new thing, you installed Python on the server, and you used it to render HTML and CSS to the browser. If you were *really* hip, you'd sprinkle some AJAX in as well, adding autocomplete to your search box - but you made sure that if the user didn't have Javascript enabled, the page would gracefully degrade and would still work.
+
+These days - good luck finding a web page that works without Javascript enabled. As with mobile devices, the last 10 years has seen a dramatic shift in where code is being executed, and increasingly, code is being run *in* the browser. Javascript evolved from an optional client-side add on, to a language implementing key logic *in* the browser, to a language that replacing Python on the server.
+
+Again - if I'm a novice programmer, and I'm faced with Javascript - a language I can use to get a native experience in the browser, and can transition that onto the server... and on the other hand there's Python, a language that only works on the server - why am I going to learn Python?
+
+Black Swan 3: Installation is a solved problem
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ok, so lets say that despite those two problems, I have decided to learn Python. And I reach the point where I need to install a package.
+
+I've been a user of Python for 20 years, and in that entire time, I don't think there's ever been a period where I'd describe Python's packaging story as "stable". And because information lives forever on the Internet, old advice continues to linger, long after it's considered the "right" answer, and then well meaning but misinformed people spread outdated advice on stack overflow, perpetuating the problem.
+
+![Image goes here](images/xkcd-1987.png)
+
+The situation is bad enough that it's a punch line for comics. In `XKCD 1987 <https://xkcd.com/1987/>`__, Randall Monroe lampoons Python's environment experience as so degraded that it has made laptop a toxic waste site.
+
+Brett Cannon did a `really good writeup about this comic <https://snarky.ca/deconstructing-xkcd-com-1987/>`__, trying to diagnose what has happened on Randall's computer. It's a really enlightening autopsy, well worth the read.
+
+One thing that Brett points out - and it's the part that's most concerning for me, from the perspective of looking for Black Swans, is this:
+
+Why can this joke be made at all?
+
+Good jokes always contain an element of truth. And the way you respond to that truth matters. This joke is part of a narrative about what Python *is*. And if that picture isn't positive, then long term - that's an existential threat. If I'm a new user, why would I want to learn Python if everything I read about it ends up with a joke about my computer becoming a toxic waste site?
+
+Black Swan 4: Code distribution doesn't matter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+And I haven't even got to the question of how I distribute my application to someone else. Whether you're distributing a Django application, or distributing a user-space application - Python hasn't ever had a consistent story for how I give my code to someone else - especially if that someone else isn't a developer, and just wants to use my application.
+
+Contrast that with, for example, PHP, whose distribution story is "use FTP to upload all the files". Or Go's story, which is "here, have this executable". I'm not saying that the PHP or Go solutions are a panacea - they're not. And I'm not saying Python's story will be as simple as any of these. But we haven't got a story *at all* - and we're competing against languages that do. And again, why would I want to learn Python if I can't get a clear answer for how I can give my code to my non-programmer friends?
+
+... or is our Black Swan something else?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+That's 4 possible Black Swans that I've identified. Maybe it's something else? I know there are people in this room who will assert that Python's C API is a potential problem. Or the GIL. Or the lack of a good front-end story. Or focussing on Unix and Mac to the exclusion of Windows. Maybe the problem won't be technical at all - maybe it will be cultural. Some aspect of Python's community or development process that drives some segment of users or potential contributors away because of percieved hostility, or conflict, or diverging interests.
+
+Or maybe it won't be any one of these things. My point is that we can't predict the future. But we can challenge our assumptions. We can look criticially at ourselves as a community. We can examine the trends in our industry and our society, and make plans based on those assessments; not just reacting to problems when they're already wildfires, but proactively addressing problems before they become critical threats to the ecosystem.
+
+This is not about blame
+~~~~~~~~~~~~~~~~~~~~~~~
+
+I also want to be *very* clear here. This isn't an accusation. I'm not blaming anyone of not doing their job. The Python core team is doing the absolute best they can with the resources they have - and they're *very* limited resources.
+
+What I'm talking about here is trying to avoid Black Swans. To start a conversation about longer term priorities, and how we marshal the resources that we, as a community, have at our disposal.
+
+BeeWare
+~~~~~~~
+
+For whatever it's worth, these existential problems are one of the reasons I changed the focus of my open source contributions a few years ago. As I said eariler, I developed my reputation working on Django. But these days, I'm spending most of my volunteer time on the BeeWare project.
+
+For those that haven't come across it before, `BeeWare <https://beeware.org>`__ is a collection of open source tools and libraries for creating native user interfaces in Python - for desktop, but also for iOS, Android, single-page webapps, and other new hardware platforms.
+
+A key part of that work is getting Python to run on phones and tablets *at all*, working out how to run Python code on Android, iOS, and in the browser, bridging to native APIs on those platforms, and wrapping those APIs in a cross platform layer.
+
+Another big part is developing a distribution story - working out how to integrate with native platform tools, and get an application written in Python wrapped as an app, with an installer, or uploaded to the App store or Play store.
+
+Now, BeeWare is a work in progress. It's current state is "compelling proof of concept". It's not a version 1 product ready to start using to develop your mission critical application; but I have been able to demonstrate that cross-platform native applications, written in Python is possible.
+
+I'm also not the only person working on this problem. The `Kivy <https://kivy.org/>`__ project has similar goals, but with differences in their underlying approach.
+
+As far BeeWare is concerned; about 18 months ago, I did a live demo at PyCon Australia 2017 where I wrote a Fahrenheit to Celcuis application, in 50 lines of Python code, and deployed it on MacOS, Linux, Windows, iOS, Android, and as a single-page web application, all in the space of 20 minutes.
+
+And when I say deployed - I don't just mean "I ran the code". I mean on Mac, it was a standalone .app file. On Windows, it was an MSI installer. On iOS and Android, it was a packaged app, running in the device simulators, but it could have been uploaded to an App store. And it was running in a browser, completely client side, including doing the Fahrenheit to Celcius conversion in Python, in the browser.
+
+Sisyphus
+~~~~~~~~
+
+Now - as you might imagine, this is a big project. I've been working on BeeWare for years, and there are days when I feel like Sisyphus, eternally pushing a boulder up the hill.
+
+Unfortunately, there hasn't been a lot of visible progress since I did that demo. There's even been some regressions - Android and web support is currently broken, for example. And that's because it's not my day job. I'm tinkering on this in what I amusingly refer to as my spare time - and as a result, progress is slow.
+
+Now despite all this - I'm actually optimistic about Python's future.
+
+To explain why, I need to tell you another piece of Sandgroper history, about a yacht race.
+
+The 1983 America's Cup
+~~~~~~~~~~~~~~~~~~~~~~
+
+I need to tell you about the America's Cup.
+
+`The America's Cup <https://en.wikipedia.org/wiki/America%27s_Cup>`__ is the world's oldest international sporting trophy. The America's Cup race is held about every 4 years; Those of you from San Francisco may remember the 2013 America's Cup, raced in San Francisco Bay.
+
+But from the first race in 1851 to 1980, the winner was the the New York Yacht club.
+
+In `1983 <https://en.wikipedia.org/wiki/1983_America%27s_Cup>`__, New York lost to the Royal Perth Yacht Club, and it's yacht `Australia II <https://en.wikipedia.org/wiki/Australia_II>`__, breaking a 132 year winning streak.
+
+Now, it's difficult for me to understate how big a deal this was in Australia, and in Perth specifically. This was event that put Perth on the world stage for pretty much the first time.
+
+Many of you here today probably even know about the 1983 America's Cup without even knowing why. Some of you may have heard me drop the line that "I come from a land down under" earlier on. That's a `line from a song by Australian rock band "Men at Work" <https://en.wikipedia.org/wiki/Down_Under_(song)>`__ - that song was the unofficial theme song for Australia II. And it was popular in the US primarily because of the 1983 America's cup. The movie Crocodile Dundee was concieved of and able to get financed and released, in part, because of the exposure Australia received from the America's Cup.
+
+Just to be clear, though - Outback steakhouse? You can't blame us for that. We had nothing to do with it.
+
+Ok, but other than the Perth connection - why does the America's Cup and Australia II matter?
+
+Lesson 1: A fair game
+~~~~~~~~~~~~~~~~~~~~~
+
+First off - lets talk about the New York Yacht Club's winning streak. The yachts in the 1983 race were what are called 12 meter yachts. Despite the name, it's got nothing to do with the size of the boat - it describes a set of rules for the design of boats, involving sail area, waterline length, and more.
+
+However, the America's Cup hasn't always been raced by 12 meter yachts. Prior to 1956, a range of yacht classes were used. According to the deed for the trophy, the defending club must accept regular challenges; but they're allowed to set the rules for those challenges.
+
+And so, for many years, the New York Yacht Club would impose rules like "the challenger must come from an ocean yacht club, and must sail to the competition site on it's own hull". That is - a challenger from England would have to cross the Atlantic in their yacht... whereas the defender would pop out from Newport harbour. And surprise surprise - under those conditions, New York's yachts were lighter and faster.
+
+So, lesson 1 from the America's Cup - it's not enough to just follow the rules; you have to ensure the competition is fair.
+
+The New York Yacht Club wasn't breaking any rules. They didn't write the deed for the trophy. They were just playing the hand they were dealt. But nobody in their right mind would call the resulting competition fair.
+
+In a situation like this, you have a choice. You can either keep winning in a competition that has been stacked in your favour, or you can change what *is* in your control, and make it a fair competition. But you don't get to claim you're the best in the world, winning on merit, unless you've leveled the playing field.
+
+Could this be an metaphor for the IT industry... you know? I think it might be. I'll just leave that thought over here.
+
+Lesson 2: Watch out for Black Swans
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+But to their credit, the New York Yacht Club adopted the 12 meter rule in 1958, so since then, the competition had been fair - so why hadn't anyone else won? And why did Australia II win?
+
+Well, a Black swan happened. Sailing is highly competitive, and the New York Yacht Club always fielded a strong defence, with well designed yachts, and highly capable crews. When you add in the home-harbour advantage - knowing the seas and prevailing winds of Newport harbour - it's easier to continue winning.
+
+And the design of 12 meter yachts was essentially finnessing a well established design. Sure, there were variations between boats, but they were relatively well understood tweaks of a basic design.
+
+But Australia II was a Black Swan.
+
+When Australia II arrived in the US, the lower half of the boat was shrouded in secrecy. This invited all sorts of wild theories - especially when it started winning races. On two separate occasions, the Australian team caught SCUBA divers trying to take a peek. There were all sorts of accusations that whatever was under the shroud must be illegal.
+
+But, the team kept the secret right up until the victory celebration, when the team owner stood on the dock, and called for the boat to be raised into the air for all to see - revealing the winged keel. On most boats, the keel is simple flat surface, used to lower the centre of mass of the hull, counterbalancing sail forces.
+
+Ben Lexen, the designer of Australia II, thought about it differently. He reason that the keel is a hydrodynamic surface - so lets treat it as one. And he added a pair of wings on the bottom of the keel. Those wings perform a similar role to the winglets on an airliner's wings - winglets on a plane's cause the wing to generate more lift, and less drag. And the same is true on a keel - the winglets make the keel more effective at keeping the boat upright, which means the sail is more effective, and the boat is faster.
+
+The blue paint was camouflage so that if you did get a photo of the keel, you'd see the outline of a traditional keel shape.
+
+Fast forward to the 1987 Americas cup. *Every* yacht had something secret. There were fiberglass hulls. There were all sorts of keel shapes. There were dynamic keels. And the innovation has continued to this day; carbon fibre hulls, solid sails, and more.
+
+The America's cup isn't sailed on 12 meter yacht's any more - The next America's cup in 2021, will be sailed on what are called AC75 yachts which are quite literally, flying boats. They're so light, and generate so much thrust from their sails, that they're able to use their keel as a hydrofoil and lift out of the water. These boats travel at *amazing* speeds.
+
+All of this innovation has happened because one team decided to challenge the assumptions of 12 meter yacht design. It was controversial. It was risky. But it worked. And yacht racing hasn't been the same since.
+
+And - just to nail the metaphor home - the name of Australia II's tender boat was the Black Swan.
+
+Computing's winged keel
+~~~~~~~~~~~~~~~~~~~~~~~
+
+What does this have to do with Python? Well, I think we've already seen a winged keel in our industry: `WASM <https://webassembly.org/>`__.
+
+For those who haven't heard about it, WASM is "Web Assembly". It started life as a research project trying to identify the set of primitive Javascript operations that will execute fast in modern javascript engines. That set of primitives is very close to the capabilities of an assembly language - Allocating memory, Simple integer and floating point operations, and so on. And as a result, you can use that set of primitives and compile C to this "assembly language" target.
+
+WASM is the extension of that work, defining a binary format for transmitting "assembly" content, rather than transmitting Javascript that has to be parsed and interpreted. That makes WASM code smaller and faster to process... but no less portable than Javascript, because at the end of the day, it's still Javascript.
+
+Essentially it's separating Javascript into two parts - a fast, sandboxed runtime that is almost universally available because it's in the browser; and a language that targets that runtime. For the purposes of our industry, it means that the rules have changed. You no longer have to adopt Javascript the language to adopt Javascript the runtime.
+
+Python on WASM
+~~~~~~~~~~~~~~
+
+That means there's an opening for Python - and other languages, for that matter - to be languages available for client side logic in the browser.
+
+WASM is still in the relatively early days. There are still some issues being worked out - one of the big ones being the interaction between the DOM and WASM. And making a viable WASM-based Python will require some work.
+
+But the winged keel has been revealed. What we do with that knowledge is up to us. Are we going to dig into the technology, get creative with the rules, determine how we can exploit the rules to our advantage, and sail off in our flying boat? Or are we going to continue to race flat keeled 12 meter yachts and wonder why we don't win races any more?
+
+Lesson 3: The team matters
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+But there's more we can learn from Australia II. Ben Lexen was a very talented yacht designer. He did a remarkable thing when he put winglets on Australia II's keel. But he wasn't a competitive sailor.
+
+John Bertrand was an amazing skipper. But he couldn't design a yacht.
+
+And there were 14 other people on board the boat, and an entire support team on the tender and back at the harbour ensuring those 15 sailors could be competitive. Sailing is a team sport. You don't just need a top-notch engineer or skipper. You need a wide range of skills, and it's only when all those skills come together that you achieve success.
+
+And the same is true of software. Although there's a historical narrative about great software development being done by a sole hacker tapping away in their basement, that's never actually the case. What we see today as the Python community is the result of countless thousands of hours of effort from countless people.
+
+And, being primarily software engineers, the coders often get the most attention. And yes - writing good software takes a lot of effort; and doing it well takes time and skill.
+
+But that's only considering the code. Any project - especially one the size of Python - is much more than the code.
+
+Project and Team Management is a skill.
+
+Graphic design and UI design is a skill.
+
+Developer relations is a skill.
+
+Technical writing is a skill.
+
+Now, these skills could be broadly considered in the remit of a "well rounded" software engineer. But what about things that aren't even remotely software related?
+
+Who organizes the community events?
+
+Who provides legal advice?
+
+Who handles communications and public relations?
+
+Who builds the relationships with potential donors and manages fund raising?
+
+Who makes the strategic deals with the Googles, Microsofts, and Amazons of the world to ensure Python is a supported language on product roadmaps?
+
+It turns out - there are people in the world who can't program, but who have remarkable skills that are very, very useful.
+
+Lesson 4: Money makes things happen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+And Australia II has another lesson here. Ben Lexen and his team didn't do all this engineering design work out of the goodness of their heart. Competitive sailing has been described as the ability to stand in a cold shower tearing up $100 bills. The Australia II challenge was bankrolled by a gentleman named Alan Bond. The 1983 challenge was the third challenge that Bond had financed, collectively absorbing hundreds of millions of dollars.
+
+Without Bond's money, the Australia II challenge would not have happened. And without a commitment over multiple Cup campaigns allowing the design team to become deeply familiar with 12 meter yacht design, and funding the research effort, it wouldn't have culminated in the winged keel.
+
+Expertise costs
+~~~~~~~~~~~~~~~
+
+Whether it's competitive sailing or software, expertise is needed - but experts kinda expect to get paid.
+
+From inside the bubble of open source software development, it's easy to lose sight of the fact that some of the cultural norms we see... aren't normal in other industries.
+
+Open source software is an industry where it's apparently expected that having worked your 9-5 day job doing something you're skilled at, you'll go home, and do some more, for free, and then encourage multi-billion dollar organizations to benefit from your effort.
+
+In most industries, if you're good at something, you get paid to do it. And people outside software have really useful skills -- skills that many open source projects badly need.
+
+But it's true of writing software, too. People *are* paid well to write software. But there's plenty of software that *should* be written, but isn't - or isn't written in a timely fashion, because we're waiting for volunteers to do the job.
+
+Django is a *web framework*, and it took the DSF over 3 years to coordinate the most recent redesign of it's website. Why? Because if you need volunteers, you're immediately constraining the amount of time and effort that anyone can put into the job.
+
+And I don't want to undermine the significant contribution the volunteers have given to Python and the Python community - but I *do* want to challenge the idea that volunteering is the *only* way that Python or open source can progress.
+
+If you pay people for their time, they're much more likely be able to maintain their attention on a problem until designs are fully fleshed out, and consequences are considered, and the work gets done.
+
+PyPI MOSS Grant
+~~~~~~~~~~~~~~~
+
+We saw an amazing demonstration of this in the Python community with the rewrite of PyPI.
+
+PyPI has been around for 15 years. It *badly* needed a rewrite for almost half it's life. Everyone agreed a rewrite was needed. But the work never got finished. Why? Because nobody was being paid to work on it.
+
+Then Mozilla gave the PSF a grant of $170000. And the work was done in 6 months. Why? Because a couple of people could focus on getting the job done, instead of trying to fit bugfixes in on weekends between their kids football games, or trying to convince their boss that even though improving PyPI wouldn't make any money for the company directly, it was a worthwhile activity.
+
+PyPI is an unfortunately rare example. What opportunities have we left on the table - or are we at risk of leaving on the table - beacuse we aren't resourcing them? What constraints have we placed on our own growth because nobody was enthusiastic enough to volunteer their time to address some gap, or make the most of some opportunity?
+
+And who have we excluded from the development process because they had other life commitments, or couldn't justify donating all their spare time to a volunteer effort? Or because they can't take up a short term grant contract because they live in the US and need healthcare coverage?
+
+Research and Development matters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It's not just about maintenance of existing infrastructure, either. History has shown that research and development is how you ensure success in the long term. And groups that *don't* do R&D eventually get beaten.
+
+Australia II's investment in R&D led to the winged keel, and kickstarted a whole generation of progress in yacht design.
+
+The black swans I identified earlier aren't something that can be addressed with a trivial fix - they're going to need concentrated effort, and probably a bunch of dead ends along the way.
+
+I've been doing what I can with BeeWare; but I'm really only doing that on weekends. And the same is true of a *lot* of Python, and the Python ecosystem. For the most part, the Python we have today has been developed in the spare time of volunteers, or in whatever fragments of time engineers have been able to extract from their employers.
+
+What if it didn't have to be that way? What if Python had an R&D division - a permanent engineering group that could focus on strategic tasks for the Python ecosystem.
+
+When Bell Telephones gave a bunch of engineers the resources to engineer strategically, we got Unix. When Xerox funded a team in Palo Alto to engineer strategically, we got Xerox PARC, which gave us graphical user interfaces, and ethernet and laser printers.
+
+When you give talented people the resources to think big, amazing things can happen.
+
+The Python community has talented people. We just need to give them the resources to think big thoughts, and do big things, without the need to demonstrate that the work will generate profits in the next quarter, or without the need to spend half their time on one grant writing the proposal for the next grant.
+
+And it could open the door to giving high profile, paid career opportunities to groups that have been historically underrepresented in open source developent.
+
+How do we pay for this?
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The underlying problem we have, though, is how to pay for it. Open source is an amazing way to do engineering - but it's *not* a business model. We need to work out how to fund our engineering goals of open source without compromising the social goals.
+
+Common Pool Resources
+~~~~~~~~~~~~~~~~~~~~~
+
+This problem *is* an area of academic economics research. `Elinor Ostrom <https://en.wikipedia.org/wiki/Elinor_Ostrom>`__ won the 2009 Nobel Prize for Economics for `her study of Common Pool Resources <https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/1107569788>`__, or CPRs. Real-world examples of CPRs are things like forests, or grazing lands. They are situations where anyone could access the resource. The best *individual* strategy for using the resource is to take as much you can get. But the best communal strategy is to collaborate. To limit what you take, and to contribute back to maintaining the resource so that, in the long run, the health and productivity of the resource is maximized.
+
+Ostrom's work looked at examples of Common Pool Resources that are being managed in the real world. Some of them have been collectively operated and maintained for *hundreds* of years.
+
+Sacred topics
+~~~~~~~~~~~~~
+
+One of the key findings of Ostrom's work are the conditions required for sustainable CPRs. And one of those conditions is exclusion. In order to sustain a common pool resource, you have to be able to restrict access to the resource to those that are committed to adhering to community principles.
+
+The problem is that this is in direct opposition to the Free Software guidelines - which state that you *can't* restrict the ability of people to redistribute software.
+
+I don't know how we reconcile these two positions. It may require some very serious consideration of some ideas that have been considered sacred for a long time, or at the very least, to draw a clearer distinction between software and the communities around them. But we can't avoid these discussions. The consequences of this discrepancy has a very deep impact on people in our community.
+
+To that end - I've got one last piece of Sandgroper history that I'd like to share with you.
+
+And as a heads up - we're about to get into the sensitive topics I flagged earlier.
+
+C.Y. O'Connor
+~~~~~~~~~~~~~
+
+`Charles Yelverton O'Connor <https://en.wikipedia.org/wiki/C._Y._O%27Connor>`__ was born in 1843, and became the Engineer-in-chief of the Public Works department of Western Australia in 1891.
+
+He had a wide range of responsibilities, but there are two major public works that he's remembered for.
+
+Fremantle Harbour
+~~~~~~~~~~~~~~~~~
+
+The first is `Fremantle Harbour <https://en.wikipedia.org/wiki/Fremantle_Harbour>`__.
+
+Perth is actually a really dumb place for a large city to be. Sure, it's a long way away from *everything* - but cities on the ocean need harbours. But Perth doesn't have a natural deep water harbor.
+
+So they needed to make one. And they did that by dredging the mouth of the Swan River. And this was done, under the direction and supervision of CY O'Connor, in the 1890s.
+
+The Goldfields Water Scheme
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+But that wasn't O'Connor's only major achievement. The other was even bigger - `the Goldfields Water Scheme <https://en.wikipedia.org/wiki/Goldfields_Water_Supply_Scheme>`__.
+
+In the early 1890s, gold was discovered near the towns of Coolgardie and Kalgoorlie. This started Western Australia's gold rush.
+
+These towns are in the middle of a desert. There are no natural water sources. But people need water - so they would paying 5 shillings a gallon to have water carted by horse from Perth. Adjusted for inflation, thats around US$100 a gallon.
+
+But there was so much gold, they were willing to pay. The 1890's goldfields gold rush *doubled* the population of Western Australia in four years.
+
+But some people were dying of thirst and disease, so the government wanted to do something.
+
+CY O'Connor's solution was a pipeline, running 530km - 330 miles - from Mundairing weir in the Perth hills, to Kalgoorlie, with a series of 8 pumping stations along the route to get the water to it's destination, lifting the water 340m in altitude over the pipe's length. It takes 5 days for a drop of water to make it's way from Mundairing to Kalgoorlie. Again - this was built in the 1890s.
+
+Fremantle Harbor and the Goldfields pipeline were conceived, planned and delivered in the era of horse drawn carts and steam engines.
+
+These were both *mammoth* undertakings. It took considerable financial commitment from the government of the day to make them happen.
+
+But like all ambitious plans, they weren't universally popular.
+
+Criticism of these two projects was widespread. People who had alternative plans that had been rejected took to the presses to express their dismay. Two successive editors of Perth's Sunday Times newspaper made it their personal mission to see O'Connor brought to account for the way he was wasting public funds. They took every opportunity to accuse him of corruption, of ineptitude, calling for a Royal Commission into his activity.
+
+And all this public criticism and pressure took it's toll on O'Connor. One early monring in 1902, he took his own life.
+
+These two projects - Fremantle Harbour and the Goldfields Pipeline - they were ambitious - but they weren't foolhardy. They were well designed. And they have *shaped* Western Australia. They have both been in continuous operation from the day they were commissioned. Kalgoorlie is, to this day, an active gold mine - one of the world's largest. And children are taught CY O'Connors name and story in Primary School because of the importance of the work he did. But the combination of the public narrative surrounding his work, and his own mental health issues led to the worst possible end.
+
+Unfortunately, this is a story that will sound familiar to anyone who has been around the open source community for any period of time.
+
+Burnout
+~~~~~~~
+
+I have been a part of online communities for 30 years, and a maintainer for almost 15.
+
+And I'm here to tell you - dealing with people is emotionally *exhausting*. The sense of entitlement that some people bring to discussions about a tool they've received at no cost, and without any obligation to give back in any way, is phenomenal. And dealing with the messy parts of community so that everyone else doesn't have to - is just as exhausting.
+
+And over time - those pressures add up. And when you're doing all that mental and emotional labour as a *volunteer*, it makes you question why you bother at all. My personal experience - I was diagnosed as being in the middle of a major depressive episode in early 2015. Now, there were a number of contributing factors, but one of the big ones was the pressures imposed by my volunteer work dealing with the Django community - in particular, dealing with Code of Conduct issues - and one code of conduct issue in particular.
+
+I burned out on the Django community. And I'm still part of that community because of the many amazing friends I've made - but I don't actively contribute anywhere near as much as I once did.
+
+The (hidden) human cost of FLOSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I can think of dozens of others who have had similar experiences; who have either scaled back their involvement in open source, or dropped out of the community entirely, because of the treatment they've received at the hands of others in our community.
+
+Fortunately, I never reached the point of contemplating self harm - I was able to find the help I needed before reaching that point. But I know people who have.
+
+Are we, as a community, comfortable that we're doing this to our peers, our leaders - or to anyone, for that matter?
+
+Do we want to build our community on the expectation that volunteers will give of themselves until they burn out? Are we OK with the idea of project founders martying themselves so that the wider commmunity can have access to a web framework, or a packaging service, or a numerical processing library?
+
+Or do we want to find a way to structure our community to make sure that people who are able to do good work have the resources to do what they do well; and access to others who can actively support them in that work, and access to individuals with skills in other areas?
+
+Wrapping up
+~~~~~~~~~~~
+
+10 years ago, Python 3 was released. Despite numerous cries that it would kill python, we've come out the other side as a larger, stronger community. The transition to Python 3 required some bold technical decisions, and OK - maybe some mistakes were made - but ultimately, the gambit appears to have worked.
+
+That success wasn't inevitable. It took planning and effort. And future success isn't inevitable either. What about the next 10 years?
+
+Calls to Action
+~~~~~~~~~~~~~~~
+
+What can *you* do to help?
+
+Call to action 1: Start thinking about Black swans
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Firstly, we need to start thinking about the Black Swans that have the potential to redefine us.
+
+We can't affort to *just* think about the most pressing problems that are obvious right now. Our immediate sources of pain, or potential sources of revenue.
+
+We need to think about the problems we're *going* to have. Because addressing those problems is going to take time, and by the time those black swans *become* the pressing problem... it may be too late.
+
+Call to action 2: Improve resourcing of maintenance and R&D efforts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Secondly, we need to improve our resourcing of maintenance and R&D efforts. We need to work out how to harness the not-insignificant amount of money that is available in our industry to do the work that we *collectively* need done. And part of that discussion may mean re-thinking aspects of the way our community operates, or re-shaping the nature of the financial relationship we have with users, and especially large organizations.
+
+Call to action 3: Value contributors and their contributions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Third: as a community, we need to re-evaluate the way we value contributors and their contributions.
+
+And as a simplistic reading - yes, I mean money. Giving them access to the resources they need to continue doing the work they're doing, or to scale up the work from a part-time volunteer effort to a permanent facility.
+
+But I don't just mean money. We need to value each other as human beings. When you see something online and you've got some hot take you want to post - think about whether it really needs to be said. And if it does need to be said - are you saying it in a constructive, empathetic way? Consider the collective effect of a thousand messages with the same tone being directed at someone who volunteered to do something for you.
+
+Ok - those are all still very high level calls to action. These are things that require discussion, planning, and ongoing contemplation. The rest of this conference is a great time to start those discussions, but we're not going to see any magical fix by this time next week.
+
+You want something concrete? Well, here's two more:
+
+Call to action 4: Get out your wallets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Firstly, Get out your wallets.
+
+The `Python Software Foundation <python.org/psf/donations/>`__, the `Django Software Foundation <djangoproject.com/fundraising/>`__, `NumFocus <numfocus.org>`__, and many others accept donations. Encourage your employer to support these organizations to a level that reflects their signficance to their business. Give those organizations the financial resources to do maintenance and R&D work on behalf of the community.
+
+If you'd like to support my own work on the BeeWare project, you can `join the project as a financial member <beeware.org/bee/join/>`__. I'm currently able to cover my hosting costs and pay for stickers and challenge coins; If I can get some more financial backing, I could start making a more substantial time commitment to BeeWare. If you've got other ideas for how to fund BeeWare, or you'd like to know more about the project, we have a booth in the main hall; come have a chat.
+
+Call to action 5: Contribute
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lastly, if you have the means, or your privilege allows, contribute. Whether that's on your own time, or on your employer's time, consider contributing to open source - no matter your level of experience. This is a collective effort, and every little bit helps. The BeeWare project definitely needs help; but so do dozens of other projects in the Python ecosystem. And if my experience as a sandgroper proves anything - it's that Open Source really does open up the world.
+
+Where do you see Python in 10 years?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It's taken 28 years for Python to get to where we are today. And it would be a shame to have to develop it all over again, simply because we didn't pay attention to the way the world is changing, and plan for how Python will fit into the future that is evolving around us.
+
+And, as Python the *language* grows and adapts, we need to make sure that our community grows and adapts as well. This awesome language we know and love would be nothing without the community of people behind it - and as that community grows, I want to see it go from strength to strength.
+
+I hope I've been able to convince you that Python has a vibrant future ahead of it - we just need to plan for that future, and work out how we're going to execute on those plans in a sustainable fashion.
+
+And, if I still haven't convinced you about Python's future, maybe I've convinced you to come visit Perth. We're a long way away from everything, but I promise we're worth it. Not all the animals will kill you - for example, there's the happiest animal on earth - the Quokka. Only found on a one island, Rottnest, about an hour by boat from Perth.
+
+I hope to see you there someday.
+
+---
+pub_date: 2019-05-03 10:00:00
