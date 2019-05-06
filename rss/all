@@ -1,17 +1,353 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Ceci n'est pas un blog</title>
-  <id>urn:uuid:0a5263ca-4dee-3806-9b57-29cacde1b775</id>
-  <updated>2017-08-27T12:06:12Z</updated>
+  <id>urn:uuid:f762f2a2-60d2-3b8b-b345-9d88f12eae21</id>
+  <updated>2019-05-03T10:00:00Z</updated>
   <link href="https://cecinestpasun.com/entries/" />
   <link href="https://cecinestpasun.com/rss/all/" rel="self" />
   <author>
     <name></name>
   </author>
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+  <entry xml:base="https://cecinestpasun.com/entries/where-do-you-see-python-in-10-years/">
+    <title type="text">Where do you see Python in 10 years?</title>
+    <id>urn:uuid:a3f381b3-d813-3230-95ee-126f383a7eb0</id>
+    <updated>2019-05-03T10:00:00Z</updated>
+    <link href="https://cecinestpasun.com/entries/where-do-you-see-python-in-10-years/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;At &lt;a class=&quot;reference external&quot; href=&quot;https://us.pycon.org/2019&quot;&gt;PyCon US 2019&lt;/a&gt;,  I was extremely honored to give the opening keynote. While the PyCon Video team worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.&lt;/p&gt;
+&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;https://www.youtube.com/embed/ftP5BQh1-YM?t=1250&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;I've been an active and visible participant in the Python community for over 13 years now. And as a result, I've spoken at a lot of PyCons and DjangoCons. But for those who haven't met me before: Hi, you may have noticed I'm not a local.&lt;/p&gt;
+&lt;p&gt;I was born, and I live to this day, on little dot down the bottom of the map: &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Perth&quot;&gt;Perth, Western Australia&lt;/a&gt;. Perth is not usually one of the cities people think of when they think of Australia. Its kinda like Cleveland - a fine city, but not usually the first one that jumps to mind when you think of the US.&lt;/p&gt;
+&lt;p&gt;Perth has a fascinating history, and has had a bigger impact on the world than many realize - and some of those stories are convenient metaphors - so today I would like teach you all about Perth, and maybe we can learn some valuable lessons about life along the way.&lt;/p&gt;
+&lt;p&gt;First off - some terminology. We are in Ohio. Someone from Ohio is called a Buckeye. Someone from Western Australia - is called - and I swear I'm not making this up...&lt;/p&gt;
+&lt;p&gt;...a sandgroper.&lt;/p&gt;
+&lt;p&gt;We're so named after &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Sandgroper_(insect)&quot;&gt;this delightful fellow&lt;/a&gt; - Cylindraustralia kochii. It's a pygmy mole cricket. About 2 inches long, lives in the sand dunes at the beach.&lt;/p&gt;
+&lt;p&gt;And they're not venomous!&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;acknowledgement-of-country&quot;&gt;
+&lt;h2&gt;Acknowledgement of Country&lt;/h2&gt;
+&lt;p&gt;Sandgropers - the people, not the insects - have a tradition about how you start big public events like a PyCon. Australia, like the US, Canada, and many other colonized countries, has a messy history with their indigeneous peoples. In recognition of that fact, starting in Perth in the 1970s, Australian public gatherings have, increasingly, started with a recognition that the land where the gathering is happening wasn't always white man's land.&lt;/p&gt;
+&lt;p&gt;It's called &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Welcome_to_Country&quot;&gt;Acknowledgement of Country&lt;/a&gt; - and in that spirit, I'd like to acknowledge that I come from &lt;a class=&quot;reference external&quot; href=&quot;https://www.noongarculture.org.au/whadjuk/&quot;&gt;Whadjuk Noongar Boodja&lt;/a&gt;; and I'd like to recognize the Eriehonan and Haudenosaunee peoples, the traditional owners of the land where we meet today, to recognize their continuing connection to their land, waters and culture, and to pay my respects to their Elders past, present and emerging.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;content-warning&quot;&gt;
+&lt;h2&gt;Content Warning&lt;/h2&gt;
+&lt;p&gt;Also - as a content warning, later in this talk, I will be discussing issues of depression and self harm. If that's something that will impact you, please do whatever you need for self care. I'll give another warning before we get to that part of the talk.&lt;/p&gt;
+&lt;p&gt;So - to the subject at hand. We've established that, yes, I do come from a land down under... but who am I?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;who-am-i&quot;&gt;
+&lt;h2&gt;Who am I?&lt;/h2&gt;
+&lt;p&gt;Well, in my day job, I do data engineering for &lt;a class=&quot;reference external&quot; href=&quot;https://survata.com&quot;&gt;Survata&lt;/a&gt;. Survata is a market research company. They use Python and data science to help brands to understand their customers.&lt;/p&gt;
+&lt;p&gt;Survata gives me the flexibility to flit around the planet to meet all you wonderful people - but as lovely as it is to have the support of a wonderful company like Survata, that's not really why I'm here today.&lt;/p&gt;
+&lt;p&gt;I became involved in and I'm known to the Python community through my work on Django. I joined the Django core team way back in 2006. Because I lived in Perth, I didn't meet another member of the Django core team until 2008.&lt;/p&gt;
+&lt;p&gt;Django is a big part of the broader Python ecosystem; but it's not the only part. Django isn't the only Python web framework; and web programming isn't the only thing people do with Python.&lt;/p&gt;
+&lt;p&gt;In my current day job at Survata, I don't use Django at all. But I do make extensive use of NumPy, Jupyter, Pandas, and the ecosystem of tools around those libraries.&lt;/p&gt;
+&lt;p&gt;And there many other uses of Python. You can use Python on embedded devices. There are libraries for performing astronomical calculations, biotech and gene sequencing. It's used as a scripting language for operating system automation, as a control language for devops, and as a teaching language.&lt;/p&gt;
+&lt;p&gt;None of this has happened overnight. Python as a language is 28 years old. It took maybe 10 years for Python to gain significant traction in our industry, and another 10 before it gained really widespread support.&lt;/p&gt;
+&lt;p&gt;And, as a result, we get.... this. A gathering of three and half thousand people who have organized to travel from all over the planet - even Perth - to converge in, of all places, Cleveland, to talk about a programming language for a couple of days.&lt;/p&gt;
+&lt;p&gt;It's worth stopping for a moment to reflect on the magnitude of what Guido set in motion 28 years ago, and what we, collectively, have done since. It should be celebrated, because it's no small feat.&lt;/p&gt;
+&lt;p&gt;And because this is the big tent of the Python community, we have a real opportunity to look to the future as well. This weekend, and into the sprints next week, we have the opportunity to dream big ideas, work out what problems we need to solve, and where we're going to collectively focus our efforts over the coming weeks, months and years.&lt;/p&gt;
+&lt;p&gt;So, to kickstart that conversation, I'd like to pose a question to everyone in this room.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-question&quot;&gt;
+&lt;h2&gt;A question&lt;/h2&gt;
+&lt;p&gt;Where do you see Python in 10 years?&lt;/p&gt;
+&lt;p&gt;The one thing I'm certain of is that everyone in this room will have a different answer to this question - that's inevitable when a language is used by so many people for so many different things. But if you're here in this room today, I think it's probably fair to assume that you like Python to some degree. And in 10 years, you'd like Python to be at least as vibrant a community as it is today.&lt;/p&gt;
+&lt;p&gt;I'm sure nobody wants to have to rewrite all of the libraries on PyPI, or rebuild all the communities and user groups in the Python ecosystem, or re-establish all our ecosystem norms in a new community, just because Python is no longer a viable language for new projects.&lt;/p&gt;
+&lt;p&gt;So - this question - Where do you see Python in 10 years - is really about asking what we need to do today to ensure that Python &lt;em&gt;remains&lt;/em&gt; a relevant, vibrant, and healthy community.&lt;/p&gt;
+&lt;p&gt;Time for some more sandgroper facts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;black-swans&quot;&gt;
+&lt;h2&gt;Black Swans&lt;/h2&gt;
+&lt;p&gt;The state bird of Western Australia is the &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Black_swan&quot;&gt;Black Swan&lt;/a&gt;. It appears on the Western Australian Flag, and on the crest of the City of Perth. The river running through the middle of Perth is the Swan river.&lt;/p&gt;
+&lt;p&gt;But a black swan is also a metaphor.&lt;/p&gt;
+&lt;p&gt;Prior to the 1600s, it was well known that all swans are white. Swans of other colors were known to not exist. And then in 1697, Dutch explorer Willem de Vlamingh visited Western Australia - and discovered that swans could also be black. This radically changed the worlds idea of what a swan was.&lt;/p&gt;
+&lt;p&gt;In 2001, essayist and statstician &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb&quot;&gt;Nassim Nicholas Taleb&lt;/a&gt; used this as a broader metaphor.&lt;/p&gt;
+&lt;p&gt;Taleb defined a Black Swan event as an event that is a surprise to the observer, that has a major effect on the world, but in hindsight, can be easily explained. In hindsight, it was obvious that swans could be be black. But until someone visited Western Australia, it never occurred to anyone to challenge that assumptions.&lt;/p&gt;
+&lt;p&gt;Black swan events don't have to be immediate, either - the impact can be felt over time. The rise of the personal computer was a black swan event. In 1947, CEO of IBM Thomas Watson famously said there was a world market for maybe five computers. Today, almost everyone in this room is carrying five computers. In retrospect, Watson's comments are just quaintly naive. But at the time, they weren't controversial - they were the common understanding of the world. And the change wasn't immediate, but in retrosoect, it was inevitable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;python-s-black-swan&quot;&gt;
+&lt;h2&gt;Python's Black Swan&lt;/h2&gt;
+&lt;p&gt;In my opinion, when we're thinking about what the future holds for Python, we need to be thinking about Python’s black swans.&lt;/p&gt;
+&lt;p&gt;Python is a popular language right now. We'd like it to stay popular. What could happen to affect that popularity?
+What change could happen in the industry, in hardware, or in the community, that could alter the popularity of Python? That would cause Python to become that annoying legacy language that we have to know, but would rather replace at the earliest opportunity?&lt;/p&gt;
+&lt;p&gt;Black swan events are only truly obvious in hindsight - but the best way to avoid them is to actively challenge your assumptions. And question what would happen if those assumptions turned out to be incorrect.&lt;/p&gt;
+&lt;p&gt;And I think there's a couple we have cause to be concerned about.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;black-swan-1-everyone-uses-a-laptop&quot;&gt;
+&lt;h2&gt;Black Swan 1: Everyone uses a laptop&lt;/h2&gt;
+&lt;p&gt;First - where do you run Python?&lt;/p&gt;
+&lt;p&gt;For pretty much the entire existence of Python, a &amp;quot;computer&amp;quot; was a large box that sat on your desk, or maybe in a rack in a server room. Over time, the box got smaller, and you started carrying it around in your backpack, but you used the same operating system - Windows, or a Unix derivative.&lt;/p&gt;
+&lt;p&gt;Over the last 10 years, we've seen the emergence of a new class of computing devices - much smaller, and usually portable. Phones, tablets, watches, and set top boxes.&lt;/p&gt;
+&lt;p&gt;These devices are becoming ubiquitous - and they're replacing laptops as primary computing devices. My son started high school last year. He doesn't have a laptop for school. His entire educational experience is delivered through a tablet device.&lt;/p&gt;
+&lt;p&gt;If you go to python.org, tablets, phones and set top boxes don't even rate a mention. To me, that seems like a pretty big oversight of the way the everyday experience of computing has changed over the last 10 years. Phones and tablets are acheiving market penetration that desktop and laptops have &lt;em&gt;never&lt;/em&gt; seen. And yet, as a community, we don't have a story for how you can use Python on these devices.&lt;/p&gt;
+&lt;p&gt;So what happens to Python when laptops don't exist, or become niche devices? If I'm a novice programmer, and there's no installer for Python &lt;em&gt;on&lt;/em&gt; my tablet, and I can't use Python to write an app for my tablet... why am I going to learn Python?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;black-swan-2-python-can-stay-on-the-server&quot;&gt;
+&lt;h2&gt;Black Swan 2: Python can stay on the server&lt;/h2&gt;
+&lt;p&gt;Not all Python runs on laptops, though - some of it runs on the server. And you can use Python to write a web application.&lt;/p&gt;
+&lt;p&gt;10 years ago, when Django was the cool new thing, you installed Python on the server, and you used it to render HTML and CSS to the browser. If you were &lt;em&gt;really&lt;/em&gt; hip, you'd sprinkle some AJAX in as well, adding autocomplete to your search box - but you made sure that if the user didn't have Javascript enabled, the page would gracefully degrade and would still work.&lt;/p&gt;
+&lt;p&gt;These days - good luck finding a web page that works without Javascript enabled. As with mobile devices, the last 10 years has seen a dramatic shift in where code is being executed, and increasingly, code is being run &lt;em&gt;in&lt;/em&gt; the browser. Javascript evolved from an optional client-side add on, to a language implementing key logic &lt;em&gt;in&lt;/em&gt; the browser, to a language that replacing Python on the server.&lt;/p&gt;
+&lt;p&gt;Again - if I'm a novice programmer, and I'm faced with Javascript - a language I can use to get a native experience in the browser, and can transition that onto the server... and on the other hand there's Python, a language that only works on the server - why am I going to learn Python?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;black-swan-3-installation-is-a-solved-problem&quot;&gt;
+&lt;h2&gt;Black Swan 3: Installation is a solved problem&lt;/h2&gt;
+&lt;p&gt;Ok, so lets say that despite those two problems, I have decided to learn Python. And I reach the point where I need to install a package.&lt;/p&gt;
+&lt;p&gt;I've been a user of Python for 20 years, and in that entire time, I don't think there's ever been a period where I'd describe Python's packaging story as &amp;quot;stable&amp;quot;. And because information lives forever on the Internet, old advice continues to linger, long after it's considered the &amp;quot;right&amp;quot; answer, and then well meaning but misinformed people spread outdated advice on stack overflow, perpetuating the problem.&lt;/p&gt;
+&lt;p&gt;![Image goes here](images/xkcd-1987.png)&lt;/p&gt;
+&lt;p&gt;The situation is bad enough that it's a punch line for comics. In &lt;a class=&quot;reference external&quot; href=&quot;https://xkcd.com/1987/&quot;&gt;XKCD 1987&lt;/a&gt;, Randall Monroe lampoons Python's environment experience as so degraded that it has made laptop a toxic waste site.&lt;/p&gt;
+&lt;p&gt;Brett Cannon did a &lt;a class=&quot;reference external&quot; href=&quot;https://snarky.ca/deconstructing-xkcd-com-1987/&quot;&gt;really good writeup about this comic&lt;/a&gt;, trying to diagnose what has happened on Randall's computer. It's a really enlightening autopsy, well worth the read.&lt;/p&gt;
+&lt;p&gt;One thing that Brett points out - and it's the part that's most concerning for me, from the perspective of looking for Black Swans, is this:&lt;/p&gt;
+&lt;p&gt;Why can this joke be made at all?&lt;/p&gt;
+&lt;p&gt;Good jokes always contain an element of truth. And the way you respond to that truth matters. This joke is part of a narrative about what Python &lt;em&gt;is&lt;/em&gt;. And if that picture isn't positive, then long term - that's an existential threat. If I'm a new user, why would I want to learn Python if everything I read about it ends up with a joke about my computer becoming a toxic waste site?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;black-swan-4-code-distribution-doesn-t-matter&quot;&gt;
+&lt;h2&gt;Black Swan 4: Code distribution doesn't matter&lt;/h2&gt;
+&lt;p&gt;And I haven't even got to the question of how I distribute my application to someone else. Whether you're distributing a Django application, or distributing a user-space application - Python hasn't ever had a consistent story for how I give my code to someone else - especially if that someone else isn't a developer, and just wants to use my application.&lt;/p&gt;
+&lt;p&gt;Contrast that with, for example, PHP, whose distribution story is &amp;quot;use FTP to upload all the files&amp;quot;. Or Go's story, which is &amp;quot;here, have this executable&amp;quot;. I'm not saying that the PHP or Go solutions are a panacea - they're not. And I'm not saying Python's story will be as simple as any of these. But we haven't got a story &lt;em&gt;at all&lt;/em&gt; - and we're competing against languages that do. And again, why would I want to learn Python if I can't get a clear answer for how I can give my code to my non-programmer friends?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;or-is-our-black-swan-something-else&quot;&gt;
+&lt;h2&gt;... or is our Black Swan something else?&lt;/h2&gt;
+&lt;p&gt;That's 4 possible Black Swans that I've identified. Maybe it's something else? I know there are people in this room who will assert that Python's C API is a potential problem. Or the GIL. Or the lack of a good front-end story. Or focussing on Unix and Mac to the exclusion of Windows. Maybe the problem won't be technical at all - maybe it will be cultural. Some aspect of Python's community or development process that drives some segment of users or potential contributors away because of percieved hostility, or conflict, or diverging interests.&lt;/p&gt;
+&lt;p&gt;Or maybe it won't be any one of these things. My point is that we can't predict the future. But we can challenge our assumptions. We can look criticially at ourselves as a community. We can examine the trends in our industry and our society, and make plans based on those assessments; not just reacting to problems when they're already wildfires, but proactively addressing problems before they become critical threats to the ecosystem.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;this-is-not-about-blame&quot;&gt;
+&lt;h2&gt;This is not about blame&lt;/h2&gt;
+&lt;p&gt;I also want to be &lt;em&gt;very&lt;/em&gt; clear here. This isn't an accusation. I'm not blaming anyone of not doing their job. The Python core team is doing the absolute best they can with the resources they have - and they're &lt;em&gt;very&lt;/em&gt; limited resources.&lt;/p&gt;
+&lt;p&gt;What I'm talking about here is trying to avoid Black Swans. To start a conversation about longer term priorities, and how we marshal the resources that we, as a community, have at our disposal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;beeware&quot;&gt;
+&lt;h2&gt;BeeWare&lt;/h2&gt;
+&lt;p&gt;For whatever it's worth, these existential problems are one of the reasons I changed the focus of my open source contributions a few years ago. As I said eariler, I developed my reputation working on Django. But these days, I'm spending most of my volunteer time on the BeeWare project.&lt;/p&gt;
+&lt;p&gt;For those that haven't come across it before, &lt;a class=&quot;reference external&quot; href=&quot;https://beeware.org&quot;&gt;BeeWare&lt;/a&gt; is a collection of open source tools and libraries for creating native user interfaces in Python - for desktop, but also for iOS, Android, single-page webapps, and other new hardware platforms.&lt;/p&gt;
+&lt;p&gt;A key part of that work is getting Python to run on phones and tablets &lt;em&gt;at all&lt;/em&gt;, working out how to run Python code on Android, iOS, and in the browser, bridging to native APIs on those platforms, and wrapping those APIs in a cross platform layer.&lt;/p&gt;
+&lt;p&gt;Another big part is developing a distribution story - working out how to integrate with native platform tools, and get an application written in Python wrapped as an app, with an installer, or uploaded to the App store or Play store.&lt;/p&gt;
+&lt;p&gt;Now, BeeWare is a work in progress. It's current state is &amp;quot;compelling proof of concept&amp;quot;. It's not a version 1 product ready to start using to develop your mission critical application; but I have been able to demonstrate that cross-platform native applications, written in Python is possible.&lt;/p&gt;
+&lt;p&gt;I'm also not the only person working on this problem. The &lt;a class=&quot;reference external&quot; href=&quot;https://kivy.org/&quot;&gt;Kivy&lt;/a&gt; project has similar goals, but with differences in their underlying approach.&lt;/p&gt;
+&lt;p&gt;As far BeeWare is concerned; about 18 months ago, I did a live demo at PyCon Australia 2017 where I wrote a Fahrenheit to Celcuis application, in 50 lines of Python code, and deployed it on MacOS, Linux, Windows, iOS, Android, and as a single-page web application, all in the space of 20 minutes.&lt;/p&gt;
+&lt;p&gt;And when I say deployed - I don't just mean &amp;quot;I ran the code&amp;quot;. I mean on Mac, it was a standalone .app file. On Windows, it was an MSI installer. On iOS and Android, it was a packaged app, running in the device simulators, but it could have been uploaded to an App store. And it was running in a browser, completely client side, including doing the Fahrenheit to Celcius conversion in Python, in the browser.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;sisyphus&quot;&gt;
+&lt;h2&gt;Sisyphus&lt;/h2&gt;
+&lt;p&gt;Now - as you might imagine, this is a big project. I've been working on BeeWare for years, and there are days when I feel like Sisyphus, eternally pushing a boulder up the hill.&lt;/p&gt;
+&lt;p&gt;Unfortunately, there hasn't been a lot of visible progress since I did that demo. There's even been some regressions - Android and web support is currently broken, for example. And that's because it's not my day job. I'm tinkering on this in what I amusingly refer to as my spare time - and as a result, progress is slow.&lt;/p&gt;
+&lt;p&gt;Now despite all this - I'm actually optimistic about Python's future.&lt;/p&gt;
+&lt;p&gt;To explain why, I need to tell you another piece of Sandgroper history, about a yacht race.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-1983-america-s-cup&quot;&gt;
+&lt;h2&gt;The 1983 America's Cup&lt;/h2&gt;
+&lt;p&gt;I need to tell you about the America's Cup.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/America%27s_Cup&quot;&gt;The America's Cup&lt;/a&gt; is the world's oldest international sporting trophy. The America's Cup race is held about every 4 years; Those of you from San Francisco may remember the 2013 America's Cup, raced in San Francisco Bay.&lt;/p&gt;
+&lt;p&gt;But from the first race in 1851 to 1980, the winner was the the New York Yacht club.&lt;/p&gt;
+&lt;p&gt;In &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/1983_America%27s_Cup&quot;&gt;1983&lt;/a&gt;, New York lost to the Royal Perth Yacht Club, and it's yacht &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Australia_II&quot;&gt;Australia II&lt;/a&gt;, breaking a 132 year winning streak.&lt;/p&gt;
+&lt;p&gt;Now, it's difficult for me to understate how big a deal this was in Australia, and in Perth specifically. This was event that put Perth on the world stage for pretty much the first time.&lt;/p&gt;
+&lt;p&gt;Many of you here today probably even know about the 1983 America's Cup without even knowing why. Some of you may have heard me drop the line that &amp;quot;I come from a land down under&amp;quot; earlier on. That's a &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Down_Under_(song)&quot;&gt;line from a song by Australian rock band &amp;quot;Men at Work&amp;quot;&lt;/a&gt; - that song was the unofficial theme song for Australia II. And it was popular in the US primarily because of the 1983 America's cup. The movie Crocodile Dundee was concieved of and able to get financed and released, in part, because of the exposure Australia received from the America's Cup.&lt;/p&gt;
+&lt;p&gt;Just to be clear, though - Outback steakhouse? You can't blame us for that. We had nothing to do with it.&lt;/p&gt;
+&lt;p&gt;Ok, but other than the Perth connection - why does the America's Cup and Australia II matter?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;lesson-1-a-fair-game&quot;&gt;
+&lt;h2&gt;Lesson 1: A fair game&lt;/h2&gt;
+&lt;p&gt;First off - lets talk about the New York Yacht Club's winning streak. The yachts in the 1983 race were what are called 12 meter yachts. Despite the name, it's got nothing to do with the size of the boat - it describes a set of rules for the design of boats, involving sail area, waterline length, and more.&lt;/p&gt;
+&lt;p&gt;However, the America's Cup hasn't always been raced by 12 meter yachts. Prior to 1956, a range of yacht classes were used. According to the deed for the trophy, the defending club must accept regular challenges; but they're allowed to set the rules for those challenges.&lt;/p&gt;
+&lt;p&gt;And so, for many years, the New York Yacht Club would impose rules like &amp;quot;the challenger must come from an ocean yacht club, and must sail to the competition site on it's own hull&amp;quot;. That is - a challenger from England would have to cross the Atlantic in their yacht... whereas the defender would pop out from Newport harbour. And surprise surprise - under those conditions, New York's yachts were lighter and faster.&lt;/p&gt;
+&lt;p&gt;So, lesson 1 from the America's Cup - it's not enough to just follow the rules; you have to ensure the competition is fair.&lt;/p&gt;
+&lt;p&gt;The New York Yacht Club wasn't breaking any rules. They didn't write the deed for the trophy. They were just playing the hand they were dealt. But nobody in their right mind would call the resulting competition fair.&lt;/p&gt;
+&lt;p&gt;In a situation like this, you have a choice. You can either keep winning in a competition that has been stacked in your favour, or you can change what &lt;em&gt;is&lt;/em&gt; in your control, and make it a fair competition. But you don't get to claim you're the best in the world, winning on merit, unless you've leveled the playing field.&lt;/p&gt;
+&lt;p&gt;Could this be an metaphor for the IT industry... you know? I think it might be. I'll just leave that thought over here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;lesson-2-watch-out-for-black-swans&quot;&gt;
+&lt;h2&gt;Lesson 2: Watch out for Black Swans&lt;/h2&gt;
+&lt;p&gt;But to their credit, the New York Yacht Club adopted the 12 meter rule in 1958, so since then, the competition had been fair - so why hadn't anyone else won? And why did Australia II win?&lt;/p&gt;
+&lt;p&gt;Well, a Black swan happened. Sailing is highly competitive, and the New York Yacht Club always fielded a strong defence, with well designed yachts, and highly capable crews. When you add in the home-harbour advantage - knowing the seas and prevailing winds of Newport harbour - it's easier to continue winning.&lt;/p&gt;
+&lt;p&gt;And the design of 12 meter yachts was essentially finnessing a well established design. Sure, there were variations between boats, but they were relatively well understood tweaks of a basic design.&lt;/p&gt;
+&lt;p&gt;But Australia II was a Black Swan.&lt;/p&gt;
+&lt;p&gt;When Australia II arrived in the US, the lower half of the boat was shrouded in secrecy. This invited all sorts of wild theories - especially when it started winning races. On two separate occasions, the Australian team caught SCUBA divers trying to take a peek. There were all sorts of accusations that whatever was under the shroud must be illegal.&lt;/p&gt;
+&lt;p&gt;But, the team kept the secret right up until the victory celebration, when the team owner stood on the dock, and called for the boat to be raised into the air for all to see - revealing the winged keel. On most boats, the keel is simple flat surface, used to lower the centre of mass of the hull, counterbalancing sail forces.&lt;/p&gt;
+&lt;p&gt;Ben Lexen, the designer of Australia II, thought about it differently. He reason that the keel is a hydrodynamic surface - so lets treat it as one. And he added a pair of wings on the bottom of the keel. Those wings perform a similar role to the winglets on an airliner's wings - winglets on a plane's cause the wing to generate more lift, and less drag. And the same is true on a keel - the winglets make the keel more effective at keeping the boat upright, which means the sail is more effective, and the boat is faster.&lt;/p&gt;
+&lt;p&gt;The blue paint was camouflage so that if you did get a photo of the keel, you'd see the outline of a traditional keel shape.&lt;/p&gt;
+&lt;p&gt;Fast forward to the 1987 Americas cup. &lt;em&gt;Every&lt;/em&gt; yacht had something secret. There were fiberglass hulls. There were all sorts of keel shapes. There were dynamic keels. And the innovation has continued to this day; carbon fibre hulls, solid sails, and more.&lt;/p&gt;
+&lt;p&gt;The America's cup isn't sailed on 12 meter yacht's any more - The next America's cup in 2021, will be sailed on what are called AC75 yachts which are quite literally, flying boats. They're so light, and generate so much thrust from their sails, that they're able to use their keel as a hydrofoil and lift out of the water. These boats travel at &lt;em&gt;amazing&lt;/em&gt; speeds.&lt;/p&gt;
+&lt;p&gt;All of this innovation has happened because one team decided to challenge the assumptions of 12 meter yacht design. It was controversial. It was risky. But it worked. And yacht racing hasn't been the same since.&lt;/p&gt;
+&lt;p&gt;And - just to nail the metaphor home - the name of Australia II's tender boat was the Black Swan.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;computing-s-winged-keel&quot;&gt;
+&lt;h2&gt;Computing's winged keel&lt;/h2&gt;
+&lt;p&gt;What does this have to do with Python? Well, I think we've already seen a winged keel in our industry: &lt;a class=&quot;reference external&quot; href=&quot;https://webassembly.org/&quot;&gt;WASM&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For those who haven't heard about it, WASM is &amp;quot;Web Assembly&amp;quot;. It started life as a research project trying to identify the set of primitive Javascript operations that will execute fast in modern javascript engines. That set of primitives is very close to the capabilities of an assembly language - Allocating memory, Simple integer and floating point operations, and so on. And as a result, you can use that set of primitives and compile C to this &amp;quot;assembly language&amp;quot; target.&lt;/p&gt;
+&lt;p&gt;WASM is the extension of that work, defining a binary format for transmitting &amp;quot;assembly&amp;quot; content, rather than transmitting Javascript that has to be parsed and interpreted. That makes WASM code smaller and faster to process... but no less portable than Javascript, because at the end of the day, it's still Javascript.&lt;/p&gt;
+&lt;p&gt;Essentially it's separating Javascript into two parts - a fast, sandboxed runtime that is almost universally available because it's in the browser; and a language that targets that runtime. For the purposes of our industry, it means that the rules have changed. You no longer have to adopt Javascript the language to adopt Javascript the runtime.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;python-on-wasm&quot;&gt;
+&lt;h2&gt;Python on WASM&lt;/h2&gt;
+&lt;p&gt;That means there's an opening for Python - and other languages, for that matter - to be languages available for client side logic in the browser.&lt;/p&gt;
+&lt;p&gt;WASM is still in the relatively early days. There are still some issues being worked out - one of the big ones being the interaction between the DOM and WASM. And making a viable WASM-based Python will require some work.&lt;/p&gt;
+&lt;p&gt;But the winged keel has been revealed. What we do with that knowledge is up to us. Are we going to dig into the technology, get creative with the rules, determine how we can exploit the rules to our advantage, and sail off in our flying boat? Or are we going to continue to race flat keeled 12 meter yachts and wonder why we don't win races any more?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;lesson-3-the-team-matters&quot;&gt;
+&lt;h2&gt;Lesson 3: The team matters&lt;/h2&gt;
+&lt;p&gt;But there's more we can learn from Australia II. Ben Lexen was a very talented yacht designer. He did a remarkable thing when he put winglets on Australia II's keel. But he wasn't a competitive sailor.&lt;/p&gt;
+&lt;p&gt;John Bertrand was an amazing skipper. But he couldn't design a yacht.&lt;/p&gt;
+&lt;p&gt;And there were 14 other people on board the boat, and an entire support team on the tender and back at the harbour ensuring those 15 sailors could be competitive. Sailing is a team sport. You don't just need a top-notch engineer or skipper. You need a wide range of skills, and it's only when all those skills come together that you achieve success.&lt;/p&gt;
+&lt;p&gt;And the same is true of software. Although there's a historical narrative about great software development being done by a sole hacker tapping away in their basement, that's never actually the case. What we see today as the Python community is the result of countless thousands of hours of effort from countless people.&lt;/p&gt;
+&lt;p&gt;And, being primarily software engineers, the coders often get the most attention. And yes - writing good software takes a lot of effort; and doing it well takes time and skill.&lt;/p&gt;
+&lt;p&gt;But that's only considering the code. Any project - especially one the size of Python - is much more than the code.&lt;/p&gt;
+&lt;p&gt;Project and Team Management is a skill.&lt;/p&gt;
+&lt;p&gt;Graphic design and UI design is a skill.&lt;/p&gt;
+&lt;p&gt;Developer relations is a skill.&lt;/p&gt;
+&lt;p&gt;Technical writing is a skill.&lt;/p&gt;
+&lt;p&gt;Now, these skills could be broadly considered in the remit of a &amp;quot;well rounded&amp;quot; software engineer. But what about things that aren't even remotely software related?&lt;/p&gt;
+&lt;p&gt;Who organizes the community events?&lt;/p&gt;
+&lt;p&gt;Who provides legal advice?&lt;/p&gt;
+&lt;p&gt;Who handles communications and public relations?&lt;/p&gt;
+&lt;p&gt;Who builds the relationships with potential donors and manages fund raising?&lt;/p&gt;
+&lt;p&gt;Who makes the strategic deals with the Googles, Microsofts, and Amazons of the world to ensure Python is a supported language on product roadmaps?&lt;/p&gt;
+&lt;p&gt;It turns out - there are people in the world who can't program, but who have remarkable skills that are very, very useful.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;lesson-4-money-makes-things-happen&quot;&gt;
+&lt;h2&gt;Lesson 4: Money makes things happen&lt;/h2&gt;
+&lt;p&gt;And Australia II has another lesson here. Ben Lexen and his team didn't do all this engineering design work out of the goodness of their heart. Competitive sailing has been described as the ability to stand in a cold shower tearing up $100 bills. The Australia II challenge was bankrolled by a gentleman named Alan Bond. The 1983 challenge was the third challenge that Bond had financed, collectively absorbing hundreds of millions of dollars.&lt;/p&gt;
+&lt;p&gt;Without Bond's money, the Australia II challenge would not have happened. And without a commitment over multiple Cup campaigns allowing the design team to become deeply familiar with 12 meter yacht design, and funding the research effort, it wouldn't have culminated in the winged keel.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;expertise-costs&quot;&gt;
+&lt;h2&gt;Expertise costs&lt;/h2&gt;
+&lt;p&gt;Whether it's competitive sailing or software, expertise is needed - but experts kinda expect to get paid.&lt;/p&gt;
+&lt;p&gt;From inside the bubble of open source software development, it's easy to lose sight of the fact that some of the cultural norms we see... aren't normal in other industries.&lt;/p&gt;
+&lt;p&gt;Open source software is an industry where it's apparently expected that having worked your 9-5 day job doing something you're skilled at, you'll go home, and do some more, for free, and then encourage multi-billion dollar organizations to benefit from your effort.&lt;/p&gt;
+&lt;p&gt;In most industries, if you're good at something, you get paid to do it. And people outside software have really useful skills -- skills that many open source projects badly need.&lt;/p&gt;
+&lt;p&gt;But it's true of writing software, too. People &lt;em&gt;are&lt;/em&gt; paid well to write software. But there's plenty of software that &lt;em&gt;should&lt;/em&gt; be written, but isn't - or isn't written in a timely fashion, because we're waiting for volunteers to do the job.&lt;/p&gt;
+&lt;p&gt;Django is a &lt;em&gt;web framework&lt;/em&gt;, and it took the DSF over 3 years to coordinate the most recent redesign of it's website. Why? Because if you need volunteers, you're immediately constraining the amount of time and effort that anyone can put into the job.&lt;/p&gt;
+&lt;p&gt;And I don't want to undermine the significant contribution the volunteers have given to Python and the Python community - but I &lt;em&gt;do&lt;/em&gt; want to challenge the idea that volunteering is the &lt;em&gt;only&lt;/em&gt; way that Python or open source can progress.&lt;/p&gt;
+&lt;p&gt;If you pay people for their time, they're much more likely be able to maintain their attention on a problem until designs are fully fleshed out, and consequences are considered, and the work gets done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;pypi-moss-grant&quot;&gt;
+&lt;h2&gt;PyPI MOSS Grant&lt;/h2&gt;
+&lt;p&gt;We saw an amazing demonstration of this in the Python community with the rewrite of PyPI.&lt;/p&gt;
+&lt;p&gt;PyPI has been around for 15 years. It &lt;em&gt;badly&lt;/em&gt; needed a rewrite for almost half it's life. Everyone agreed a rewrite was needed. But the work never got finished. Why? Because nobody was being paid to work on it.&lt;/p&gt;
+&lt;p&gt;Then Mozilla gave the PSF a grant of $170000. And the work was done in 6 months. Why? Because a couple of people could focus on getting the job done, instead of trying to fit bugfixes in on weekends between their kids football games, or trying to convince their boss that even though improving PyPI wouldn't make any money for the company directly, it was a worthwhile activity.&lt;/p&gt;
+&lt;p&gt;PyPI is an unfortunately rare example. What opportunities have we left on the table - or are we at risk of leaving on the table - beacuse we aren't resourcing them? What constraints have we placed on our own growth because nobody was enthusiastic enough to volunteer their time to address some gap, or make the most of some opportunity?&lt;/p&gt;
+&lt;p&gt;And who have we excluded from the development process because they had other life commitments, or couldn't justify donating all their spare time to a volunteer effort? Or because they can't take up a short term grant contract because they live in the US and need healthcare coverage?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;research-and-development-matters&quot;&gt;
+&lt;h2&gt;Research and Development matters&lt;/h2&gt;
+&lt;p&gt;It's not just about maintenance of existing infrastructure, either. History has shown that research and development is how you ensure success in the long term. And groups that &lt;em&gt;don't&lt;/em&gt; do R&amp;amp;D eventually get beaten.&lt;/p&gt;
+&lt;p&gt;Australia II's investment in R&amp;amp;D led to the winged keel, and kickstarted a whole generation of progress in yacht design.&lt;/p&gt;
+&lt;p&gt;The black swans I identified earlier aren't something that can be addressed with a trivial fix - they're going to need concentrated effort, and probably a bunch of dead ends along the way.&lt;/p&gt;
+&lt;p&gt;I've been doing what I can with BeeWare; but I'm really only doing that on weekends. And the same is true of a &lt;em&gt;lot&lt;/em&gt; of Python, and the Python ecosystem. For the most part, the Python we have today has been developed in the spare time of volunteers, or in whatever fragments of time engineers have been able to extract from their employers.&lt;/p&gt;
+&lt;p&gt;What if it didn't have to be that way? What if Python had an R&amp;amp;D division - a permanent engineering group that could focus on strategic tasks for the Python ecosystem.&lt;/p&gt;
+&lt;p&gt;When Bell Telephones gave a bunch of engineers the resources to engineer strategically, we got Unix. When Xerox funded a team in Palo Alto to engineer strategically, we got Xerox PARC, which gave us graphical user interfaces, and ethernet and laser printers.&lt;/p&gt;
+&lt;p&gt;When you give talented people the resources to think big, amazing things can happen.&lt;/p&gt;
+&lt;p&gt;The Python community has talented people. We just need to give them the resources to think big thoughts, and do big things, without the need to demonstrate that the work will generate profits in the next quarter, or without the need to spend half their time on one grant writing the proposal for the next grant.&lt;/p&gt;
+&lt;p&gt;And it could open the door to giving high profile, paid career opportunities to groups that have been historically underrepresented in open source developent.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;how-do-we-pay-for-this&quot;&gt;
+&lt;h2&gt;How do we pay for this?&lt;/h2&gt;
+&lt;p&gt;The underlying problem we have, though, is how to pay for it. Open source is an amazing way to do engineering - but it's &lt;em&gt;not&lt;/em&gt; a business model. We need to work out how to fund our engineering goals of open source without compromising the social goals.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;common-pool-resources&quot;&gt;
+&lt;h2&gt;Common Pool Resources&lt;/h2&gt;
+&lt;p&gt;This problem &lt;em&gt;is&lt;/em&gt; an area of academic economics research. &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Elinor_Ostrom&quot;&gt;Elinor Ostrom&lt;/a&gt; won the 2009 Nobel Prize for Economics for &lt;a class=&quot;reference external&quot; href=&quot;https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/1107569788&quot;&gt;her study of Common Pool Resources&lt;/a&gt;, or CPRs. Real-world examples of CPRs are things like forests, or grazing lands. They are situations where anyone could access the resource. The best &lt;em&gt;individual&lt;/em&gt; strategy for using the resource is to take as much you can get. But the best communal strategy is to collaborate. To limit what you take, and to contribute back to maintaining the resource so that, in the long run, the health and productivity of the resource is maximized.&lt;/p&gt;
+&lt;p&gt;Ostrom's work looked at examples of Common Pool Resources that are being managed in the real world. Some of them have been collectively operated and maintained for &lt;em&gt;hundreds&lt;/em&gt; of years.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;sacred-topics&quot;&gt;
+&lt;h2&gt;Sacred topics&lt;/h2&gt;
+&lt;p&gt;One of the key findings of Ostrom's work are the conditions required for sustainable CPRs. And one of those conditions is exclusion. In order to sustain a common pool resource, you have to be able to restrict access to the resource to those that are committed to adhering to community principles.&lt;/p&gt;
+&lt;p&gt;The problem is that this is in direct opposition to the Free Software guidelines - which state that you &lt;em&gt;can't&lt;/em&gt; restrict the ability of people to redistribute software.&lt;/p&gt;
+&lt;p&gt;I don't know how we reconcile these two positions. It may require some very serious consideration of some ideas that have been considered sacred for a long time, or at the very least, to draw a clearer distinction between software and the communities around them. But we can't avoid these discussions. The consequences of this discrepancy has a very deep impact on people in our community.&lt;/p&gt;
+&lt;p&gt;To that end - I've got one last piece of Sandgroper history that I'd like to share with you.&lt;/p&gt;
+&lt;p&gt;And as a heads up - we're about to get into the sensitive topics I flagged earlier.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;c-y-o-connor&quot;&gt;
+&lt;h2&gt;C.Y. O'Connor&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/C._Y._O%27Connor&quot;&gt;Charles Yelverton O'Connor&lt;/a&gt; was born in 1843, and became the Engineer-in-chief of the Public Works department of Western Australia in 1891.&lt;/p&gt;
+&lt;p&gt;He had a wide range of responsibilities, but there are two major public works that he's remembered for.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;fremantle-harbour&quot;&gt;
+&lt;h2&gt;Fremantle Harbour&lt;/h2&gt;
+&lt;p&gt;The first is &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Fremantle_Harbour&quot;&gt;Fremantle Harbour&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Perth is actually a really dumb place for a large city to be. Sure, it's a long way away from &lt;em&gt;everything&lt;/em&gt; - but cities on the ocean need harbours. But Perth doesn't have a natural deep water harbor.&lt;/p&gt;
+&lt;p&gt;So they needed to make one. And they did that by dredging the mouth of the Swan River. And this was done, under the direction and supervision of CY O'Connor, in the 1890s.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-goldfields-water-scheme&quot;&gt;
+&lt;h2&gt;The Goldfields Water Scheme&lt;/h2&gt;
+&lt;p&gt;But that wasn't O'Connor's only major achievement. The other was even bigger - &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Goldfields_Water_Supply_Scheme&quot;&gt;the Goldfields Water Scheme&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the early 1890s, gold was discovered near the towns of Coolgardie and Kalgoorlie. This started Western Australia's gold rush.&lt;/p&gt;
+&lt;p&gt;These towns are in the middle of a desert. There are no natural water sources. But people need water - so they would paying 5 shillings a gallon to have water carted by horse from Perth. Adjusted for inflation, thats around US$100 a gallon.&lt;/p&gt;
+&lt;p&gt;But there was so much gold, they were willing to pay. The 1890's goldfields gold rush &lt;em&gt;doubled&lt;/em&gt; the population of Western Australia in four years.&lt;/p&gt;
+&lt;p&gt;But some people were dying of thirst and disease, so the government wanted to do something.&lt;/p&gt;
+&lt;p&gt;CY O'Connor's solution was a pipeline, running 530km - 330 miles - from Mundairing weir in the Perth hills, to Kalgoorlie, with a series of 8 pumping stations along the route to get the water to it's destination, lifting the water 340m in altitude over the pipe's length. It takes 5 days for a drop of water to make it's way from Mundairing to Kalgoorlie. Again - this was built in the 1890s.&lt;/p&gt;
+&lt;p&gt;Fremantle Harbor and the Goldfields pipeline were conceived, planned and delivered in the era of horse drawn carts and steam engines.&lt;/p&gt;
+&lt;p&gt;These were both &lt;em&gt;mammoth&lt;/em&gt; undertakings. It took considerable financial commitment from the government of the day to make them happen.&lt;/p&gt;
+&lt;p&gt;But like all ambitious plans, they weren't universally popular.&lt;/p&gt;
+&lt;p&gt;Criticism of these two projects was widespread. People who had alternative plans that had been rejected took to the presses to express their dismay. Two successive editors of Perth's Sunday Times newspaper made it their personal mission to see O'Connor brought to account for the way he was wasting public funds. They took every opportunity to accuse him of corruption, of ineptitude, calling for a Royal Commission into his activity.&lt;/p&gt;
+&lt;p&gt;And all this public criticism and pressure took it's toll on O'Connor. One early monring in 1902, he took his own life.&lt;/p&gt;
+&lt;p&gt;These two projects - Fremantle Harbour and the Goldfields Pipeline - they were ambitious - but they weren't foolhardy. They were well designed. And they have &lt;em&gt;shaped&lt;/em&gt; Western Australia. They have both been in continuous operation from the day they were commissioned. Kalgoorlie is, to this day, an active gold mine - one of the world's largest. And children are taught CY O'Connors name and story in Primary School because of the importance of the work he did. But the combination of the public narrative surrounding his work, and his own mental health issues led to the worst possible end.&lt;/p&gt;
+&lt;p&gt;Unfortunately, this is a story that will sound familiar to anyone who has been around the open source community for any period of time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;burnout&quot;&gt;
+&lt;h2&gt;Burnout&lt;/h2&gt;
+&lt;p&gt;I have been a part of online communities for 30 years, and a maintainer for almost 15.&lt;/p&gt;
+&lt;p&gt;And I'm here to tell you - dealing with people is emotionally &lt;em&gt;exhausting&lt;/em&gt;. The sense of entitlement that some people bring to discussions about a tool they've received at no cost, and without any obligation to give back in any way, is phenomenal. And dealing with the messy parts of community so that everyone else doesn't have to - is just as exhausting.&lt;/p&gt;
+&lt;p&gt;And over time - those pressures add up. And when you're doing all that mental and emotional labour as a &lt;em&gt;volunteer&lt;/em&gt;, it makes you question why you bother at all. My personal experience - I was diagnosed as being in the middle of a major depressive episode in early 2015. Now, there were a number of contributing factors, but one of the big ones was the pressures imposed by my volunteer work dealing with the Django community - in particular, dealing with Code of Conduct issues - and one code of conduct issue in particular.&lt;/p&gt;
+&lt;p&gt;I burned out on the Django community. And I'm still part of that community because of the many amazing friends I've made - but I don't actively contribute anywhere near as much as I once did.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-hidden-human-cost-of-floss&quot;&gt;
+&lt;h2&gt;The (hidden) human cost of FLOSS&lt;/h2&gt;
+&lt;p&gt;I can think of dozens of others who have had similar experiences; who have either scaled back their involvement in open source, or dropped out of the community entirely, because of the treatment they've received at the hands of others in our community.&lt;/p&gt;
+&lt;p&gt;Fortunately, I never reached the point of contemplating self harm - I was able to find the help I needed before reaching that point. But I know people who have.&lt;/p&gt;
+&lt;p&gt;Are we, as a community, comfortable that we're doing this to our peers, our leaders - or to anyone, for that matter?&lt;/p&gt;
+&lt;p&gt;Do we want to build our community on the expectation that volunteers will give of themselves until they burn out? Are we OK with the idea of project founders martying themselves so that the wider commmunity can have access to a web framework, or a packaging service, or a numerical processing library?&lt;/p&gt;
+&lt;p&gt;Or do we want to find a way to structure our community to make sure that people who are able to do good work have the resources to do what they do well; and access to others who can actively support them in that work, and access to individuals with skills in other areas?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;wrapping-up&quot;&gt;
+&lt;h2&gt;Wrapping up&lt;/h2&gt;
+&lt;p&gt;10 years ago, Python 3 was released. Despite numerous cries that it would kill python, we've come out the other side as a larger, stronger community. The transition to Python 3 required some bold technical decisions, and OK - maybe some mistakes were made - but ultimately, the gambit appears to have worked.&lt;/p&gt;
+&lt;p&gt;That success wasn't inevitable. It took planning and effort. And future success isn't inevitable either. What about the next 10 years?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;calls-to-action&quot;&gt;
+&lt;h2&gt;Calls to Action&lt;/h2&gt;
+&lt;p&gt;What can &lt;em&gt;you&lt;/em&gt; do to help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;call-to-action-1-start-thinking-about-black-swans&quot;&gt;
+&lt;h2&gt;Call to action 1: Start thinking about Black swans&lt;/h2&gt;
+&lt;p&gt;Firstly, we need to start thinking about the Black Swans that have the potential to redefine us.&lt;/p&gt;
+&lt;p&gt;We can't affort to &lt;em&gt;just&lt;/em&gt; think about the most pressing problems that are obvious right now. Our immediate sources of pain, or potential sources of revenue.&lt;/p&gt;
+&lt;p&gt;We need to think about the problems we're &lt;em&gt;going&lt;/em&gt; to have. Because addressing those problems is going to take time, and by the time those black swans &lt;em&gt;become&lt;/em&gt; the pressing problem... it may be too late.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;call-to-action-2-improve-resourcing-of-maintenance-and-r-d-efforts&quot;&gt;
+&lt;h2&gt;Call to action 2: Improve resourcing of maintenance and R&amp;amp;D efforts&lt;/h2&gt;
+&lt;p&gt;Secondly, we need to improve our resourcing of maintenance and R&amp;amp;D efforts. We need to work out how to harness the not-insignificant amount of money that is available in our industry to do the work that we &lt;em&gt;collectively&lt;/em&gt; need done. And part of that discussion may mean re-thinking aspects of the way our community operates, or re-shaping the nature of the financial relationship we have with users, and especially large organizations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;call-to-action-3-value-contributors-and-their-contributions&quot;&gt;
+&lt;h2&gt;Call to action 3: Value contributors and their contributions&lt;/h2&gt;
+&lt;p&gt;Third: as a community, we need to re-evaluate the way we value contributors and their contributions.&lt;/p&gt;
+&lt;p&gt;And as a simplistic reading - yes, I mean money. Giving them access to the resources they need to continue doing the work they're doing, or to scale up the work from a part-time volunteer effort to a permanent facility.&lt;/p&gt;
+&lt;p&gt;But I don't just mean money. We need to value each other as human beings. When you see something online and you've got some hot take you want to post - think about whether it really needs to be said. And if it does need to be said - are you saying it in a constructive, empathetic way? Consider the collective effect of a thousand messages with the same tone being directed at someone who volunteered to do something for you.&lt;/p&gt;
+&lt;p&gt;Ok - those are all still very high level calls to action. These are things that require discussion, planning, and ongoing contemplation. The rest of this conference is a great time to start those discussions, but we're not going to see any magical fix by this time next week.&lt;/p&gt;
+&lt;p&gt;You want something concrete? Well, here's two more:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;call-to-action-4-get-out-your-wallets&quot;&gt;
+&lt;h2&gt;Call to action 4: Get out your wallets&lt;/h2&gt;
+&lt;p&gt;Firstly, Get out your wallets.&lt;/p&gt;
+&lt;p&gt;The &lt;a class=&quot;reference external&quot; href=&quot;python.org/psf/donations/&quot;&gt;Python Software Foundation&lt;/a&gt;, the &lt;a class=&quot;reference external&quot; href=&quot;djangoproject.com/fundraising/&quot;&gt;Django Software Foundation&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;numfocus.org&quot;&gt;NumFocus&lt;/a&gt;, and many others accept donations. Encourage your employer to support these organizations to a level that reflects their signficance to their business. Give those organizations the financial resources to do maintenance and R&amp;amp;D work on behalf of the community.&lt;/p&gt;
+&lt;p&gt;If you'd like to support my own work on the BeeWare project, you can &lt;a class=&quot;reference external&quot; href=&quot;beeware.org/bee/join/&quot;&gt;join the project as a financial member&lt;/a&gt;. I'm currently able to cover my hosting costs and pay for stickers and challenge coins; If I can get some more financial backing, I could start making a more substantial time commitment to BeeWare. If you've got other ideas for how to fund BeeWare, or you'd like to know more about the project, we have a booth in the main hall; come have a chat.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;call-to-action-5-contribute&quot;&gt;
+&lt;h2&gt;Call to action 5: Contribute&lt;/h2&gt;
+&lt;p&gt;Lastly, if you have the means, or your privilege allows, contribute. Whether that's on your own time, or on your employer's time, consider contributing to open source - no matter your level of experience. This is a collective effort, and every little bit helps. The BeeWare project definitely needs help; but so do dozens of other projects in the Python ecosystem. And if my experience as a sandgroper proves anything - it's that Open Source really does open up the world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;where-do-you-see-python-in-10-years&quot;&gt;
+&lt;h2&gt;Where do you see Python in 10 years?&lt;/h2&gt;
+&lt;p&gt;It's taken 28 years for Python to get to where we are today. And it would be a shame to have to develop it all over again, simply because we didn't pay attention to the way the world is changing, and plan for how Python will fit into the future that is evolving around us.&lt;/p&gt;
+&lt;p&gt;And, as Python the &lt;em&gt;language&lt;/em&gt; grows and adapts, we need to make sure that our community grows and adapts as well. This awesome language we know and love would be nothing without the community of people behind it - and as that community grows, I want to see it go from strength to strength.&lt;/p&gt;
+&lt;p&gt;I hope I've been able to convince you that Python has a vibrant future ahead of it - we just need to plan for that future, and work out how we're going to execute on those plans in a sustainable fashion.&lt;/p&gt;
+&lt;p&gt;And, if I still haven't convinced you about Python's future, maybe I've convinced you to come visit Perth. We're a long way away from everything, but I promise we're worth it. Not all the animals will kill you - for example, there's the happiest animal on earth - the Quokka. Only found on a one island, Rottnest, about an hour by boat from Perth.&lt;/p&gt;
+&lt;p&gt;I hope to see you there someday.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry xml:base="https://cecinestpasun.com/entries/autopsy-of-a-slow-train-wreck/">
     <title type="text">Autopsy of a slow train wreck</title>
-    <id>urn:uuid:99f68e18-c474-31ad-86a6-1762dbced106</id>
+    <id>urn:uuid:1e47db64-5e16-3bbc-af93-f541844b6064</id>
     <updated>2017-08-27T12:06:12Z</updated>
     <link href="https://cecinestpasun.com/entries/autopsy-of-a-slow-train-wreck/" />
     <author>
@@ -169,7 +505,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/searching-for-a-new-place-to-hang-my-hat/">
     <title type="text">Searching for a new place to hang my hat</title>
-    <id>urn:uuid:f69d94c9-4733-3389-b749-d6dd6325aaeb</id>
+    <id>urn:uuid:ee5ad05d-87f4-3e7d-9078-4e231eab359b</id>
     <updated>2017-05-31T08:00:00Z</updated>
     <link href="https://cecinestpasun.com/entries/searching-for-a-new-place-to-hang-my-hat/" />
     <author>
@@ -210,7 +546,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/moving-to-lektor/">
     <title type="text">Moving to Lektor</title>
-    <id>urn:uuid:5351fd9c-2324-3a63-a830-1f337079bd98</id>
+    <id>urn:uuid:af56462b-c689-3142-9ccc-cf088fcd3786</id>
     <updated>2017-04-29T16:00:00Z</updated>
     <link href="https://cecinestpasun.com/entries/moving-to-lektor/" />
     <author>
@@ -223,7 +559,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/opposing-preference-deals-right/">
     <title type="text">Opposing preference deals with the right</title>
-    <id>urn:uuid:8b755954-e425-3060-bfb5-3c1981806275</id>
+    <id>urn:uuid:a66b2a22-f8b3-3cbe-a60e-5c4d0b6b2cde</id>
     <updated>2017-02-13T07:47:54Z</updated>
     <link href="https://cecinestpasun.com/entries/opposing-preference-deals-right/" />
     <author>
@@ -241,7 +577,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/quo-vadimus/">
     <title type="text">Quo Vadimus</title>
-    <id>urn:uuid:9e4dfacf-cf66-3ae1-b359-456a8fa4df0d</id>
+    <id>urn:uuid:516ef569-d6ec-3f54-8e93-19fe8e1b0f40</id>
     <updated>2017-01-01T12:52:28Z</updated>
     <link href="https://cecinestpasun.com/entries/quo-vadimus/" />
     <author>
@@ -272,7 +608,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/replacement-twitter/">
     <title type="text">On a replacement for Twitter</title>
-    <id>urn:uuid:902670d9-3c9d-33b9-b682-0caa3f2d6514</id>
+    <id>urn:uuid:5ff50e2f-b963-3888-b3e9-9dd4b630e830</id>
     <updated>2016-02-06T11:04:47Z</updated>
     <link href="https://cecinestpasun.com/entries/replacement-twitter/" />
     <author>
@@ -373,7 +709,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/expressing-disappointment-my-government/">
     <title type="text">Expressing disappointment in my government</title>
-    <id>urn:uuid:51eae0e5-17fe-348a-bb64-0927e765a875</id>
+    <id>urn:uuid:3eac11c9-2f6f-3da1-adae-0f3851c439e4</id>
     <updated>2015-08-28T14:43:09Z</updated>
     <link href="https://cecinestpasun.com/entries/expressing-disappointment-my-government/" />
     <author>
@@ -428,7 +764,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/personal-funding-and-culture-open-source/">
     <title type="text">Personal funding, and the culture of open source</title>
-    <id>urn:uuid:054677ad-1eca-33e2-b5dc-8ecbfd622542</id>
+    <id>urn:uuid:c189dd6a-a29e-3735-9192-7dc70a419042</id>
     <updated>2012-07-05T15:10:00Z</updated>
     <link href="https://cecinestpasun.com/entries/personal-funding-and-culture-open-source/" />
     <author>
@@ -449,7 +785,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/i-can-haz-a-question-or-five/">
     <title type="text">I can haz a question (or five)?</title>
-    <id>urn:uuid:bbc0a43c-4707-3323-9b2c-adc46cc597a8</id>
+    <id>urn:uuid:37111342-ca6a-3bc5-85b4-db8434287344</id>
     <updated>2010-06-27T12:58:44Z</updated>
     <link href="https://cecinestpasun.com/entries/i-can-haz-a-question-or-five/" />
     <author>
@@ -476,7 +812,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/end-my-evolution/">
     <title type="text">An end to my Evolution</title>
-    <id>urn:uuid:404432e9-d042-3fb2-9856-3b66c2420338</id>
+    <id>urn:uuid:61d57236-bc5e-3e29-8d89-519e8c6b6b44</id>
     <updated>2010-04-12T14:46:24Z</updated>
     <link href="https://cecinestpasun.com/entries/end-my-evolution/" />
     <author>
@@ -493,7 +829,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/getting-hgsubversion-work-under-osx/">
     <title type="text">Getting hgsubversion to work under OSX</title>
-    <id>urn:uuid:43cb5aa0-3f88-3cec-a95d-f537c07b7528</id>
+    <id>urn:uuid:a0e679b8-9700-3415-9a73-f829e9471312</id>
     <updated>2009-08-15T16:33:26Z</updated>
     <link href="https://cecinestpasun.com/entries/getting-hgsubversion-work-under-osx/" />
     <author>
@@ -618,7 +954,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/even-better-i-thought/">
     <title type="text">Even better than I thought</title>
-    <id>urn:uuid:4daacf7d-d5a5-33f0-a566-2038a1791a74</id>
+    <id>urn:uuid:a0e88a51-59d0-34a4-900d-847c48295b99</id>
     <updated>2009-07-08T13:35:06Z</updated>
     <link href="https://cecinestpasun.com/entries/even-better-i-thought/" />
     <author>
@@ -632,7 +968,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/oh-yeah-i-should-probably-mention/">
     <title type="text">Oh yeah... I should probably mention...</title>
-    <id>urn:uuid:6b21f79c-52dc-3681-92d8-6fd54f60eb7e</id>
+    <id>urn:uuid:a097cd70-5347-3509-9dba-6001170ab019</id>
     <updated>2009-07-07T12:08:55Z</updated>
     <link href="https://cecinestpasun.com/entries/oh-yeah-i-should-probably-mention/" />
     <author>
@@ -645,7 +981,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/doing-right-thing/">
     <title type="text">Doing the right thing</title>
-    <id>urn:uuid:0e16caf9-07e3-3768-98b0-f360bde40fe4</id>
+    <id>urn:uuid:897b84b5-bd55-38d9-92c7-7723dc8457d7</id>
     <updated>2009-07-07T12:06:12Z</updated>
     <link href="https://cecinestpasun.com/entries/doing-right-thing/" />
     <author>
@@ -668,7 +1004,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/week-django/">
     <title type="text">This Week in Django</title>
-    <id>urn:uuid:575a1490-633a-366d-a15e-901409d0b555</id>
+    <id>urn:uuid:75471723-3ddf-3a90-a3f4-b18ad3e55e77</id>
     <updated>2008-11-14T11:35:04Z</updated>
     <link href="https://cecinestpasun.com/entries/week-django/" />
     <author>
@@ -681,7 +1017,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/what-no-comments/">
     <title type="text">What! No comments?</title>
-    <id>urn:uuid:717bbe8a-30ca-32b3-bbfc-aa6ba79f646c</id>
+    <id>urn:uuid:0cca698b-5b74-3a86-bb53-92d3818a2025</id>
     <updated>2008-11-05T13:12:33Z</updated>
     <link href="https://cecinestpasun.com/entries/what-no-comments/" />
     <author>
@@ -725,7 +1061,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/ezydvd-store-passwords-clear/">
     <title type="text">EzyDVD store passwords in the clear</title>
-    <id>urn:uuid:bb2ba0e3-28ab-3bc0-9e46-1c147fd1ce02</id>
+    <id>urn:uuid:712e9665-0866-38d0-bcde-ea9c43f05189</id>
     <updated>2008-10-24T10:06:01Z</updated>
     <link href="https://cecinestpasun.com/entries/ezydvd-store-passwords-clear/" />
     <author>
@@ -738,7 +1074,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/freakboy3742/">
     <title type="text">freakboy3742</title>
-    <id>urn:uuid:2558ef75-0f3c-37f8-8b3b-a217719e280d</id>
+    <id>urn:uuid:7eca2a9a-bac2-3bce-bd59-f2ed9496c47e</id>
     <updated>2008-10-21T10:59:00Z</updated>
     <link href="https://cecinestpasun.com/entries/freakboy3742/" />
     <author>
@@ -754,7 +1090,7 @@ said quite loudly &amp;quot;Oh, I don't know - why don't you go ask Freakboy?&am
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/yet-another-blog-engine/">
     <title type="text">Yet Another Blog Engine</title>
-    <id>urn:uuid:71bb4be5-0cfc-397d-8ba4-018bd447d847</id>
+    <id>urn:uuid:446d6261-4d31-3e19-8a7e-5ef3cd709e54</id>
     <updated>2008-10-13T13:19:28Z</updated>
     <link href="https://cecinestpasun.com/entries/yet-another-blog-engine/" />
     <author>
