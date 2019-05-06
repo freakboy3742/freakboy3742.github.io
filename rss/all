@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Ceci n'est pas un blog</title>
-  <id>urn:uuid:f762f2a2-60d2-3b8b-b345-9d88f12eae21</id>
+  <id>urn:uuid:0a5263ca-4dee-3806-9b57-29cacde1b775</id>
   <updated>2019-05-03T10:00:00Z</updated>
   <link href="https://cecinestpasun.com/entries/" />
   <link href="https://cecinestpasun.com/rss/all/" rel="self" />
@@ -11,14 +11,14 @@
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
   <entry xml:base="https://cecinestpasun.com/entries/where-do-you-see-python-in-10-years/">
     <title type="text">Where do you see Python in 10 years?</title>
-    <id>urn:uuid:a3f381b3-d813-3230-95ee-126f383a7eb0</id>
+    <id>urn:uuid:0424c158-3423-32a9-854a-4da036df03d3</id>
     <updated>2019-05-03T10:00:00Z</updated>
     <link href="https://cecinestpasun.com/entries/where-do-you-see-python-in-10-years/" />
     <author>
       <name></name>
     </author>
     <content type="html">&lt;p&gt;At &lt;a class=&quot;reference external&quot; href=&quot;https://us.pycon.org/2019&quot;&gt;PyCon US 2019&lt;/a&gt;,  I was extremely honored to give the opening keynote. While the PyCon Video team worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.&lt;/p&gt;
-&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;https://www.youtube.com/embed/ftP5BQh1-YM?t=1250&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;I've been an active and visible participant in the Python community for over 13 years now. And as a result, I've spoken at a lot of PyCons and DjangoCons. But for those who haven't met me before: Hi, you may have noticed I'm not a local.&lt;/p&gt;
+&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;https://www.youtube.com/embed/ftP5BQh1-YM?t=1238&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;I've been an active and visible participant in the Python community for over 13 years now. And as a result, I've spoken at a lot of PyCons and DjangoCons. But for those who haven't met me before: Hi, you may have noticed I'm not a local.&lt;/p&gt;
 &lt;p&gt;I was born, and I live to this day, on little dot down the bottom of the map: &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Perth&quot;&gt;Perth, Western Australia&lt;/a&gt;. Perth is not usually one of the cities people think of when they think of Australia. Its kinda like Cleveland - a fine city, but not usually the first one that jumps to mind when you think of the US.&lt;/p&gt;
 &lt;p&gt;Perth has a fascinating history, and has had a bigger impact on the world than many realize - and some of those stories are convenient metaphors - so today I would like teach you all about Perth, and maybe we can learn some valuable lessons about life along the way.&lt;/p&gt;
 &lt;p&gt;First off - some terminology. We are in Ohio. Someone from Ohio is called a Buckeye. Someone from Western Australia - is called - and I swear I'm not making this up...&lt;/p&gt;
@@ -347,7 +347,7 @@ What change could happen in the industry, in hardware, or in the community, that
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/autopsy-of-a-slow-train-wreck/">
     <title type="text">Autopsy of a slow train wreck</title>
-    <id>urn:uuid:1e47db64-5e16-3bbc-af93-f541844b6064</id>
+    <id>urn:uuid:99f68e18-c474-31ad-86a6-1762dbced106</id>
     <updated>2017-08-27T12:06:12Z</updated>
     <link href="https://cecinestpasun.com/entries/autopsy-of-a-slow-train-wreck/" />
     <author>
@@ -505,7 +505,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/searching-for-a-new-place-to-hang-my-hat/">
     <title type="text">Searching for a new place to hang my hat</title>
-    <id>urn:uuid:ee5ad05d-87f4-3e7d-9078-4e231eab359b</id>
+    <id>urn:uuid:f69d94c9-4733-3389-b749-d6dd6325aaeb</id>
     <updated>2017-05-31T08:00:00Z</updated>
     <link href="https://cecinestpasun.com/entries/searching-for-a-new-place-to-hang-my-hat/" />
     <author>
@@ -546,7 +546,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/moving-to-lektor/">
     <title type="text">Moving to Lektor</title>
-    <id>urn:uuid:af56462b-c689-3142-9ccc-cf088fcd3786</id>
+    <id>urn:uuid:5351fd9c-2324-3a63-a830-1f337079bd98</id>
     <updated>2017-04-29T16:00:00Z</updated>
     <link href="https://cecinestpasun.com/entries/moving-to-lektor/" />
     <author>
@@ -559,7 +559,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/opposing-preference-deals-right/">
     <title type="text">Opposing preference deals with the right</title>
-    <id>urn:uuid:a66b2a22-f8b3-3cbe-a60e-5c4d0b6b2cde</id>
+    <id>urn:uuid:8b755954-e425-3060-bfb5-3c1981806275</id>
     <updated>2017-02-13T07:47:54Z</updated>
     <link href="https://cecinestpasun.com/entries/opposing-preference-deals-right/" />
     <author>
@@ -577,7 +577,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/quo-vadimus/">
     <title type="text">Quo Vadimus</title>
-    <id>urn:uuid:516ef569-d6ec-3f54-8e93-19fe8e1b0f40</id>
+    <id>urn:uuid:9e4dfacf-cf66-3ae1-b359-456a8fa4df0d</id>
     <updated>2017-01-01T12:52:28Z</updated>
     <link href="https://cecinestpasun.com/entries/quo-vadimus/" />
     <author>
@@ -608,7 +608,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/replacement-twitter/">
     <title type="text">On a replacement for Twitter</title>
-    <id>urn:uuid:5ff50e2f-b963-3888-b3e9-9dd4b630e830</id>
+    <id>urn:uuid:902670d9-3c9d-33b9-b682-0caa3f2d6514</id>
     <updated>2016-02-06T11:04:47Z</updated>
     <link href="https://cecinestpasun.com/entries/replacement-twitter/" />
     <author>
@@ -709,7 +709,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/expressing-disappointment-my-government/">
     <title type="text">Expressing disappointment in my government</title>
-    <id>urn:uuid:3eac11c9-2f6f-3da1-adae-0f3851c439e4</id>
+    <id>urn:uuid:51eae0e5-17fe-348a-bb64-0927e765a875</id>
     <updated>2015-08-28T14:43:09Z</updated>
     <link href="https://cecinestpasun.com/entries/expressing-disappointment-my-government/" />
     <author>
@@ -764,7 +764,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/personal-funding-and-culture-open-source/">
     <title type="text">Personal funding, and the culture of open source</title>
-    <id>urn:uuid:c189dd6a-a29e-3735-9192-7dc70a419042</id>
+    <id>urn:uuid:054677ad-1eca-33e2-b5dc-8ecbfd622542</id>
     <updated>2012-07-05T15:10:00Z</updated>
     <link href="https://cecinestpasun.com/entries/personal-funding-and-culture-open-source/" />
     <author>
@@ -785,7 +785,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/i-can-haz-a-question-or-five/">
     <title type="text">I can haz a question (or five)?</title>
-    <id>urn:uuid:37111342-ca6a-3bc5-85b4-db8434287344</id>
+    <id>urn:uuid:bbc0a43c-4707-3323-9b2c-adc46cc597a8</id>
     <updated>2010-06-27T12:58:44Z</updated>
     <link href="https://cecinestpasun.com/entries/i-can-haz-a-question-or-five/" />
     <author>
@@ -812,7 +812,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/end-my-evolution/">
     <title type="text">An end to my Evolution</title>
-    <id>urn:uuid:61d57236-bc5e-3e29-8d89-519e8c6b6b44</id>
+    <id>urn:uuid:404432e9-d042-3fb2-9856-3b66c2420338</id>
     <updated>2010-04-12T14:46:24Z</updated>
     <link href="https://cecinestpasun.com/entries/end-my-evolution/" />
     <author>
@@ -829,7 +829,7 @@ Not interested. But if you can make that pile of paper disappear, I'll give you 
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/getting-hgsubversion-work-under-osx/">
     <title type="text">Getting hgsubversion to work under OSX</title>
-    <id>urn:uuid:a0e679b8-9700-3415-9a73-f829e9471312</id>
+    <id>urn:uuid:43cb5aa0-3f88-3cec-a95d-f537c07b7528</id>
     <updated>2009-08-15T16:33:26Z</updated>
     <link href="https://cecinestpasun.com/entries/getting-hgsubversion-work-under-osx/" />
     <author>
@@ -954,7 +954,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/even-better-i-thought/">
     <title type="text">Even better than I thought</title>
-    <id>urn:uuid:a0e88a51-59d0-34a4-900d-847c48295b99</id>
+    <id>urn:uuid:4daacf7d-d5a5-33f0-a566-2038a1791a74</id>
     <updated>2009-07-08T13:35:06Z</updated>
     <link href="https://cecinestpasun.com/entries/even-better-i-thought/" />
     <author>
@@ -968,7 +968,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/oh-yeah-i-should-probably-mention/">
     <title type="text">Oh yeah... I should probably mention...</title>
-    <id>urn:uuid:a097cd70-5347-3509-9dba-6001170ab019</id>
+    <id>urn:uuid:6b21f79c-52dc-3681-92d8-6fd54f60eb7e</id>
     <updated>2009-07-07T12:08:55Z</updated>
     <link href="https://cecinestpasun.com/entries/oh-yeah-i-should-probably-mention/" />
     <author>
@@ -981,7 +981,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/doing-right-thing/">
     <title type="text">Doing the right thing</title>
-    <id>urn:uuid:897b84b5-bd55-38d9-92c7-7723dc8457d7</id>
+    <id>urn:uuid:0e16caf9-07e3-3768-98b0-f360bde40fe4</id>
     <updated>2009-07-07T12:06:12Z</updated>
     <link href="https://cecinestpasun.com/entries/doing-right-thing/" />
     <author>
@@ -1004,7 +1004,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/week-django/">
     <title type="text">This Week in Django</title>
-    <id>urn:uuid:75471723-3ddf-3a90-a3f4-b18ad3e55e77</id>
+    <id>urn:uuid:575a1490-633a-366d-a15e-901409d0b555</id>
     <updated>2008-11-14T11:35:04Z</updated>
     <link href="https://cecinestpasun.com/entries/week-django/" />
     <author>
@@ -1017,7 +1017,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/what-no-comments/">
     <title type="text">What! No comments?</title>
-    <id>urn:uuid:0cca698b-5b74-3a86-bb53-92d3818a2025</id>
+    <id>urn:uuid:717bbe8a-30ca-32b3-bbfc-aa6ba79f646c</id>
     <updated>2008-11-05T13:12:33Z</updated>
     <link href="https://cecinestpasun.com/entries/what-no-comments/" />
     <author>
@@ -1061,7 +1061,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/ezydvd-store-passwords-clear/">
     <title type="text">EzyDVD store passwords in the clear</title>
-    <id>urn:uuid:712e9665-0866-38d0-bcde-ea9c43f05189</id>
+    <id>urn:uuid:bb2ba0e3-28ab-3bc0-9e46-1c147fd1ce02</id>
     <updated>2008-10-24T10:06:01Z</updated>
     <link href="https://cecinestpasun.com/entries/ezydvd-store-passwords-clear/" />
     <author>
@@ -1074,7 +1074,7 @@ releases/1.0.2                  9313:11a6391f263e
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/freakboy3742/">
     <title type="text">freakboy3742</title>
-    <id>urn:uuid:7eca2a9a-bac2-3bce-bd59-f2ed9496c47e</id>
+    <id>urn:uuid:2558ef75-0f3c-37f8-8b3b-a217719e280d</id>
     <updated>2008-10-21T10:59:00Z</updated>
     <link href="https://cecinestpasun.com/entries/freakboy3742/" />
     <author>
@@ -1090,7 +1090,7 @@ said quite loudly &amp;quot;Oh, I don't know - why don't you go ask Freakboy?&am
   </entry>
   <entry xml:base="https://cecinestpasun.com/entries/yet-another-blog-engine/">
     <title type="text">Yet Another Blog Engine</title>
-    <id>urn:uuid:446d6261-4d31-3e19-8a7e-5ef3cd709e54</id>
+    <id>urn:uuid:71bb4be5-0cfc-397d-8ba4-018bd447d847</id>
     <updated>2008-10-13T13:19:28Z</updated>
     <link href="https://cecinestpasun.com/entries/yet-another-blog-engine/" />
     <author>
