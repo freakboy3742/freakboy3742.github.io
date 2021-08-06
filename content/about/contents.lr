@@ -25,11 +25,11 @@ Short Biography
 
 Dr Russell Keith-Magee has been interested in computers since his parents bought a Commodore 64 in 1983. After studying Physics and Computer Science as an undergraduate, Russell completed a doctoral dissertation investigating models of learning and development in neural networks. He has worked in the software industry and academia for over a decade.
 
-Russell has been a core developer on the Django project since January 2006. He is a co-founder of Django Evolution, a schema evolution framework for Django. He is an active participant on the Django Users and Django Developers mailing lists, and has been a mentor in the Google Summer of Code every year since 2008.
+Russell is the founder of the `BeeWare Project <https://pybee.org>`_ - a project developing tools and libraries for cross-platform native user interfaces in Python. One of the key contributions of this work is expanding the availability of Python onto mobile and browser platforms.
 
-He is also the founder of the `BeeWare Project <https://pybee.org>`_ - a project developing tools and libraries for cross-platform native user interfaces in Python. One of the key contributions of this work is expanding the availability of Python onto mobile and browser platforms.
+He has also been a core developer on the Django project since January 2006. He was a co-founder of Django Evolution, a schema evolution framework for Django. He is an active participant on the Django Users and Django Developers mailing lists, and has been a mentor in the Google Summer of Code from 2008 to 2018.
 
-In addition to his work in the Python community, Russell has worked at a series of startup companies, including Wotnews, an online news monitoring service; Hunted Media, a website tracking emerging music artists and providing music recommendations; TradesCloud, providing back-office and mobile software for mid-size plumbers and electricians; and CertCycle, a service providing automated SSL certificate generation and installation.
+In addition to his work in the Python community, Russell has worked at a series of startup companies, including Wotnews, an online news monitoring service; Hunted Media, a website tracking emerging music artists and providing music recommendations; TradesCloud, providing back-office and mobile software for mid-size plumbers and electricians; CertCycle, a service providing automated SSL certificate generation and installation; and Upwave, providing brand management software.
 
 Russell lives with his wife, son, daughter, and two cats in Perth, Western Australia.
 
@@ -64,11 +64,11 @@ I started work at `Calytrix Technologies <https://calytrix.com>`_ the day after 
 
 I spent 3 months living in Philadelphia while Calytrix set up a US office; I also spent a lot of time traveling the world visiting customers, teaching training courses, and representing Calytrix at conferences.
 
-I worked at Calytrix until March 2008, when I left to start working for Wotnews. Wotnews attempts to solve the problem of keeping track of news relevant to you. We read thousands of news sources, ranging from 'old media' to blogs. We analyze every article to determine the actors and subjects discussed by the article, and find the stories and themes that emerge over the course of the day. Users define their interests, and we attempt to find the stories that best match those interests. Wotnews pivoted to focus on the music industry, rebranded as Hunted Media, and was eventually acquired by Twitter.
+I worked at Calytrix until March 2008, when I left to start working for Wotnews. Wotnews attempted to solve the problem of keeping track of news relevant to you. We read thousands of news sources, ranging from 'old media' to blogs. They analyzed every article to determine the actors and subjects discussed by the article, and find the stories and themes that emerge over the course of the day. Users defined their interests, and Wotnews would find the stories that best matched those interests. Wotnews pivoted to focus on the music industry, rebranded as Hunted Media, and was eventually acquired by Twitter.
 
-Before that acquisition took place, I left Wotnews to try my own startup - TradesCloud. TradesCloud offers back-office software for small trades - plumbers, electricians, cabinetmakers, and so on. It specialises in providing integration with head contractors whose contractual requirements often impose a significant paperwork overhead on tradespeople, easing compliance, and ensuring contractual KPIs are met. TradesCloud is a Django website, backed by a cross-platform mobile application. TradesCloud was `shut down in January 2017`.
+Before that acquisition took place, I left Wotnews to build my own startup - TradesCloud. TradesCloud offered back-office software for small trades - plumbers, electricians, cabinetmakers, and so on. It specialised in providing integration with head contractors whose contractual requirements imposed a significant paperwork overhead on tradespeople, easing compliance, and ensuring contractual KPIs are met. TradesCloud was a Django website, backed by a cross-platform mobile application. TradesCloud was shut down in January 2017.
 
-Since then, I have been a freelance developer for a number of companies. I am currently trying to `raise sufficient financial support <https://pybee.org/contributing/membership>`_ to fund development of BeeWare full time. I do data engineering for `Survata <https://survata.com>`__.
+Since then, I have been a freelance developer for a number of companies. I am currently trying to `raise sufficient financial support <https://beeware.org/contributing/membership>`_ to fund development of BeeWare full time. I am currently a staff software engineering at `Upwave <https://upwave.com>`__ (formerly Survata). Upwave is a brand management company, using data science to allow brands to track the impact of their advertising campaigns, and track the health of their brand across all media and platforms. 
 
 Projects
 ---------
@@ -79,7 +79,7 @@ I was responsible for developing Django's test framework and the newforms media 
 
 I was President of the `Django Software Foundation <https://djangoproject.com/foundation/>` from 2011 to 2015; in that time, we established Codes of Conduct for the Django community and Django events, formalised arrangements around the Django trademark, launched a new website, and started the Django Fellowship program. Independent of my work with the DSF, I've been a mentor in the Google Summer of Code every year since 2008.
 
-I am also the founder of the `BeeWare Project <https://pybee.org>`_ - a project looking at the tools we use to develop Python. One of the key contributions of this work is expanding the availability of Python onto mobile platforms.
+I am also the founder of the `BeeWare Project <https://beeware.org>`_ - a project looking at the tools we use to develop Python. One of the key contributions of this work is expanding the availability of Python onto mobile platforms. The BeeWare project was the recipient of a PSF grant in 2019 which allowed us to dramatically improve our support on Android.
 
 Personal
 ---------
@@ -90,7 +90,7 @@ I met my wife, April, while I was an undergraduate. We were married in 2004. My 
 
 My two cats are domestic shorthairs named Storm and Rogue. They defy any description of "elegant and catlike" - they would probably fall of a flat surface if they weren't tied to it.
 
-I also suffer from depression. I've been very open about this, in the hope that it make it easier for others to seek treatment.
+I also have a history of depression. I've been very open about this, in the hope that it make it easier for others to seek treatment.
 
 Where did freakboy3742 come from?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
