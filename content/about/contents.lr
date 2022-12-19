@@ -25,7 +25,7 @@ Short Biography
 
 Dr Russell Keith-Magee has been interested in computers since his parents bought a Commodore 64 in 1983. After studying Physics and Computer Science as an undergraduate, Russell completed a doctoral dissertation investigating models of learning and development in neural networks. He has worked in the software industry and academia for over a decade.
 
-Russell is the founder of the `BeeWare Project <https://pybee.org>`_ - a project developing tools and libraries for cross-platform native user interfaces in Python. One of the key contributions of this work is expanding the availability of Python onto mobile and browser platforms.
+Russell is the founder of the `BeeWare Project <https://beeware.org>`_ - a project developing tools and libraries for cross-platform native user interfaces in Python. One of the key contributions of this work is expanding the availability of Python onto mobile and browser platforms.
 
 He has also been a core developer on the Django project since January 2006. He was a co-founder of Django Evolution, a schema evolution framework for Django. He is an active participant on the Django Users and Django Developers mailing lists, and has been a mentor in the Google Summer of Code from 2008 to 2018.
 
@@ -68,18 +68,20 @@ I worked at Calytrix until March 2008, when I left to start working for Wotnews.
 
 Before that acquisition took place, I left Wotnews to build my own startup - TradesCloud. TradesCloud offered back-office software for small trades - plumbers, electricians, cabinetmakers, and so on. It specialised in providing integration with head contractors whose contractual requirements imposed a significant paperwork overhead on tradespeople, easing compliance, and ensuring contractual KPIs are met. TradesCloud was a Django website, backed by a cross-platform mobile application. TradesCloud was shut down in January 2017.
 
-Since then, I have been a freelance developer for a number of companies. I am currently trying to `raise sufficient financial support <https://beeware.org/contributing/membership>`_ to fund development of BeeWare full time. I am currently a staff software engineering at `Upwave <https://upwave.com>`__ (formerly Survata). Upwave is a brand management company, using data science to allow brands to track the impact of their advertising campaigns, and track the health of their brand across all media and platforms. 
+After the shutdown of TradesCloud, I spent about 6 months freelancing, for a range of companies. I worked at `Zapier <https://zapier.com>`__ for about 6 months, before moving to be a Staff Software Engineer at `Upwave <https://upwave.com>`__ (formerly Survata). Upwave is a brand management company, using data science to allow brands to track the impact of their advertising campaigns, and track the health of their brand across all media and platforms.
+
+I left Upwave in February 2022 to take up a position as a Principal Software Engineer with the Open Source group at `Anaconda <https://anaconda.com>`__. This position allows me (and a small team) to work on `BeeWare <https://beeware.org>`__ full time.
 
 Projects
 ---------
 
-I discovered `Django <https://djangoproject.com/>` about 4 months after the first public release. After contributing some patches to improve the query language, Adrian Holovaty offered me commit access to the trunk. I have been an active member of the Django community ever since.
+I discovered `Django <https://djangoproject.com/>`__ about 4 months after the first public release. After contributing some patches to improve the query language, Adrian Holovaty offered me commit access to the trunk. I have been an active member of the Django community ever since.
 
 I was responsible for developing Django's test framework and the newforms media framework; I also did a lot of work on the 'magic-removal' refactor. I mentored students who added multiple database support, aggregations, and the system check framework.
 
-I was President of the `Django Software Foundation <https://djangoproject.com/foundation/>` from 2011 to 2015; in that time, we established Codes of Conduct for the Django community and Django events, formalised arrangements around the Django trademark, launched a new website, and started the Django Fellowship program. Independent of my work with the DSF, I've been a mentor in the Google Summer of Code every year since 2008.
+I was President of the `Django Software Foundation <https://djangoproject.com/foundation/>`__ from 2011 to 2015; in that time, we established Codes of Conduct for the Django community and Django events, formalised arrangements around the Django trademark, launched a new website, and started the Django Fellowship program. Independent of my work with the DSF, I was a mentor in the Google Summer of Code from 2008 to 2018.
 
-I am also the founder of the `BeeWare Project <https://beeware.org>`_ - a project looking at the tools we use to develop Python. One of the key contributions of this work is expanding the availability of Python onto mobile platforms. The BeeWare project was the recipient of a PSF grant in 2019 which allowed us to dramatically improve our support on Android.
+I am also the founder of the `BeeWare Project <https://beeware.org>`__ - a project looking at the tools we use to develop Python. One of the key contributions of this work is expanding the availability of Python onto mobile platforms. The BeeWare project was the recipient of a PSF grant in 2019 which allowed us to dramatically improve our support on Android.
 
 Personal
 ---------
@@ -88,9 +90,7 @@ I was born in Perth, Western Australia, in 1976, and fortysomething years later,
 
 I met my wife, April, while I was an undergraduate. We were married in 2004. My son, Tobias, was born in 2006. My daughter, Beatrix, was born in 2009.
 
-My two cats are domestic shorthairs named Storm and Rogue. They defy any description of "elegant and catlike" - they would probably fall of a flat surface if they weren't tied to it.
-
-I also have a history of depression. I've been very open about this, in the hope that it make it easier for others to seek treatment.
+I also have a history of depression. I've been `very open about this <https://www.youtube.com/watch?v=OC3v5uXR9Qc>`__, in the hope that it make it easier for others to seek treatment.
 
 Where did freakboy3742 come from?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
