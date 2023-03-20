@@ -204,3 +204,7 @@ a.anchor {
     font-size: 150%;
     text-decoration: none;
 }
+
+a.mastodon {
+    display:none;
+}
