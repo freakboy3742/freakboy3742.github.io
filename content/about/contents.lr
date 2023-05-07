@@ -16,7 +16,7 @@ I'm a geek. I like new ideas and pushing the envelope of the possible using tech
 
 I'm passionate about building this technology. Computers are just starting to get to the point where we can be less concerned about how to build, and more concerned about what to build, and I like being on the cutting edge of the what.
 
-I've spent over a decade in academia and industry developing the skills that put me in a position to help build the future. I have a passion for using good design, powerful tools and automated testing to find elegant solutions to real-world problems faced by real-world users. I'm looking forward to seeing what comes next.
+I've spent three decades in academia and industry developing the skills that put me in a position to help build the future. I have a passion for using good design, powerful tools and automated testing to find elegant solutions to real-world problems faced by real-world users. I'm looking forward to seeing what comes next.
 
 If you would like a summary of my work history, my `Curriculum Vitae is available <./CurriculumVitae-RussellKeith-Magee.pdf>`__.
 
@@ -75,13 +75,13 @@ I left Upwave in February 2022 to take up a position as a Principal Software Eng
 Projects
 ---------
 
-I discovered `Django <https://djangoproject.com/>`__ about 4 months after the first public release. After contributing some patches to improve the query language, Adrian Holovaty offered me commit access to the trunk. I have been an active member of the Django community ever since.
+I discovered `Django <https://djangoproject.com/>`__ about 4 months after the first public release. After contributing some patches to improve the query language, Adrian Holovaty offered me commit access to the trunk. I was an active member of the Django community for 15 years. I still have many friends in that community, but I don't do much Django work these days.
 
 I was responsible for developing Django's test framework and the newforms media framework; I also did a lot of work on the 'magic-removal' refactor. I mentored students who added multiple database support, aggregations, and the system check framework.
 
 I was President of the `Django Software Foundation <https://djangoproject.com/foundation/>`__ from 2011 to 2015; in that time, we established Codes of Conduct for the Django community and Django events, formalised arrangements around the Django trademark, launched a new website, and started the Django Fellowship program. Independent of my work with the DSF, I was a mentor in the Google Summer of Code from 2008 to 2018.
 
-I am also the founder of the `BeeWare Project <https://beeware.org>`__ - a project looking at the tools we use to develop Python. One of the key contributions of this work is expanding the availability of Python onto mobile platforms. The BeeWare project was the recipient of a PSF grant in 2019 which allowed us to dramatically improve our support on Android.
+I am also the founder of the `BeeWare Project <https://beeware.org>`__ - a project looking at the tools we use to develop Python. One of the key contributions of this work is expanding the availability of Python onto mobile platforms. The BeeWare project was the recipient of a PSF grant in 2019 which allowed us to dramatically improve our support on Android. I have been employed by Anaconda since March 2022 to work on BeeWare full time.
 
 Personal
 ---------
