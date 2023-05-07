@@ -4,7 +4,7 @@ url = https://cecinestpasun.com/
 url_style = absolute
 
 [packages]
-lektor-rst = 0.2.0
+lektor-rst = 0.3.0
 lektor-github-repos = 0.1.1
 lektor-atom = 0.4
 
