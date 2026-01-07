@@ -149,8 +149,9 @@ h3 {
 }
 
 #content blockquote {
-    margin: 0;
+    margin: 0 0 0 3em;
     margin-bottom:1.2em;
+    font-style: italic;
 }
 
 #content blockquote p.location,#content blockquote p.context,#content blockquote p.author {
