@@ -1,0 +1,63 @@
+title: The passage of time
+---
+body:
+
+20 years ago...
+----------------
+
+20 years ago, *to the day*, I received a short email from Adrian Holovaty:
+
+    Would you be interested in commit access on the Django magic-removal branch? We've really appreciated your contributions lately and would love to see more.
+
+With that, I became a member of the Django core team. I couldn't have predicted how that email would change my life.
+
+18 years ago...
+----------------
+
+18 years ago, not *quite* to the day (25 January 2008), I received a short email from Stephen Phillips, founder of a new Django-based startup in the media space. They wanted to bring some Django expertise in house, and I was a notable member of the Django Core team.
+
+However, they were based in Brisbane. I said I had no interest in relocating... so he offered me the job as a remote employee. I've been a remote employee every since.
+
+The company was called Plugger; it was renamed to Wotnews not long after I joined, and became WeAreHunted before I left. As well as a bunch of experience in a startup environment, I got my first exposure to iOS development - we developed `MySpace's first iPad app <https://www.news.com.au/technology/myspace-music-romeo--the-free-ipad-app-that-matches-music-to-your-mood/news-story/e0a23e116a056cdf644d113254fe02fc>`__.
+
+15 years ago...
+----------------
+
+15 years ago, *to the day*, I made the first commit to the repository that became TradesCloud. The startup bug had got a hold of me, and my co-founder and I were convinced that we had an idea that was a winner.
+
+11 years ago...
+----------------
+
+It turns out it wasn't. And the pressure of trying to keep the lights on in a failing startup, plus a bunch of other things going on in my life, meant I was in the middle of a major depressive episode. I didn't actually seek professional help until around April of 2015.
+
+However, along the way, I had also hit a technical limitation with Django - I needed a mobile app. A mobile-enabled PWA wasn't up to the task, and I didn't have the time or resources to develop *both* an iOS and Android app. All my company's business logic was written in Python... so why couldn't I use Python to write my mobile app? Someone should do something about that...
+
+9 years ago...
+---------------
+
+9 years ago, around this day, I was in the process of shutting down TradesCloud. We had made the decision to shut down TradesCloud just before Christmas, and we `turned off the lights on January 31 2017 <../autopsy-of-a-slow-train-wreck>`__.
+
+But it wasn't a complete loss - by this point, `BeeWare <https://beeware.org>`__ was in development.
+
+4 years ago...
+---------------
+
+4 years ago, *on this day*, I received an email to reschedule a meeting with Kevin Goldsmith and Stan Seibert at Anaconda to speak about BeeWare. This was the fourth meeting I'd taken in the previous 2 months from Anaconda staff... and I was so flattered that they were interested in the project I founded that it had not yet occurred to me that I had been having job interviews.
+
+Just over a month later, I accepted a job offer to join the Anaconda Open Source team.
+
+Today
+------
+
+The last 20 years has been a wild ride. It has, at times, taken an emotional toll; and being geographically isolated has been difficult - especially when leaving my home city was almost impossible for 2 years due to worldwide lockdowns.
+
+However, I have also done things in my professional life that I never could have imagined I would have the opportunity to do. The work I've done has had an impact on every continent on this planet, and on *other* planets. I've seen my work used by multi-billion dollar companies, and I've seen it used by not-for-profit groups to have a profound impact on the world. 
+
+More importantly, I've made friends all around the world, who I love with all my heart. I don't get to see you all in person anywhere near as often as I want to; but that doesn't mean I love you all any less.
+
+But for an email 20 years ago, none of this would have happened. At the very least, it would have been radically different - given the state of the tech industry in Perth, it's difficult to believe my career would have had an even remotely comparable trajectory was it not for stumbling onto a freshly open-sourced web framework in late 2005. I can't begin to thank Adrian and Jacob enough for the faith they showed in me all those years ago in offering me commit access to Django. I hope I have been able to pay forward even a fraction of what you gave me by sending that email. 
+
+---
+pub_date: 2026-01-07 20:00:00
+---
+excerpt: It all started with a short email, sent 20 years ago to the day.
