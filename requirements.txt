@@ -1,5 +1,5 @@
 Lektor==3.3.11
-pygments==2.15.0
+pygments==2.20.0
 # Pinned dependencies.
 # These are pinned because they're versions that are known to work
 blinker==1.6.2
