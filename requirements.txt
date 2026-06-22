@@ -1,4 +1,4 @@
-setuptools==65.6.0
+setuptools==81.0.0
 Lektor==3.3.11
 pygments==2.20.0
 # Pinned dependencies.
