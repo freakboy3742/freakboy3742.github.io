@@ -47,6 +47,24 @@ def _convert_inline(text: str) -> str:
     return text
 
 
+_WRAPPED_LINK_RE = re.compile(r"`([^`]*?)\s*<([^<>]*)>`_+")
+
+
+def _join_wrapped_links(text: str) -> str:
+    """Collapse line breaks inside backtick links so they convert as single-line links."""
+
+    def fix(m):
+        label = re.sub(r"\s*\n\s*", " ", m.group(1)).strip()
+        url = re.sub(r"\n\s*", "", m.group(2))
+        return f"`{label} <{url}>`_"
+
+    prev = None
+    while prev != text:
+        prev = text
+        text = _WRAPPED_LINK_RE.sub(fix, text)
+    return text
+
+
 def _is_underline(line: str) -> bool:
     return bool(_UNDERLINE_RE.match(line))
 
@@ -58,6 +76,7 @@ def _is_hr(line: str, prev_line: str) -> bool:
 
 
 def rst_to_markdown(text: str) -> str:
+    text = _join_wrapped_links(text)
     lines = text.split("\n")
     out: list[str] = []
     adornment_level: dict[str, int] = {}
@@ -179,7 +198,7 @@ QUOTE_DATES = {
     "west-wing-words": "2017-04-29 01:00",
 }
 
-_PAGE_ASSET_RE = re.compile(r"\((mugshot\.png|beeware\.png|django\.png|CurriculumVitae-RussellKeith-Magee\.pdf)\)")
+_PAGE_ASSET_RE = re.compile(r"\((?:\.?/)?(mugshot\.png|beeware\.png|django\.png|CurriculumVitae-RussellKeith-Magee\.pdf)\)")
 _PAGE_ASSETS = {
     "mugshot.png": "/about/mugshot.png",
     "beeware.png": "/projects/beeware.png",

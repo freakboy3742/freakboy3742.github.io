@@ -241,3 +241,32 @@ def test_write_page_with_image_link(tmp_path):
     content = write_page("about", fields, str(tmp_path)).read_text()
     assert content.startswith("Title: un about page\nDisplayTitle: yes\n")
     assert "![mugshot](/about/mugshot.png){: .align-left .img-33}" in content
+
+
+def test_write_page_rewrites_dot_prefixed_asset_link(tmp_path):
+    fields = {
+        "title": "un about page",
+        "body": "My [CV is available](./CurriculumVitae-RussellKeith-Magee.pdf).\n",
+    }
+    content = write_page("about", fields, str(tmp_path)).read_text()
+    assert "[CV is available](/about/CurriculumVitae-RussellKeith-Magee.pdf)" in content
+    assert "./CurriculumVitae" not in content
+
+
+def test_wrapped_inline_link_url_continues_on_next_line():
+    text = (
+        "to receive a `BeeWare challenge coin <https://beeware.org/contributing\n"
+        "/challenge-coins/>`_.\n"
+    )
+    result = rst_to_markdown(text)
+    assert "[BeeWare challenge coin](https://beeware.org/contributing/challenge-coins/)" in result
+    assert "\n/challenge" not in result
+
+
+def test_wrapped_inline_link_label_precedes_url_on_next_line():
+    text = (
+        "I encourage you to `become a financial member of the project\n"
+        "<https://beeware.org/contributing/membership/>`_.\n"
+    )
+    result = rst_to_markdown(text)
+    assert "[become a financial member of the project](https://beeware.org/contributing/membership/)" in result
