@@ -32,7 +32,7 @@ One of my favourite TV writers is Aaron Sorkin. Sorkin's first TV show was calle
 
 When Sports Night was cancelled, they were able to run the show out with a storyline about the parent company selling it's cable station because it wasn't profitable. The entire team behind the Sports Night show (the fake on air one) were worried that they were going to lose their jobs. Dana, the show's producer, meets a man in a bar during her lunchbreak who offers some advice:
 
-> "I'm what the world considers a phenomenally successful man. And I've failed much more than I've succeeded. And each time I fail, I get my people together, and I ask them - Where are we going? And it starts to get better."
+\> "I'm what the world considers a phenomenally successful man. And I've failed much more than I've succeeded. And each time I fail, I get my people together, and I ask them - Where are we going? And it starts to get better."
 
 Dana is not entirely satisfied with this advice. But unbeknownst to Dana, the man was the owner of a media company who, shortly thereafter, puts in a bid for the cable company, and then declares his intention to preserve the cable channel. The name of the company is Quo Vadimus - Latin for "Where are we going?".
 
