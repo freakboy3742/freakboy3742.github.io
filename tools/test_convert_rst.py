@@ -130,3 +130,36 @@ def test_image_directive_becomes_markdown_with_attr_classes():
     )
     result = rst_to_markdown(text)
     assert "![Russell Keith-Magee's mugshot](mugshot.png){: .align-left .img-33}" in result
+
+
+def test_inline_link_single_underscore():
+    text = "Use `Lektor <https://getlektor.com>`_ for this.\n"
+    assert "[Lektor](https://getlektor.com)" in rst_to_markdown(text)
+
+
+def test_inline_link_double_underscore():
+    text = "See `BeeWare <https://beeware.org>`__ here.\n"
+    assert "[BeeWare](https://beeware.org)" in rst_to_markdown(text)
+
+
+def test_multiple_links_in_one_paragraph():
+    text = "A `X <http://a.example>`_ and B `Y <http://b.example>`__ end.\n"
+    result = rst_to_markdown(text)
+    assert "[X](http://a.example)" in result
+    assert "[Y](http://b.example)" in result
+
+
+def test_inline_literal_becomes_backtick():
+    text = "Run ``svn+https`` to clone.\n"
+    assert "`svn+https`" in rst_to_markdown(text)
+
+
+def test_link_inside_heading():
+    text = "About `BeeWare <https://beeware.org>`__\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nBody.\n"
+    result = rst_to_markdown(text)
+    assert "## About [BeeWare](https://beeware.org)" in result
+
+
+def test_emphasis_passes_through():
+    text = "It *usually* isn't and **never** was.\n"
+    assert "It *usually* isn't and **never** was." in rst_to_markdown(text)

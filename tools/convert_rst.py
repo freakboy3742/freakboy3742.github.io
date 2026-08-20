@@ -36,6 +36,15 @@ _ADORNMENTS = "~-=^+*#"
 _UNDERLINE_RE = re.compile(r"^([~\-=^+*#])\1{2,}$")
 _HR_RE = re.compile(r"^([\-=])\1{2,}$")
 
+_INLINE_LINK_RE = re.compile(r"`([^`\n]+?) <([^<>\n]+)>`_+")
+_INLINE_LITERAL_RE = re.compile(r"``([^`]+)``")
+
+
+def _convert_inline(text: str) -> str:
+    text = _INLINE_LINK_RE.sub(lambda m: f"[{m.group(1)}]({m.group(2)})", text)
+    text = _INLINE_LITERAL_RE.sub(lambda m: f"`{m.group(1)}`", text)
+    return text
+
 
 def _is_underline(line: str) -> bool:
     return bool(_UNDERLINE_RE.match(line))
@@ -79,7 +88,7 @@ def rst_to_markdown(text: str) -> str:
                     j += 1
                 prefix = stripped[:-2].rstrip()
                 if prefix:
-                    out.append(prefix)
+                    out.append(_convert_inline(prefix))
                 out.append("```text")
                 out.extend(block)
                 out.append("```")
@@ -135,7 +144,7 @@ def rst_to_markdown(text: str) -> str:
             if char not in adornment_level:
                 adornment_level[char] = next_level
                 next_level += 1
-            out.append("#" * adornment_level[char] + " " + stripped)
+            out.append("#" * adornment_level[char] + " " + _convert_inline(stripped))
             i += 2
             continue
 
@@ -145,7 +154,7 @@ def rst_to_markdown(text: str) -> str:
             i += 1
             continue
 
-        out.append(stripped)
+        out.append(_convert_inline(stripped))
         i += 1
 
     return "\n".join(out).strip() + "\n"
