@@ -2,7 +2,7 @@ Title: What! No comments?
 Date: 2008-11-05 13:12:33
 Summary: Wherein I explain why I haven't enabled comments on my blog.
 
-One interesting (and potentially controversial) feature of this blog is that there is no comment interface. What, you say! No comments! Sacrilege! Doesn't Russell understand the wisdom of the crowd? Is he so pig headed that he thinks he is always right and can't stomach dissent? Is he censoring debate?  What is he afraid of?
+One interesting (and potentially controversial) feature of this blog is that there is no comment interface. What, you say! No comments! Sacrilege! Doesn't Russell understand the wisdom of the crowd? Is he so pig headed that he thinks he is always right and can't stomach dissent? Is he censoring debate? What is he afraid of?
 
 The real reason is this: when it comes to blog comments, I'm of the same mind as [Dave Winer](http://www.scripting.com/2007/01/01.html#theUneditedVoiceOfAPerson) and [Joel Spolsky](http://www.joelonsoftware.com/items/2007/07/20.html): I don't believe blog comments enhance the process of online discussion. Messrs Winer and Spolsky raise valid points in their respective discussions, but I have some additional reasons for disliking comments.
 
@@ -10,7 +10,7 @@ The real reason is this: when it comes to blog comments, I'm of the same mind as
 
 While an individual blog is an excellent forum for [rhetoric](http://en.wikipedia.org/wiki/Rhetoric), it is not a good way to develop a [dialectic](http://en.wikipedia.org/wiki/Dialectic). In the classical sense, Rhetoric is the art of persuasion by a single speaker. Dialectic, on the other hand, is the process of exchanging arguments and counterarguments, the outcome of which is a refutation of one of the points of view, or the synthesis of a new point of view representing the best parts of the two arguments.
 
-Blogs are clearly an effective forum for rhetoric. Using a blog, a blogger can take as much time as necessary to  compose a compelling argument; anyone is free to read any blog they choose, and particularly compelling blog entries will soon find themselves linked to by others. If a blogger says something interesting or compelling in a blog entry, others will link to that entry, and many people will read the argument.
+Blogs are clearly an effective forum for rhetoric. Using a blog, a blogger can take as much time as necessary to compose a compelling argument; anyone is free to read any blog they choose, and particularly compelling blog entries will soon find themselves linked to by others. If a blogger says something interesting or compelling in a blog entry, others will link to that entry, and many people will read the argument.
 
 However, in order to have an effective dialectic, both speakers need parity in their speaking platform. On a blog with comments, the blogger and the commenter do not have this parity. Although you could theoretically write a multi-page blog comment, in practice, this isn't what happens. The format of blog comments encourages (and almost requires) short form responses, rapidly delivered. Those that take their time to compose a suitable comment response will find themselves a long way down a list of shorter responses, and if you take too long to compose a response, you may find that comments on the blog have been closed by the blog owner.
 

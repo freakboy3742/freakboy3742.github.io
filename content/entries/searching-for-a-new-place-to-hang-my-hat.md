@@ -10,7 +10,7 @@ I recently [started fund raising](https://pybee.org/news/buzz/a-request-for-your
 
 I still want to try and make funded open source development work; but in the meantime, I need a job. So, this is a reverse job advertisment. I'm available for hire. Here's what I'm looking for.
 
-* I'm based in Perth, Western Australia, and I'm not looking to relocate. I have  strong family ties in Perth, and some other personal reasons for not wanting to move - so unless an offer is *extraordinarily* lucrative, I'm not looking to move.
+* I'm based in Perth, Western Australia, and I'm not looking to relocate. I have strong family ties in Perth, and some other personal reasons for not wanting to move - so unless an offer is *extraordinarily* lucrative, I'm not looking to move.
 
 I'd like to think that I've proven I can make telecommuting work. I've been telecommuting for almost 10 years now, spanning up to 12 time zones. Some of that telecommuting has been very public - after all, what is an open source project like Django but a huge telecommuting community.
 
@@ -22,10 +22,13 @@ And as my conference travel schedule will attest, I'm not opposed to travel - ei
 
 * I'm happiest as a developer when:
 
-- I've got a problem to solve that has a clear success criteria. Implement protocol X. Make Y 20% faster. Build an interface between A and B. It's done when it works - no subjectivity or opinion about it.
-- I get to see the look in someone's eyes when you're teaching them, the penny drops, and they see some tangible result of their learning efforts.
-- I get to see someone in the wild actually use something I've developed to solve a real world problem.
-- I have long term engagement in a problem. I'm sure I could make a lucrative career in short-term consulting; but I need to feel invested in what I'm doing.
+  * I've got a problem to solve that has a clear success criteria. Implement protocol X. Make Y 20% faster. Build an interface between A and B. It's done when it works - no subjectivity or opinion about it.
+
+  * I get to see the look in someone's eyes when you're teaching them, the penny drops, and they see some tangible result of their learning efforts.
+
+  * I get to see someone in the wild actually use something I've developed to solve a real world problem.
+
+  * I have long term engagement in a problem. I'm sure I could make a lucrative career in short-term consulting; but I need to feel invested in what I'm doing.
 
 * I enjoy working with diverse teams, and I expect employers to back that up, not just give lip service to the idea.
 

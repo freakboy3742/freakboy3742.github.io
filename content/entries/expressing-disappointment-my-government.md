@@ -26,7 +26,6 @@ Every complaint or objection I have ever heard against gay marriage is utterly l
 
 "As the etymology of our name 'Liberal' indicates, we have stood for freedom. We have realised that men and women are not just ciphers in a calculation, but are individual human beings whose individual welfare and development must be the main concern of government ... We have learned that the right answer is to set the individual free, to aim at equality of opportunity, to protect the individual against oppression, to create a society in which rights and duties are recognised and made effective."
 
-
 How any member of the Liberal party can reconcile that statement of principles with an opposition to even *voting* on gay marriage in the parliament genuinely astounds me.
 
 I am especially concerned at the prospect that Liberal Party policy now appears to be leaning towards a referendum or plebiscite on this issue. This is a cop-out response - and a response demonstrating a stunning absence of leadership from a government, especially one that professes to be one of "strong leadership".

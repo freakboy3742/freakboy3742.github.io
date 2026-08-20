@@ -23,17 +23,20 @@ hgsubversion requires the binding API from Subversion 1.5 or greater. CollabNet 
 ## Configure the shell environment
 
 In order for hgsubversion to know about the non-standard Subversion install, you need to configure the shell environment to point at the new version. Set the following environment variables so that hgsubversion can find the Subversion 1.5 bindings:
+
 ```text
 $ export DYLD_LIBRARY_PATH=/opt/subversion/lib:$DYLD_LIBRARY_PATH
 $ export PYTHONPATH=/opt/subversion/lib/svn-python:$PYTHONPATH
 ```
 
 You can set these in a normal shell session, or, if you intend to make this a permanent arrangement, you can add these lines to `~/.bash_profile`. If you take the `.bash_profile` option, you would also be well advised to set the `PATH` so that the right subversion binary is available:
+
 ```text
 $ export PATH=/opt/subversion/bin:$PATH
 ```
 
 To check that this has worked, run the following at a shell prompt:
+
 ```text
 $ python -c "import svn.core; print svn.core.SVN_VER_MINOR"
 ```
@@ -43,6 +46,7 @@ You should get a response of `5` or `6`. If you get `4`, you're still using the 
 ## Install hgsubversion
 
 hgsubversion is available as a Mercurial checkout. I put my tool checkouts into `~/tools`; any other location will do (provided you adapt the later instructions):
+
 ```text
 $ cd tools
 $ hg clone http://bitbucket.org/durin42/hgsubversion
@@ -51,6 +55,7 @@ $ hg clone http://bitbucket.org/durin42/hgsubversion
 ## Configure hgsubversion
 
 To enable the hgsubversion plugin, edit your `~/.hgrc` file and add the following lines to the `[extensions]` section:
+
 ```text
 rebase=
 svn=/Users/rkm/tools/hgsubversion/hgsubversion
@@ -61,6 +66,7 @@ Substitute your own home directory for `/Users/rkm`; if you used a directory oth
 ## Clone your SVN repository
 
 Now you can clone your repository. For example, a public HTTP repository for a Google Code project could be cloned using:
+
 ```text
 $ hg clone svn+http://<project-name>.googlecode.com/svn project
 ```
@@ -68,34 +74,39 @@ $ hg clone svn+http://<project-name>.googlecode.com/svn project
 This will make a clone of the repository into a directory named `project`. Note that the checkout *doesn't* contain the `trunk` part of the repository URL.
 
 You can also clone a password-protected repository. Again, using Google Code as an example:
+
 ```text
 $ hg clone svn+https://<project-name>.googlecode.com/svn project
 ```
 
 It's important to note the use of `svn+https`. If you leave off the `svn+`:
+
 ```text
 $ hg clone https://<project-name>.googlecode.com/svn project
 ```
 
-This will still work - however,  hgsubversion won't retain your HTTP credentials, so you'll need to re-enter them multiple times every time you pull or push updates.
+This will still work - however, hgsubversion won't retain your HTTP credentials, so you'll need to re-enter them multiple times every time you pull or push updates.
 
 The cloning process will create a complete clone of every commit, every branch, and every tag, so this can take a while. If the clone is interrupted at any point (say, due to a network outage), you can resume the update with a simple `hg pull`.
 
 ## Use your repository
 
 Now you can use your repository. After editing some source files, you can commit, then push your changes:
+
 ```text
 $ hg commit
 $ hg push
 ```
 
 This push will turn into a full subversion commit with the same commit message you gave to Mercurial. To retrieve repository updates:
+
 ```text
 $ hg pull
 $ hg update
 ```
 
 or, if you have the fetch extension installed:
+
 ```text
 $ hg fetch
 ```
@@ -105,6 +116,7 @@ $ hg fetch
 The one notable limitation of hgsubversion is that requires that your subversion repository follow the basic convention of having the root directories `/trunk`, `/branches` and `/tags`. However, structure inside those directories doesn't appear to matter (at least, a lot less than it matters with git-svn).
 
 For example, I was able to clone the complete Django repository. The repository contains represents SVN trunk as the `default` branch, and creates internal branches for each of the branches for each, and ended up with a repository where `trunk` is the `default` branch, and each of the SVN branches are represented in the clone:
+
 ```text
 kronkite:django rkm$ hg branches
 0.96-bugfixes              11237:04a273c619a1
@@ -119,6 +131,7 @@ releases/1.0.X             11184:f4d145484767
 ```
 
 SVN Tags are also imported:
+
 ```text
 kronkite:django rkm$ hg tags
 tip                            11237:04a273c619a1

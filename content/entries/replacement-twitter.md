@@ -24,7 +24,7 @@ There's nothing wrong with having a website - it's a natural thing for a web ser
 
 ### Decentralized
 
-Microblogging platforms are the first communications protocols that are based on  monolithic central stores. All the protocols that have been of historical importance - email, Usenet, RSS - were all decentralized from the outset.
+Microblogging platforms are the first communications protocols that are based on monolithic central stores. All the protocols that have been of historical importance - email, Usenet, RSS - were all decentralized from the outset.
 
 The idea that all the world's communication is stored in a single company's database - be it Twitter, Google, or Facebook - scares me no end. It means if the company folds, an entire generation of content could be lost. It also makes an easy target for any government that wants to curtail or control speech.
 
