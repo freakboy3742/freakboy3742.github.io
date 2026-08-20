@@ -1,7 +1,7 @@
 # Design: Port cecinestpasun.com from Lektor to Pelican
 
 Date: 2026-08-20
-Status: Approved (design sections 1-4)
+Status: Implemented
 
 ## Goal
 
