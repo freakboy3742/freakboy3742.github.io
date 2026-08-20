@@ -38,7 +38,7 @@ Dana is not entirely satisfied with this advice. But unbeknownst to Dana, the ma
 
 The time has come for me to ask myself: Quo vadimus?
 
-I'm not desperate for work. After a conversation at DjangoCon US in Philadelphia last year, Andrew Pinkham and the fine folk at [Jambon Software](https://jambonsw.com)  offered me a contract. It's been extremely liberating to be able to sink my teeth into a new set of technical challenges in new domains.
+I'm not desperate for work. After a conversation at DjangoCon US in Philadelphia last year, Andrew Pinkham and the fine folk at [Jambon Software](https://jambonsw.com) offered me a contract. It's been extremely liberating to be able to sink my teeth into a new set of technical challenges in new domains.
 
 Jambon have also given me some liberty to work on [BeeWare](http://pybee.org) on company time. BeeWare has been a big part of my open source contribution over the last couple of years, and I'm just starting to get to the point where that work is paying off. I'm hoping that over the next six months, BeeWare will start showing some highly visible results. In my ideal world, I'd like to be working on BeeWare full time, with a team of people - but I need to work out how to pay for that.
 

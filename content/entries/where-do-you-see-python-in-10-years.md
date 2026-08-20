@@ -2,7 +2,7 @@ Title: Where do you see Python in 10 years?
 Date: 2019-05-03 10:00:00
 Summary: At [PyCon US 2019](https://us.pycon.org/2019), I was extremely honored to give the opening keynote. While Next Day Video worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.
 
-At [PyCon US 2019](https://us.pycon.org/2019),  I was extremely honored to give the opening keynote. While the PyCon Video team worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.
+At [PyCon US 2019](https://us.pycon.org/2019), I was extremely honored to give the opening keynote. While the PyCon Video team worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/ftP5BQh1-YM?start=1238" frameborder="0" allowfullscreen=""></iframe>
 

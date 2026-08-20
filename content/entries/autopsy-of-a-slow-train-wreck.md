@@ -4,7 +4,6 @@ Summary: Everyone knows the story: armed with nothing more than a laptop and a d
 
 At [DjangoCon Europe 2017](https://2017.djangocon.eu), and again at [DjangoCon US 2017](https://2017.djangocon.us), I gave a talk entitled "Autopsy of a slow train wreck: The life and death of a Django startup". After I gave those presentations, a number of people requested that I publish the content in blog form so they could share it with colleagues.
 
-
 <iframe width="500" height="281" src="https://www.youtube.com/embed/DnR9PZS5WGE" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
