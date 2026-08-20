@@ -1,0 +1,84 @@
+Title: un about page
+DisplayTitle: yes
+
+## About Russell
+
+![Russell Keith-Magee's mugshot](/about/mugshot.png){: .align-left .img-33}
+
+I'm a geek. I like new ideas and pushing the envelope of the possible using technology. However, technology isn't just about building a nifty new widget. Technology needs to complement reality - physically, conceptually, and financially.
+
+I'm passionate about building this technology. Computers are just starting to get to the point where we can be less concerned about how to build, and more concerned about what to build, and I like being on the cutting edge of the what.
+
+I've spent three decades in academia and industry developing the skills that put me in a position to help build the future. I have a passion for using good design, powerful tools and automated testing to find elegant solutions to real-world problems faced by real-world users. I'm looking forward to seeing what comes next.
+
+If you would like a summary of my work history, my [Curriculum Vitae is available](/about/CurriculumVitae-RussellKeith-Magee.pdf).
+
+## Short Biography
+
+Dr Russell Keith-Magee has been interested in computers since his parents bought a Commodore 64 in 1983. After studying Physics and Computer Science as an undergraduate, Russell completed a doctoral dissertation investigating models of learning and development in neural networks. He has worked in the software industry and academia for over a decade.
+
+Russell is the founder of the [BeeWare Project](https://beeware.org) - a project developing tools and libraries for cross-platform native user interfaces in Python. One of the key contributions of this work is expanding the availability of Python onto mobile and browser platforms.
+
+He has also been a core developer on the Django project since January 2006. He was a co-founder of Django Evolution, a schema evolution framework for Django. He is an active participant on the Django Users and Django Developers mailing lists, and has been a mentor in the Google Summer of Code from 2008 to 2018.
+
+In addition to his work in the Python community, Russell has worked at a series of startup companies, including Wotnews, an online news monitoring service; Hunted Media, a website tracking emerging music artists and providing music recommendations; TradesCloud, providing back-office and mobile software for mid-size plumbers and electricians; CertCycle, a service providing automated SSL certificate generation and installation; and Upwave, providing brand management software.
+
+Russell lives with his wife, son, daughter, and two cats in Perth, Western Australia.
+
+## Detailed Biography
+
+### Academia
+
+I attended Cannington Primary School, followed by a special language entry to Rossmoyne Senior High School. At Rossmoyne, I studied Mandarin Chinese for 1 year, and German for 3 years. At the end of this three year period, I traveled to Timmendorfer Strand, a costal town in the north of Germany, to participate in a student exchange.
+
+I completed my Year 12 exams achieving a TEE score of 443.8 (out of a possible 510), and gained entry to the Physics programme at Curtin University of Technology. I completed my bachelors degree in 1996, and changed departments to take my honours in Computer Science in 1997.
+
+Upon finishing my honours, I started my PhD in the School of Computing. I submitted my thesis, entitled "Learning and Development in Kohonen-Style Self-Organizing Maps", in July 2001. My thesis was passed unconditionally by three markers, with two of these markers recommending a Vice Chancellor's Commendation for my work. My doctorate was conferred on April 24, 2002, and I formally graduated on Feburary 10, 2003.
+
+During my academic career, I received the following academic recognitions:
+
+* 6 time member of the Vice Chancellors List (a group consisting of the top 1% of students in the University).
+* Winner of the First, Second, and Third Year Dean's Prizes, awarded to the Dux of each academic year within the Faculty of Science.
+* Winner of the Australian Institute of Physics (WA Branch) Prize, awarded to the best graduate of a Physical Science course in WA.
+* Winner of the Curtin Jubilee Prize in Physics, an occasional award given to outstanding Physics students
+* Graduated with a Bachelor of Science (Physics) with Distinction in 1997, with a Semester Weighted Average of 89.1%
+* Graduated with a Bachelor of Science (Computer Science) (Honours) in 1998. I received First Class honours, and was judged the best graduate of the honours course.
+* Received the Curtin University Silver Jubilee Scholarship to undertake my Ph.D. in Computer Science.
+
+### Employment
+
+During my university career, I worked as a tutor for a number of subjects, including Information Technology 111 and Computer Programming 151/152. I also acted as Duty Programmer - a sort of roving problem solver that was available for undergraduate students to ask questions outside of formal contact hours. When my PhD scholarship ran out in January 2001, I took up a job lecturing and tutoring "Artificial and Machine Intelligence 251". I taught this course in the first semester of 2001.
+
+I started work at [Calytrix Technologies](https://calytrix.com) the day after I submitted my thesis. Calytrix is a software company that specializes in simulations and exercise support for the defence community. During my time at Calytrix, the flagship product was SIMplicity - a code generation tool used to support the development of simulations using the DIS (IEEE1278) and HLA (IEEE1516) simulation protocols. I was involved in the development of SIMplicity from day 1, and eventually rose to being the senior engineer responsible for the development of SIMplicity.
+
+I spent 3 months living in Philadelphia while Calytrix set up a US office; I also spent a lot of time traveling the world visiting customers, teaching training courses, and representing Calytrix at conferences.
+
+I worked at Calytrix until March 2008, when I left to start working for Wotnews. Wotnews attempted to solve the problem of keeping track of news relevant to you. We read thousands of news sources, ranging from 'old media' to blogs. They analyzed every article to determine the actors and subjects discussed by the article, and find the stories and themes that emerge over the course of the day. Users defined their interests, and Wotnews would find the stories that best matched those interests. Wotnews pivoted to focus on the music industry, rebranded as Hunted Media, and was eventually acquired by Twitter.
+
+Before that acquisition took place, I left Wotnews to build my own startup - TradesCloud. TradesCloud offered back-office software for small trades - plumbers, electricians, cabinetmakers, and so on. It specialised in providing integration with head contractors whose contractual requirements imposed a significant paperwork overhead on tradespeople, easing compliance, and ensuring contractual KPIs are met. TradesCloud was a Django website, backed by a cross-platform mobile application. TradesCloud was shut down in January 2017.
+
+After the shutdown of TradesCloud, I spent about 6 months freelancing, for a range of companies. I worked at [Zapier](https://zapier.com) for about 6 months, before moving to be a Staff Software Engineer at [Upwave](https://upwave.com) (formerly Survata). Upwave is a brand management company, using data science to allow brands to track the impact of their advertising campaigns, and track the health of their brand across all media and platforms.
+
+I left Upwave in February 2022 to take up a position as a Principal Software Engineer with the Open Source group at [Anaconda](https://anaconda.com). This position allows me (and a small team) to work on [BeeWare](https://beeware.org) full time.
+
+### Projects
+
+I discovered [Django](https://djangoproject.com/) about 4 months after the first public release. After contributing some patches to improve the query language, Adrian Holovaty offered me commit access to the trunk. I was an active member of the Django community for 15 years. I still have many friends in that community, but I don't do much Django work these days.
+
+I was responsible for developing Django's test framework and the newforms media framework; I also did a lot of work on the 'magic-removal' refactor. I mentored students who added multiple database support, aggregations, and the system check framework.
+
+I was President of the [Django Software Foundation](https://djangoproject.com/foundation/) from 2011 to 2015; in that time, we established Codes of Conduct for the Django community and Django events, formalised arrangements around the Django trademark, launched a new website, and started the Django Fellowship program. Independent of my work with the DSF, I was a mentor in the Google Summer of Code from 2008 to 2018.
+
+I am also the founder of the [BeeWare Project](https://beeware.org) - a project looking at the tools we use to develop Python. One of the key contributions of this work is expanding the availability of Python onto mobile platforms. The BeeWare project was the recipient of a PSF grant in 2019 which allowed us to dramatically improve our support on Android. I have been employed by Anaconda since March 2022 to work on BeeWare full time.
+
+### Personal
+
+I was born in Perth, Western Australia, in 1976, and fortysomething years later, I'm still here.
+
+I met my wife, April, while I was an undergraduate. We were married in 2004. My son, Tobias, was born in 2006. My daughter, Beatrix, was born in 2009.
+
+I also have a history of depression. I've been [very open about this](https://www.youtube.com/watch?v=OC3v5uXR9Qc), in the hope that it make it easier for others to seek treatment.
+
+## Where did freakboy3742 come from?
+
+If you want to know the origin of my *nom-de-plume*, read the [blog entry](/entries/freakboy3742/).

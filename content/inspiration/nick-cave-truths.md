@@ -1,0 +1,7 @@
+Title: Nick Cave
+Author: Nick Cave
+Location: 20,000 Days on Earth
+Date: 2017-04-29 07:00
+Template: quotation
+
+In the end, I am not interested in that which I fully understand. The words I have written over the years are just a veneer. There are truths that lie beneath the surface of the words. Truths that rise up out of the water like the humps of a sea monster -- and then disappear. What performance and song is to me is finding a way to tempt the monster to the surface. To create a space where the creature can break through what is real, and what is known to us. This shimmering space, where reality and imagination intersect -- this is where all love, and tears, and joy exist. This is the place. This is where we live.
