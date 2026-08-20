@@ -28,21 +28,11 @@ name = "cecinestpasun"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "markdown" },
-    { name = "pelican" },
-    { name = "pygments" },
-    { name = "pytz" },
-    { name = "typogrify" },
+    { name = "pelican", extra = ["markdown"] },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "markdown", specifier = "==3.8.1" },
-    { name = "pelican", specifier = "==4.10.2" },
-    { name = "pygments", specifier = "==2.20.0" },
-    { name = "pytz", specifier = "==2024.2" },
-    { name = "typogrify", specifier = "==2.0.7" },
-]
+requires-dist = [{ name = "pelican", extras = ["markdown"], specifier = "==4.10.2" }]
 
 [[package]]
 name = "docutils"
@@ -88,11 +78,11 @@ wheels = [
 
 [[package]]
 name = "markdown"
-version = "3.8.1"
+version = "3.10.3"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/db/7c/0738e5ff0adccd0b4e02c66d0446c03a3c557e02bb49b7c263d7ab56c57d/markdown-3.8.1.tar.gz", hash = "sha256:a2e2f01cead4828ee74ecca9623045f62216aef2212a7685d6eb9163f590b8c1", size = 361280, upload-time = "2025-06-18T14:50:49.618Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/29/6f/da4c6aea59b3001f2e8c0ec7497475aadaf3b021c10cab5b2858f0f32b26/markdown-3.10.3.tar.gz", hash = "sha256:3589362618f743188b4d955b874402bc814f4f83f544dc207719f4baa7d9c45f", size = 372596, upload-time = "2026-07-30T19:05:29.005Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/50/34/3d1ff0cb4843a33817d06800e9383a2b2a2df4d508e37f53a40e829905d9/markdown-3.8.1-py3-none-any.whl", hash = "sha256:46cc0c0f1e5211ab2e9d453582f0b28a1bfaf058a9f7d5c50386b99b588d8811", size = 106642, upload-time = "2025-06-18T14:50:48.52Z" },
+    { url = "https://files.pythonhosted.org/packages/64/69/4a5af2bc115a9a33fefe51709749de8262be3f9ba063d1753a837cdbc49c/markdown-3.10.3-py3-none-any.whl", hash = "sha256:fa6c92a00a4a3c98b22728c64a935ae1928250ae65058a6ded814d2cc29a4cea", size = 110757, upload-time = "2026-07-30T19:05:27.883Z" },
 ]
 
 [[package]]
@@ -177,13 +167,18 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/4f/eb/b959487fa45d107ce388c77d0c694cdab42a6be9e2149f44cba1fe6a08c7/pelican-4.10.2-py3-none-any.whl", hash = "sha256:534b3c279b9630a006b5687ea6e8e6113ca17c64ac45f4328cf66bf0be367bdf", size = 1347714, upload-time = "2024-11-27T19:53:47.806Z" },
 ]
 
+[package.optional-dependencies]
+markdown = [
+    { name = "markdown" },
+]
+
 [[package]]
 name = "pygments"
-version = "2.20.0"
+version = "2.19.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz", hash = "sha256:6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f", size = 4955991, upload-time = "2026-03-29T13:29:33.898Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631, upload-time = "2025-06-21T13:39:12.283Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f4/7e/a72dd26f3b0f4f2bf1dd8923c85f7ceb43172af56d63c7383eb62b332364/pygments-2.20.0-py3-none-any.whl", hash = "sha256:81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176", size = 1231151, upload-time = "2026-03-29T13:29:30.038Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217, upload-time = "2025-06-21T13:39:07.939Z" },
 ]
 
 [[package]]
@@ -196,15 +191,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 342432, upload-time = "2024-03-01T18:36:20.211Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427", size = 229892, upload-time = "2024-03-01T18:36:18.57Z" },
-]
-
-[[package]]
-name = "pytz"
-version = "2024.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/3a/31/3c70bf7603cc2dca0f19bdc53b4537a797747a58875b552c8c413d963a3f/pytz-2024.2.tar.gz", hash = "sha256:2aa355083c50a0f93fa581709deac0c9ad65cca8a9e9beac660adcbd493c798a", size = 319692, upload-time = "2024-09-11T02:24:47.91Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl", hash = "sha256:31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725", size = 508002, upload-time = "2024-09-11T02:24:45.8Z" },
 ]
 
 [[package]]
@@ -228,24 +214,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
 ]
-
-[[package]]
-name = "smartypants"
-version = "2.0.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/6c/8f/a033f78196d9467b402d100ec40b95166d43fa2642693f23f771473d8195/smartypants-2.0.2.tar.gz", hash = "sha256:39d64ce1d7cc6964b698297bdf391bc12c3251b7f608e6e55d857cd7c5f800c6", size = 16392, upload-time = "2025-06-17T07:59:48.122Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/39/2c/f12558bff677defbfc64bf32441daec245df608dd2d9a12168f1d766ad75/smartypants-2.0.2-py2.py3-none-any.whl", hash = "sha256:9471578606e8ee0740065bf8771f55fec8c83313cb98c5d1c1864ddd389d0f3a", size = 10168, upload-time = "2025-06-17T07:59:46.765Z" },
-]
-
-[[package]]
-name = "typogrify"
-version = "2.0.7"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "smartypants" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/8a/bf/64959d6187d42472acb846bcf462347c9124952c05bd57e5769d5f28f9a6/typogrify-2.0.7.tar.gz", hash = "sha256:8be4668cda434163ce229d87ca273a11922cb1614cb359970b7dc96eed13cb38", size = 12903, upload-time = "2014-09-18T22:13:14.629Z" }
 
 [[package]]
 name = "tzdata"
