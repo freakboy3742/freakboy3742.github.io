@@ -18,6 +18,8 @@ jobs:
           persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+      - name: Install aspell
+        run: sudo apt-get update && sudo apt-get install -y aspell
       - name: Run pre-commit
         run: uvx pre-commit run --all-files --show-diff-on-failure
       - name: Build site

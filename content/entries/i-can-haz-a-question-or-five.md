@@ -1,4 +1,4 @@
-Title: I can haz a question (or five)?
+Title: I can <nospell>haz</nospell> a question (or five)?
 Date: 2010-06-27 12:58:44
 Summary: Wherein I explain why I ask so many questions at conferences.
 

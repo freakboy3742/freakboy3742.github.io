@@ -2,7 +2,7 @@ Title: Personal funding, and the culture of open source
 Date: 2012-07-05 15:10:00
 Summary: Can personal funding really work? Or does it require a cultural shift that our community isn't able to make?
 
-**Update 1 Jan 2015** Following the decision by the Gittip (now Gratipay) community to [continue to support Neonazis and serial abusers](https://github.com/gratipay/inside.gratipay.com/issues/118), I am no longer subscribed to or recommend the use of the Gittip platform.
+**Update 1 Jan 2015** Following the decision by the Gittip (now Gratipay) community to [continue to support Neo-nazis and serial abusers](https://github.com/gratipay/inside.gratipay.com/issues/118), I am no longer subscribed to or recommend the use of the Gittip platform.
 
 ---
 

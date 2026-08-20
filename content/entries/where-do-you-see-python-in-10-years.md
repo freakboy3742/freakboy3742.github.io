@@ -16,13 +16,13 @@ First off - some terminology. We are in Ohio. Someone from Ohio is called a Buck
 
 ...a sandgroper.
 
-We're so named after [this delightful fellow](https://en.wikipedia.org/wiki/Sandgroper_(insect)) - Cylindraustralia kochii. It's a pygmy mole cricket. About 2 inches long, lives in the sand dunes at the beach.
+We're so named after [this delightful fellow](https://en.wikipedia.org/wiki/Sandgroper_(insect)) - <nospell>Cylindraustralia kochii</nospell>. It's a pygmy mole cricket. About 2 inches long, lives in the sand dunes at the beach.
 
 And they're not venomous!
 
 ## Acknowledgement of Country
 
-Sandgropers - the people, not the insects - have a tradition about how you start big public events like a PyCon. Australia, like the US, Canada, and many other colonized countries, has a messy history with their indigeneous peoples. In recognition of that fact, starting in Perth in the 1970s, Australian public gatherings have, increasingly, started with a recognition that the land where the gathering is happening wasn't always white man's land.
+Sandgropers - the people, not the insects - have a tradition about how you start big public events like a PyCon. Australia, like the US, Canada, and many other colonized countries, has a messy history with their indigenous peoples. In recognition of that fact, starting in Perth in the 1970s, Australian public gatherings have, increasingly, started with a recognition that the land where the gathering is happening wasn't always white man's land.
 
 It's called [Acknowledgement of Country](https://en.wikipedia.org/wiki/Welcome_to_Country) - and in that spirit, I'd like to acknowledge that I come from [Whadjuk Noongar Boodja](https://www.noongarculture.org.au/whadjuk/); and I'd like to recognize the Eriehonan and Haudenosaunee peoples, the traditional owners of the land where we meet today, to recognize their continuing connection to their land, waters and culture, and to pay my respects to their Elders past, present and emerging.
 
@@ -76,11 +76,11 @@ But a black swan is also a metaphor.
 
 Prior to the 1600s, it was well known that all swans are white. Swans of other colors were known to not exist. And then in 1697, Dutch explorer Willem de Vlamingh visited Western Australia - and discovered that swans could also be black. This radically changed the worlds idea of what a swan was.
 
-In 2001, essayist and statstician [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) used this as a broader metaphor.
+In 2001, essayist and statistician [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) used this as a broader metaphor.
 
 Taleb defined a Black Swan event as an event that is a surprise to the observer, that has a major effect on the world, but in hindsight, can be easily explained. In hindsight, it was obvious that swans could be be black. But until someone visited Western Australia, it never occurred to anyone to challenge that assumptions.
 
-Black swan events don't have to be immediate, either - the impact can be felt over time. The rise of the personal computer was a black swan event. In 1947, CEO of IBM Thomas Watson famously said there was a world market for maybe five computers. Today, almost everyone in this room is carrying five computers. In retrospect, Watson's comments are just quaintly naive. But at the time, they weren't controversial - they were the common understanding of the world. And the change wasn't immediate, but in retrosoect, it was inevitable.
+Black swan events don't have to be immediate, either - the impact can be felt over time. The rise of the personal computer was a black swan event. In 1947, CEO of IBM Thomas Watson famously said there was a world market for maybe five computers. Today, almost everyone in this room is carrying five computers. In retrospect, Watson's comments are just quaintly naive. But at the time, they weren't controversial - they were the common understanding of the world. And the change wasn't immediate, but in retrospect, it was inevitable.
 
 ## Python's Black Swan
 
@@ -103,7 +103,7 @@ Over the last 10 years, we've seen the emergence of a new class of computing dev
 
 These devices are becoming ubiquitous - and they're replacing laptops as primary computing devices. My son started high school last year. He doesn't have a laptop for school. His entire educational experience is delivered through a tablet device.
 
-If you go to python.org, tablets, phones and set top boxes don't even rate a mention. To me, that seems like a pretty big oversight of the way the everyday experience of computing has changed over the last 10 years. Phones and tablets are acheiving market penetration that desktop and laptops have *never* seen. And yet, as a community, we don't have a story for how you can use Python on these devices.
+If you go to python.org, tablets, phones and set top boxes don't even rate a mention. To me, that seems like a pretty big oversight of the way the everyday experience of computing has changed over the last 10 years. Phones and tablets are achieving market penetration that desktop and laptops have *never* seen. And yet, as a community, we don't have a story for how you can use Python on these devices.
 
 So what happens to Python when laptops don't exist, or become niche devices? If I'm a novice programmer, and there's no installer for Python *on* my tablet, and I can't use Python to write an app for my tablet... why am I going to learn Python?
 
@@ -123,7 +123,7 @@ Ok, so lets say that despite those two problems, I have decided to learn Python.
 
 I've been a user of Python for 20 years, and in that entire time, I don't think there's ever been a period where I'd describe Python's packaging story as "stable". And because information lives forever on the Internet, old advice continues to linger, long after it's considered the "right" answer, and then well meaning but misinformed people spread outdated advice on stack overflow, perpetuating the problem.
 
-![XKCD comic 1987 - "My Python environment has bcome so degraded that my laptop has been declared a Superfund site"](/entries/images/xkcd-1987.png){: .img-100}
+![XKCD comic 1987 - "My Python environment has become so degraded that my laptop has been declared a Superfund site"](/entries/images/xkcd-1987.png){: .img-100}
 
 The situation is bad enough that it's a punch line for comics. In [XKCD 1987](https://xkcd.com/1987/), Randall Monroe lampoons Python's environment experience as so degraded that it has made laptop a toxic waste site.
 
@@ -143,9 +143,9 @@ Contrast that with, for example, PHP, whose distribution story is "use FTP to up
 
 ## ... or is our Black Swan something else?
 
-That's 4 possible Black Swans that I've identified. Maybe it's something else? I know there are people in this room who will assert that Python's C API is a potential problem. Or the GIL. Or the lack of a good front-end story. Or focussing on Unix and Mac to the exclusion of Windows. Maybe the problem won't be technical at all - maybe it will be cultural. Some aspect of Python's community or development process that drives some segment of users or potential contributors away because of percieved hostility, or conflict, or diverging interests.
+That's 4 possible Black Swans that I've identified. Maybe it's something else? I know there are people in this room who will assert that Python's C API is a potential problem. Or the GIL. Or the lack of a good front-end story. Or focusing on Unix and Mac to the exclusion of Windows. Maybe the problem won't be technical at all - maybe it will be cultural. Some aspect of Python's community or development process that drives some segment of users or potential contributors away because of perceived hostility, or conflict, or diverging interests.
 
-Or maybe it won't be any one of these things. My point is that we can't predict the future. But we can challenge our assumptions. We can look criticially at ourselves as a community. We can examine the trends in our industry and our society, and make plans based on those assessments; not just reacting to problems when they're already wildfires, but proactively addressing problems before they become critical threats to the ecosystem.
+Or maybe it won't be any one of these things. My point is that we can't predict the future. But we can challenge our assumptions. We can look critically at ourselves as a community. We can examine the trends in our industry and our society, and make plans based on those assessments; not just reacting to problems when they're already wildfires, but proactively addressing problems before they become critical threats to the ecosystem.
 
 ## This is not about blame
 
@@ -155,7 +155,7 @@ What I'm talking about here is trying to avoid Black Swans. To start a conversat
 
 ## BeeWare
 
-For whatever it's worth, these existential problems are one of the reasons I changed the focus of my open source contributions a few years ago. As I said eariler, I developed my reputation working on Django. But these days, I'm spending most of my volunteer time on the BeeWare project.
+For whatever it's worth, these existential problems are one of the reasons I changed the focus of my open source contributions a few years ago. As I said earlier, I developed my reputation working on Django. But these days, I'm spending most of my volunteer time on the BeeWare project.
 
 For those that haven't come across it before, [BeeWare](https://beeware.org) is a collection of open source tools and libraries for creating native user interfaces in Python - for desktop, but also for iOS, Android, single-page webapps, and other new hardware platforms.
 
@@ -167,9 +167,9 @@ Now, BeeWare is a work in progress. It's current state is "compelling proof of c
 
 I'm also not the only person working on this problem. The [Kivy](https://kivy.org/) project has similar goals, but with differences in their underlying approach.
 
-As far BeeWare is concerned; about 18 months ago, I did a live demo at PyCon Australia 2017 where I wrote a Fahrenheit to Celcuis application, in 50 lines of Python code, and deployed it on MacOS, Linux, Windows, iOS, Android, and as a single-page web application, all in the space of 20 minutes.
+As far BeeWare is concerned; about 18 months ago, I did a live demo at PyCon Australia 2017 where I wrote a Fahrenheit to Celsius application, in 50 lines of Python code, and deployed it on MacOS, Linux, Windows, iOS, Android, and as a single-page web application, all in the space of 20 minutes.
 
-And when I say deployed - I don't just mean "I ran the code". I mean on Mac, it was a standalone .app file. On Windows, it was an MSI installer. On iOS and Android, it was a packaged app, running in the device simulators, but it could have been uploaded to an App store. And it was running in a browser, completely client side, including doing the Fahrenheit to Celcius conversion in Python, in the browser.
+And when I say deployed - I don't just mean "I ran the code". I mean on Mac, it was a standalone .app file. On Windows, it was an MSI installer. On iOS and Android, it was a packaged app, running in the device simulators, but it could have been uploaded to an App store. And it was running in a browser, completely client side, including doing the Fahrenheit to Celsius conversion in Python, in the browser.
 
 ## Sisyphus
 
@@ -193,7 +193,7 @@ In [1983](https://en.wikipedia.org/wiki/1983_America%27s_Cup), New York lost to 
 
 Now, it's difficult for me to understate how big a deal this was in Australia, and in Perth specifically. This was event that put Perth on the world stage for pretty much the first time.
 
-Many of you here today probably even know about the 1983 America's Cup without even knowing why. Some of you may have heard me drop the line that "I come from a land down under" earlier on. That's a [line from a song by Australian rock band "Men at Work"](https://en.wikipedia.org/wiki/Down_Under_(song)) - that song was the unofficial theme song for Australia II. And it was popular in the US primarily because of the 1983 America's cup. The movie Crocodile Dundee was concieved of and able to get financed and released, in part, because of the exposure Australia received from the America's Cup.
+Many of you here today probably even know about the 1983 America's Cup without even knowing why. Some of you may have heard me drop the line that "I come from a land down under" earlier on. That's a [line from a song by Australian rock band "Men at Work"](https://en.wikipedia.org/wiki/Down_Under_(song)) - that song was the unofficial theme song for Australia II. And it was popular in the US primarily because of the 1983 America's cup. The movie Crocodile Dundee was conceived of and able to get financed and released, in part, because of the exposure Australia received from the America's Cup.
 
 Just to be clear, though - Outback steakhouse? You can't blame us for that. We had nothing to do with it.
 
@@ -221,7 +221,7 @@ But to their credit, the New York Yacht Club adopted the 12 meter rule in 1958, 
 
 Well, a Black swan happened. Sailing is highly competitive, and the New York Yacht Club always fielded a strong defence, with well designed yachts, and highly capable crews. When you add in the home-harbour advantage - knowing the seas and prevailing winds of Newport harbour - it's easier to continue winning.
 
-And the design of 12 meter yachts was essentially finnessing a well established design. Sure, there were variations between boats, but they were relatively well understood tweaks of a basic design.
+And the design of 12 meter yachts was essentially finessing a well established design. Sure, there were variations between boats, but they were relatively well understood tweaks of a basic design.
 
 But Australia II was a Black Swan.
 
@@ -239,7 +239,7 @@ The America's cup isn't sailed on 12 meter yacht's any more - The next America's
 
 All of this innovation has happened because one team decided to challenge the assumptions of 12 meter yacht design. It was controversial. It was risky. But it worked. And yacht racing hasn't been the same since.
 
-And - just to nail the metaphor home - the name of Australia II's tender boat was the Black Swan.
+And - just to nail the metaphor home - the name of <nospell>Australia II's</nospell> tender boat was the Black Swan.
 
 ## Computing's winged keel
 
@@ -261,7 +261,7 @@ But the winged keel has been revealed. What we do with that knowledge is up to u
 
 ## Lesson 3: The team matters
 
-But there's more we can learn from Australia II. Ben Lexen was a very talented yacht designer. He did a remarkable thing when he put winglets on Australia II's keel. But he wasn't a competitive sailor.
+But there's more we can learn from Australia II. Ben Lexen was a very talented yacht designer. He did a remarkable thing when he put winglets on <nospell>Australia II's</nospell> keel. But he wasn't a competitive sailor.
 
 John Bertrand was an amazing skipper. But he couldn't design a yacht.
 
@@ -327,7 +327,7 @@ PyPI has been around for 15 years. It *badly* needed a rewrite for almost half i
 
 Then Mozilla gave the PSF a grant of $170000. And the work was done in 6 months. Why? Because a couple of people could focus on getting the job done, instead of trying to fit bugfixes in on weekends between their kids football games, or trying to convince their boss that even though improving PyPI wouldn't make any money for the company directly, it was a worthwhile activity.
 
-PyPI is an unfortunately rare example. What opportunities have we left on the table - or are we at risk of leaving on the table - beacuse we aren't resourcing them? What constraints have we placed on our own growth because nobody was enthusiastic enough to volunteer their time to address some gap, or make the most of some opportunity?
+PyPI is an unfortunately rare example. What opportunities have we left on the table - or are we at risk of leaving on the table - because we aren't resourcing them? What constraints have we placed on our own growth because nobody was enthusiastic enough to volunteer their time to address some gap, or make the most of some opportunity?
 
 And who have we excluded from the development process because they had other life commitments, or couldn't justify donating all their spare time to a volunteer effort? Or because they can't take up a short term grant contract because they live in the US and need healthcare coverage?
 
@@ -335,7 +335,7 @@ And who have we excluded from the development process because they had other lif
 
 It's not just about maintenance of existing infrastructure, either. History has shown that research and development is how you ensure success in the long term. And groups that *don't* do R&D eventually get beaten.
 
-Australia II's investment in R&D led to the winged keel, and kickstarted a whole generation of progress in yacht design.
+<nospell>Australia II's</nospell> investment in R&D led to the winged keel, and kickstarted a whole generation of progress in yacht design.
 
 The black swans I identified earlier aren't something that can be addressed with a trivial fix - they're going to need concentrated effort, and probably a bunch of dead ends along the way.
 
@@ -349,7 +349,7 @@ When you give talented people the resources to think big, amazing things can hap
 
 The Python community has talented people. We just need to give them the resources to think big thoughts, and do big things, without the need to demonstrate that the work will generate profits in the next quarter, or without the need to spend half their time on one grant writing the proposal for the next grant.
 
-And it could open the door to giving high profile, paid career opportunities to groups that have been historically underrepresented in open source developent.
+And it could open the door to giving high profile, paid career opportunities to groups that have been historically underrepresented in open source development.
 
 ## How do we pay for this?
 
@@ -393,7 +393,7 @@ But that wasn't O'Connor's only major achievement. The other was even bigger - [
 
 In the early 1890s, gold was discovered near the towns of Coolgardie and Kalgoorlie. This started Western Australia's gold rush.
 
-These towns are in the middle of a desert. There are no natural water sources. But people need water - so they would paying 5 shillings a gallon to have water carted by horse from Perth. Adjusted for inflation, thats around US$100 a gallon.
+These towns are in the middle of a desert. There are no natural water sources. But people need water - so they would paying 5 shillings a gallon to have water carted by horse from Perth. Adjusted for inflation, that's around US$100 a gallon.
 
 But there was so much gold, they were willing to pay. The 1890's goldfields gold rush *doubled* the population of Western Australia in four years.
 
@@ -409,7 +409,7 @@ But like all ambitious plans, they weren't universally popular.
 
 Criticism of these two projects was widespread. People who had alternative plans that had been rejected took to the presses to express their dismay. Two successive editors of Perth's Sunday Times newspaper made it their personal mission to see O'Connor brought to account for the way he was wasting public funds. They took every opportunity to accuse him of corruption, of ineptitude, calling for a Royal Commission into his activity.
 
-And all this public criticism and pressure took it's toll on O'Connor. One early monring in 1902, he took his own life.
+And all this public criticism and pressure took it's toll on O'Connor. One early morning in 1902, he took his own life.
 
 These two projects - Fremantle Harbour and the Goldfields Pipeline - they were ambitious - but they weren't foolhardy. They were well designed. And they have *shaped* Western Australia. They have both been in continuous operation from the day they were commissioned. Kalgoorlie is, to this day, an active gold mine - one of the world's largest. And children are taught CY O'Connors name and story in Primary School because of the importance of the work he did. But the combination of the public narrative surrounding his work, and his own mental health issues led to the worst possible end.
 
@@ -433,7 +433,7 @@ Fortunately, I never reached the point of contemplating self harm - I was able t
 
 Are we, as a community, comfortable that we're doing this to our peers, our leaders - or to anyone, for that matter?
 
-Do we want to build our community on the expectation that volunteers will give of themselves until they burn out? Are we OK with the idea of project founders martying themselves so that the wider commmunity can have access to a web framework, or a packaging service, or a numerical processing library?
+Do we want to build our community on the expectation that volunteers will give of themselves until they burn out? Are we OK with the idea of project founders martyring themselves so that the wider community can have access to a web framework, or a packaging service, or a numerical processing library?
 
 Or do we want to find a way to structure our community to make sure that people who are able to do good work have the resources to do what they do well; and access to others who can actively support them in that work, and access to individuals with skills in other areas?
 
@@ -451,7 +451,7 @@ What can *you* do to help?
 
 Firstly, we need to start thinking about the Black Swans that have the potential to redefine us.
 
-We can't affort to *just* think about the most pressing problems that are obvious right now. Our immediate sources of pain, or potential sources of revenue.
+We can't afford to *just* think about the most pressing problems that are obvious right now. Our immediate sources of pain, or potential sources of revenue.
 
 We need to think about the problems we're *going* to have. Because addressing those problems is going to take time, and by the time those black swans *become* the pressing problem... it may be too late.
 
@@ -475,7 +475,7 @@ You want something concrete? Well, here's two more:
 
 Firstly, Get out your wallets.
 
-The [Python Software Foundation](python.org/psf/donations/), the [Django Software Foundation](djangoproject.com/fundraising/), [NumFocus](numfocus.org), and many others accept donations. Encourage your employer to support these organizations to a level that reflects their signficance to their business. Give those organizations the financial resources to do maintenance and R&D work on behalf of the community.
+The [Python Software Foundation](python.org/psf/donations/), the [Django Software Foundation](djangoproject.com/fundraising/), [NumFocus](numfocus.org), and many others accept donations. Encourage your employer to support these organizations to a level that reflects their significance to their business. Give those organizations the financial resources to do maintenance and R&D work on behalf of the community.
 
 If you'd like to support my own work on the BeeWare project, you can [join the project as a financial member](beeware.org/bee/join/). I'm currently able to cover my hosting costs and pay for stickers and challenge coins; If I can get some more financial backing, I could start making a more substantial time commitment to BeeWare. If you've got other ideas for how to fund BeeWare, or you'd like to know more about the project, we have a booth in the main hall; come have a chat.
 

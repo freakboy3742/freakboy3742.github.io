@@ -10,7 +10,7 @@ At [DjangoCon Europe 2017](https://2017.djangocon.eu), and again at [DjangoCon U
 
 I've been a frequent (almost constant) fixture at DjangoCon events over the last 10 years. And if you met me at one of those DjangoCons in the last 6 years, or seen me speak, I may have introduced myself as the CTO and co-founder of TradesCloud. TradesCloud was a software as a service company for tradespeople - plumbers, electricians, carpenters and the like.
 
-TradesCloud was my startup. I say "was"... beacuse in January of this year, my business partner and I closed the doors on TradesCloud, and shut down the service.
+TradesCloud was my startup. I say "was"... because in January of this year, my business partner and I closed the doors on TradesCloud, and shut down the service.
 
 ## Gold-plated Lamborghinis
 
@@ -22,9 +22,9 @@ But it's important to remember that those stories *are* unicorns. They're not th
 
 ## The reality...
 
-In the VC-backed startup world, the general expctation is that if a VC firm invests in 20 companies, only 1 of them will actually succeed spectacularly. 4 will have some sort of exit that at least results in a breakeven financially; but 15 will fail outright, with a significant or complete financial loss.
+In the VC-backed startup world, the general expectation is that if a VC firm invests in 20 companies, only 1 of them will actually succeed spectacularly. 4 will have some sort of exit that at least results in a breakeven financially; but 15 will fail outright, with a significant or complete financial loss.
 
-Interestingly, this isn't something unique to tech. Tech does it at a much grander scale, especially when VCs are involved - but open any small business advice book - the sort that is targetted at the plumbers and electricians of the world - and they'll warn you that 50% of businesses fail in their first year.
+Interestingly, this isn't something unique to tech. Tech does it at a much grander scale, especially when VCs are involved - but open any small business advice book - the sort that is targeted at the plumbers and electricians of the world - and they'll warn you that 50% of businesses fail in their first year.
 
 And yet, despite the fact that failure happens *all the time*, we don't talk about it. We don't talk about *why* things fail. And as a result, many of the same lessons have to be learned over and over again. Those that experience failure often feel like they're doing it alone, because of the significant social stigma associated with failure.
 
@@ -40,7 +40,7 @@ Well, it started as a problem that thought I could solve. If you find yourself n
 
 ## An idea is born...
 
-In late 2010, I met up with a former boss for a drink, and he tells me about his brother. His brother owns a pest control company, he has the same problem - but from a different angle - I'm looking for tradespeople in my area that can be reccomended - he is smaller company that wants to compete with the big players with the shinier ads based on quality of service.
+In late 2010, I met up with a former boss for a drink, and he tells me about his brother. His brother owns a pest control company, he has the same problem - but from a different angle - I'm looking for tradespeople in my area that can be recommended - he is smaller company that wants to compete with the big players with the shinier ads based on quality of service.
 
 And so, TradesCloud was born. We had an idea. At the time, it wasn't called TradesCloud - it was called CleverPages - because it was going to be a clever Yellow Pages. In my spare time, I started hacking together a proof of concept.
 
@@ -48,7 +48,7 @@ And so, TradesCloud was born. We had an idea. At the time, it wasn't called Trad
 
 That was our first mistake, and the first mistake *most* tech-oriented people make. As much as Django sells itself as a rapid development framework, any non-trivial project still takes time and effort. And I spent a couple of months of spare time hacking together a proof of concept.
 
-German military strategist Helmuth von Moltke once noted "No battle plan survives contact with the enemy". Or, in non-military terms, Scottish poet Robert Burns said "The best-laid schemes o’ mice an’ men gang aft a-gley". And so it is with business ideas. All the time I spent working on that prototype could have been eliminated if I'd actually spoken to a plumber first.
+German military strategist Helmuth von Moltke once noted "No battle plan survives contact with the enemy". Or, in non-military terms, Scottish poet Robert Burns said <nospell>"The best-laid schemes o’ mice an’ men gang aft a-gley"</nospell>. And so it is with business ideas. All the time I spent working on that prototype could have been eliminated if I'd actually spoken to a plumber first.
 
 Just because we had an idea, and I could implement the idea in software, that didn't mean we had a good *business* idea. It meant we had a good idea for a hobby project. And the difference is critical. A business is an idea that generates revenue. A hobby project may be fun to work on. It may even be useful for other people. But if you can't sell something, if you can't pay the bills with it - it isn't a business. And conflating the two ideas is a major problem.
 
@@ -107,7 +107,7 @@ Mistake number 4 happened as the result of an unfortunate coincidence. After clo
 
 We'd closed three sales in rapid succession. We had $4500 a month in revenue, and the sales were really easy to close. We thought we had found a money printing machine.
 
-And then we hit a wall. The next few sales calls we made just went nowhere. Never a hard no... but lots of ums and ahs about price, and "we'll have to think about it"'s...
+And then we hit a wall. The next few sales calls we made just went nowhere. Never a hard no... but lots of <nospell>"ums"</nospell> and <nospell>"ahs"</nospell> about price, and "we'll have to think about it"'s...
 
 We confused initial success with a pattern that was going to continue. After three sales in a month, we essentially didn't close a sale for another 8 months. And that's not a good sign.
 
@@ -125,7 +125,7 @@ What we *didn't* do was add up how many jobs there actually were in the system. 
 
 And this led to mistake number 6: We didn't have a serious pricing discussion until it was *way* too late. Mislead by our initial success, our pricing was really determined by taking our burn rate, and working backwards - not forwards from what the market would bear. My co-founder and I would have regular discussions about pricing - but all of those discussions happened against a background of "how are we going to make payroll this month". Which is the wrong time to be having that discussion - because two important options: drastically reduce the price, and shut down the company - are effectively off the table.
 
-So, we had a product that was too expensive to sell, and a market that wasn't big enough. Now the good news is that the paperwork reduction niche we'd found wasn't unique to that one contract - There were many other *simliar* contracts with similar paperwork requriements. But we'd found the thousand pound gorilla in the market. Other contracts were smaller, and the paperwork and process requirements were subtlely different.
+So, we had a product that was too expensive to sell, and a market that wasn't big enough. Now the good news is that the paperwork reduction niche we'd found wasn't unique to that one contract - There were many other *similar* contracts with similar paperwork requirements. But we'd found the thousand pound gorilla in the market. Other contracts were smaller, and the paperwork and process requirements were subtly different.
 
 ## Mistake 7: Establish your sales channel
 
@@ -159,13 +159,13 @@ Well, maybe it is. But in retrospect, mistake number 9 was an entirely personal 
 
 After 2 years, I had reached a point where my personal financial runway was running out. TradesCloud either needed to start paying a full wage, or I wasn't going to be able to continue. And this pivoted the business. Fundraising is a full time job. Everything else goes on hold - sales, support, development - everything. We tried to get VC investment, but the VC scene in Australia is pretty bad, and even worse in Perth. Eventually, we managed to secure a $250k cash investment from a colleague of my business partner; and we got some matching funding through an Australian government program. And that gave us another 2 years of runway.
 
-The way we were able to secure that runway was by changing our tactics. Instead of going after individual plumbers, we started going after the head contractors - the multimillion dollar facilities management companies. And we were able to sell them a really great story. These companies are all competitive, and they're looking for any advantage they can get. But they're also technologically laggards, because they're big established companies. They have inertia when it comes to adopting new technology. So we were able to walk in, and promise a mobile-enabled workforce, real-time tracking, enforced health and safety practices - all sorts of things that made them really excited, because they could use those features as differentiators against their competition.
+The way we were able to secure that runway was by changing our tactics. Instead of going after individual plumbers, we started going after the head contractors - the multi-million dollar facilities management companies. And we were able to sell them a really great story. These companies are all competitive, and they're looking for any advantage they can get. But they're also technologically laggards, because they're big established companies. They have inertia when it comes to adopting new technology. So we were able to walk in, and promise a mobile-enabled workforce, real-time tracking, enforced health and safety practices - all sorts of things that made them really excited, because they could use those features as differentiators against their competition.
 
 ## Mistake 10: You are who you are - Don't deny it
 
-But - and here's mistake number 10 - we forgot who *we* were, and who we were selling to. We were selling to multimillion dollar companies. The reason these companies are technologically laggards? They're conservative. They don't take risks. There's no incentive for individual employees to take risks. And so, they make safe decisions.
+But - and here's mistake number 10 - we forgot who *we* were, and who we were selling to. We were selling to multi-million dollar companies. The reason these companies are technologically laggards? They're conservative. They don't take risks. There's no incentive for individual employees to take risks. And so, they make safe decisions.
 
-And when they adopt new technology, they don't just pick something - they put it out to tender, and get multiple bids, and then they invite bidders into the head office to interrogate them, and eventually, after 6 months, they pick someone - the *safe* option. We got into a tendering process with almost every major facilities managmeent company in Australia. The tendering process almost always started because we pitched them the idea of providing TradesCloud to all their subcontractors - but what they heard was "provide software to all their subcontractors". And so, at the end of the tendering process, we were told, every time - we prefer your technological solution... but we're going with your competitor, because you're too risky. A 2 person company was too much of a risk for a multimillion dollar company to trust.
+And when they adopt new technology, they don't just pick something - they put it out to tender, and get multiple bids, and then they invite bidders into the head office to interrogate them, and eventually, after 6 months, they pick someone - the *safe* option. We got into a tendering process with almost every major facilities management company in Australia. The tendering process almost always started because we pitched them the idea of providing TradesCloud to all their subcontractors - but what they heard was "provide software to all their subcontractors". And so, at the end of the tendering process, we were told, every time - we prefer your technological solution... but we're going with your competitor, because you're too risky. A 2 person company was too much of a risk for a multi-million dollar company to trust.
 
 So after 2 years of trying this tactic, and being turned down by every facility management company in Australia, the money was running out again, but i'd built up a bit of cash buffer again. But in between failing to sell to multinational companies, we'd found a bit of success selling to smaller facility management companies and large constructions companies. And the good news was that these companies were big enough that when they bought software, they wanted it customized - so as well as the $2k/month, they would pay $40k up front so that everything matches their requirements.
 
@@ -175,7 +175,7 @@ On the back of that change, were got a loan from our investor. Between making mo
 
 This was mistake number 11. We didn't take the hint. Each of those points where we took investment was, potentially, a point that would have been a natural point to shut down the business. And, in retrospect, we should have. The writing *was* on the wall. The simple truth is if you can't close sales, you don't have a business. And yes - you can stumble along hoping that you're going to find the missing sales ingredient - but that takes resources. It takes money, and it takes emotional capital as well.
 
-One of the reasons the failure of TradesCloud was so personally galling, is that it didn't fail for any reason that I would consider "my fault". From a purely technical perspective, we were significantly more reliable than the multi-national companies we were integrating with. We delivered new features in timeframes that our customers considered inconceivable. When I went in an did demonstrations to the multimillion dollar head contractors, they expressed doubt that we could actually do what we said we were doing... right up until I showed them the code doing it, live.
+One of the reasons the failure of TradesCloud was so personally galling, is that it didn't fail for any reason that I would consider "my fault". From a purely technical perspective, we were significantly more reliable than the multi-national companies we were integrating with. We delivered new features in time frames that our customers considered inconceivable. When I went in an did demonstrations to the multi-million dollar head contractors, they expressed doubt that we could actually do what we said we were doing... right up until I showed them the code doing it, live.
 
 But none of that mattered. TradesCloud failed, ultimately, because we couldn't sell what we had - or, at least, we couldn't sell it in quantities that allowed us to cover costs. And when you're there giving your all, doing things that are being called magic by prospective customers... and you're still failing... that's hard to internalize. And when you layer on top of that the fact that I'm a husband and a father, and the sole income for the family - that introduces all sorts of guilt and fear into the mix. And then you take all that stress, and add in the long hours and weekend work in the desperate hope that *this* will be the thing that saves the company...
 

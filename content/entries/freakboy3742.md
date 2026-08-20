@@ -1,6 +1,6 @@
 Title: freakboy3742
 Date: 2008-10-21 10:59:00
-Summary: Wherein I reveal the secret history of my *freakboy3742* nom de plume.
+Summary: Wherein I reveal the secret history of my *freakboy3742* <nospell>nom de plume</nospell>.
 
 Once upon a time, I was an undergraduate at Curtin University of Technology. As a way of earning some extra cash, I worked as a tutor for the School of Computing. One of the subjects I taught was was "Information Technology 111" (otherwise known as IT111), an introductory "how to find the On switch" course.
 

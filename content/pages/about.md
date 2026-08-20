@@ -29,11 +29,11 @@ Russell lives with his wife, son, daughter, and two cats in Perth, Western Austr
 
 ### Academia
 
-I attended Cannington Primary School, followed by a special language entry to Rossmoyne Senior High School. At Rossmoyne, I studied Mandarin Chinese for 1 year, and German for 3 years. At the end of this three year period, I traveled to Timmendorfer Strand, a costal town in the north of Germany, to participate in a student exchange.
+I attended Cannington Primary School, followed by a special language entry to Rossmoyne Senior High School. At Rossmoyne, I studied Mandarin Chinese for 1 year, and German for 3 years. At the end of this three year period, I traveled to Timmendorfer Strand, a coastal town in the north of Germany, to participate in a student exchange.
 
 I completed my Year 12 exams achieving a TEE score of 443.8 (out of a possible 510), and gained entry to the Physics programme at Curtin University of Technology. I completed my bachelors degree in 1996, and changed departments to take my honours in Computer Science in 1997.
 
-Upon finishing my honours, I started my PhD in the School of Computing. I submitted my thesis, entitled "Learning and Development in Kohonen-Style Self-Organizing Maps", in July 2001. My thesis was passed unconditionally by three markers, with two of these markers recommending a Vice Chancellor's Commendation for my work. My doctorate was conferred on April 24, 2002, and I formally graduated on Feburary 10, 2003.
+Upon finishing my honours, I started my PhD in the School of Computing. I submitted my thesis, entitled "Learning and Development in Kohonen-Style Self-Organizing Maps", in July 2001. My thesis was passed unconditionally by three markers, with two of these markers recommending a Vice Chancellor's Commendation for my work. My doctorate was conferred on April 24, 2002, and I formally graduated on February 10, 2003.
 
 During my academic career, I received the following academic recognitions:
 
@@ -65,7 +65,7 @@ I left Upwave in February 2022 to take up a position as a Principal Software Eng
 
 I discovered [Django](https://djangoproject.com/) about 4 months after the first public release. After contributing some patches to improve the query language, Adrian Holovaty offered me commit access to the trunk. I was an active member of the Django community for 15 years. I still have many friends in that community, but I don't do much Django work these days.
 
-I was responsible for developing Django's test framework and the newforms media framework; I also did a lot of work on the 'magic-removal' refactor. I mentored students who added multiple database support, aggregations, and the system check framework.
+I was responsible for developing Django's test framework and the `newforms` media framework; I also did a lot of work on the 'magic-removal' refactor. I mentored students who added multiple database support, aggregations, and the system check framework.
 
 I was President of the [Django Software Foundation](https://djangoproject.com/foundation/) from 2011 to 2015; in that time, we established Codes of Conduct for the Django community and Django events, formalised arrangements around the Django trademark, launched a new website, and started the Django Fellowship program. Independent of my work with the DSF, I was a mentor in the Google Summer of Code from 2008 to 2018.
 
@@ -81,4 +81,4 @@ I also have a history of depression. I've been [very open about this](https://ww
 
 ## Where did freakboy3742 come from?
 
-If you want to know the origin of my *nom-de-plume*, read the [blog entry](/entries/freakboy3742/).
+If you want to know the origin of my <nospell>*nom-de-plume*</nospell>, read the [blog entry](/entries/freakboy3742/).

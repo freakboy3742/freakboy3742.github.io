@@ -2,7 +2,7 @@ Title: Quo Vadimus
 Date: 2017-01-01 12:52:28
 Summary: It’s the start of a new year, which is as good a time as any for an announcement.
 
-It’s been 6 years, almost to the day, since I started work on my startup, TradesCloud. And it’s been a rollercoaster ride.
+It’s been 6 years, almost to the day, since I started work on my startup, TradesCloud. And it’s been a roller coaster ride.
 
 TradesCloud was mostly self-funded. We did take a small tranche of investment from a friend, as well as some matching funds from an Australian Government program, but we were never able to attract VC interest to provide a large injection of funds.
 
@@ -30,7 +30,7 @@ It's a bittersweet moment. On the one hand, I'm sorry to see 6 years of effort f
 
 One of my favourite TV writers is Aaron Sorkin. Sorkin's first TV show was called [Sports Night](https://en.wikipedia.org/wiki/Sports_Night) - a "behind the scenes" look at a late night cable sports news show. It was an odd piece - it was originally sold as a sitcom (canned laughter track and all). While it was incredibly funny, it wasn't *that* kind of funny. It was very deep and intelligent humor. It also had moments of profound insight and wisdom. It was notionally about sport, but it was very rarely *just* about sport - and when it was, it was about the grandest intentions of sport, not the vain personality show and advertising opportunity that most modern sports have become. The show shares a lot of similarities (and more than a couple of plot lines) with Sorkin's most famous piece, The West Wing.
 
-When Sports Night was cancelled, they were able to run the show out with a storyline about the parent company selling it's cable station because it wasn't profitable. The entire team behind the Sports Night show (the fake on air one) were worried that they were going to lose their jobs. Dana, the show's producer, meets a man in a bar during her lunchbreak who offers some advice:
+When Sports Night was cancelled, they were able to run the show out with a story line about the parent company selling it's cable station because it wasn't profitable. The entire team behind the Sports Night show (the fake on air one) were worried that they were going to lose their jobs. Dana, the show's producer, meets a man in a bar during her lunch break who offers some advice:
 
 \> "I'm what the world considers a phenomenally successful man. And I've failed much more than I've succeeded. And each time I fail, I get my people together, and I ask them - Where are we going? And it starts to get better."
 
