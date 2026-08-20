@@ -4,7 +4,6 @@ Summary: At [PyCon US 2019](https://us.pycon.org/2019), I was extremely honored 
 
 At [PyCon US 2019](https://us.pycon.org/2019),  I was extremely honored to give the opening keynote. While the PyCon Video team worked their usual magic to publish the video really quickly, some people prefer to consume text rather than video, so this is the transcript of my remarks.
 
-
 <iframe width="500" height="281" src="https://www.youtube.com/embed/ftP5BQh1-YM?start=1238" frameborder="0" allowfullscreen=""></iframe>
 
 I've been an active and visible participant in the Python community for over 13 years now. And as a result, I've spoken at a lot of PyCons and DjangoCons. But for those who haven't met me before: Hi, you may have noticed I'm not a local.
@@ -124,7 +123,7 @@ Ok, so lets say that despite those two problems, I have decided to learn Python.
 
 I've been a user of Python for 20 years, and in that entire time, I don't think there's ever been a period where I'd describe Python's packaging story as "stable". And because information lives forever on the Internet, old advice continues to linger, long after it's considered the "right" answer, and then well meaning but misinformed people spread outdated advice on stack overflow, perpetuating the problem.
 
-\![Image goes here\](images/xkcd-1987.png)
+![XKCD comic 1987 - "My Python environment has bcome so degraded that my laptop has been declared a Superfund site"](/entries/images/xkcd-1987.png){: .img-100}
 
 The situation is bad enough that it's a punch line for comics. In [XKCD 1987](https://xkcd.com/1987/), Randall Monroe lampoons Python's environment experience as so degraded that it has made laptop a toxic waste site.
 

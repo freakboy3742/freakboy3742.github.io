@@ -127,6 +127,10 @@ h3 {
     width: 50%;
 }
 
+#content img.img-100 {
+    width: 100%;
+}
+
 #content p {
     padding: 0 2em;
 }
@@ -156,7 +160,7 @@ h3 {
 }
 
 #content blockquote {
-    margin: 0 0 0 3em;
+    margin: 0 0 0 1em;
     margin-bottom: 1.2em;
     font-style: italic;
 }

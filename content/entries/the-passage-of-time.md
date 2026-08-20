@@ -6,7 +6,7 @@ Summary: It all started with a short email, sent 20 years ago to the day.
 
 20 years ago, *to the day*, I received a short email from Adrian Holovaty:
 
-Would you be interested in commit access on the Django magic-removal branch? We've really appreciated your contributions lately and would love to see more.
+> Would you be interested in commit access on the Django magic-removal branch? We've really appreciated your contributions lately and would love to see more.
 
 With that, I became a member of the Django core team. I couldn't have predicted how that email would change my life.
 

@@ -180,8 +180,7 @@ One of the reasons the failure of TradesCloud was so personally galling, is that
 
 But none of that mattered. TradesCloud failed, ultimately, because we couldn't sell what we had - or, at least, we couldn't sell it in quantities that allowed us to cover costs. And when you're there giving your all, doing things that are being called magic by prospective customers... and you're still failing... that's hard to internalize. And when you layer on top of that the fact that I'm a husband and a father, and the sole income for the family - that introduces all sorts of guilt and fear into the mix. And then you take all that stress, and add in the long hours and weekend work in the desperate hope that *this* will be the thing that saves the company...
 
-
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">And when work is all that defines you, you will feel like you&#39;re dying when it starts to disappoint.</p>&mdash; Alice Goldfuss (@alicegoldfuss) <a href="https://twitter.com/alicegoldfuss/status/827280884998893569">February 2, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">And when work is all that defines you, you will feel like you&#39;re dying when it starts to disappoint.</p>&mdash; Alice Goldfuss (@alicegoldfuss) <a href="https://twitter.com/alicegoldfuss/status/827280884998893569">February 2, 2017</a></blockquote>
 
 ... and you start to understand why, 2 years ago, I had a major depressive episode.
 

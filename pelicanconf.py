@@ -26,7 +26,7 @@ AUTHOR_FEED_RSS = None
 # Content locations
 ARTICLE_PATHS = ["entries", "inspiration"]
 PAGE_PATHS = ["pages"]
-STATIC_PATHS = ["about", "projects", "extra"]
+STATIC_PATHS = ["about", "projects", "extra", "entries/images"]
 EXTRA_PATH_METADATA = {"extra/CNAME": {"path": "CNAME"}}
 IGNORE_FILES = [".DS_Store"]
 
