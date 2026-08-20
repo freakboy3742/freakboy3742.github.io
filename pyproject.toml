@@ -5,9 +5,9 @@ description = "Personal blog of Russell Keith-Magee"
 readme = "README.md"
 requires-python = "~=3.14.0"
 dependencies = [
-    "pelican == 4.10.2",
-    "markdown==3.8.1",
+    "pelican == 4.12.0",
+    "markdown==3.10.3",
     "pygments==2.20.0",
-    "typogrify == 2.0.7",
-    "pytz == 2024.2",
+    "typogrify == 2.1.0",
+    "pytz == 2026.3.post1",
 ]
