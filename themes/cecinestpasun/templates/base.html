@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Russell Keith-Magee">
+        <title>Ceci n'est pas {% block title %}un homepage{% endblock %}</title>
+        <link rel="stylesheet" href="/static/css/cecinestpasun.css" media="screen">
+        <link rel="alternate" type="application/atom+xml" title="Ceci n'est pas un blog" href="/rss/all/">
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <header id="header">
+            <div class="wrap">
+                <p class="title">Ceci n'est pas {% block header %}un homepage{% endblock %}</p>
+                <p>The personal blog of Russell Keith-Magee</p>
+            </div>
+        </header>
+        <div class="wrap">
+            <main id="main">
+                {% block content %}{% endblock %}
+            </main>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about/">About Me</a></li>
+                    <li><a href="/entries/">Blog</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/inspiration/">Inspiration</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="/colophon/">Colophon</a></li>
+                </ul>
+            </nav>
+            <footer id="footer">
+                <p>Copyright &copy; {{ CURRENT_YEAR }} Russell Keith-Magee</p>
+                <a class="mastodon" rel="me" href="https://cloudisland.nz/@freakboy3742">Mastodon</a>
+            </footer>
+        </div>
+    </body>
+</html>

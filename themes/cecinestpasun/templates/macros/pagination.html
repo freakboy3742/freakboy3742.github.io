@@ -1,0 +1,15 @@
+{% macro render_pagination(paginator, page) %}
+<div class="pagination">
+    {% if page.has_previous() %}
+        <a href="/{{ paginator.page(page.previous_page_number()).url }}">&laquo; Previous</a>
+    {% else %}
+        <span class="disabled">&laquo; Previous</span>
+    {% endif %}
+    | {{ page.number }} |
+    {% if page.has_next() %}
+        <a href="/{{ paginator.page(page.next_page_number()).url }}">Next &raquo;</a>
+    {% else %}
+        <span class="disabled">Next &raquo;</span>
+    {% endif %}
+</div>
+{% endmacro %}

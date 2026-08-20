@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% from "macros/entry.html" import render_blog_entry %}
+{% block content %}
+<div id="content">
+{% for article in articles if article.category.name == 'entries' %}
+{{ render_blog_entry(article) }}
+{% endfor %}
+</div>
+{% endblock %}

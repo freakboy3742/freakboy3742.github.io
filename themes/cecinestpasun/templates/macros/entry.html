@@ -1,0 +1,7 @@
+{% macro render_blog_entry(entry) %}
+<p class="date">{{ entry.date|datefmt }}</p>
+<h1><a href="/{{ entry.url }}">{{ entry.title }}</a></h1>
+{% if entry.metadata.get('summary') %}{{ entry.summary }}{% endif %}
+<p class="link"><a href="/{{ entry.url }}">Read the full entry...</a></p>
+<hr/>
+{% endmacro %}

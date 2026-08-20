@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% from "macros/quotation.html" import render_quotation %}
+{% block title %}un inspiration{% endblock %}
+{% block header %}un inspiration{% endblock %}
+{% block content %}
+<div id="content">
+{{ render_quotation(article) }}
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% from "macros/entry.html" import render_blog_entry %}
+{% from "macros/quotation.html" import render_quotation %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}{% if category.name == 'entries' %}un blog{% else %}un inspiration{% endif %}{% endblock %}
+{% block header %}{% if category.name == 'entries' %}un blog{% else %}un inspiration{% endif %}{% endblock %}
+{% block content %}
+<div id="content">
+{% if category.name == 'entries' %}
+{% for article in articles_page.object_list %}
+{{ render_blog_entry(article) }}
+{% endfor %}
+{{ render_pagination(articles_paginator, articles_page) }}
+{% else %}
+<h1>Words</h1>
+<p>A word is a powerful instrument. When well chosen and well used, words can move us, inspire us, and force us into action. The following are a few well crafted passages that have captured my attention over the years.</p>
+{% for quote in articles %}
+<hr />
+{{ render_quotation(quote, from_list=True) }}
+{% endfor %}
+{% endif %}
+</div>
+{% endblock %}

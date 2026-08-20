@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}un blog{% endblock %}
+{% block header %}un blog{% endblock %}
+{% block content %}
+<div id="index">
+{% if article.older_entry %}
+<p class="archive">Previous entry:<br/>
+    <a href="/{{ article.older_entry.url }}">{{ article.older_entry.title }}</a>
+</p>
+{% endif %}
+{% if article.newer_entry %}
+<p class="archive">Next entry:<br/>
+    <a href="/{{ article.newer_entry.url }}">{{ article.newer_entry.title }}</a>
+</p>
+{% endif %}
+</div>
+<div id="content">
+<p class="date">{{ article.date|datefmt }}</p>
+<h1>{{ article.title }}</h1>
+{{ article.content }}
+<hr/>
+</div>
+{% endblock %}

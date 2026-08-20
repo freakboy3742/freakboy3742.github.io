@@ -1,0 +1,9 @@
+{% macro render_quotation(quote, from_list=False) %}
+<blockquote>
+{{ quote.content }}
+{% if from_list %}<a class="anchor" href="/{{ quote.url }}">#</a>{% endif %}
+{% if quote.author %}<p class="author">{{ quote.author }}</p>{% endif %}
+{% if quote.location %}<p class="location">{{ quote.location }}</p>{% endif %}
+{% if quote.context %}<p class="context">{{ quote.context }}</p>{% endif %}
+</blockquote>
+{% endmacro %}
