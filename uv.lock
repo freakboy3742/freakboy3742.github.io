@@ -32,7 +32,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pelican", extras = ["markdown"], specifier = "==4.12.0" }]
+requires-dist = [{ name = "pelican", extras = ["markdown"], specifier = "==4.10.2" }]
 
 [[package]]
 name = "docutils"
@@ -147,7 +147,7 @@ wheels = [
 
 [[package]]
 name = "pelican"
-version = "4.12.0"
+version = "4.10.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "blinker" },
@@ -162,9 +162,9 @@ dependencies = [
     { name = "unidecode" },
     { name = "watchfiles" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c4/8d/da26b77f0d9827d341bdedea357ccb5670717e3a9b4142e3e44c7f34db44/pelican-4.12.0.tar.gz", hash = "sha256:3983b5d2dc84c7bdf967154359077a2b78c0bbd2f7dcc55292133a7779609458", size = 1252907, upload-time = "2026-04-20T15:30:17.322Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/31/3e/9ae7aafe3386465467dbb462c1fca2e3e9a6d80b9cca2aee3958ca1d9449/pelican-4.10.2.tar.gz", hash = "sha256:04932e82dc7542bae7f1830710978836ca00608aa4ece7206dc13185a08c4562", size = 1243855, upload-time = "2024-11-27T19:53:49.66Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6e/55/4adcce41a45f8f77e69d7e84ea447819dae1a78b4b9762a104599e5ec811/pelican-4.12.0-py3-none-any.whl", hash = "sha256:3697230f56cfcca9e98d3ac9ac26f655bb20cad807f7eacf156601e241f69ad8", size = 1358275, upload-time = "2026-04-20T15:30:15.383Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/eb/b959487fa45d107ce388c77d0c694cdab42a6be9e2149f44cba1fe6a08c7/pelican-4.10.2-py3-none-any.whl", hash = "sha256:534b3c279b9630a006b5687ea6e8e6113ca17c64ac45f4328cf66bf0be367bdf", size = 1347714, upload-time = "2024-11-27T19:53:47.806Z" },
 ]
 
 [package.optional-dependencies]
