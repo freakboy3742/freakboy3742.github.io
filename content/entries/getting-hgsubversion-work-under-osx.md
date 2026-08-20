@@ -1,6 +1,6 @@
-Title: Getting hgsubversion to work under OSX
+Title: Getting hgsubversion to work under OS X
 Date: 2009-08-15 16:33:26
-Summary: How to get hgsubversion working on an OSX box.
+Summary: How to get hgsubversion working on an OS X box.
 
 I've been using git as a DVCS for about a year. One of the big selling points for git has been git-svn - a compatibility layer between Subversion repositories and the git client. This means you can continue to use your old SVN repository to store your code, but interact with it using a modern DVCS tool that allows for local (and offline) commits, local branches, etc.
 
@@ -8,17 +8,17 @@ This has been an absolute godsend for my work with Django. Local commits, local 
 
 However, git isn't the only DVCS. Of late, I've been experimenting with Mercurial. Mercurial doesn't ship with a direct equivalent of git-svn, but it does have a very robust plugin framework. One of the plugins that is available is [hgsubversion](http://www.bitbucket.org/durin42/hgsubversion/wiki/Home) - a plugin that lets you treat a Subversion repository as if it were a public Mercurial repository.
 
-Almost a year ago, Ben Collins-Sussman [wrote a document](http://blog.red-bean.com/sussman/?p=116) describing how to get hgsubversion working. However, that document appears to refer to an older version of hgsubversion, as some of the commands no longer appear relevant. It's also a more generic Unix tutorial, so it tends towards "compile the sources" as a solution for dependencies. When you have a stable binary platform like OSX, there is usually an easier way.
+Almost a year ago, Ben Collins-Sussman [wrote a document](http://blog.red-bean.com/sussman/?p=116) describing how to get hgsubversion working. However, that document appears to refer to an older version of hgsubversion, as some of the commands no longer appear relevant. It's also a more generic Unix tutorial, so it tends towards "compile the sources" as a solution for dependencies. When you have a stable binary platform like OS X, there is usually an easier way.
 
-For the benefit of my own memory later on, and for the benefit of anyone else in the same boat, here's an updated set of instructions, slightly tuned for OSX. The basic procedure should work for any other operating system, but you'll need to work out how to adapt the instructions for your local conditions.
+For the benefit of my own memory later on, and for the benefit of anyone else in the same boat, here's an updated set of instructions, slightly tuned for OS X. The basic procedure should work for any other operating system, but you'll need to work out how to adapt the instructions for your local conditions.
 
 ## Install Mercurial
 
-First, Install Mercurial. You need to have version 1.3 or greater. The default OSX installer works fine.
+First, Install Mercurial. You need to have version 1.3 or greater. The default OS X installer works fine.
 
 ## Install Subversion
 
-hgsubversion requires the binding API from Subversion 1.5 or greater. CollabNet [publishes an OSX installer for Subversion](http://www.open.collab.net/downloads/community/) that won't collide with the system version. Download and install this package. It will install Subversion 1.5 into `/opt/subversion`.
+hgsubversion requires the binding API from Subversion 1.5 or greater. CollabNet [publishes an OS X installer for Subversion](http://www.open.collab.net/downloads/community/) that won't collide with the system version. Download and install this package. It will install Subversion 1.5 into `/opt/subversion`.
 
 ## Configure the shell environment
 

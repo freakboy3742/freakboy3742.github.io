@@ -52,7 +52,7 @@ I would like our government to show *any* signs of compassion for fellow human b
 
 However, this morning, news leaked of a truly astounding development - that the recently formed "Border Force" was going to run "Operation Fortitude" this weekend - in which, the police and Border Force agents would apparently be stopping people in Flinders Street Station in Melbourne to *check their papers*.
 
-As I write this email, [it appears that "Operation Fortitude" has been cancelled](http://www.abc.net.au/news/2015-08-28/operation-fortitude-cancelled/6733008). To which I say: good riddance. I am ashamed that anyone in this government ever thought this was a good idea. The idea that weekly "national security announceables" will somehow convince the electorate that the government is possessed of strong leadership is, frankly, insulting.
+As I write this email, [it appears that "Operation Fortitude" has been cancelled](http://www.abc.net.au/news/2015-08-28/operation-fortitude-cancelled/6733008). To which I say: good riddance. I am ashamed that anyone in this government ever thought this was a good idea. The idea that weekly "national security <nospell>announceables</nospell>" will somehow convince the electorate that the government is possessed of strong leadership is, frankly, insulting.
 
 The posturing of this government in an attempt to be "Strong on national security" does not impress me. I wasn't impressed by the grandstanding machismo of bullies in high school. I'm even less impressed when that grandstanding is being carried out by my political leaders - people who I would hope my children would look up to and admire.
 

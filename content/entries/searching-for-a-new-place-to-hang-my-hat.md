@@ -8,13 +8,13 @@ This means I am, for the first time since completing my PhD 16 years ago, jobles
 
 I recently [started fund raising](https://pybee.org/news/buzz/a-request-for-your-help/) with the aim of allowing me to work on BeeWare full time. I've had some fantastic support from the community, but I'm still a long way off being able to justify making BeeWare my full-time job.
 
-I still want to try and make funded open source development work; but in the meantime, I need a job. So, this is a reverse job advertisment. I'm available for hire. Here's what I'm looking for.
+I still want to try and make funded open source development work; but in the meantime, I need a job. So, this is a reverse job advertisement. I'm available for hire. Here's what I'm looking for.
 
 * I'm based in Perth, Western Australia, and I'm not looking to relocate. I have strong family ties in Perth, and some other personal reasons for not wanting to move - so unless an offer is *extraordinarily* lucrative, I'm not looking to move.
 
 I'd like to think that I've proven I can make telecommuting work. I've been telecommuting for almost 10 years now, spanning up to 12 time zones. Some of that telecommuting has been very public - after all, what is an open source project like Django but a huge telecommuting community.
 
-And as my conference travel schedule will attest, I'm not opposed to travel - either for regular meetups with a dev team, or to be face-to-face with a customer.
+And as my conference travel schedule will attest, I'm not opposed to travel - either for regular meetups with a <nospell>dev</nospell> team, or to be face-to-face with a customer.
 
 * I've developed a lot of reputation in the Python community with Django and BeeWare, so I'd like to stay in those communities and leverage that experience as much as possible. There's always room for other languages in any technology stack, but if my life doesn't contain a healthy dose of Python, I'm not going to be happy.
 
@@ -32,7 +32,7 @@ And as my conference travel schedule will attest, I'm not opposed to travel - ei
 
 * I enjoy working with diverse teams, and I expect employers to back that up, not just give lip service to the idea.
 
-* I'm passionate about Open Source. I'm not a complete zealot - I appreciate that there is a place for commerical and proprietary software - but where possible, I like to collaborate and give back to the community as a whole. That means contributing to existing open source projects (like BeeWare and Django), or open sourcing internal tools that others may find useful. If a role at your company gave me the opportunity to work on BeeWare tools, that would be *amazing*.
+* I'm passionate about Open Source. I'm not a complete zealot - I appreciate that there is a place for commercial and proprietary software - but where possible, I like to collaborate and give back to the community as a whole. That means contributing to existing open source projects (like BeeWare and Django), or open sourcing internal tools that others may find useful. If a role at your company gave me the opportunity to work on BeeWare tools, that would be *amazing*.
 
 * While I've historically been in senior engineering and CTO roles, I'm interested in stretching into developer relations. I enjoy public speaking and delivering training. If there's a way for an employer to make use of the fact that I enjoy a stage, then I'm happy to oblige.
 

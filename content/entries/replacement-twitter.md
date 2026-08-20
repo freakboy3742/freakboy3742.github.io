@@ -2,15 +2,15 @@ Title: On a replacement for Twitter
 Date: 2016-02-06 11:04:47
 Summary: I've been a user of Twitter for almost 8 years. But I think the time is ripe for Twitter to be replaced - with a tool that has a much broader scope than just "microblogging".
 
-I've been a user of Twitter for almost 8 years. Over that time, I've gone from a skeptic, to a regular user, to someone for whom Twitter is an indispensible tool for keeping in touch with the outside world. The tipping point for me was when I left my 9-5 office job and started working from home. All of a sudden, I lost the "water cooler" conversations that an office allows. Twitter provided that outlet.
+I've been a user of Twitter for almost 8 years. Over that time, I've gone from a skeptic, to a regular user, to someone for whom Twitter is an indispensable tool for keeping in touch with the outside world. The tipping point for me was when I left my 9-5 office job and started working from home. All of a sudden, I lost the "water cooler" conversations that an office allows. Twitter provided that outlet.
 
 However, over the last few years, I've become acutely disappointed in Twitter as a product, and Twitter the company behind it. And I'm not alone; a number of my friends - the people who I'm on Twitter to keep in touch with - have abandoned the platform altogether.
 
 There are a litany of well established problems with Twitter as a platform. Twitter has consumed an ungodly amount of VC money, and has at their disposal an small army of engineers. Yet these not-insignificant resources are routinely being spent on features that nobody wants or needs.
 
-Some of these decisions are understandable. As part of becoming a financially viable company, Twitter needs to find an economic model that will validate their multi-billion dollar market cap. Since they've chosen an advertising driven revenue model, it's inevitable that a good chunk of their resources will be spent enhancing the advertisment delivery process. To that end, features like promoted tweets are inevitable, and while I don't like ads in my tweet stream, I can see why, given Twitter's business model, they are necessary.
+Some of these decisions are understandable. As part of becoming a financially viable company, Twitter needs to find an economic model that will validate their multi-billion dollar market cap. Since they've chosen an advertising driven revenue model, it's inevitable that a good chunk of their resources will be spent enhancing the advertisement delivery process. To that end, features like promoted tweets are inevitable, and while I don't like ads in my tweet stream, I can see why, given Twitter's business model, they are necessary.
 
-However, other engineering priorities are completely nonsensical. There are many aspects of Twitter's engineering priorities that could be criticized, but the most significant is their approach to handling (or *not* handling) spam and harassment. Twitter has made repeated statements that they will focus on harrassment on their platform. Every time this happens, well recognized experts in the field suggest things that could be done, many of which are quite simple. And Twitter takes that input, and directs their engineering team to change "Favourites" to "Likes", or implement "Polls" And then 18 months later, another "we take harassment seriously" press release is published, and the cycle repeats.
+However, other engineering priorities are completely nonsensical. There are many aspects of Twitter's engineering priorities that could be criticized, but the most significant is their approach to handling (or *not* handling) spam and harassment. Twitter has made repeated statements that they will focus on harassment on their platform. Every time this happens, well recognized experts in the field suggest things that could be done, many of which are quite simple. And Twitter takes that input, and directs their engineering team to change "Favourites" to "Likes", or implement "Polls" And then 18 months later, another "we take harassment seriously" press release is published, and the cycle repeats.
 
 Over the last year or so, I've become increasingly of the opinion that Twitter's time has now passed. They've had plenty of opportunity to correct the problems with their platform. And instead of fixing the problems, they appear to be dedicated to making their platform worse. At this point, I'm looking for a replacement.
 
@@ -34,7 +34,7 @@ Decentralization has the added benefit that it is a better engineering solution.
 
 As a monolithic silo, Twitter holds the keys to who is considered "trusted" on their platform. You can get the blue checkmark as a verified account, which enables (*ahem*) Brands to establish themselves as official mouthpieces - but beyond that, this verification process isn't very enlightening.
 
-Being decentralized introduces the opportunity for different measures of trust to be used. Imagine a decentralized network with a wide range of nodes providing authentication. One node might require members to provide proof of identity. Another might require all members to sign (and adhere to) a code of conduct. Yet another might allow entry by invitation only. This process of distribututed trust is then a source of data that can be used to acheive other goals.
+Being decentralized introduces the opportunity for different measures of trust to be used. Imagine a decentralized network with a wide range of nodes providing authentication. One node might require members to provide proof of identity. Another might require all members to sign (and adhere to) a code of conduct. Yet another might allow entry by invitation only. This process of distributed trust is then a source of data that can be used to achieve other goals.
 
 ### Safety
 
@@ -50,9 +50,9 @@ It's also essential that the protocol itself have a mechanism for expansion. If 
 
 ### Financially viable
 
-I'm not interested in adopting a new communications platform unless the future of that platform is secure. A lot of the poor decisions being made by Twitter are being made for financial, rather than enigneering or social reasons. This means that any new social network needs to have an answer for how they're going to be financially viable.
+I'm not interested in adopting a new communications platform unless the future of that platform is secure. A lot of the poor decisions being made by Twitter are being made for financial, rather than engineering or social reasons. This means that any new social network needs to have an answer for how they're going to be financially viable.
 
-This is something that *might* be achievable with VC money, but I think it's much more likely that the answer to this problem will be just as distributed as the network itself. VC's have tried to bootstrap several social networks with a huge piles of promotional cash - Path, Ello, Peach, and others - and each of these attempts has failed spectacularly.
+This is something that *might* be achievable with VC money, but I think it's much more likely that the answer to this problem will be just as distributed as the network itself. VCs have tried to bootstrap several social networks with a huge piles of promotional cash - Path, <nospell>Ello</nospell>, Peach, and others - and each of these attempts has failed spectacularly.
 
 Nobody is going to leave Twitter in favour of an identical clone of Twitter. There needs to be a *reason* to adopt a new network, and money can't make people care. The features that *will* make people care - things like removing advertising or centralized control of the network - often reduce the value of the platform as a whole (or, at least, the value to investors, who want a return on their investment).
 
@@ -60,7 +60,7 @@ App.net came close to achieving financial viability in 2012 - they sold subscrip
 
 ### The Critical Mass Problem
 
-... how to deal with the cricital mass problem. For the moment, at least, almost everyone I know is on Twitter. Until a critical mass of my friends are on a new platform, I don't particularly want to run Yet Another Social Network Program on my computer and phone. When App.net started, I signed up... and then didn't use my account after a month, beacuse everyone I knew was still on Twitter.
+... how to deal with the critical mass problem. For the moment, at least, almost everyone I know is on Twitter. Until a critical mass of my friends are on a new platform, I don't particularly want to run Yet Another Social Network Program on my computer and phone. When App.net started, I signed up... and then didn't use my account after a month, because everyone I knew was still on Twitter.
 
 A new social network needs to have a good reason for people to commit to using it. This might happen because Twitter does something so monumentally stupid that everyone leaves at once, but there would need to be something waiting in the wings to take over.
 
@@ -113,7 +113,7 @@ Once the network is established, the bridging and seeding services will become l
 
 Of course, the devil is absolutely in the detail. The core protocol design needs to be robust, the core marketing message of the initial product offering needs to be clear and polished so that it doesn't get written off as "Yet Another X Clone", and the product itself actually has to be compelling.
 
-However, I really do think that the time is ripe for a new service to take the stage and change the web for the better. Twitter has made making too many mis-steps of late and hasn't shown any serious signs that they're interested in correcting them. Facebook doesn't present a fundamentally better vision of the future.
+However, I really do think that the time is ripe for a new service to take the stage and change the web for the better. Twitter has made making too many <nospell>mis-steps</nospell> of late and hasn't shown any serious signs that they're interested in correcting them. Facebook doesn't present a fundamentally better vision of the future.
 
 But after 25 years of use, abuse, and refinement, some common patterns are starting to emerge in the way we communicate, and I think there's an opportunity to re-think the whole thing from the ground up, and build a decentralized platform for communication that incorporates concepts of authentication and trust at the core.
 
