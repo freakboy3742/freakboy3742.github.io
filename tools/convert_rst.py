@@ -6,6 +6,7 @@ Run manually by a human; never run in CI.
 
 import os
 import re
+from pathlib import Path
 
 
 def parse_lr(text: str) -> dict[str, str]:
@@ -158,3 +159,129 @@ def rst_to_markdown(text: str) -> str:
         i += 1
 
     return "\n".join(out).strip() + "\n"
+
+
+QUOTE_DATES = {
+    "arne-naess-mountains": "2017-04-29 15:00",
+    "plato-republic-child-dark": "2017-04-29 14:00",
+    "eleanor-roosevelt-courage": "2017-04-29 13:00",
+    "rfk-lawrence": "2017-04-29 12:00",
+    "politics-as-a-vocation": "2017-04-29 11:00",
+    "dead-poets-society": "2017-04-29 10:00",
+    "a-river-runs-through-it": "2017-04-29 09:00",
+    "theodore-roosevelt-critics": "2017-04-29 08:00",
+    "nick-cave-truths": "2017-04-29 07:00",
+    "stanley-kubrick-playboy": "2017-04-29 06:00",
+    "nick-cave-days": "2017-04-29 05:00",
+    "eugene-oneill": "2017-04-29 04:00",
+    "john-maynard-keynes-words": "2017-04-29 03:00",
+    "antoine-de-saint-exupery-ships": "2017-04-29 02:00",
+    "west-wing-words": "2017-04-29 01:00",
+}
+
+_PAGE_ASSET_RE = re.compile(r"\((mugshot\.png|beeware\.png|django\.png|CurriculumVitae-RussellKeith-Magee\.pdf)\)")
+_PAGE_ASSETS = {
+    "mugshot.png": "/about/mugshot.png",
+    "beeware.png": "/projects/beeware.png",
+    "django.png": "/projects/django.png",
+    "CurriculumVitae-RussellKeith-Magee.pdf": "/about/CurriculumVitae-RussellKeith-Magee.pdf",
+}
+
+
+def write_entry(slug: str, fields: dict[str, str], dest_dir: str):
+    lines = [f"Title: {fields['title']}", f"Date: {fields['pub_date']}"]
+    if fields.get("excerpt"):
+        flat = " ".join(rst_to_markdown(fields["excerpt"]).split())
+        lines.append("Summary: " + flat)
+    if fields.get("author"):
+        lines.append(f"Author: {fields['author']}")
+    body = rst_to_markdown(fields["body"])
+    out = "\n".join(lines) + "\n\n" + body
+    dest = os.path.join(dest_dir, "entries", f"{slug}.md")
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    with open(dest, "w", encoding="utf-8") as f:
+        f.write(out)
+    return Path(os.path.abspath(dest))
+
+
+def write_quote(slug: str, fields: dict[str, str], dest_dir: str):
+    author = fields["author"]
+    lines = [f"Title: {author}", f"Author: {author}"]
+    if fields.get("location"):
+        lines.append(f"Location: {fields['location']}")
+    if fields.get("context"):
+        lines.append(f"Context: {fields['context']}")
+    lines.append(f"Date: {QUOTE_DATES[slug]}")
+    lines.append("Template: quotation")
+    body = rst_to_markdown(fields["text"])
+    out = "\n".join(lines) + "\n\n" + body
+    dest = os.path.join(dest_dir, "inspiration", f"{slug}.md")
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    with open(dest, "w", encoding="utf-8") as f:
+        f.write(out)
+    return Path(os.path.abspath(dest))
+
+
+def write_page(slug: str, fields: dict[str, str], dest_dir: str):
+    body = rst_to_markdown(fields["body"])
+    body = _PAGE_ASSET_RE.sub(lambda m: f"({_PAGE_ASSETS[m.group(1)]})", body)
+    out = f"Title: {fields['title']}\nDisplayTitle: yes\n\n{body}"
+    dest = os.path.join(dest_dir, "pages", f"{slug}.md")
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    with open(dest, "w", encoding="utf-8") as f:
+        f.write(out)
+    return Path(os.path.abspath(dest))
+
+
+def _copy_assets(src_dir: str, dest_dir: str) -> None:
+    copies = [
+        (("about", "mugshot.png"), ("about", "mugshot.png")),
+        (("about", "CurriculumVitae-RussellKeith-Magee.pdf"), ("about", "CurriculumVitae-RussellKeith-Magee.pdf")),
+        (("projects", "beeware.png"), ("projects", "beeware.png")),
+        (("projects", "django.png"), ("projects", "django.png")),
+    ]
+    for (src_sub, src_name), (dst_sub, dst_name) in copies:
+        src = os.path.join(src_dir, src_sub, src_name)
+        dst = os.path.join(dest_dir, dst_sub, dst_name)
+        if not os.path.exists(src):
+            raise FileNotFoundError(f"Missing asset: {src}")
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        with open(src, "rb") as f_in, open(dst, "wb") as f_out:
+            f_out.write(f_in.read())
+
+
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Convert Lektor content to Markdown")
+    parser.add_argument("--src", required=True, help="path to exported lektor content dir")
+    parser.add_argument("--dest", required=True, help="destination content dir (repo content/)")
+    args = parser.parse_args(argv)
+
+    src = args.src
+    dest = args.dest
+
+    for slug in sorted(os.listdir(os.path.join(src, "entries"))):
+        lr = os.path.join(src, "entries", slug, "contents.lr")
+        if os.path.isfile(lr):
+            with open(lr, encoding="utf-8") as f:
+                write_entry(slug, parse_lr(f.read()), dest)
+
+    for slug in sorted(os.listdir(os.path.join(src, "inspiration"))):
+        lr = os.path.join(src, "inspiration", slug, "contents.lr")
+        if os.path.isfile(lr):
+            with open(lr, encoding="utf-8") as f:
+                write_quote(slug, parse_lr(f.read()), dest)
+
+    for slug in ("about", "projects", "contact", "colophon"):
+        lr = os.path.join(src, slug, "contents.lr")
+        if os.path.isfile(lr):
+            with open(lr, encoding="utf-8") as f:
+                write_page(slug, parse_lr(f.read()), dest)
+
+    _copy_assets(src, dest)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

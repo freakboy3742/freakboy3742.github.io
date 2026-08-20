@@ -1,5 +1,6 @@
 import pytest
 
+from convert_rst import QUOTE_DATES, write_quote, write_entry, write_page
 from convert_rst import parse_lr
 from convert_rst import rst_to_markdown
 
@@ -163,3 +164,80 @@ def test_link_inside_heading():
 def test_emphasis_passes_through():
     text = "It *usually* isn't and **never** was.\n"
     assert "It *usually* isn't and **never** was." in rst_to_markdown(text)
+
+
+def test_quote_dates_reproduce_live_order():
+    order = [
+        "arne-naess-mountains", "plato-republic-child-dark",
+        "eleanor-roosevelt-courage", "rfk-lawrence", "politics-as-a-vocation",
+        "dead-poets-society", "a-river-runs-through-it",
+        "theodore-roosevelt-critics", "nick-cave-truths",
+        "stanley-kubrick-playboy", "nick-cave-days", "eugene-oneill",
+        "john-maynard-keynes-words", "antoine-de-saint-exupery-ships",
+        "west-wing-words",
+    ]
+    dates = [QUOTE_DATES[s] for s in order]
+    assert dates == sorted(dates, reverse=True)
+    assert len(set(dates)) == len(dates)
+
+
+def test_write_entry_without_summary(tmp_path):
+    fields = {
+        "title": "Moving to Lektor",
+        "pub_date": "2017-04-29 16:00:00",
+        "body": "Hello `world <https://example.com>`_.\n",
+    }
+    path = write_entry("moving-to-lektor", fields, str(tmp_path))
+    content = path.read_text()
+    assert content.startswith("Title: Moving to Lektor\nDate: 2017-04-29 16:00:00\n")
+    assert "Summary:" not in content
+    assert "[world](https://example.com)" in content
+
+
+def test_write_entry_with_excerpt(tmp_path):
+    fields = {
+        "title": "T",
+        "pub_date": "2019-05-03 10:00:00",
+        "excerpt": "It *usually* isn't.\n",
+        "body": "Body here.\n",
+    }
+    content = write_entry("t", fields, str(tmp_path)).read_text()
+    assert "Summary: It *usually* isn't." in content
+
+
+def test_write_entry_flattens_multiline_excerpt(tmp_path):
+    fields = {
+        "title": "T",
+        "pub_date": "2019-05-03 10:00:00",
+        "excerpt": "Everyone knows the story.\n\nBut it isn't always like that.\n",
+        "body": "Body here.\n",
+    }
+    content = write_entry("t", fields, str(tmp_path)).read_text()
+    summary = [l for l in content.split("\n") if l.startswith("Summary:")][0]
+    assert summary == "Summary: Everyone knows the story. But it isn't always like that."
+
+
+def test_write_quote_with_context(tmp_path):
+    fields = {
+        "author": "Arne Næss",
+        "text": "The smaller one comes to feel compared to the mountain.\n",
+        "location": "Modesty and the Conquest of Mountains",
+    }
+    content = write_quote("arne-naess-mountains", fields, str(tmp_path)).read_text()
+    assert content.startswith("Title: Arne Næss\n")
+    assert "Author: Arne Næss\n" in content
+    assert "Location: Modesty and the Conquest of Mountains\n" in content
+    assert "Date: 2017-04-29 15:00" in content
+    assert "Template: quotation\n" in content
+    assert "Context:" not in content
+
+
+def test_write_page_with_image_link(tmp_path):
+    fields = {
+        "title": "un about page",
+        "modify_title": "yes",
+        "body": ".. image:: mugshot.png\n   :width: 33%\n   :alt: mugshot\n   :align: left\n",
+    }
+    content = write_page("about", fields, str(tmp_path)).read_text()
+    assert content.startswith("Title: un about page\nDisplayTitle: yes\n")
+    assert "![mugshot](/about/mugshot.png){: .align-left .img-33}" in content
